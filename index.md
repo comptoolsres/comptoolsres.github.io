@@ -20,7 +20,7 @@ Please use the feedback button to send feedback.
 
 ## Course Description
 
-{% include image.html file='comptools.png' alt="Image of servers and tool icons" postion="right" %}
+{% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
 
 Information technology has dramatically transformed how research across many disciplines is conducted. This is particularly true in the biological sciences where researchers frequently find themselves faced with massive amounts of diverse data to analyze. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills are critical for researchers.
 

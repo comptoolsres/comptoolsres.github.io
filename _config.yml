@@ -12,7 +12,7 @@ site_title: Computational Tools for Research
 company_name: University of Florida
 # this appears in the footer
 
-github_editme_path: 
+github_editme_path: comptoolsres/comptoolsres.github.io
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -36,7 +36,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Computational Tools for Research feedback
+feedback_subject_line: Computational Tools for Research
 
 feedback_email: magitz@ufl.edu
 # used as a contact email for the Feedback link in the top navigation bar

@@ -7,3 +7,5 @@ gem 'github-pages', group: :jekyll_plugins
 #gem "jekyll"
 
 gem "nokogiri", ">= 1.10.8"
+
+gem "rubyzip", ">= 1.3.0"

@@ -63,7 +63,7 @@ The course is divided into three main sections:
 * Describe basic database design, creation and manipulation. Perform scripted database operations for information discovery, data exploration and research data curation.
 * Have a basic understanding of research graphics formats, preparation and manipulation
 
-## Meeting Times  <i class="fas fa-users"></i>
+## Meeting Times
 Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.
 
 Summer A runs May 11, 2020 through June 19, 2020.
@@ -87,7 +87,7 @@ May 25th is Memorial Day holiday.
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
 {% include tip.hlm content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
 
-## Course textbooks <i class="fas fa-book"></i>
+## Course textbooks
 
 The main texts for the course are:
 
@@ -96,7 +96,7 @@ The main texts for the course are:
 
 Each of these is available as a free PDF download or for purchase in print.
 
-## Course Calendar <i class="fas fa-calendar-alt"></i>
+## Course Calendar
 
 Week | Date | Topic
 -----|------|------

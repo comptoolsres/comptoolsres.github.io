@@ -63,16 +63,17 @@ The course is divided into three main sections:
 * Describe basic database design, creation and manipulation. Perform scripted database operations for information discovery, data exploration and research data curation.
 * Have a basic understanding of research graphics formats, preparation and manipulation
 
-## Meeting Times
+## Meeting Times  <i class="fas fa-users"></i>
+Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.
 
 Summer A runs May 11, 2020 through June 19, 2020.
 
 May 25th is Memorial Day holiday.
 
-### Synchronous meetings: Mon ,Wed,Fri
+### Synchronous meetings: Mon, Wed, Fri
 
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri during 3rd period (11:00am - 12:15pm)**
-  * You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**
+  * {% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**%}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
 ### Asynchronous meetings: Tue, Thurs
@@ -84,9 +85,9 @@ May 25th is Memorial Day holiday.
 ### Office hours: Thursday and by appointment
 
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
-* Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help.
+* {% include tip.hlm content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
 
-## Course textbooks
+## Course textbooks <i class="fas fa-book"></i>
 
 The main texts for the course are:
 
@@ -95,7 +96,7 @@ The main texts for the course are:
 
 Each of these is available as a free PDF download or for purchase in print.
 
-## Course Calendar
+## Course Calendar <i class="fas fa-calendar-alt"></i>
 
 Week | Date | Topic
 -----|------|------

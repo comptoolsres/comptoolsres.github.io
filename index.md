@@ -85,7 +85,7 @@ May 25th is Memorial Day holiday.
 ### Office hours: Thursday and by appointment
 
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
-{% include tip.htlm content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
+{% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
 
 ## Course textbooks
 

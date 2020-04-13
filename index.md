@@ -73,7 +73,7 @@ May 25th is Memorial Day holiday.
 ### Synchronous meetings: Mon, Wed, Fri
 
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri during 3rd period (11:00am - 12:15pm)**
-  * {% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**%}
+{% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**%}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
 ### Asynchronous meetings: Tue, Thurs
@@ -85,7 +85,7 @@ May 25th is Memorial Day holiday.
 ### Office hours: Thursday and by appointment
 
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
-* {% include tip.hlm content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
+{% include tip.hlm content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
 
 ## Course textbooks <i class="fas fa-book"></i>
 

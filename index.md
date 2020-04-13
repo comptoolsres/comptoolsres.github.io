@@ -73,7 +73,7 @@ May 25th is Memorial Day holiday.
 ### Synchronous meetings: Mon, Wed, Fri
 
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri during 3rd period (11:00am - 12:15pm)**
-{% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**%}
+{% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
 ### Asynchronous meetings: Tue, Thurs

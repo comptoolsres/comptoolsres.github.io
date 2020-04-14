@@ -86,50 +86,54 @@ Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holid
 
 The main texts for the course are:
 
-* The Linux Command Line: [http://linuxcommand.or](http://linuxcommand.org)
+* The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org)
 * Python For Everyone: [https://www.py4e.com](https://www.py4e.com)
 
 Each of these is available as a free PDF download or for purchase in print.
 
 ## Course Calendar
 
-Week | Date | Topic
------|------|------
-1 | Mon, May 11 |Introduction and course objectives.<br>Linux Basics: Command line
-1 | Tues, May 12 | UF Research Computing Intro & getting started
-1 | Wed, May 13 | Linux Basics: Pipes and Redirects
-1 | Thurs, May 14 | Regular Expression video and exercises
-1 | Fri, May 15 | Shell Scripts
-||
-2 | Mon, May 18 | Version Control: git and GitHub
-2 | Tues, May 19 | TBD
-2 | Wed, May 20 | Using UF Research Computing resources<br>Running batch jobs, Compiling source code
-2 | Thurs, May 21 | Catching up
-2 | Fri, May 22 |Introduction to Python <br>Python data types
-||
-3 | Mon, May 25 | *Memorial Day Holiday, No Class*
-3 | Tues, May 26 |
-3 | Wed, May 27 | Working in Python, Flow Control
-3 | Thurs, May 28 | Working in Python: try/except, Strings, File I/O
-3 | Fri, May 29 | Working in Python, Functions
-||
-4 | Mon, June 1 | Lists, Dictionaries, Tuples
-4 | Tues, June 2 | SciPy, NumPy, Pandas
-4 | Wed, June 3 | Scripting data acquisition
-4 | Thurs, June 4 | Class project
-4 | Fri, June 5 | Matplotlib and data visualization
-||
-5 | Mon, June 8 | Writing Functions
-5 | Tues, June 9 | Class project, continue
-5 | Wed, June 10 | Finishing up
-5 | Thurs, June 11 | Class project, continue
-5 | Fri, June 12 | Overview of databases<br>Database design
-||
-6 | Mon, June 15 |Setting up a database <br>SQLAlchemy Introduction
-6 | Tues, June 16| SQLAlchemy continued
-6 | Wed, June 17 | Graphics
-6 | Thurs, Jun 18 | Class project, complete
-6 | Friday, June 19 | Last day of class
+This is subject to change, please check back frequently. 
+
+For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com).
+
+Week | Date | Reading/Assignment |Topic
+-----|------|--------------------|-----
+1 | Mon, May 11 | Read TLCL Ch 1-6 <br> Download Software|Introduction and course objectives.<br>Linux Basics: Command line
+1 | Tues, May 12 | Watch UFRC TrainingVideo <br> Skim TLCL Ch 7 & 8 | UF Research Computing Intro & getting started
+1 | Wed, May 13 |Read TLCL Ch 19 & 20 through Slicing and Dicing| Linux Basics: Pipes and Redirects
+1 | Thurs, May 14 | Watch Learn the Linux Command Line: The Basics| Regular Expression video and exercises
+1 | Fri, May 15 | Register for github.com account <br> Problem Set 1<br> Reach TLCL Ch 24-26 <br> Quiz 1| Shell Scripts
+|||
+2 | Mon, May 18 | Read TLCL Ch 27, 29 & 33 |Version Control: git and GitHub
+2 | Tues, May 19 |Read TLCL Ch 23 | TBD
+2 | Wed, May 20 |Work on PS2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
+2 | Thurs, May 21 |PS 2 Due | Catching up
+2 | Fri, May 22 | Reach Py4E Ch 1 & 2|Introduction to Python <br>Python data types
+|||
+3 | Mon, May 25 || *Memorial Day Holiday, No Class*
+3 | Tues, May 26 |Read Py4E Ch 3 & 5|
+3 | Wed, May 27 | |Working in Python, Flow Control
+3 | Thurs, May 28 |Read Py4E Ch 6 & 7| Working in Python: try/except, Strings, File I/O
+3 | Fri, May 29 | Read Py4E Ch 4| Working in Python, Functions
+|||
+4 | Mon, June 1 | Read Py4E Ch 8-10 | Lists, Dictionaries, Tuples
+4 | Tues, June 2 | Reach Py4E Ch 12 & 13 | SciPy, NumPy, Pandas
+4 | Wed, June 3 || Scripting data acquisition
+4 | Thurs, June 4 || Class project
+4 | Fri, June 5 | P3 Due, Quiz 2 | Matplotlib and data visualization
+|||
+5 | Mon, June 8 | Read Py4E Ch 16 | Writing Functions
+5 | Tues, June 9 || Class project, continue
+5 | Wed, June 10 || Finishing up
+5 | Thurs, June 11 | | Class project, continue
+5 | Fri, June 12 | Programming Foundations Databases |Overview of databases<br>Database design
+|||
+6 | Mon, June 15 ||Setting up a database <br>SQLAlchemy Introduction
+6 | Tues, June 16| |SQLAlchemy continued
+6 | Wed, June 17 | |Graphics
+6 | Thurs, Jun 18 ||Class project, complete
+6 | Friday, June 19 || Last day of class
 
 
 

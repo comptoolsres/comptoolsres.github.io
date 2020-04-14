@@ -99,7 +99,7 @@ For readings, there may be links to pages with my notes and additional explanati
 
 Week | Date | Reading/Assignment |Topic
 -----|------|--------------------|-----
-1 | Mon, May 11 | Read TLCL Ch 1-6 <br> Download Software|Introduction and course objectives.<br>Linux Basics: Command line
+1 | Mon, May 11 | Read TLCL Ch 1-6 <br> [Download Software](software.md)|Introduction and course objectives.<br>Linux Basics: Command line
 1 | Tues, May 12 | Watch UFRC TrainingVideo <br> Skim TLCL Ch 7 & 8 | UF Research Computing Intro & getting started
 1 | Wed, May 13 |Read TLCL Ch 19 & 20 through Slicing and Dicing| Linux Basics: Pipes and Redirects
 1 | Thurs, May 14 | Watch Learn the Linux Command Line: The Basics| Regular Expression video and exercises

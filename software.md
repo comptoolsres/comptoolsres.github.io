@@ -5,6 +5,7 @@ tags: [getting_started]
 sidebar: ctr_sidebar
 permalink: software.html
 summary: Computer and software needed for the course.
+toc: false
 ---
 # Computer and Software Setup
 

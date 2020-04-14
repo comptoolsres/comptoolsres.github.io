@@ -1,13 +1,11 @@
 ---
-title: "Computational Tools for Research in Biology"
-keywords: sample homepage
+title: "Computer and Software Setup"
+keywords: setup
 tags: [getting_started]
 sidebar: ctr_sidebar
-permalink: index.html
-summary: An introduction to computational tools for research, including the Linux command line, Python scripting, and databases.
-This course prepares students to conduct large-scale data analysis on high-performance computing resources.
+permalink: software.html
+summary: Computer and software needed for the course.
 ---
-
 # Computer and Software Setup
 
 ## Computer requirements
@@ -15,6 +13,8 @@ This course prepares students to conduct large-scale data analysis on high-perfo
 To complete this course, you will need a computer. It does not have to be anything fancy or have any particular operating system.
 
 For students enrolled in the course at UF, you will do most of your work on the universities computer cluster, HiPerGator. An account will be created for you and we will walk through everything in class, so don't worry. There are still some applications that will make it easier to work as noted below.
+
+You will need a reliable internet connection for the course. During Summer 2020, all course meetings will be on Zoom, so you should have a web cam and microphone. Your internet service should support video conferencing.
 
 ### For people not enrolled in the course
 
@@ -29,7 +29,7 @@ Everything we do in class, could be done with UF Research Computing's Open on De
 That said, I personally find some of the software noted below more reliable and feature rich.
 
 
-### ![Windows logo](images/widows.icon.png){:height="75px" width="75px"} If you have a Windows Computer
+### ![Windows logo](images/widows.icon_75.png) If you have a Windows Computer
 
 1. An ssh client to connect to remote servers, like HiPerGator
    1. I recommend MobaXterm: Use the free [Home Edition Installer](https://mobaxterm.mobatek.net/download-home-edition.html)
@@ -38,7 +38,7 @@ That said, I personally find some of the software noted below more reliable and 
    1. MobaXterm has an editor built in, which is fine.
    1. Microsoft [VS Code](https://code.visualstudio.com/): Is what I use. It has many extensions that are quite helpful. It is also free.
 
-### ![Apple logo](images/apple_logo.jpg){:height="75px" width="75px"} If you have an Apple Computer
+### ![Apple logo](images/apple_logo_75.jpg) If you have an Apple Computer
 
 1. You already have the ssh client: Terminal is installed at /Applications/Utilities/Terminal (The Applications folder, then Utilities, and the applciation called Terminal).
 1. A text editor:

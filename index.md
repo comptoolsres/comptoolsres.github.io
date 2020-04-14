@@ -12,9 +12,9 @@ This course prepares students to conduct large-scale data analysis on high-perfo
 
 ## About this site
 
-This site is the being developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is offered every-other-year at the [University of Florida](https://ufl.edu). My hope is that this site can serve both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.
+This site is the being developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is typically offered every-other-year at the [University of Florida](https://ufl.edu). My hope is that this site can serve both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.
 
-The course is designed to be a one semester, 3-credit course for upper-level undergraduate and starting graduate students.
+The course was designed to be a one semester, in-person, 3-credit course for upper-level undergraduate and starting graduate students. During Summer 2020, I am offering it as an online course with some modifications.
 
 Please use the feedback button to send feedback.
 
@@ -24,7 +24,7 @@ Please use the feedback button to send feedback.
 
 Information technology has dramatically transformed how research across many disciplines is conducted. This is particularly true in the biological sciences where researchers frequently find themselves faced with massive amounts of diverse data to analyze. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills are critical for researchers.
 
-Topics covered in the course will address a gap in how research has advanced—*and become increasingly computational*— while student training in the use of computational tools has lagged. The course will cover basic concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained scientists and allows them to work in multidisciplinary research.
+Topics covered in the course will address a gap in how research has advanced—*and become increasingly computational*— while student training in the use of computational tools has lagged. The course assumes no prior coding or command line skills, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained scientists and allows them to work in multidisciplinary research.
 
 This course will survey areas where high performance computing, large-scale data access and integration, informatics tools and software, and multi-disciplinary collaboration have had high impact on research as a foundation for computationally-enabled research.
 
@@ -49,8 +49,6 @@ The course is divided into three main sections:
 
 * SQL database introduction and integration with Python
 
-
-
 ## Course Objectives
 
 * Demonstrate how technology infrastructure can improve research and open new avenues of investigation.
@@ -63,12 +61,9 @@ The course is divided into three main sections:
 * Describe basic database design, creation and manipulation. Perform scripted database operations for information discovery, data exploration and research data curation.
 * Have a basic understanding of research graphics formats, preparation and manipulation
 
-## Meeting Times <i class="fas fa-users"></i>
-Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.
+## Meeting Times
 
-Summer A runs May 11, 2020 through June 19, 2020.
-
-May 25th is Memorial Day holiday.
+Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holiday.
 
 ### Synchronous meetings: Mon, Wed, Fri
 
@@ -78,16 +73,16 @@ May 25th is Memorial Day holiday.
 
 ### Asynchronous meetings: Tue, Thurs
 
-* On Tuesday and Thursday, students will work on projects either independently or in groups.
+* On Tuesday and Thursday, students will work on projects either independently or in small, virtual groups.
 * These sessions can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
 * There will still be content that needs to be covered, and students should plan on working on Tuesday and Thursday, but can generally do the work whenever is convenient for them.
 
 ### Office hours: Thursday and by appointment
 
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
-{% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help--that is why I teach this course! I want to help you! I cannot always help if you don't ask. Please ask for help." %}
+{% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help. You should expect that you will need help. I want to help you! I cannot always help if you don't ask. Please ask for help." %}
 
-## Course textbooks <i class="fas fa-book"></i>
+## Course textbooks
 
 The main texts for the course are:
 
@@ -96,7 +91,7 @@ The main texts for the course are:
 
 Each of these is available as a free PDF download or for purchase in print.
 
-## Course Calendar <i class="fas fa-calendar-alt"></i>
+## Course Calendar
 
 Week | Date | Topic
 -----|------|------

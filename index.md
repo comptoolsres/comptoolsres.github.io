@@ -86,7 +86,7 @@ Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holid
 
 The main texts for the course are:
 
-* The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org)
+* The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org) (my notes and referenced page numbers will be based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019)
 * Python For Everyone: [https://www.py4e.com](https://www.py4e.com)
 
 Each of these is available as a free PDF download or for purchase in print.
@@ -99,8 +99,8 @@ For readings, there may be links to pages with my notes and additional explanati
 
 Week | Date | Reading/Assignment |Topic
 -----|------|--------------------|-----
-1 | Mon, May 11 | Read TLCL Ch 1-6 <br> [Download Software](software.md)|Introduction and course objectives.<br>Linux Basics: Command line
-1 | Tues, May 12 | Watch UFRC TrainingVideo <br> Skim TLCL Ch 7 & 8 | UF Research Computing Intro & getting started
+1 | Mon, May 11 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|Introduction and course objectives.<br>Linux Basics: Command line
+1 | Tues, May 12 | [Watch UFRC TrainingVideo](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
 1 | Wed, May 13 |Read TLCL Ch 19 & 20 through Slicing and Dicing| Linux Basics: Pipes and Redirects
 1 | Thurs, May 14 | Watch Learn the Linux Command Line: The Basics| Regular Expression video and exercises
 1 | Fri, May 15 | Register for github.com account <br> Problem Set 1<br> Reach TLCL Ch 24-26 <br> Quiz 1| Shell Scripts

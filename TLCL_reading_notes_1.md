@@ -25,6 +25,7 @@ Most of this text is written assuming you are running Linux on your computer. Wh
 * I find that new users are often afraid that they will type something wrong and break their computer. While there are some things covered in the text that you cannot do on the cluster, you also can't really break the cluster.
 
 ### Terminal Emulators
+
 We will look at Ch 1 in class and I will demonstrate getting logged into the cluster. In our case, the terminal emulators that we will use depend on the operating system of your computer. On MacOS, you will use Terminal. On Windows, you will use MobaXterm. Or, with any OS, you can use Open on Demand in your web browser.  
 These videos also demonstrate the process on:
 * [MacOS with the Terminal](https://mediasite.video.ufl.edu/Mediasite/Play/0b238bfffb684fd6b7306129af63a6711d)
@@ -44,7 +45,7 @@ Our shell prompt looks very similar to the one shown here on p. 2:
 In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol followed by the hostname, `login3`, and the current working directory, `~`.
 
 * Why `login3`? When you connect to `hpg.rc.ufl.edu`, we run what is called a load balancer that places users on one of several login nodes to balance the load of all the users--one server would not be enough for all of our users. It doesn't matter which you get put on, they are all the same.
-* What is the current working directory? When you first log in, you are put in your home directory. Kind of like your Home on MacOS or Windows. On most Linux systems, including HiPerGator, this directory has the path of `/home/<username>`. Because you frequently want to reference your home directory, there is a shorthand way of doing that with the tilde character: `~`. So, `~` is Linux shorthand for your home directory.
+* What is the current working directory? When you first log in, you are put in your home directory. Kind of like your Home on MacOS or Windows. On most Linux systems, including HiPerGator, this directory has the path of `/home/<gatorlink>`. Because you frequently want to reference your home directory, there is a shorthand way of doing that with the tilde character: `~`. So, `~` is Linux shorthand for your home directory.
 
 ### Mice and Focus
 
@@ -58,7 +59,7 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
 ## Ch 2. Navigation
 
-* p. 8: Listing the contents of a Directory: On HiPerGator, your account starts with no files or directories. When you type the `ls` command at the bottom of p. 8, it will not show any files:
+* p. 8: **Listing the contents of a Directory**: On HiPerGator, your account starts with no files or directories. When you type the `ls` command at the bottom of p. 8, it will not show any files:
 
    ```bash
    [magitz@login2 ~]$ ls
@@ -67,7 +68,7 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
    This is expected.
 
-* p. 12: Important Facts About Filenames: 
+* p. 12: **Important Facts About Filenames**: 
   * point 3 is worth emphasizing: File extensions generally do not matter in Linux. You don't need to end a file with .txt, .jpg, .pdf, etc. But, these endings can be helpful for *you*. Using extensions consistently can make it easier to remember the contents of a file--is this file an image or text?
   * point 4 is also critical. Do not use spaces in naming files or folders on Linux. In fact, it is a good habit to avoid using spaces on your Windows or MacOS computer if you think the files will end up transferred to Linux or analyzed with a command line tool on your computer.
     * Common conventions are to use underscores (`this_is_a_text_file.txt`) or camel case (`ThisIsATextFile.txt`). It doesn't really matter which you chose, though does help to be consistent.
@@ -81,28 +82,28 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 ```
 " %}
 
-* p. 20: Table 3-4: Certainly feel free to explore, but you don't need to worry about all of the directories in this table. Most will be there, but can generally be ignored for what we will be doing.
+* p. 20: **Table 3-4**: Certainly feel free to explore, but you don't need to worry about all of the directories in this table. Most will be there, but can generally be ignored for what we will be doing.
 
-* p. 23: Symbolic Links: Take a look here, we may use some symbolic links, but don't worry too much about the details. Also, a symbolic link is essentially the same as an Alias in MacOS or Shortcut in Windows. It's a small file that points to the real file.
+* p. 23: **Symbolic Links**: Take a look here, we may use some symbolic links, but don't worry too much about the details. Also, a symbolic link is essentially the same as an Alias in MacOS or Shortcut in Windows. It's a small file that points to the real file.
 
   * I think this is the first time "foo" comes up..."foo" and "bar" are programmers' favorite names to use as examples. They are commonly used as file names, variable names, program names, etc. where the author just needs a name. See [Wikipedia for more on Metasyntactic variables](https://en.wikipedia.org/wiki/Metasyntactic_variable).
 
 
 ## Ch 4: Manipulating Files and Directories
 
-* p. 27: Wildcards Work in the GUI Too: You can ignore this box.
+* p. 27: **Wildcards Work in the GUI Too**: You can ignore this box.
 
 {% include warning.html content="p. 33: Be Careful with rm!: As noted, there is no undelete command, trash can or recycle bin on Linux. So be careful!  
 Also, nothing is backed up on HiPerGator. We will cover this in class, but keep that in mind.  
-In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. We may cover this, but here is more information on [snapshots on HiPerGator](https://help.rc.ufl.edu/doc/Snapshots).
+In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. We may cover this, but here is more information on [snapshots on HiPerGator](https://help.rc.ufl.edu/doc/Snapshots)." %}
 
-* p. 33-34: Don't worry too much about the symbolic nad hard link section. We won't be using them a lot.
-* p. 37-39: Again, you can skip the sections on hard and symbolic links.
-* p. 39: Removing Files and Directories: Do try removing some of your playground files and directories, but again, don't worry about the link stuff.
+* p. 33-34: **ln – Create Links**: Don't worry too much about the symbolic nad hard link section. We won't be using them a lot.
+* p. 37-39: **Creating Hard Links**: Again, you can skip the sections on hard and symbolic links.
+* p. 39: **Removing Files and Directories**: Do try removing some of your playground files and directories, but again, don't worry about the link stuff.
 
 ## Ch 5: Working with Commands
 
-* p. 44: `which cd`: On Red Hat Linux, the distribution of Linux that HiPerGator uses, `which cd` does return the path:  
+* p. 44: **which – Display an Executable's Location**: `which cd`: On Red Hat Linux, the distribution of Linux that HiPerGator uses, `which cd` does return the path:  
   ```bash
   [magitz@login2 ~]$ which cd
   /usr/bin/cd
@@ -121,5 +122,5 @@ In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. W
 
 {% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, overwrites the file you are redirecting to. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
 
-* p. 65: `tail -f /var/log/messages`: You will not be able to run this command since you do not have permission to view the file /var/log/messages. We will see if we can find a use for the `tail -f` command, in general it is used for watching the contents of an output file while a program is running.
-* p. 66: Linux Is About Imagination: Another great analogy! I hope this course sparks your imagination about what you can do with the giant erector set of tools you will learn about!
+* p. 65: **head / tail – Print First / Last Part of Files**: `tail -f /var/log/messages`: You will not be able to run this command since you do not have permission to view the file /var/log/messages. We will see if we can find a use for the `tail -f` command, in general it is used for watching the contents of an output file while a program is running.
+* p. 66: **Linux Is About Imagination**: Another great analogy! I hope this course sparks your imagination about what you can do with the giant erector set of tools you will learn about!

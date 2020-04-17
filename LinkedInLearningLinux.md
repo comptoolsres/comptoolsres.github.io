@@ -20,9 +20,11 @@ The log file for this is in the Exercise Files folder and is called log.tar.gz.
 
 {% include tip.html content="There is a solution video where you can get the answer. Two things about that...
 
-1. Think for a bit about how you might approach the question. Don't spend more than a few minutes on this. If you have an idea, play for a bit and see if you can string together some commands to get what you want.
+<br><br>
 
-1. The video doesn't really give you enough information to answer this challenge. My suggestion is after thinking for a couple of minutes, watch the Solution video and try to understand what the author did. Use the commands that he walks you through and get the answer he gets. Then submit the command line..." %} 
+1. Think for a bit about how you might approach the question. Don't spend more than a few minutes on this. If you have an idea, play for a bit and see if you can string together some commands to get what you want.
+<br><br>
+2. The video doesn't really give you enough information to answer this challenge. My suggestion is after thinking for a couple of minutes, watch the Solution video and try to understand what the author did. Use the commands that he walks you through and get the answer he gets. Then submit the command line..." %} 
 
 ## A few notes
 
@@ -51,7 +53,7 @@ Resolving deltas: 100% (9/9), done.
 
 In Part 3, where the video "Files, folders, and navigation" is navigating to Documents, you will do: `cd /ufrc/bsc4452/<gatorlink>`
  
-{% include tip.html content="In the same video, the presenter goes into how to use the "\" to escape the space in a folder name. While you can do this, it is rally a pain in the neck and I would **HIGHLY** recommend that you just not use spaces in your file or folder names." %}
+{% include tip.html content="In the same video, the presenter goes into how to use the backslash to escape the space in a folder name. While you can do this, it is rally a pain in the neck and I would **HIGHLY** recommend that you just not use spaces in your file or folder names." %}
 
 In part 3, you can skip the "User roles and sudo" video as you won't be able to do those--you do not have permission to change to the root user.
 

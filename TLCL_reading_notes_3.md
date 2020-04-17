@@ -10,10 +10,7 @@ toc: false
 
 {% include note.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
 
-Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things.
-" %}
-
-
+Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things." %}
 
 ## Regular Expressions
 
@@ -40,7 +37,7 @@ Open VSCode, the MobaXterm editor, BBEdit or whatever editor you are using (make
 Make a new document and paste the following line into the new file:
 
 `Go Gators, Come on Gators, Get up and Go!`
- 
+
 Open the Find dialog box and turn on regular expression searches. In VSCode, that is the "`.*`" button, in MobaXterm, there is a "Regular expressions" checkbox in the find modal.
 
 In the Find box enter the text "`Go`" and either look through the found text (highlighted in the document) or click Find All.
@@ -63,7 +60,6 @@ As useful as it is to use regular expression in your text editor, there's lots o
 * p. 254: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
 * p. 256: **A Crossword Puzzle Helper**: Our word dictionary (see grey box) has 479,828 words! So results are a bit different.
 * p. 258-263: **POSIX Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
-
 
 ### Some additional practice
 
@@ -92,7 +88,7 @@ For example, "`(Go) Gators`" will find the text "Go Gators" and put the "Go" int
 
 Here is a list of names. Copy and paste into your text editor.
 
-```
+```bash
 Fred Jones
 Jane Smith
 Jose Rodriguez
@@ -105,7 +101,7 @@ Write a regular expression to:
 1. Find everyone's last name
 1. Find the first names and last names and then replace each name in the list using the format: Last, First
 1. Find the first names and replace with just the first initial and a period (F. Jones, J. Smith, etc.)
- 
+
 Amazing stuff right??  ![Amazing gif](images/amazing.gif)
 
 ## Ch. 20: Text Processing
@@ -113,4 +109,3 @@ Amazing stuff right??  ![Amazing gif](images/amazing.gif)
 The next set of tools are another great resource.
 
 Don't forget you can use the PDF to copy/paste larger chunks of data...In this case, it takes some regex playing to make it work, so I have put a copy of the distros.txt file in `/ufrc/bsc4452/share/Class_Files/TLCL_files/`.
-

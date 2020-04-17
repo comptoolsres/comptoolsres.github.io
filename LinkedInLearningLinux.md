@@ -14,7 +14,7 @@ Then either [click on this link](https://www.linkedin.com/learning/learning-linu
 
 ## Grading
 
-This assignment will count as **quiz 1**. To get credit, paste your command line for the solution to the challenge at the end of part 4 (Challenge: Extract information from a text file) into the box in the **Canvas assignment for Quiz 1**and submit.
+This assignment will count as **quiz 1**. To get credit, paste your command line for the solution to the challenge at the end of part 4 (Challenge: Extract information from a text file) into the box in the **Canvas assignment for Quiz 1** and submit.
 
 The log file for this is in the Exercise Files folder and is called log.tar.gz.
 
@@ -22,8 +22,7 @@ The log file for this is in the Exercise Files folder and is called log.tar.gz.
 
 1. Think for a bit about how you might approach the question. Don't spend more than a few minutes on this. If you have an idea, play for a bit and see if you can string together some commands to get what you want.
 
-1. The video doesn't really give you enough information to answer this challenge. My suggestion is after thinking for a couple of minutes, watch the Solution video and try to understand what the author did. Use the commands that he walks you through and get the answer he gets. Then submit the command line..."
-%} 
+1. The video doesn't really give you enough information to answer this challenge. My suggestion is after thinking for a couple of minutes, watch the Solution video and try to understand what the author did. Use the commands that he walks you through and get the answer he gets. Then submit the command line..." %} 
 
 ## A few notes
 

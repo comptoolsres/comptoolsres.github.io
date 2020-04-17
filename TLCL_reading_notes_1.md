@@ -91,7 +91,6 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
   * I think this is the first time "foo" comes up..."foo" and "bar" are programmers' favorite names to use as examples. They are commonly used as file names, variable names, program names, etc. where the author just needs a name. See [Wikipedia for more on Metasyntactic variables](https://en.wikipedia.org/wiki/Metasyntactic_variable).
 
-
 ## Ch 4: Manipulating Files and Directories
 
 * p. 27: **Wildcards Work in the GUI Too**: You can ignore this box.

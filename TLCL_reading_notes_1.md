@@ -8,6 +8,9 @@ toc: false
 
 # Notes on TLCL Introduction and Ch 1-6
 
+{% include tip.html content=" **Reading vs. Doing**  
+When you do the reading for this class, **don't just read!** **Do the commands discussed.** Play with them, break them, try different options, explore, etc. Reading about using the command line or programming without practicing it will not teach you much!" %}
+
 ## Introduction
 
 * p. xvii: This is one of my favorite quotes:

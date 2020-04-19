@@ -57,6 +57,6 @@ In Part 3, where the video "Files, folders, and navigation" is navigating to Doc
 
 In part 3, you can skip the "User roles and sudo" video as you won't be able to do those--you do not have permission to change to the root user.
 
-## Part 5: A Peek at Some More Advanced Topics
+### Part 5: A Peek at Some More Advanced Topics
 
 You do not need to do Part 5.

@@ -118,11 +118,46 @@ In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. W
   [magitz@login2 ~]$
   ```
 
-{% include tip.html content="p. 46: `man ls`: man pages can often be quite long, you can page through them with the space bar, but to quit out of the view, just type `q`." %}
+* p. 44: **Getting a Command's Documentation**: This section presents a number of methods to get help, which in itself can be overwhelming! How I use these generally boils down to two or three methods:
+
+  `man` command: e.g. `man ls` will usually work for system programs--programs that are part of the OS, not applications you would install. So try that first. Sometimes it's easier to read a man page online, so Google man ls (Links to an external site.).
+
+  `command -h`: this frequently works, and if not may provide some hints anyway. e.g.:
+
+  ```bash  
+  $ python -h
+  usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+  Options and arguments (and corresponding environment variables):
+  -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
+          and comparing bytes/bytearray with str. (-bb: issue errors)
+  -B     : dont write .pyc files on import; also PYTHONDONTWRITEBYTECODE=x
+  -c cmd : program passed in as string (terminates option list)
+  -d     : debug output from parser; also PYTHONDEBUG=x
+  -E     : ignore PYTHON* environment variables (such as PYTHONPATH)
+  -h     : print this help message and exit (also --help)
+  [...more options...]
+
+  ```
+
+  For for system commands, I start with `man` and then go to Google.
+
+  For applications, I start with `-h`, if that doesn't work, I try `--help` and then I go to Google...
+
+  {% include tip.html content="p. 46: `man ls`: man pages can often be quite long, you can page through them with the space bar, but to quit out of the view, just type `q`." %}
+
+* p. 50: **Creating Our Own Commands with `alias`**: The vocabulary can get a little confusing here. I noted above that the symbolic and hard links created with the `ln` command are similar to aliases in MacOS. Aliases used here are very different--in Linux and alias is a way to create your own custom command, or modifications of a command.
+
+  In reading this section, it may be hard to see where you would use aliases. The example that I like to give is that I frequently like to view my file listing with the long listing, sorted reverse-chronologically with human readable file sizes (MB, GB vs all in bytes).
+
+  I could type `ls -lrth` every time I want to see that, but that's a lot of typing. So in my .bashrc file, I added the line:  
+  `alias ll='ls -lrth'`  
+  So now, if I type `ll`, bash looks at my aliases, and knows that I want it to do `ls -lrth` and gives me that output.
 
 ## Ch 6. Redirection
 
 {% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, overwrites the file you are redirecting to. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
+
+* p. 61: **The Difference Between > and |**: Pay particular attention to this box as people are often unclear on the difference between these commands.
 
 * p. 65: **head / tail – Print First / Last Part of Files**: `tail -f /var/log/messages`: You will not be able to run this command since you do not have permission to view the file /var/log/messages. We will see if we can find a use for the `tail -f` command, in general it is used for watching the contents of an output file while a program is running.
 * p. 66: **Linux Is About Imagination**: Another great analogy! I hope this course sparks your imagination about what you can do with the giant erector set of tools you will learn about!

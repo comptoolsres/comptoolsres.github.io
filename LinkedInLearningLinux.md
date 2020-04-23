@@ -1,12 +1,10 @@
 ---
-title: "LinkedIn Learning Linux"
+title: "LinkedIn Learning: Learn the Linux Command Line"
 tags: [video notes]
 sidebar: home_sidebar
 permalink: LinkedInLearningLinux.html
 toc: false
 ---
-
-# LinkedIn Learning: Learn the Linux Command Line
 
 From the [e-learning page](https://elearning.ufl.edu/), click the LinkedIn Learning link and login with your GatorLink.
 

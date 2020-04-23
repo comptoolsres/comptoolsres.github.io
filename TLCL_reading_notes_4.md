@@ -1,12 +1,10 @@
 ---
-title: "TLCL Ch 24 & 25 Notes"
+title: "Notes on TLCL Ch 24 & 25"
 tags: [reading notes]
 sidebar: home_sidebar
 permalink: TLCL_4.html
 toc: false
 ---
-
-# Notes on TLCL Ch 24 & 25
 
 {% include note.html content="Again, we are going to skip some chapters. As always, there's good content in these, but not enough time to cover everything." %}
 

@@ -1,12 +1,10 @@
 ---
-title: "TLCL Ch 19 & 20 Notes"
+title: "Notes on TLCL Ch 19 & 20"
 tags: [reading notes]
 sidebar: home_sidebar
 permalink: TLCL_3.html
 toc: false
 ---
-
-# Notes on TLCL Ch 19 & 20
 
 {% include note.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
 

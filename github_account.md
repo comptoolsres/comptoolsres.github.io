@@ -6,8 +6,6 @@ permalink: github_acount.html
 toc: false
 ---
 
-# Register for a github.com account
-
 ## What is git
 
 Git is a tool for version tracking that has become increasingly popular among coders for facilitating not only version tracking, but also collaboration and code distribution.

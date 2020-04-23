@@ -1,12 +1,10 @@
 ---
-title: "TLCL Ch 7-8 Notes"
+title: "Notes on TLCL Ch 7 & 8"
 tags: [reading notes]
 sidebar: home_sidebar
 permalink: TLCL_2.html
 toc: false
 ---
-
-# Notes on TLCL Ch 7 & 8
 
 {% include note.html content="These two chapters cover a fair bit. **Do not** attempt to memorize everything. There is a lot of great information here, hopefully you will remember some of it.
 

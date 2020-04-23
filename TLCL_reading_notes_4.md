@@ -1,8 +1,8 @@
 ---
-title: "TLC Ch 24 & 25 Notes"
+title: "TLCL Ch 24 & 25 Notes"
 tags: [reading notes]
 sidebar: ctr_sidebar
-permalink: TLC_4.html
+permalink: TLCL_4.html
 toc: false
 ---
 
@@ -162,9 +162,9 @@ Password for 'https://                magitz@github.com':
   Branch variables set up to track remote branch variables from origin.
   [magitz@login3 sys_info_page]$
   ```
-  {% include note.html content="Notice how the initial `git push` command fails. git tells you there is a fatal error because there isn't a variables branch on github (we just created it here). git is also helpful and suggests a command that you may have wanted to use instead: `git push --set-upstream origin variables` which says, create a variables branch at the "origin" (github.com) and push the content there.
+  {% include note.html content="Notice how the initial `git push` command fails. git tells you there is a fatal error because there isn't a variables branch on github (we just created it here). git is also helpful and suggests a command that you may have wanted to use instead: `git push --set-upstream origin variables` which says, create a variables branch at the 'origin' (github.com) and push the content there." %}
 
-  Now, lets go look at the repo on github. Click on the sys_info_page.sh file to view it in the repo. 
+  Now, lets go look at the repo on github. Click on the sys_info_page.sh file to view it in the repo.
   ![Screenshot of status in github](images/git_master_branch.png)
   The repo still looks like it did before! That is because, by default, the master branch is always shown. But you can click on the "Branch: master" button and select variables to see that version.
 
@@ -191,4 +191,3 @@ Password for 'https://                magitz@github.com':
   {% include warning.html content="The wonders of git a brought to you by a special hidden folder called `.git` located in the main folder of a git repository. Do not mess with this folder! It is hidden for a reason! If you go in there and start messing with stuff, bad things will happen!" %}
 
   Checkout the variables branch again and keep working through the chapter. Remember to `git add`, `git commit`, `git push` now and then--typically when you think you have point in time you might want to return to, or have done a significant change.
-  

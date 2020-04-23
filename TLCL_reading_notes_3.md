@@ -14,6 +14,8 @@ Part 2 and the first chapters of Part 3 get more into system configuration and m
 
 ## Regular Expressions
 
+{% include note.html content="Feel free to read through this on your own, but we will work on this together in class." %}
+
 Start by reading p. 251 as an introduction. But before continuing, I have some additional exercises that I hope make it easier to learn about regular expressions.
 
 At the start of Ch 19, William Shotts says (p. 251):

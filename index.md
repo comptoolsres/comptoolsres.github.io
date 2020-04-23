@@ -99,11 +99,11 @@ For readings, there may be links to pages with my notes and additional explanati
 
 Week | Date | Reading/Assignment |Topic
 -----|------|--------------------|-----
-1 | Mon, May 11 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|Introduction and course objectives.<br>Linux Basics: Command line
-1 | Tues, May 12 | [Watch UFRC TrainingVideo](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
-1 | Wed, May 13 |[Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Linux Basics: Pipes and Redirects
-1 | Thurs, May 14 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)| Regular Expression video and exercises
-1 | Fri, May 15 | Register for github.com account <br> Problem Set 1<br> Reach TLCL Ch 24-26 <br> Quiz 1| Shell Scripts
+1 | Mon, May 11 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)<br>Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html) and the Linux command line
+1 | Tues, May 12 | [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
+1 | Wed, May 13 |[Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions
+1 | Thurs, May 14 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)| Keep working on Linux command line skills
+1 | Fri, May 15 | [Register for github.com account](github_account.md) <br> Problem Set 1<br> Reach TLCL Ch 24-26 <br> Quiz 1| Shell Scripts and git
 |||
 2 | Mon, May 18 | Read TLCL Ch 27, 29 & 33 |Version Control: git and GitHub
 2 | Tues, May 19 |Read TLCL Ch 23 | TBD

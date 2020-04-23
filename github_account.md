@@ -1,7 +1,7 @@
 ---
 title: "Register for a github.com account"
 tags: [assignment]
-sidebar: ctr_sidebar
+sidebar: home_sidebar
 permalink: github_acount.html
 toc: false
 ---

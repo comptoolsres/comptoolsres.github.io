@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn Learning Linux"
 tags: [video notes]
-sidebar: ctr_sidebar
+sidebar: home_sidebar
 permalink: LinkedInLearningLinux.html
 toc: false
 ---

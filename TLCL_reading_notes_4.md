@@ -1,7 +1,7 @@
 ---
 title: "TLCL Ch 24 & 25 Notes"
 tags: [reading notes]
-sidebar: ctr_sidebar
+sidebar: home_sidebar
 permalink: TLCL_4.html
 toc: false
 ---

@@ -1,8 +1,8 @@
 ---
-title: "TLC Ch 19 & 20 Notes"
+title: "TLCL Ch 19 & 20 Notes"
 tags: [reading notes]
-sidebar: ctr_sidebar
-permalink: TLC_3.html
+sidebar: home_sidebar
+permalink: TLCL_3.html
 toc: false
 ---
 

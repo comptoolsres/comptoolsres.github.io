@@ -1,8 +1,8 @@
 ---
-title: "TLC Ch 7-8 Notes"
+title: "TLCL Ch 7-8 Notes"
 tags: [reading notes]
-sidebar: ctr_sidebar
-permalink: TLC_2.html
+sidebar: home_sidebar
+permalink: TLCL_2.html
 toc: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "TLC Introduction and Ch 1-6 Notes"
+title: "TLCL Introduction and Ch 1-6 Notes"
 tags: [reading notes]
-sidebar: ctr_sidebar
-permalink: TLC_1.html
+sidebar: home_sidebar
+permalink: TLCL_1.html
 toc: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Computational Tools for Research in Biology"
 keywords: sample homepage
 tags: [getting_started]
-sidebar: ctr_sidebar
+sidebar: home_sidebar
 permalink: index.html
 summary: An introduction to computational tools for research, including the Linux command line, Python scripting, and databases.
 This course prepares students to conduct large-scale data analysis on high-performance computing resources.
@@ -103,13 +103,13 @@ Week | Date | Reading/Assignment |Topic
 1 | Tues, May 12 | [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
 1 | Wed, May 13 |[Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions
 1 | Thurs, May 14 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)| Keep working on Linux command line skills
-1 | Fri, May 15 | [Register for github.com account](github_account.md) <br> Problem Set 1<br> Reach TLCL Ch 24-26 <br> Quiz 1| Shell Scripts and git
+1 | Fri, May 15 | [Register for github.com account](github_account.md) <br> Problem Set 1<br> [Read TLCL Ch 24-26](TLCL_reading_notes_4.md) <br> Quiz 1| Shell Scripts and git
 |||
 2 | Mon, May 18 | Read TLCL Ch 27, 29 & 33 |Version Control: git and GitHub
 2 | Tues, May 19 |Read TLCL Ch 23 | TBD
 2 | Wed, May 20 |Work on PS2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
 2 | Thurs, May 21 |PS 2 Due | Catching up
-2 | Fri, May 22 | Reach Py4E Ch 1 & 2|Introduction to Python <br>Python data types
+2 | Fri, May 22 | Read Py4E Ch 1 & 2|Introduction to Python <br>Python data types
 |||
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
 3 | Tues, May 26 |Read Py4E Ch 3 & 5|
@@ -118,7 +118,7 @@ Week | Date | Reading/Assignment |Topic
 3 | Fri, May 29 | Read Py4E Ch 4| Working in Python, Functions
 |||
 4 | Mon, June 1 | Read Py4E Ch 8-10 | Lists, Dictionaries, Tuples
-4 | Tues, June 2 | Reach Py4E Ch 12 & 13 | SciPy, NumPy, Pandas
+4 | Tues, June 2 | Read Py4E Ch 12 & 13 | SciPy, NumPy, Pandas
 4 | Wed, June 3 || Scripting data acquisition
 4 | Thurs, June 4 || Class project
 4 | Fri, June 5 | P3 Due, Quiz 2 | Matplotlib and data visualization

@@ -25,13 +25,13 @@ Below is a graphical representation of the logic behind an `if` statement.
     [magitz@login2 magitz]$
     ```
 
-{% include warning.html content="Pay particular attention to the warning box at the top of p. 400!!<br><br>Here is an example, first with the < properly esecaped with a \, and second the error when it is not escapes and bash is looking for a file to redirect into string1. Think how much worse this could have been if I used > and there was a file called string2!
+{% include warning.html content="Pay particular attention to the warning box at the top of p. 400!!<br><br>Here is an example, first with the < properly escaped with a \, and second the error when it is not escapes and bash is looking for a file to redirect into string1. Think how much worse this could have been if I used > and there was a file called string2!
     ```bash
     [magitz@login2 magitz]$ string1='abc'
     [magitz@login2 magitz]$ string2='xyz'
-    [magitz@login2 magitz]$ if [ string1 \< string2 ]; then echo "string1 comes before string2"; fi
+    [magitz@login2 magitz]$ if [ string1 \< string2 ]; then echo 'string1 comes before string2'; fi
     string1 comes before string2
-    [magitz@login2 magitz]$ if [ string1 < string2 ]; then echo "string1 comes before string2"; fi
+    [magitz@login2 magitz]$ if [ string1 < string2 ]; then echo 'string1 comes before string2'; fi
     -bash: string2: No such file or directory
     [magitz@login2 magitz]$
     ```

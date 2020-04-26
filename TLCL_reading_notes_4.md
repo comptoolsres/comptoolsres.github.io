@@ -15,7 +15,7 @@ One thing that TLCL doesn't include that I think is critical for good coding is 
 As we embark on writing shell scripts, we will continue to use git and github. To get things setup, let's create your first repository from scratch.
 
 1. Log into your github.com account.
-1. There are two ways to create a new repository. Either click the +-icon on the top right and select "New repository", or the green "New" button on the left. 
+1. There are two ways to create a new repository. Either click the +-icon on the top right and select "New repository", or the green "New" button on the left.
   ![Screenshot of methods of creating a new repository in github.com](images/git_new_repo.png)
 1. For the Repository name, enter "hello_world" (you can use whatever name, but do not use a space!). If you want, you can add a description.
   ![Screenshot of creating a new repository in github.com](images/hello_world_new_repo.png)
@@ -119,9 +119,19 @@ Password for 'https://                magitz@github.com':
 
   Also, once you have the first version of the `sys_info_page.sh` script, `git add`, `git commit` and `git push`.
 
-* p. 373: **Second Stage: Adding a Little Data**: Let's add a little more of the git workflow here. We currently have a functional script that we are happy with. We are about to start making some major changes. Rather than making these changes here, it is easier to make a branch of the repository. This allows us to try new things, test features, etc. without messing up the current functional version. If we don't like what we do, it's easy to trash it and be back where we are. If we do like it, we can merge our changes back into the master branch and have the new version become the main version.
+* p. 373: **Second Stage: Adding a Little Data**: Let's add a little more of the git workflow here. We'll come back to this, but let's take a look at branches in git first.
 
-  Let's create a branch called variables (we're going to learn about variables as we do this section)
+## An aside on git branches
+
+Every repo has one branch, typically called *master*. But you can create branches that essentially give you another copy to work on without messing up that master. When you are satisfied with the changes you've made, they can be merged back into the master branch. Or if you mess things up or realize your idea was not well thought out, you can just delete it and not worry that you've messed up your master branch.
+
+Here's an image to illustrate the idea:
+
+![Illustration of branching in git](images/branching.png)
+
+ We currently have a functional script that we are happy with. We are about to start making some major changes. Rather than making these changes here, it is easier to make a branch of the repository. This allows us to try new things, test features, etc. without messing up the current functional version. If we don't like what we do, it's easy to trash it and be back where we are. If we do like it, we can merge our changes back into the master branch and have the new version become the main version.
+
+  Let's create a branch called *variables* (we're going to learn about variables as we do this section)
 
 ```bash
   [magitz@login3 sys_info_page]$ git branch variables
@@ -163,7 +173,9 @@ Password for 'https://                magitz@github.com':
   {% include note.html content="Notice how the initial `git push` command fails. git tells you there is a fatal error because there isn't a variables branch on github (we just created it here). git is also helpful and suggests a command that you may have wanted to use instead: `git push --set-upstream origin variables` which says, create a variables branch at the 'origin' (github.com) and push the content there." %}
 
   Now, lets go look at the repo on github. Click on the sys_info_page.sh file to view it in the repo.
+
   ![Screenshot of status in github](images/git_master_branch.png)
+ 
   The repo still looks like it did before! That is because, by default, the master branch is always shown. But you can click on the "Branch: master" button and select variables to see that version.
 
   In fact the original file is still there in our folder too. Checkout the master branch and look at the file:
@@ -189,3 +201,60 @@ Password for 'https://                magitz@github.com':
   {% include warning.html content="The wonders of git a brought to you by a special hidden folder called `.git` located in the main folder of a git repository. Do not mess with this folder! It is hidden for a reason! If you go in there and start messing with stuff, bad things will happen!" %}
 
   Checkout the variables branch again and keep working through the chapter. Remember to `git add`, `git commit`, `git push` now and then--typically when you think you have point in time you might want to return to, or have done a significant change.
+
+
+### Merging git branches
+
+At some point we decide we are ready to merge the branch back into the master. This  updates the master branch with the changes you have made in the development branch.
+
+If you are the only one working and you are only working on one thing, this may be simple. If other developers have made changes to the master branch, there may be conflicts that your changes create--if you both change the same file, git can't merge on its own and needs your help to resolve the conflicts. We will come back to this later, but since you shouldn't have any conflicts, you are set to merge...
+
+Checkout the master branch and then merge:
+
+```bash
+[magitz@login2 sys_info_page]$ git checkout master
+  Switched to branch 'master'
+[magitz@login2 sys_info_page]$ git status
+# On branch master
+nothing to commit, working directory clean
+[magitz@login2 sys_info_page]$ git merge variables
+Updating 8ad541d..2627d71
+Fast-forward
+ sys_info_page.sh | 41 ++++++++++++++++++++++++++++++++---------
+ 1 file changed, 32 insertions(+), 9 deletions(-)
+[magitz@login2 sys_info_page]$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/magitz/sys_info_page.git
+   8ad541d..2627d71  master -> master
+```
+
+Since we are done with the function branch we can delete it:
+
+```bash
+[magitz@login2 sys_info_page]$ git branch -d function
+Deleted branch function (was 2627d71).
+```
+
+## Ch 26: Top-Down Design
+
+ {% include tip.html content="This chapter is really important in starting to help you think about how to break down a task into small steps. Taking a complex task and breaking it down into pieces is a lot of what programmers do. Often the stumbling block isn't necessarily the coding, but figuring out how to break the task down into pieces to start the coding. <BR>
+ <BR>
+ When you are working through this process, you may get stuck. Take a break. Work on something else. Maybe make a sketch of what you want to do. Ask for help!" %}
+
+ {% include note.html content="Remember to keep practicing with git, using branches as you implement changes, pushing to github.com, merging branches back into master when you are done with a section, etc." %}
+
+ There is a ton of great stuff in this chapter and you can work through most of it. But...
+
+ {% include warning.html content="<strong>WARNING!!</strong><br>
+When you get the p. 391, where you implement the `report_home_space()` function, Do Not implement as written! The TLCL version tries to get home directory use for all users. There are several thousand users on HiPerGator! Do not try to run this!" %}
+
+* p. 391: Modification to **`report_home_space()`**: I suggest using the following in place of what is in TLCL. This will check *your* home directory space usage...
+
+  ```bash
+  report_home_space(){
+    cat <<- _EOF_
+        <h2>Home Space Utilization</h2>
+        <pre>$(du -sh /home/magitz/*)</pre>
+  _EOF_
+    return
+  ```

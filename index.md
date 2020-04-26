@@ -34,20 +34,17 @@ This course will survey areas where high performance computing, large-scale data
 
 The course is divided into three main sections:
 
-### Section 1
+* Section 1
+  * Linux command line
+  * Bash scripting
+  * Version control
+  * Using high-performance computing resources
 
-* Linux command line
-* Bash scripting
-* Version control
-* Using high-performance computing resources
+* Section 2
+  * Python scripting
 
-### Section 2
-
-* Python scripting
-
-### Section 3
-
-* SQL database introduction and integration with Python
+* Section 3
+  * SQL database introduction and integration with Python
 
 ## Course Objectives
 
@@ -65,19 +62,19 @@ The course is divided into three main sections:
 
 Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holiday.
 
-### Synchronous meetings: Mon, Wed, Fri
+### Synchronous meetings: Mon, Wed, Fri 11:00am - 12:15pm
 
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri during 3rd period (11:00am - 12:15pm)**
 {% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
-### Asynchronous meetings: Tue, Thurs
+### Asynchronous work: Tue, Thurs
 
 * On Tuesday and Thursday, students will work on projects either independently or in small, virtual groups.
 * These sessions can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
 * There will still be content that needs to be covered, and students should plan on working on Tuesday and Thursday, but can generally do the work whenever is convenient for them.
 
-### Office hours: Thursday and by appointment
+### Office hours: Thursday 11:00 to 2:00 and by appointment
 
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
 {% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help. You should expect that you will need help. I want to help you! I cannot always help if you don't ask. Please ask for help." %}
@@ -136,6 +133,112 @@ Week | Date | Reading/Assignment |Topic
 6 | Friday, June 19 || Last day of class
 
 
+## Software and hardware
+
+Participants will need a computer with internet connection, webcam and microphone for all classes.
+
+Several free/open source software packages will be used throughout the course, and students will be required to install some of these.
+Students will be required to apply for a (free) Research Computing account to access HiPerGator for coursework.
+Students will be required to apply for a (free) Github.com account for coursework.
+
+If you have technical difficulties with Cancas, please contact the UF Helpdesk at:
+
+*	http://helpdesk.ufl.edu
+*	(352) 392-HELP (4357)
+*	Walk-in: HUB 132
+
+Any requests for make-ups due to technical issues should be accompanied by the ticket number received from the Help Desk when the problem was reported to them. The ticket number will document the time and date of the problem. Please e-mail the instructor within 24 hours of the technical difficulty if you wish to request a make-up.
+
+All faculty, staff and student of the University are required and expected to obey the laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against University policies and rules, disciplinary action will be taken as appropriate.
+
+## Grading
+
+Coming soon
+
+### Grade Disputes
+
+Should a student wish to dispute any grade received in this class (other than simple addition errors), the dispute must be in writing and be submitted to the instructor within a week of receiving the grade.  
+The dispute should set out very clearly, the grade that the student believes the assignment should have received as well as why he or she believes that he or she should have received such a grade.
+
+## Grading Scale and GPA Equivalent:
+
+A  | A-  | B+  | B  | B-  | C+  | C  | C-  | D+  | D  | D-  | E  |
+---|-----|-----|----|-----|-----|----|-----|-----|----|-----|----|
+100-93<br>(4.0)|92-90<br>(3.67)|89-87<br>(3.33)|86-83<br>(3.0)|82-80<br>(2.67)|79-77<br>(2.33)|76-73<br>(2.0)|72-70<br>(1.67)|69-67<br>(1.33)|66-63<br>(1.0)|62-60<br>(0.67)|59-<br>(0)|
+
+**Note:** A grade of C- is not a qualifying grade for major, minor, Gen Ed, or College Basic distribution credit. For further information on UF's Grading Policy, see:
+[https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/)
+
+## Course Policies
+
+### Class attendance and makeup
+
+Requirements for class attendance and makeup assignments, and other work in this course are consistent with university policies that can be found in the online catalog at: [https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/)
+
+### Quiz and Assignment Policy
+
+Quiz and assignment dates will be announced at least one week in advance and students will have at least one week to complete the quiz or assignment. Each quiz or assignment will clearly state if it is an individual or group assignment.  Individual assignments must be the student’s own work, completed without the assistance of others.
+
+All quizzes and assignments are "open book, open internet", you may use whatever resources you desire to complete the quiz/assignment. Though only assignments specifically noted as group assignments should be worked on with other people.
+
+### Makeup and Late policy
+
+Please notify the instructor of circumstances that lead to late work or missed classes. I will generally work with you and accept late work. Without prior notification, late work will be penalized 5% per day after the due date.
+
+## Students Requiring Accommodations
+
+Students with disabilities requesting accommodations should first register with the Disability Resource Center (352-392-8565, [https://disability.ufl.edu/students/get-started/](https://disability.ufl.edu/students/get-started/)) by providing appropriate documentation. Once registered, students will receive an accommodation letter which must be presented to the instructor when requesting accommodation. Students with disabilities should follow this procedure as early as possible in the semester.
+
+## Course Evaluation
+
+Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance
+on how to give feedback in a professional and respectful manner is available at [gatorevals.aa.ufl.edu/students/](https://gatorevals.aa.ufl.edu/students/). Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via [ufl.bluera.com/ufl/](https://ufl.bluera.com/ufl/). Summaries of course evaluation results are available to students at [gatorevals.aa.ufl.edu/public-results/](https://gatorevals.aa.ufl.edu/public-results/).
+
+## Class demeanor and netiquette
+
+Students are expected to arrive to class on time and behave in a manner that is respectful to the instructor and to fellow students. Please avoid the use of cell phones and restrict eating to outside of the classroom. Opinions held by other students should be respected in discussion, and conversations that do not contribute to the discussion should be held at minimum, if at all.
+
+## Cell Phone and Texting Policy
+
+Students should turn cell phones to vibrate before coming to class. Cell phone rings and notifications disrupt fellow students and the instructor. Please be courteous to all and silence your phone.
+
+## University Honesty Policy
+
+UF students are bound by The Honor Pledge which states:
+>We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.” 
+
+[The Honor Code](https://sccr.dso.ufl.edu/policies/student-honor-code-student-conduct-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have any questions or concerns, please consult with the instructor or TAs in this class
+
+
+## Health and Wellness
+
+Resources are available on-campus for students having personal problems or lacking clear career and academic goals. The resources include:
+
+* UF Counseling & Wellness Center, 3190 Radio Rd, 392-1575, psychological and psychiatric services.
+* Career Resource Center, Reitz Union, 392-1601, career and job search services.
+* Many students experience test anxiety and other stress related problems. “A Self Help Guide for Students” is available through the Counseling Center (301 Peabody Hall, 392-1575) and at their web site: [https://counseling.ufl.edu/](https://counseling.ufl.edu/).
+* **U Matter, We Care**: If you or a friend is in distress, please contact umatter@ufl.edu or 352 392-1575 so that a team member can reach out to the student.
+
+* **Counseling and Wellness Center**: [https://counseling.ufl.edu/](https://counseling.ufl.edu/), 392-1575; and the 
+
+* **University Police Department**: 392-1111 or 9-1-1 for emergencies. [http://www.police.ufl.edu/](https://www.police.ufl.edu/)
+
+* **Sexual Assault Recovery Services (SARS)**: Student Health Care Center, 392-1161.
+
+* **Student Health Care Center**: Call 352-392-1161 for 24/7 information to help you find the care you need, or visit [shcc.ufl.edu](https://shcc.ufl.edu/)
+
+* **Food insecurity**: The Pantry is a resource on the University of Florida campus committed to supporting students, staff, and faculty who are experiencing food insecurity. These individuals do not have reliable access to nutritious foods for themselves and their families. If you, or anyone you know, is experiencing food insecurity, the Pantry is a resource to visit. We offer non-perishable food, toiletries and fresh produce grown at the Field and Fork Gardens during certain times of the year. There is no proof of need required in order to shop at the Pantry; you must only bring in your valid UFID card. At the Pantry, we know that a good meal makes for a good student, and we work to support all Gators who are experiencing food insecurity. [Field & Fork Food Pantry](https://pantry.fieldandfork.ufl.edu/)
+
+## Inclusive Learning Environment
+
+This course embraces the University of Florida’s Non-Discrimination Policy, which reads:
+> The University shall actively promote equal opportunity policies and practices conforming to laws against discrimination. The University is committed to nondiscrimination with respect to race, creed, color, religion, age, disability, sex, sexual orientation, gender identity and expression, marital status, national origin, political opinions or affiliations, genetic information and veteran status as protected under the Vietnam Era Veterans’ Readjustment Assistance Act.
+
+If you have questions or concerns about your rights and responsibilities for inclusive learning environment, please see the instructor or refer to the Office of Multicultural & Diversity Affairs website: [http://multicultural.ufl.edu](http://multicultural.ufl.edu).
+
+## Privacy
+
+There are federal laws protecting your privacy with regards to grades earned in courses and on individual assignments. For more information, please see: [https://registrar.ufl.edu/ferpa.html](https://registrar.ufl.edu/ferpa.html)
 
 
 {% include links.html %}

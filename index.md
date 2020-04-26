@@ -1,6 +1,6 @@
 ---
 title: "Computational Tools for Research in Biology"
-keywords: sample homepage
+keywords: syllabus
 tags: [getting_started]
 sidebar: home_sidebar
 permalink: index.html

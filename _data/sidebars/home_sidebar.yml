@@ -18,16 +18,23 @@ entries:
       - title: TLCL Notes Ch 19 & 20
         url: /TLCL_3.html
         output: web
-      - title: TLCL Notes Ch 24 & 25
+       - title: TLCL Notes Ch 23
+        url: /TLCL_6.html
+        output: web
+        - title: TLCL Notes Ch 24 & 25
         url: /TLCL_4.html
         output: web
-
+      - title: TLCL Notes Ch 27-33
+        url: /TLCL_5.html
+        output: web
+      - title: Software Download and Setup
+        url: /software.html
+        output: web
       - title: Register for github.com account
         url: /github_acount.html
         output: web
       - title: LinkedIn Learning Linux module
         url: /LinkedInLearningLinux.html
         output: web
-
       - title: Problem Set 1
         output: web

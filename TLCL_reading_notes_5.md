@@ -8,7 +8,7 @@ toc: false
 
 ## Flow Control: Branching with `if`
 
-Below is a graphical representation of the logic behind an `if` statement. 
+Below is a graphical representation of the logic behind an `if` statement.
 
 ![Diagram of if and if-else statements](images/if_statements.png)
 
@@ -62,7 +62,6 @@ Have a look at this chapter if you want. However, in general, I think most progr
 
 It is good to know that these are options, but not something we will spend time on.
 
-
 ## Ch 29: Flow Control: Looping with `while` / `until`
 
 The next type of flow control is the `while` loop. Here is a graphical representation of a `while` loop:
@@ -79,7 +78,7 @@ The idea here is to do something **while** some condition is true. Once that con
 
   Notice that, opposite of the `while` loop, in the `until` loop, the loop executes as long as the condition is false--or *until* it is true. Choose the loop that make most sense, or is easiest to code for the conditions you want to enforce.
 
- * p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/ufrc/bsc4452/share/Class_Files/TLCL_files/distros.txt`.
+* p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/ufrc/bsc4452/share/Class_Files/TLCL_files/distros.txt`.
 
 ## Ch 30: Troubleshooting
 
@@ -126,9 +125,9 @@ The idea is to pass a lits of items, or a range of numbers, into the loop and ex
 
 * The list passed into the for loop can take many forms, some examples:
 
-    * `for file in *.txt` (a list of files ending in .txt in the current directory)
-    * `for i in {1..30}` (a list of numbers from 1-30)
-    * ``for sample in `cat samples.txt` `` (the lines of the files samples.txt one at a time--the backtick was covered in ch 7. In this case, the list for the `for` loop is every lin in the `samples.txt` file, one line at a time.)
+  * `for file in *.txt` (a list of files ending in .txt in the current directory)
+  * `for i in {1..30}` (a list of numbers from 1-30)
+  * ``for sample in `cat samples.txt` `` (the lines of the files samples.txt one at a time--the backtick was covered in ch 7. In this case, the list for the `for` loop is every lin in the `samples.txt` file, one line at a time.)
 
 * p. 469: **Why `i`?**: This box, should really be called "Why **not** `i`? As the box describes, `i` is a commonly used variable, but it is a terrible variable! Especially if your next loops and have i, j, k! Use meaningful variables! `for file in *.txt` is much easier to understand. We will look at this more in the Python section, but the developer of Python, Guido van Rossum, is often quoted as saying:
 
@@ -138,4 +137,4 @@ The idea is to pass a lits of items, or a range of numbers, into the loop and ex
 
 * p. 468: **for: C Language Form**: Have a look at this as another way to write for loops. I rarely use this form, but you may run into it.
 
-*p. 471: **Summing Up**: This goes back to looking at each user's home space. Again, something you probably don't want to do on the cluster, so skip this, or have a look and see that you understand what is being attempted.
+* p. 471: **Summing Up**: This goes back to looking at each user's home space. Again, something you probably don't want to do on the cluster, so skip this, or have a look and see that you understand what is being attempted.

@@ -78,10 +78,12 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 ## Ch. 3: Exploring the System
 
 {% include tip.html content="Since we still don't have any data in our home directory, this section may be easier to follow along with if you change directories to the class share folder. Type the command below:
+<br><br>
 
-```bash
+```
 [magitz@login2 ~]$ cd /ufrc/bot4452/share
 ```
+
 " %}
 
 * p. 20: **Table 3-4**: Certainly feel free to explore, but you don't need to worry about all of the directories in this table. Most will be there, but can generally be ignored for what we will be doing.

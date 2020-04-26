@@ -26,15 +26,20 @@ Below is a graphical representation of the logic behind an `if` statement.
     ```
 
 {% include warning.html content="Pay particular attention to the warning box at the top of p. 400!!<br><br>Here is an example, first with the < properly escaped with a \, and second the error when it is not escapes and bash is looking for a file to redirect into string1. Think how much worse this could have been if I used > and there was a file called string2!
-    <pre>
-    [magitz@login2 magitz]$ string1='abc'
-    [magitz@login2 magitz]$ string2='xyz'
-    [magitz@login2 magitz]$ if [ string1 \< string2 ]; then echo 'string1 comes before string2'; fi
-    string1 comes before string2
-    [magitz@login2 magitz]$ if [ string1 < string2 ]; then echo 'string1 comes before string2'; fi
-    -bash: string2: No such file or directory
-    [magitz@login2 magitz]$
-    </pre>
+<br>
+`[magitz@login2 magitz]$ string1='abc'`
+<br>
+`[magitz@login2 magitz]$ string2='xyz'`
+<br>
+`[magitz@login2 magitz]$ if [ string1 \< string2 ]; then echo 'string1 comes before string2'; fi`
+<br>
+`string1 comes before string2`
+<br>
+`[magitz@login2 magitz]$ if [ string1 < string2 ]; then echo 'string1 comes before string2'; fi`
+<br>
+`-bash: string2: No such file or directory`
+<br>
+`[magitz@login2 magitz]$`
 " %}
 
 * p. 400: **Integer expressions**: note that these really do only work with integers (whole numbers with no decimal):
@@ -74,7 +79,7 @@ The idea here is to do something **while** some condition is true. Once that con
 
   Notice that, opposite of the `while` loop, in the `until` loop, the loop executes as long as the condition is false--or *until* it is true. Choose the loop that make most sense, or is easiest to code for the conditions you want to enforce.
 
- *p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/ufrc/bsc4452/share/Class_Files/TLCL_files/distros.txt`.
+ * p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/ufrc/bsc4452/share/Class_Files/TLCL_files/distros.txt`.
 
 ## Ch 30: Troubleshooting
 
@@ -117,7 +122,6 @@ The idea is to pass a lits of items, or a range of numbers, into the loop and ex
 
     The `for` loop is set up with the `for` command, "`i`" is a variable to hold each instance of the items in the list, "`in`" separates the variable and the list of items, and then the items are listed. Within the loop, everything between the "`do`" and "`done`" is executed for each item in the list.
 
-
 {% include tip.html content="Take the time now to play with and understand for loops--this is easily the most common programming tool and something you will use all the time!" %}
 
 * The list passed into the for loop can take many forms, some examples:
@@ -130,11 +134,8 @@ The idea is to pass a lits of items, or a range of numbers, into the loop and ex
 
   > ...code is read much more often than it is written.
 
-  Write your code so that others and your future self can understand it!
-
+  Write your code so that others and your future self can read and understand it!
 
 * p. 468: **for: C Language Form**: Have a look at this as another way to write for loops. I rarely use this form, but you may run into it.
 
-
 *p. 471: **Summing Up**: This goes back to looking at each user's home space. Again, something you probably don't want to do on the cluster, so skip this, or have a look and see that you understand what is being attempted.
-

@@ -30,7 +30,7 @@ This course will survey areas where high performance computing, large-scale data
 
 {% include note.html content="While the title of the course includes 'in Biology' there is little that is actually focussed on biology. This course strives to be broadly applicable to many areas of research. Bureaucracies being what they are, the title is what it is..." %}
 
-## Course organization
+## Course Organization
 
 The course is divided into three main sections:
 
@@ -62,24 +62,24 @@ The course is divided into three main sections:
 
 Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holiday.
 
-### Synchronous meetings: Mon, Wed, Fri 11:00am - 12:15pm
+### Synchronous Meetings: Mon, Wed, Fri 11:00am - 12:15pm
 
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri during 3rd period (11:00am - 12:15pm)**
 {% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
-### Asynchronous work: Tue, Thurs
+### Asynchronous Work: Tue, Thurs
 
 * On Tuesday and Thursday, students will work on projects either independently or in small, virtual groups.
 * These sessions can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
 * There will still be content that needs to be covered, and students should plan on working on Tuesday and Thursday, but can generally do the work whenever is convenient for them.
 
-### Office hours: Thursday 11:00 to 2:00 and by appointment
+### Office Hours: Thursday 11:00 to 2:00 and by Appointment
 
 * I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
 {% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help. You should expect that you will need help. I want to help you! I cannot always help if you don't ask. Please ask for help." %}
 
-## Course textbooks
+## Course Textbooks
 
 The main texts for the course are:
 
@@ -94,19 +94,19 @@ This is subject to change, please check back frequently.
 
 For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com).
 
-Week | Date | Reading/Assignment |Topic
------|------|--------------------|-----
-1 | Mon, May 11 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)<br>Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html) and the Linux command line
+Week | Date | Reading/Assignment |Topic |
+-----|------|--------------------|------|
+1 | Mon, May 11 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)<br>Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br>The Linux command line
 1 | Tues, May 12 | [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
-1 | Wed, May 13 |[Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions
-1 | Thurs, May 14 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)| Keep working on Linux command line skills
-1 | Fri, May 15 | [Register for github.com account](github_account.md) <br> Problem Set 1<br> [Read TLCL Ch 24-26](TLCL_reading_notes_4.md) <br> Quiz 1| Shell Scripts and git
+1 | Wed, May 13 |[Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf)
+1 | Thurs, May 14 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md) <br> [Register for github.com account](github_account.md) (Includes Quiz 1: Due by start of class Friday, May 15) | Keep working on Linux command line skills
+1 | Fri, May 15 |[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)<br> Problem Set 1: Due Tues, May 19 (In Canvas)| Shell Scripts and version control with git and GitHub
 |||
-2 | Mon, May 18 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Version Control: git and GitHub
-2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_reading_notes_6.md) | TBD
-2 | Wed, May 20 |Work on PS2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
-2 | Thurs, May 21 |PS 2 Due | Catching up
-2 | Fri, May 22 | Read Py4E Ch 1 & 2|Introduction to Python <br>Python data types
+2 | Mon, May 18 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Flow control: `if`, `while`, `until`, `for` etc. 
+2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_reading_notes_6.md) <br> Problem Set 1 due| Start Problem Set 2 (details in Canvas)
+2 | Wed, May 20 |Work on Problem Set 2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
+2 | Thurs, May 21 | Work on Problem Set 2| Catching up
+2 | Fri, May 22 | Problem Set 2 Due<br> Read Py4E Ch 1 & 2|Introduction to Python <br>Python data types
 |||
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
 3 | Tues, May 26 |Read Py4E Ch 3 & 5|
@@ -132,8 +132,7 @@ Week | Date | Reading/Assignment |Topic
 6 | Thurs, Jun 18 ||Class project, complete
 6 | Friday, June 19 || Last day of class
 
-
-## Software and hardware
+## Software and Hardware
 
 Participants will need a computer with internet connection, webcam and microphone for all classes.
 
@@ -160,7 +159,7 @@ Coming soon
 Should a student wish to dispute any grade received in this class (other than simple addition errors), the dispute must be in writing and be submitted to the instructor within a week of receiving the grade.  
 The dispute should set out very clearly, the grade that the student believes the assignment should have received as well as why he or she believes that he or she should have received such a grade.
 
-## Grading Scale and GPA Equivalent:
+## Grading Scale and GPA Equivalent
 
 A  | A-  | B+  | B  | B-  | C+  | C  | C-  | D+  | D  | D-  | E  |
 ---|-----|-----|----|-----|-----|----|-----|-----|----|-----|----|
@@ -171,7 +170,7 @@ A  | A-  | B+  | B  | B-  | C+  | C  | C-  | D+  | D  | D-  | E  |
 
 ## Course Policies
 
-### Class attendance and makeup
+### Class Attendance and Makeup Policy
 
 Requirements for class attendance and makeup assignments, and other work in this course are consistent with university policies that can be found in the online catalog at: [https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/)
 
@@ -191,24 +190,30 @@ Students with disabilities requesting accommodations should first register with 
 
 ## Course Evaluation
 
-Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance
-on how to give feedback in a professional and respectful manner is available at [gatorevals.aa.ufl.edu/students/](https://gatorevals.aa.ufl.edu/students/). Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via [ufl.bluera.com/ufl/](https://ufl.bluera.com/ufl/). Summaries of course evaluation results are available to students at [gatorevals.aa.ufl.edu/public-results/](https://gatorevals.aa.ufl.edu/public-results/).
+Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at [gatorevals.aa.ufl.edu/students/](https://gatorevals.aa.ufl.edu/students/). Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via [ufl.bluera.com/ufl/](https://ufl.bluera.com/ufl/). Summaries of course evaluation results are available to students at [gatorevals.aa.ufl.edu/public-results/](https://gatorevals.aa.ufl.edu/public-results/).
 
-## Class demeanor and netiquette
+## Class Demeanor and Netiquette
 
 Students are expected to arrive to class on time and behave in a manner that is respectful to the instructor and to fellow students. Please avoid the use of cell phones and restrict eating to outside of the classroom. Opinions held by other students should be respected in discussion, and conversations that do not contribute to the discussion should be held at minimum, if at all.
 
-## Cell Phone and Texting Policy
+### Cell Phone and Texting Policy
 
 Students should turn cell phones to vibrate before coming to class. Cell phone rings and notifications disrupt fellow students and the instructor. Please be courteous to all and silence your phone.
+
+### Computer Use
+
+This is a hands-on computational class and students are expected to have their computer at every class. Students should be working on course content while in class. Students are expected to be respectful of others with the content visible on their computers. Sometimes videos are a helpful way to learn new content. If that is the case, please use headphones so that the audio is not audible to others in class.
+
+### Discussion Boards
+
+The Canvas discussion boards can be used to ask for and provide help by all. Students should be supportive and considerate of others at all times. Rude or inappropriate comments will be removed and the poster will be warned.
 
 ## University Honesty Policy
 
 UF students are bound by The Honor Pledge which states:
->We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.” 
+>We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.”
 
 [The Honor Code](https://sccr.dso.ufl.edu/policies/student-honor-code-student-conduct-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have any questions or concerns, please consult with the instructor or TAs in this class
-
 
 ## Health and Wellness
 

@@ -106,7 +106,7 @@ Week | Date | Reading/Assignment |Topic
 1 | Fri, May 15 | [Register for github.com account](github_account.md) <br> Problem Set 1<br> [Read TLCL Ch 24-26](TLCL_reading_notes_4.md) <br> Quiz 1| Shell Scripts and git
 |||
 2 | Mon, May 18 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Version Control: git and GitHub
-2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_readning_notes_6.md) | TBD
+2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_reading_notes_6.md) | TBD
 2 | Wed, May 20 |Work on PS2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
 2 | Thurs, May 21 |PS 2 Due | Catching up
 2 | Fri, May 22 | Read Py4E Ch 1 & 2|Introduction to Python <br>Python data types

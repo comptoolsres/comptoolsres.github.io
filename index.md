@@ -84,7 +84,7 @@ Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holid
 The main texts for the course are:
 
 * The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org) (my notes and referenced page numbers will be based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019)
-* Python For Everyone: [https://www.py4e.com](https://www.py4e.com)
+* Python For Everyone: [https://www.py4e.com/book.php](https://www.py4e.com/book.php)
 
 Each of these is available as a free PDF download or for purchase in print.
 
@@ -92,7 +92,7 @@ Each of these is available as a free PDF download or for purchase in print.
 
 This is subject to change, please check back frequently. 
 
-For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com).
+For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com/book.php).
 
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|

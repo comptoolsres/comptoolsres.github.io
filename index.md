@@ -4,6 +4,7 @@ keywords: syllabus
 tags: [getting_started]
 sidebar: home_sidebar
 permalink: index.html
+toc: false
 summary: An introduction to computational tools for research, including the Linux command line, Python scripting, and databases.
 This course prepares students to conduct large-scale data analysis on high-performance computing resources.
 ---
@@ -159,7 +160,7 @@ Coming soon
 Should a student wish to dispute any grade received in this class (other than simple addition errors), the dispute must be in writing and be submitted to the instructor within a week of receiving the grade.  
 The dispute should set out very clearly, the grade that the student believes the assignment should have received as well as why he or she believes that he or she should have received such a grade.
 
-## Grading Scale and GPA Equivalent
+### Grading Scale and GPA Equivalent
 
 A  | A-  | B+  | B  | B-  | C+  | C  | C-  | D+  | D  | D-  | E  |
 ---|-----|-----|----|-----|-----|----|-----|-----|----|-----|----|

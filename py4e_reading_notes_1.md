@@ -1,5 +1,5 @@
 ---
-title: "General Python Notes and Py4E Ch 1 & 2"
+title: "General Python Notes and Py4E Ch 1"
 tags: [reading notes]
 sidebar: home_sidebar
 permalink: py4e_1.html
@@ -133,4 +133,24 @@ Good text editors also have code suggestions and function information popups tha
 [Jupyter](https://jupyter.org/) is web application that creates documents that have live code, visualizations and descriptive text formatted with markdown (used in most of these pages).
 
 Jupyter can be run on HiPerGator by going to [jhub.rc.ufl.edu](https://jhub.rc.ufl.edu/) (You do need to be on the UF network)
+
+
+## Ch 1 Why should you learn to write programs?
+
+* p. 6: **1.5 Conversing with Python**: We will be using Python on HiPerGator. To get to the Python command prompt, login, load the python module and type python:
+
+    ```bash
+    [magitz@login3 ~]$ module load python
+    [magitz@login3 ~]$ python
+    Python 3.7.6 | packaged by conda-forge | (default, Mar 23 2020, 23:03:20)
+    [GCC 7.3.0] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>>
+    ```
+
+  {% include note.html content="p. 11: <b>1.8 What is a program?</b><br><br>There is a copy of the example code used in the Py4E text located at /ufrc/bsc4452/share/Class_Files/Py4E_files/code3/. " %}
+
+* p. 16: **1.14 Exercises**: I do not assign the exercises, but do encourage you to think about and try some of them. They area good way to test yourself and build more fluency with the content of the chapters.
+
+
 

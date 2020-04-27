@@ -37,4 +37,15 @@ entries:
         url: /LinkedInLearningLinux.html
         output: web
       - title: Problem Set 1
+        output: web'
+
+  - title: Python
+    output: web
+    folderitems:
+
+      - title: Py4E Notes Intro & Ch 1
+        url: /py4e_1.html
+        output: web
+      - title: Py4e Notes Ch 2
+        url: /py4e_varaibles_and_types.ipynb
         output: web

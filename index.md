@@ -107,7 +107,7 @@ Week | Date | Reading/Assignment |Topic |
 2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_reading_notes_6.md) <br> Problem Set 1 due| Start Problem Set 2 (details in Canvas)
 2 | Wed, May 20 |Work on Problem Set 2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
 2 | Thurs, May 21 | Work on Problem Set 2| Catching up
-2 | Fri, May 22 | Problem Set 2 Due<br> Read Py4E Ch 1 & 2|Introduction to Python <br>Python data types
+2 | Fri, May 22 | Problem Set 2 Due<br> [Read Py4E Ch 1](py4e_reading_notes_1.md) <br> [Read Py4E Ch 2](py4e_varaibles_and_types.ipynb)|Introduction to Python <br>Python data types
 |||
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
 3 | Tues, May 26 |Read Py4E Ch 3 & 5|

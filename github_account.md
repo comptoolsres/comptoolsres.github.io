@@ -2,7 +2,7 @@
 title: "Register for a github.com account"
 tags: [assignment]
 sidebar: home_sidebar
-permalink: github_acount.html
+permalink: github_account.html
 toc: false
 ---
 

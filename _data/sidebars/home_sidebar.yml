@@ -31,7 +31,7 @@ entries:
         url: /software.html
         output: web
       - title: Register for github.com account
-        url: /github_acount.html
+        url: /github_account.html
         output: web
       - title: LinkedIn Learning Linux module
         url: /LinkedInLearningLinux.html
@@ -48,5 +48,5 @@ entries:
         url: /py4e_1.html
         output: web
       - title: Py4e Notes Ch 2
-        url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb
         output: web

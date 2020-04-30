@@ -6,7 +6,7 @@ permalink: py4e_1.html
 toc: false
 ---
 
-{% include note.html content="Page numbers and headings referenced in the Python for Everybody reading notes are for the 6/5/2016 PDF version of the text, the latest available the time the course was taught in Summer A 2020." %}
+{% include note.html content="Page numbers and headings referenced in the Python for Everybody reading notes are for the 6/5/2016 PDF version of the tex. This is the latest available the time the course was taught in Summer A 2020. Page numbers may differ from print or other versions." %}
 
 Chuck Severance, the author of [Python for Everybody: Exploring Data Using Python 3](https://www.py4e.com/book.php) states in his preface:
 > Few of my students were planning to be professional
@@ -23,28 +23,30 @@ I'm sold! I hope you enjoy this text as much as I do!
 
 ### Python 2 vs Python 3
 
-Python 2 was released in 2000 and became quite popular. Python 3 was released in 2008, with a few changes that broke a fair bit of Python 2 code. For example python3 requires parentheses around print statements (generally equivalent to the bash `echo` command)
+Python 2 was released in 2000 and quickly became extremely popular. Python 3 was released in 2008, with a few changes that broke a fair bit of Python 2 code. For example python3 requires parentheses around print statements (generally equivalent to the bash `echo` command)
 ```python 
 Python 2: print "Hello World!"
 Python 3: print ("Hello World!")
 ```
 
-Because of these changes, people have resisted switching to Python 3. There is still a lot of code that is Python 2 and still people writing in Python 2.
+Because of these changes, many people have resisted switching to Python 3. There is still a lot of code that is Python 2 and still people writing in Python 2 (though hopefully not anymore!!).
 
 Some of the new features of Python 3 we so good, Python 2 holdouts even made a "future" module and they do things like:
 
 `from __future__ import print_function`
 
-But the world moves on and it is a decade later! Python 2 was initially set to "end of life" in 2015, but it wasn't until January 1, 2020 that [support was officially ended](https://www.python.org/doc/sunset-python-2/) and what is supposed to be *THE FINAL* version of python 2, 2.7.18, was released April 20, 2020.
+But the world moves on and it is a decade later! Python 2 was initially set to "end of life" in 2015, but it wasn't until January 1, 2020 that [support was officially ended](https://www.python.org/doc/sunset-python-2/) and what is supposed to be *THE FINAL* version of Python 2, 2.7.18, was released April 20, 2020.
 
 But you do need to know that 
 * we'll use Python 3,
 * pay attention when Googling for help and 
-* you may run into Python 2 code.
+* you may run into Python 2 code, learning to recognize it (print statements are the easiest way) can help you troubleshoot incompatibilities in code you get from other sources.
+
+{% include tip.html content="Since we are talking about getting code from other sources...<br><br>Know that a coders rarely start from a blank file. Feel free to copy code from the internet (cite the source), re-use your previous code, cobble together bits and pieces from various sources, etc. I rarely write large blocks of code without taking some portions from other scripts. Do not feel that you need to start from scratch!" %} 
 
 ### Python on HiPerGator
 
-On HiPerGator, we install maintain several version of Python for users. There is a version that comes with the operating system, and that is what is used unless you load a module for the version you want. In general, even if you don't care too much about the version, load a python module, because these are where most user requested Python modules are added. As an example:
+On HiPerGator, we install and maintain several version of Python for users. There is a version that comes with the operating system, and that is what is used unless you load a module for the version you want. In general, even if you don't care too much about the version, load a python module, because these are where most user-requested Python modules are added. As an example:
 
 ```bash
 [magitz@login2 ~]$ which python
@@ -73,12 +75,12 @@ We need the same thing for Python scripts. Many sources on the internet will tel
 
 But that means the script will always be run with `/usr/bin/python` even if that isn't the Python you want or Python isn't installed there. 
 
-So use:
+Instead, use:
 ```python
 #!/usr/bin/env python
 ```
 
-`/usr/bin/env` is a program to look in the environment path and check for `python` in this case. This is more portable and allows Python to be installed wherever in the user's path.
+`/usr/bin/env` is a program to look in the environment path and check for a command, `python` in this case. This is more portable and allows Python to be installed wherever in the user's path.
 
 ### Ways to use Python
 
@@ -126,7 +128,9 @@ This is what I do most of the time, but requires going back and forth between ed
 Similar to Bash scripts, Python scripts are plain text files. Any text editor can be used to write Python scripts. But VSCode (and others) have a number of added benefits that are worth checking out.
 We've already looked at contextual coloring, which VSCode does for many languages, including Bash. Clearly easier to read and catch errors than plain text.
 
-Good text editors also have code suggestions and function information popups that help you write your code. They have linters to check your syntax and note errors. And are configurable for how you want to code.
+Good text editors also have code suggestions and function information popups that help you write your code. They have linters to check your syntax and flag errors. And are configurable for how you want to code.
+
+VSCode can also run your code and show you the values of variables as your code executes step by step. You can see the output in the console.
 
 #### Jupyter Notebooks
 
@@ -134,8 +138,9 @@ Good text editors also have code suggestions and function information popups tha
 
 Jupyter can be run on HiPerGator by going to [jhub.rc.ufl.edu](https://jhub.rc.ufl.edu/) (You do need to be on the UF network)
 
+After this page, most of my Python notes will be in Jupyter notebooks, not Markdown pages as we have seen so far. I will likely run those notebooks in JupyterHub on the cluster. You can do the same, or use mybinder.org to view them. More info later.
 
-## Ch 1 Why should you learn to write programs?
+## Ch 1: Why should you learn to write programs?
 
 * p. 6: **1.5 Conversing with Python**: We will be using Python on HiPerGator. To get to the Python command prompt, login, load the python module and type python:
 
@@ -150,7 +155,7 @@ Jupyter can be run on HiPerGator by going to [jhub.rc.ufl.edu](https://jhub.rc.u
 
   {% include note.html content="p. 11: <b>1.8 What is a program?</b><br><br>There is a copy of the example code used in the Py4E text located at /ufrc/bsc4452/share/Class_Files/Py4E_files/code3/. " %}
 
-* p. 16: **1.14 Exercises**: I do not assign the exercises, but do encourage you to think about and try some of them. They area good way to test yourself and build more fluency with the content of the chapters.
+* p. 16: **1.14 Exercises**: I usually do not assign the exercises, but do encourage you to think about and try some of them. They area good way to test yourself and build more fluency with the content of the chapters.
 
 
 

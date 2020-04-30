@@ -48,5 +48,5 @@ entries:
         url: /py4e_1.html
         output: web
       - title: Py4e Notes Ch 2
-        url: /py4e_varaibles_and_types.ipynb
+        url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb
         output: web

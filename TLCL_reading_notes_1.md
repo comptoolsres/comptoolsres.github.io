@@ -6,6 +6,7 @@ permalink: TLCL_1.html
 toc: false
 ---
 
+{% include note.html content="Page numbers and headings referenced in the The Linux Command Line reading notes are based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019. This is the latest available the time the course was taught in Summer A 2020. Page numbers may differ from print or other versions." %}
 
 {% include tip.html content=" **Reading vs. Doing**  
 When you do the reading for this class, **don't just read!** **Do the commands discussed.** Play with them, break them, try different options, explore, etc. Reading about using the command line or programming without practicing it will not teach you much!" %}

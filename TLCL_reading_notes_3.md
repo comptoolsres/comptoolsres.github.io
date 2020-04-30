@@ -24,7 +24,7 @@ While this is true, text data plays an important roll everywhere! Much of our da
 William Shotts, goes on to say (p. 251):
 >Regular expressions ... may be (arguably) the most arcane feature of them all. This is not to suggest that the time it takes to learn about them is not worth the effort. Quite the contrary. A good understanding will enable us to perform amazing feats, though their full value may not be immediately apparent.
 
-I am not sure I can agree regular expressions are arcane, to me they are magic! If the only thing you take away from this course is how to use regular expressions (regex), and only use them with find and replace text in a text editor, you will have gotten a valuable skill from this course. I use regex all the time! People ask for seemingly complex transformations and a few minutes with regex, provides a solution.
+I am not sure I can agree regular expressions are arcane, to me they are magic! If the only thing you take away from this course is how to use regular expressions (RegEx or regex), and only use them with find and replace text in a text editor, you will have gotten a valuable skill from this course. I use regex all the time! People ask for seemingly complex transformations and a few minutes with regex, provides a solution.
 
 Regex will transform your life! Or at least change how you transform data for the rest of your life...
 
@@ -38,23 +38,23 @@ Make a new document and paste the following line into the new file:
 
 `Go Gators, Come on Gators, Get up and Go!`
 
-Open the Find dialog box and turn on regular expression searches. In VSCode, that is the "`.*`" button, in MobaXterm, there is a "Regular expressions" checkbox in the find modal.
+Open the Find dialog box and turn on regular expression searches. In VSCode, that is the "`.*`" button, in MobaXterm, there is a "Regular expressions" checkbox in the Find... modal.
 
 In the Find box enter the text "`Go`" and either look through the found text (highlighted in the document) or click Find All.
 
-Regular expressions are a symbolic notation that allow you to find and replace with superpowers! You may be familiar with the "*" wildcard used in many search function, RegEx are so much more!
+Regular expressions are a symbolic notation that allow you to find and replace with superpowers! You may be familiar with the "*" wildcard used in many search functions, RegEx are so much more!
 
 Change the "`Go`" in the Find box to "`G.`" (G-period). Again, look at the results.
 
 **What just happened?** Since you have Regular Expression search turned on, the "`.`" is being interpreted not as a period, but as a regular expression. And in the regex syntax, a "`.`" means "any character". So, "`G.`" matches "`Go`", "`Ga`", and "`Ge`" in our string. In fact it would match "`G`" followed by any character.
 
-{% include tip.html content="VSCode, and other editors, also have a case sensitive option. I suggest leaving it on, so that searches are case sensitive unless you specifically do not want them to be. That way, the search is more similar to standard grep and you are less likely to be surprised." %}
+{% include tip.html content="VSCode, and other editors, also have a case sensitive option. I suggest leaving it on, so that searches are case sensitive unless you specifically do not want them to be. That way, the search is more similar to standard regex and you are less likely to be surprised." %}
 
 I've put together a [Regular_Expressions_Cheat_Sheet.pdf](images/RegEx_CheetSheet.pdf), print this out and keep it handy for this section.
 
 ## Ch. 19: Regular Expressions
 
-As useful as it is to use regular expression in your text editor, there's lots of cool things you can do with them on the command line. Chapter 19 of TLCL is a good walk through of the "`grep`" tool, so back to that...
+As useful as it is to use regular expression in your text editor, there are lots of cool things you can do with them on the command line. Chapter 19 of TLCL is a good walk through of the "`grep`" tool, so back to that...
 
 * p. 253: **`grep bzip dirlist*.txt` output**: Note that `bzip` is found in both /bin and /usr/bin on HiPerGator, so you will get four lines that match rather then the two shown in this box. The same applies to the other similar searches.
 * p. 254: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
@@ -65,7 +65,7 @@ As useful as it is to use regular expression in your text editor, there's lots o
 
 Since I think RegEx are so important, here are some additional searches to try to make. In each case, the goal is to create one search string that finds the indicated text. Check your results by seeing what is found with your string and play until it gets the correct text.
 
-Write a RegEx to find:
+Using the "Go Gators, Come on Gators, Get up and Go!" string, write a RegEx to find:
 
 1. "Get" and "Gat"
 1. Two letter words

@@ -43,8 +43,12 @@ You do not need to have git installed on your own computer, but you may want to.
 
 * Github will setup your assignment, which may take a few minutes.
 
-* You should get a screen that says You are ready to go!
+* You should get a screen that says "You are ready to go!"
 
-* There is a link on there to your assignment, click that and follow the directions to edit the README.md file and add your name.
+* There is a link on that page to your assignment, click that and follow the directions to edit the README.md file and add your name.
 
-* **Paste the URL of your repository or just type a note that you have done the assignment and I'll get you credit.**
+### Submitting the assignment
+
+* Assignments need to be turned in using Canvas. Log into [https://elearning.ufl.edu/](https://elearning.ufl.edu/) and got to the assignment.
+* **Paste the URL of your repository or just type a note that you have done the assignment.**
+* Submit the assignment and I'll grade it.

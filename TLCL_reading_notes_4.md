@@ -20,7 +20,7 @@ As we embark on writing shell scripts, we will continue to use git and github. T
 1. For the Repository name, enter "hello_world" (you can use whatever name, but do not use a space!). If you want, you can add a description.
   ![Screenshot of creating a new repository in github.com](images/hello_world_new_repo.png)
 1. Leave everything else as it is and click the green "Create repository" button.
-{% include note.html content="You can either do the next steps in an ssh shell on your computer or on HiPerGator. I'll assume you are doing this on HiPerGator for these note." %}
+{% include note.html content="You can either do the next steps in an ssh shell on your computer or on HiPerGator. I'll assume you are doing this on HiPerGator for these notes." %}
 
 1. Log into your account on HiPerGator.
 1. In your home directory, create a folder called "hello_world" (or whatever you called your repository in step 3). And change into that directory.
@@ -44,13 +44,13 @@ As we embark on writing shell scripts, we will continue to use git and github. T
 [magitz@login4 hello_world]$ git remote add origin https://github.com/magitz/hello_world.git # Sets up the repo to have a remote copy called "origin" at github.com
 [magitz@login4 hello_world]$ git push -u origin master # Sends the current contents of the repo to the remote, adding it to the "master" branch there.
 Username for 'https://github.com': magitz
-Password for 'https://                magitz@github.com':
+Password for 'https://magitz@github.com':
 ```
 1. Return to your repo in github.com and refresh the page. It should look something like:
   ![Screenshot of repo after first commit](images/git_first_commit.png)
    * What happened here?
    * Your repository is now setup with two copies, one on HiPerGator and one on github.com. One good thing that version control provides is an instant backup copy. Remember, nothing on HiPerGator is backed up. If something terrible happens to the /home server, all user data would be lost. But now we have a backup at github.com!
-   * The README.md file is a file that every repository should have. It is a [Markdown file](https://en.wikipedia.org/wiki/Markdown) (.md). Essentially a way to format plain text files. The "# hellow_world" text that we redirected to README.md, is formatted as a top-level header and shows up here in nice big font. This is the starts a markdown file that should be used for documentation of the repository.
+   * The README.md file is a file that every repository should have. It is a [Markdown file](https://en.wikipedia.org/wiki/Markdown) (.md). Essentially a way to format plain text files. The "# hello_world" text that we redirected to README.md, is formatted as a top-level header and shows up here in nice big font. This is the starts a markdown file that should be used for documentation of the repository.
    * After creating the markdown file, adding it to the staging area, and committing the change, we linked our repo on HiPerGator to github.com and pushed the contents there.
    * Now we are ready to proceed with the exercise in Ch 24.
 
@@ -58,7 +58,6 @@ Password for 'https://                magitz@github.com':
 
 * p. 364: **How to Write a Shell Script**: point one talks about different text editors. There are many options, the easiest for now will be the `nano` text editor. Before we use that, let's turn on syntax highlighting. This makes it easier to read scripts by adding color to different kinds of things. Nano uses a file called .nanorc (a hidden file) stored in your home directory to control this. I have a template you can copy to your home directory:
   ```bash
-
   cp /ufrc/bsc4452/share/Class_Files/TLCL_files/.nanorc ~/
   ```
 
@@ -67,7 +66,7 @@ Password for 'https://                magitz@github.com':
 
 * p. 365: **Script File Format**: As noted, we will use the nano text editor. To create the hello_world script, type: `nano hello_world.sh`. The `.sh` ending is not needed, but again, I think it helps you know that the file is a shell script.
 
-{% include note.html content="Remember that we called the script hello_world.sh, so be sure to add the .sh" %}
+{% include note.html content="Remember that we called the script hello_world.sh, so be sure to add the .sh when following along in TLCL." %}
 
 * p. 366: **Executable Permissions**: Before you change the execution permissions, try running your script:
   ```bash
@@ -77,14 +76,14 @@ Password for 'https://                magitz@github.com':
   ```
   The `./` says to look in the current directory. As TLCL mentions in this section, we can't run the script like this because it doesn't have execute permissions set. There are actually a couple of ways around this. One way, as the text does, add execute permission, the other is to call it slightly differently:
   ```bash
-  [magitz@login3 hello_world]$ sh hello_world.sh
+  [magitz@login3 hello_world]$ bash hello_world.sh
   Hello World!
   [magitz@login3 hello_world]$
   ```
-  Since `sh` is the program that is running, `hello_world.sh` doesn't need execute permissions. I frequently take this route. Seems easier to me than messing with permissions...but moving on...
+  Since `bash` is the program that is running, `hello_world.sh` doesn't need execute permissions. I frequently take this route. Seems easier to me than messing with permissions...but moving on...
 
 * p. 366: **Script File Location**: This section gets into the PATH variable, which is really important to understand and PATHs are critical and the source of many problems. The text discusses a couple of options:
-  1. You could move your hello_world.sh script to a directory in your PATH. And you will see that `/home/<gatorlink>/bin` is in your PATH by default. But, that would move it out of the git repository and all the goodness that comes with version control.
+  1. You could move your `hello_world.sh` script to a directory in your PATH. And you will see that `/home/<gatorlink>/bin` is in your PATH by default. But, that would move it out of the git repository and all the goodness that comes with version control.
   1. You could add the current directory to your PATH, but that can lead to a very long list of PATHs and cause other issues.
   1. Personally, I generally suggest that for your own scripts, just use relative or absolute PATHs to call the script. So, either `./hello_world.sh` or `~/hello_world/hello_world.sh`.
 
@@ -140,7 +139,7 @@ Here's an image to illustrate the idea:
   [magitz@login3 sys_info_page]$
   ```
 
-  These two commands could have also been simplified to the single `git checkout -b variables`, which creates and checks out the branch.
+  These two commands could have also been simplified to the single `git checkout -b variables`, which creates and checks out the branch in one step.
   
 * p. 373: **Second Stage: Adding a Little Data**: make these changes and then run the `git add`, `git commit`, `git push` commands.
 
@@ -155,6 +154,11 @@ Here's an image to illustrate the idea:
 
       git push --set-upstream origin variables
 
+  [magitz@login3 sys_info_page]$ 
+  ```
+  {% include note.html content="Notice how the initial `git push` command fails. git tells you there is a fatal error because there isn't a variables branch on github (we just created it here). git is also helpful and suggests a command that you may have wanted to use instead: `git push --set-upstream origin variables` which says, create a variables branch at the 'origin' (github.com) and push the content there." %}
+
+  ```bash
   [magitz@login3 sys_info_page]$ git push --set-upstream origin variables
   Counting objects: 5, done.
   Delta compression using up to 32 threads.
@@ -170,12 +174,11 @@ Here's an image to illustrate the idea:
   Branch variables set up to track remote branch variables from origin.
   [magitz@login3 sys_info_page]$
   ```
-  {% include note.html content="Notice how the initial `git push` command fails. git tells you there is a fatal error because there isn't a variables branch on github (we just created it here). git is also helpful and suggests a command that you may have wanted to use instead: `git push --set-upstream origin variables` which says, create a variables branch at the 'origin' (github.com) and push the content there." %}
 
-  Now, lets go look at the repo on github. Click on the sys_info_page.sh file to view it in the repo.
+  Now, lets go look at the repo on github. Click on the `sys_info_page.sh` file to view it in the repo.
 
   ![Screenshot of status in github](images/git_master_branch.png)
- 
+
   The repo still looks like it did before! That is because, by default, the master branch is always shown. But you can click on the "Branch: master" button and select variables to see that version.
 
   In fact the original file is still there in our folder too. Checkout the master branch and look at the file:
@@ -201,7 +204,6 @@ Here's an image to illustrate the idea:
   {% include warning.html content="The wonders of git a brought to you by a special hidden folder called `.git` located in the main folder of a git repository. Do not mess with this folder! It is hidden for a reason! If you go in there and start messing with stuff, bad things will happen!" %}
 
   Checkout the variables branch again and keep working through the chapter. Remember to `git add`, `git commit`, `git push` now and then--typically when you think you have point in time you might want to return to, or have done a significant change.
-
 
 ### Merging git branches
 

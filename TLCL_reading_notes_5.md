@@ -12,7 +12,7 @@ Below is a graphical representation of the logic behind an `if` statement.
 
 ![Diagram of if and if-else statements](images/if_statements.png)
 
-`if` statements are used throughout programming for flow control--making decisions and controlling how the program runs. If some condition is met, do one thing, otherwise (`else`) do something else. If statements to make choices among multiple conditions. Once one condition is met, that portion of the code is executed, so it is important to think about the order of else if statements. In bash and Python, 'else if' is squished together to make the `elif` statement. `else` is always the last statement because if the program makes it through all the `if` and `elif` statements without any of them being true, `else` is used to handle any other condition--there is no test, it is automatically true.
+`if` statements are used throughout programming for flow control--making decisions and controlling how the program runs. If some condition is met, do one thing, otherwise (`else`) do something else. If statements are used to make choices among multiple conditions. Once one condition is met, that portion of the code is executed, so it is important to think about the order of 'else if' statements. In bash and Python, 'else if' is squished together to make the `elif` statement. `else` is always the last statement because if the program makes it through all the `if` and `elif` statements without any of them being true, `else` is used to handle any other condition--there is no test, it is automatically true.
 
 * p. 396: **test**: It is important to note that the `[ expression ]` format has a single space on either side of the expression. See what happens if I delete the spaces on this example:
 
@@ -58,7 +58,7 @@ Below is a graphical representation of the logic behind an `if` statement.
 
 ## Ch 28: Reading Keyboard Input
 
-Have a look at this chapter if you want. However, in general, I think most programs should be able to run without interactive input. We want to focus on automation and allowing scripts to run with input options or configuration files, not on programs that need a user to enter information manually. 
+Have a look at this chapter if you want. However, in general, I think most programs should be able to run without interactive input. We want to focus on automation and allowing scripts to run with input options or configuration files, not on programs that need a user to enter information manually.
 
 It is good to know that these are options, but not something we will spend time on.
 
@@ -76,7 +76,7 @@ The idea here is to do something **while** some condition is true. Once that con
 
   ![Diagram of an until loop](images/until_loop.png)
 
-  Notice that, opposite of the `while` loop, in the `until` loop, the loop executes as long as the condition is false--or *until* it is true. Choose the loop that make most sense, or is easiest to code for the conditions you want to enforce.
+  Notice that, opposite of the `while` loop, in the `until` loop, the loop executes as long as the condition is false--or **until** it is true. Choose the loop that make most sense, or is easiest to code for the conditions you want to enforce.
 
 * p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/ufrc/bsc4452/share/Class_Files/TLCL_files/distros.txt`.
 
@@ -127,14 +127,14 @@ The idea is to pass a lits of items, or a range of numbers, into the loop and ex
 
   * `for file in *.txt` (a list of files ending in .txt in the current directory)
   * `for i in {1..30}` (a list of numbers from 1-30)
-  * ``for sample in `cat samples.txt` `` (the lines of the files samples.txt one at a time--the backtick was covered in ch 7. In this case, the list for the `for` loop is every lin in the `samples.txt` file, one line at a time.)
+  * ``for sample in `cat samples.txt` `` (the lines of the files samples.txt one at a time--the backtick was covered in ch 7. In this case, the list for the `for` loop is every line in the `samples.txt` file, one line at a time.)
 
-* p. 469: **Why `i`?**: This box, should really be called "Why **not** `i`? As the box describes, `i` is a commonly used variable, but it is a terrible variable! Especially if your next loops and have i, j, k! Use meaningful variables! `for file in *.txt` is much easier to understand. We will look at this more in the Python section, but the developer of Python, Guido van Rossum, is often quoted as saying:
+* p. 469: **Why `i`?**: This box, should really be called "Why **not** `i`?" As the box describes, `i` is a commonly used variable, but it is a terrible variable! Especially if your next loops and have i, j, k! Use meaningful variable names! `for file in *.txt` is much easier to understand. We will look at this more in the Python section, but the developer of Python, Guido van Rossum, is often quoted as saying:
 
   > ...code is read much more often than it is written.
 
-  Write your code so that others and your future self can read and understand it!
+  Write your code so that others, and your future self, can read and understand it!
 
-* p. 468: **for: C Language Form**: Have a look at this as another way to write for loops. I rarely use this form, but you may run into it.
+* p. 468: **for: C Language Form**: Have a look at this as another way to write for loops. I rarely use this form, but you may run into it. As you might suspect, C programmers are the main users of this in bash.
 
 * p. 471: **Summing Up**: This goes back to looking at each user's home space. Again, something you probably don't want to do on the cluster, so skip this, or have a look and see that you understand what is being attempted.

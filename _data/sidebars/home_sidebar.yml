@@ -44,9 +44,18 @@ entries:
     output: web
     folderitems:
 
-      - title: Py4E Notes Intro & Ch 1
+      - title: Py4E Intro & Ch 1
         url: /py4e_1.html
         output: web
-      - title: Py4e Notes Ch 2
+      - title: Py4e Ch 2 Variables & Types
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb
         output: web
+      - title: Py4e Ch 3 Flow control
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb
+        output: web
+      - title: Py4e Ch 4 Functions
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb
+        output: web
+      - title: Py4e Ch 5 Iteration
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb
+        

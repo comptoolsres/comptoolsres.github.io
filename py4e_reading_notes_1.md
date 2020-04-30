@@ -138,7 +138,9 @@ VSCode can also run your code and show you the values of variables as your code 
 
 Jupyter can be run on HiPerGator by going to [jhub.rc.ufl.edu](https://jhub.rc.ufl.edu/) (You do need to be on the UF network)
 
-After this page, most of my Python notes will be in Jupyter notebooks, not Markdown pages as we have seen so far. I will likely run those notebooks in JupyterHub on the cluster. You can do the same, or use mybinder.org to view them. More info later.
+{% include note.html content="After this page, most of my Python notes will be in Jupyter notebooks, not Markdown pages as we have seen so far. I will likely run those notebooks in JupyterHub on the cluster. You can do the same, or use mybinder.org to view them.<br>
+<br>
+Also note that to make serving notebooks via Binder work better, the Jupyter pages for the course are in their own repository: [https://github.com/comptoolsres/Jupyter_content](https://github.com/comptoolsres/Jupyter_content)." %}
 
 ## Ch 1: Why should you learn to write programs?
 

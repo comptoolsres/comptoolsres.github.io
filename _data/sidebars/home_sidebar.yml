@@ -48,7 +48,7 @@ entries:
         url: /py4e_1.html
         output: web
       - title: Py4e Ch 2 Variables & Types
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb
         output: web
       - title: Py4e Ch 3 Flow control
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb
@@ -58,4 +58,4 @@ entries:
         output: web
       - title: Py4e Ch 5 Iteration
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb
-        
+

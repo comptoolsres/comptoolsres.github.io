@@ -158,7 +158,7 @@ In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. W
 
 {% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, overwrites the file you are redirecting to. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
 
-* p. 61: **The Difference Between \> and |**: Pay particular attention to this box as people are often unclear on the difference between these commands.
+* p. 61: **The Difference Between `>` and `|`**: Pay particular attention to this box as people are often unclear on the difference between these commands.
 
 * p. 65: **head / tail – Print First / Last Part of Files**: `tail -f /var/log/messages`: You will not be able to run this command since you do not have permission to view the file /var/log/messages. We will see if we can find a use for the `tail -f` command, in general it is used for watching the contents of an output file while a program is running.
 * p. 66: **Linux Is About Imagination**: Another great analogy! I hope this course sparks your imagination about what you can do with the giant erector set of tools you will learn about!

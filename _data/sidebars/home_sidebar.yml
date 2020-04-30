@@ -37,7 +37,8 @@ entries:
         url: /LinkedInLearningLinux.html
         output: web
       - title: Problem Set 1
-        output: web'
+        url: /ps1.html
+        output: web
 
   - title: Python
     output: web

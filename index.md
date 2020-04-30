@@ -1,12 +1,11 @@
 ---
 title: "Computational Tools for Research in Biology"
 keywords: syllabus
-tags: [getting_started]
+tags: 
 sidebar: home_sidebar
 permalink: index.html
+summary: An introduction to computational tools for research
 toc: false
-summary: An introduction to computational tools for research, including the Linux command line, Python scripting, and databases.
-This course prepares students to conduct large-scale data analysis on high-performance computing resources.
 ---
 
 {% include note.html content="This page is under construction." %}

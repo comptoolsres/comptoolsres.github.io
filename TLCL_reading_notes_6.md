@@ -18,7 +18,7 @@ Interpreted languages are generally slower than compiled languages, but typicall
 
 For programming languages that do need to be compiled, you need to compile the code before it can be run. The code is turned into a binary application--essentially 1s and 0s, the native language of the CPU--and executed when you run the application. If you change the code, you have to recompile the binary.
 
-The most common compiled programming languages are C and C++. If you download an application that needs to be compiled, I'd bet money that it's written in C or C++.
+The most common compiled programming languages are C and C++. One thing we will see in this section is that while you may not know how to write C code, and the details will be a bit confusing, the fundamental structure and methods of coding are quite similar. *Once you know one coding language, it is easier to learn additional languages.*
 
 ### HiPerGator and Modules
 We'll talk about this in class, but it is best to load a module for compilers and most applications (even Python when we get there).

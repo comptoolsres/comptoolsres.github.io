@@ -58,7 +58,28 @@ entries:
         output: web
       - title: Py4e Ch 5 Iteration
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb
+        output: web
+      - title: Py4e Ch 6 Strings
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb
+        output: web
+      - title: Py4e Ch 7 File IO
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb
+        output: web
+      - title: Py4e Ch 8 Lists
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb
+        output: web
+      - title: Py4e Ch 9 & 10 Dictionaries & Tuples
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb
+        output: web
+      - title: Py4e Ch 11 Regular Expressions
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb
+        output: web
+      - title: SciPy, NumPy and Pandas
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb
+        output: web    
 
   - title: SQL
     output: web
     folderitems:
+
+  

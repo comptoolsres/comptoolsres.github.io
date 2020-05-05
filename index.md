@@ -111,12 +111,12 @@ Week | Date | Reading/Assignment |Topic |
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
 3 | Tues, May 26 |[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) & [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
 3 | Wed, May 27 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)| Python: Iteration
-3 | Thurs, May 28 |[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & 7|Python: try/except, Strings, File I/O
-3 | Fri, May 29 | Read Py4E Ch| 
+3 | Thurs, May 28 |[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb)|Python: try/except, Strings, File I/O
+3 | Fri, May 29 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
 |||
-4 | Mon, June 1 | Read Py4E Ch 8-10 | Lists, Dictionaries, Tuples
-4 | Tues, June 2 | Read Py4E Ch 12 & 13 | SciPy, NumPy, Pandas
-4 | Wed, June 3 || Scripting data acquisition
+4 | Mon, June 1 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb) | RegEx in Python
+4 | Tues, June 2 | Read Py4E Ch 12 & 13| Scripting data acquisition
+4 | Wed, June 3 || [SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)
 4 | Thurs, June 4 || Class project
 4 | Fri, June 5 | P3 Due, Quiz 2 | Matplotlib and data visualization
 |||
@@ -124,7 +124,7 @@ Week | Date | Reading/Assignment |Topic |
 5 | Tues, June 9 || Class project, continue
 5 | Wed, June 10 || Finishing up
 5 | Thurs, June 11 | | Class project, continue
-5 | Fri, June 12 | Programming Foundations Databases |Overview of databases<br>Database design
+5 | Fri, June 12 | [Programming Foundations Databases](LinkedInLearningDatabases.md) |Overview of databases<br>Database design
 |||
 6 | Mon, June 15 ||Setting up a database <br>SQLAlchemy Introduction
 6 | Tues, June 16| |SQLAlchemy continued

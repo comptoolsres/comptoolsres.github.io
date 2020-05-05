@@ -59,3 +59,6 @@ entries:
       - title: Py4e Ch 5 Iteration
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb
 
+  - title: SQL
+    output: web
+    folderitems:

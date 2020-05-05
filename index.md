@@ -109,10 +109,10 @@ Week | Date | Reading/Assignment |Topic |
 2 | Fri, May 22 | Problem Set 2 Due<br> [Read Py4E Ch 1](py4e_reading_notes_1.md) <br> [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb)|Introduction to Python <br>Python data types
 |||
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
-3 | Tues, May 26 |Read Py4E Ch 3 & 5|
-3 | Wed, May 27 | |Working in Python, Flow Control
-3 | Thurs, May 28 |Read Py4E Ch 6 & 7| Working in Python: try/except, Strings, File I/O
-3 | Fri, May 29 | Read Py4E Ch 4| Working in Python, Functions
+3 | Tues, May 26 |[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) & [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
+3 | Wed, May 27 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)| Python: Iteration
+3 | Thurs, May 28 |[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & 7|Python: try/except, Strings, File I/O
+3 | Fri, May 29 | Read Py4E Ch| 
 |||
 4 | Mon, June 1 | Read Py4E Ch 8-10 | Lists, Dictionaries, Tuples
 4 | Tues, June 2 | Read Py4E Ch 12 & 13 | SciPy, NumPy, Pandas

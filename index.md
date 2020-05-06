@@ -113,10 +113,10 @@ Week | Date | Reading/Assignment |Topic |
 3 | Fri, May 29 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) <BR>Quiz 2 due| Lists, Dictionaries, Tuples
 |||
 4 | Mon, June 1 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb) | RegEx in Python
-4 | Tues, June 2 | Read Py4E Ch 12 & 13 <BR> Problem Set 3: due Mon June 8th| Scripting data acquisition
+4 | Tues, June 2 | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb) <BR> Problem Set 3: due Mon June 8th| Scripting data acquisition
 4 | Wed, June 3 || [SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)
 4 | Thurs, June 4 || Class project
-4 | Fri, June 5 | Quiz 3: Due Wed, June 10 | Matplotlib and data visualization
+4 | Fri, June 5 | Quiz 3: Due Wed, June 10 | [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb)
 |||
 5 | Mon, June 8 | Read Py4E Ch 16 <BR> PS3 due | Writing Functions
 5 | Tues, June 9 || Class project, continue

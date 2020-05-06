@@ -110,27 +110,27 @@ Week | Date | Reading/Assignment |Topic |
 |||
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
 3 | Tues, May 26 |[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) & [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
-3 | Wed, May 27 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)| Python: Iteration
+3 | Wed, May 27 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)<BR>Quiz 2: Due Fri, May 29| Python: Iteration
 3 | Thurs, May 28 |[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb)|Python: try/except, Strings, File I/O
-3 | Fri, May 29 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
+3 | Fri, May 29 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) <BR>Quiz 2 due| Lists, Dictionaries, Tuples
 |||
 4 | Mon, June 1 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb) | RegEx in Python
-4 | Tues, June 2 | Read Py4E Ch 12 & 13| Scripting data acquisition
+4 | Tues, June 2 | Read Py4E Ch 12 & 13 <BR> Problem Set 3: due Mon June 8th| Scripting data acquisition
 4 | Wed, June 3 || [SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)
 4 | Thurs, June 4 || Class project
-4 | Fri, June 5 | P3 Due, Quiz 2 | Matplotlib and data visualization
+4 | Fri, June 5 | Quiz 3: Due Wed, June 10 | Matplotlib and data visualization
 |||
-5 | Mon, June 8 | Read Py4E Ch 16 | Writing Functions
+5 | Mon, June 8 | Read Py4E Ch 16 <BR> PS3 due | Writing Functions
 5 | Tues, June 9 || Class project, continue
-5 | Wed, June 10 || Finishing up
+5 | Wed, June 10 |Quiz 3 due| Finishing up
 5 | Thurs, June 11 | | Class project, continue
 5 | Fri, June 12 | [Programming Foundations Databases](LinkedInLearningDatabases.md) |Overview of databases<br>Database design
 |||
-6 | Mon, June 15 ||Setting up a database <br>SQLAlchemy Introduction
-6 | Tues, June 16| |SQLAlchemy continued
+6 | Mon, June 15 |Problem Set 4: Due Fri, June 19|Setting up a database <br>SQLAlchemy Introduction
+6 | Tues, June 16| Quiz 4: due Fri, June 19 |SQLAlchemy continued
 6 | Wed, June 17 | |Graphics
 6 | Thurs, Jun 18 ||Class project, complete
-6 | Friday, June 19 || Last day of class
+6 | Friday, June 19 |Project, Quiz 4 and PS 4 due| Last day of class
 
 ## Software and Hardware
 
@@ -152,7 +152,11 @@ All faculty, staff and student of the University are required and expected to ob
 
 ## Grading
 
-Coming soon
+* **Quizzes**: 4 @ 20 points each (36%)
+* **Problem Sets**: 4 @ 20 points each (36%)
+* **Class Project**: 40 points (18%)
+* **Class Participation** 20 points (9%)
+  * 10 points for github commits, 10 points for code peer review
 
 ### Grade Disputes
 

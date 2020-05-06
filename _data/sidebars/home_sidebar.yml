@@ -74,6 +74,15 @@ entries:
       - title: Py4e Ch 11 Regular Expressions
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb
         output: web
+      - title: Py4e Ch 12 Networked Programs
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb
+        output: web
+      - title: Py4e Ch 13 Web Services
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb
+        output: web
+      - title: Data Visualization and Matplotlib
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb
+        output: web
       - title: SciPy, NumPy and Pandas
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb
         output: web    

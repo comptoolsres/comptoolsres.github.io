@@ -2,5 +2,8 @@
 {
   "files.associations": {
     "*.html": "liquid"
-  }
+  },
+  "cSpell.words": [
+    "folderitems"
+  ]
 }

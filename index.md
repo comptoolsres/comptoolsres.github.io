@@ -8,8 +8,6 @@ summary: An introduction to computational tools for research
 toc: false
 ---
 
-{% include note.html content="This page is under construction." %}
-
 ## About this site
 
 This site is the being developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is typically offered every-other-year at the [University of Florida](https://ufl.edu). My hope is that this site can serve both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.

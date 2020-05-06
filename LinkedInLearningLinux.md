@@ -12,7 +12,7 @@ Then either [click on this link](https://www.linkedin.com/learning/learning-linu
 
 ## Grading
 
-This assignment will count as **quiz 1**. To get credit, paste your command line for the solution to the challenge at the end of part 4 (Challenge: Extract information from a text file) into the box in the **Canvas assignment for Quiz 1** and submit.
+This assignment will count as **50% of quiz 1 (10 points)**. To get credit, paste your command line for the solution to the challenge at the end of part 4 (Challenge: Extract information from a text file) into the box in the **Canvas assignment for Quiz 1**.
 
 The log file for this is in the Exercise Files folder and is called log.tar.gz.
 

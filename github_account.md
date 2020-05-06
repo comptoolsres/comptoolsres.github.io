@@ -49,6 +49,6 @@ You do not need to have git installed on your own computer, but you may want to.
 
 ### Submitting the assignment
 
-* Assignments need to be turned in using Canvas. Log into [https://elearning.ufl.edu/](https://elearning.ufl.edu/) and got to the assignment.
-* **Paste the URL of your repository or just type a note that you have done the assignment.**
+* This assignment will count at **50% of Quiz 1**.
+* **Paste the URL of your repository or just type a note that you have done the assignment, adding your github username.**
 * Submit the assignment and I'll grade it.

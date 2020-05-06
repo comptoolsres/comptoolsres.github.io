@@ -247,5 +247,3 @@ If you have questions or concerns about your rights and responsibilities for inc
 
 There are federal laws protecting your privacy with regards to grades earned in courses and on individual assignments. For more information, please see: [https://registrar.ufl.edu/ferpa.html](https://registrar.ufl.edu/ferpa.html)
 
-
-{% include links.html %}

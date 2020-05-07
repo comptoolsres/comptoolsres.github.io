@@ -116,16 +116,16 @@ Week | Date | Reading/Assignment |Topic |
 4 | Tues, June 2 | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb) <BR> Problem Set 3: due Mon June 8th| Scripting data acquisition
 4 | Wed, June 3 || [SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)
 4 | Thurs, June 4 || Class project
-4 | Fri, June 5 | Quiz 3: Due Wed, June 10 | [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb)
+4 | Fri, June 5 | Scan Py4E Ch 16 <BR> Quiz 3: Due Wed, June 10--Goes with Ch 14: Object oriented Programming| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb)
 |||
-5 | Mon, June 8 | Read Py4E Ch 16 <BR> PS3 due | Writing Functions
+5 | Mon, June 8 | PS3 due | TBD
 5 | Tues, June 9 || Class project, continue
 5 | Wed, June 10 |Quiz 3 due| Finishing up
-5 | Thurs, June 11 | | Class project, continue
-5 | Fri, June 12 | [Programming Foundations Databases](LinkedInLearningDatabases.md) |Overview of databases<br>Database design
+5 | Thurs, June 11 | [Programming Foundations Databases](LinkedInLearningDatabases.md)| Class project, continue
+5 | Fri, June 12 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
-6 | Mon, June 15 |Problem Set 4: Due Fri, June 19|Setting up a database <br>SQLAlchemy Introduction
-6 | Tues, June 16| Quiz 4: due Fri, June 19 |SQLAlchemy continued
+6 | Mon, June 15 |Problem Set 4: Due Fri, June 19| [Databases, SQL and sqlite](SQL_introduction.md)
+6 | Tues, June 16| Quiz 4: due Fri, June 19 |[SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb)
 6 | Wed, June 17 | |Graphics
 6 | Thurs, Jun 18 ||Class project, complete
 6 | Friday, June 19 |Project, Quiz 4 and PS 4 due| Last day of class

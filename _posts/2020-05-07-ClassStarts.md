@@ -1,6 +1,6 @@
 ---
 title: Class Starts Monday!
-tags: announcements
+tags: news
 sidebar: home_sidebar
 permalink: 2020-05-07_ClassStarts.html
 summary: "Class Begins Monday!"

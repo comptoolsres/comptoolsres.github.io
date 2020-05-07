@@ -6,7 +6,7 @@ topnav:
     - title: GitHub
       external_url: https://github.com/comptoolsres
     - title: Announcements
-      url: /Announcements
+      url: /news
 
 # #Topnav dropdowns
 # topnav_dropdowns:

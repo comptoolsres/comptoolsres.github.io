@@ -86,6 +86,8 @@ The main texts for the course are:
 
 Each of these is available as a free PDF download or for purchase in print.
 
+**Also check out the [additional resources page](resources.md).**
+
 ## Course Calendar
 
 This is subject to change, please check back frequently. 

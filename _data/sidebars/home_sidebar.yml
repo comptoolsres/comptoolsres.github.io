@@ -91,4 +91,13 @@ entries:
     output: web
     folderitems:
 
+      - title: Py4E Ch 15 Databases
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb
+        output: web    
+      - title: SQL Introduction
+        url: SQL_Intro.html
+        output: web    
+      - title: SQLAlchemy
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb
+        output: web    
   

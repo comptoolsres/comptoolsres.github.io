@@ -1,4 +1,10 @@
-# SQL Introduction
+---
+title: "SQL Introduction"
+tags: [sql]
+sidebar: home_sidebar
+permalink: SQL_Intro.html
+toc: false
+---
 
 We started looking at databases using the Py4E text and creating databases in Python. To understand how to work with databases in Python, I think it is a bit easier to start working with databases directly. Then we can think about how to get python to tell the database what we want, since we already have a better idea of what databases can do and how to do things with SQL.
 

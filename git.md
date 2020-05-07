@@ -26,5 +26,7 @@ Version control has been around for many years, but grown in popularity as the s
 ## Resources
 
 * Check out [github.com's help pages](https://help.github.com/).
+* Github has a great [interactive learning lab](https://lab.github.com/).
 * Software Carpentry has a good overview of [git and github.com](http://software-carpentry.org/v5/novice/git/index.html)
+* [Git -The Simple Guide](http://rogerdudler.github.io/git-guide/)
 * [Here is a link to github's pdf cheat sheet ![cheat sheet image](images\git.cheat.sheet.jpg)](https://education.github.com/git-cheat-sheet-education.pdf)

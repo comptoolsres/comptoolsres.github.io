@@ -19,3 +19,9 @@ toc: false
 
 * [A Data Cleaner's Cookbook](https://www.datafix.com.au/cookbook/)
 * [BASHing data (blog)](https://www.datafix.com.au/cookbook/)
+* [![Regexone logo](images/regexone.png)](https://regexone.com/) RegExOne has some great examples on writing regular expressions.
+
+## Python
+
+* [![Python for biologists logo](images/python_for_biologists.png)](https://pythonforbiologists.com/)
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): We will look at some of the chapters of this text in the class, but this is a great book if you want to continue learning Python and data science.

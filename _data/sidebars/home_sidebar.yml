@@ -102,5 +102,9 @@ entries:
         output: web    
   
   - title: Additional Resources
-    url: /resources.html
     output: web
+    folderitems:
+
+    - title: Additional Resources
+      url: /resources.html
+      output: web

@@ -1,8 +1,8 @@
 ---
-title: "News"
-tagName: news
+title: "Linux pages"
+tagName: linux
 search: exclude
-permalink: tag_news.html
+permalink: tag_linux.html
 sidebar: home_sidebar
 folder: tags
 ---

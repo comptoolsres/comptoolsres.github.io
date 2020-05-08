@@ -1,8 +1,8 @@
 ---
-title: "News"
-tagName: news
+title: "SQL pages"
+tagName: sql
 search: exclude
-permalink: tag_news.html
+permalink: tag_sql.html
 sidebar: home_sidebar
 folder: tags
 ---

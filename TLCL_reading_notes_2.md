@@ -1,6 +1,6 @@
 ---
 title: "Notes on TLCL Ch 7 & 8"
-tags: [reading notes]
+tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_2.html
 toc: false

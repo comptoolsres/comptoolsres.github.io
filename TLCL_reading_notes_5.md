@@ -1,6 +1,6 @@
 ---
 title: "Notes on TLCL Ch 27-33"
-tags: [reading notes]
+tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_5.html
 toc: false

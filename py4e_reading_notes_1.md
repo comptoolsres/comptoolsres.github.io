@@ -1,6 +1,6 @@
 ---
 title: "General Python Notes and Py4E Ch 1"
-tags: [reading notes]
+tags: [python]
 sidebar: home_sidebar
 permalink: py4e_1.html
 toc: false

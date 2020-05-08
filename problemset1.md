@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 1"
 keywords: assignments
-tags: 
+tags: [assignments, linux]
 sidebar: home_sidebar
 permalink: ps1.html
 summary: Problem set 1.

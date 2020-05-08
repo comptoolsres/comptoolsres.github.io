@@ -1,6 +1,6 @@
 ---
 title: "Notes on TLCL Ch 23"
-tags: [reading notes]
+tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_6.html
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: "Notes on TLCL Introduction and Ch 1-6"
-tags: [reading notes]
+tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_1.html
 toc: false

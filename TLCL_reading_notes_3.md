@@ -1,6 +1,6 @@
 ---
 title: "Notes on TLCL Ch 19 & 20"
-tags: [reading notes]
+tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_3.html
 toc: false

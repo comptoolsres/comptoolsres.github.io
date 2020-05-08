@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn Learning: Programming Foundations: Databases"
-tags: [video notes]
+tags: [assignments, resources, sql]
 sidebar: home_sidebar
 permalink: LinkedInLearningDatabases.html
 toc: false

@@ -1,7 +1,7 @@
 ---
 title: "Computer and Software Setup"
 keywords: setup
-tags: [getting_started]
+tags: [resources, assignments, linux]
 sidebar: home_sidebar
 permalink: software.html
 summary: Computer and software needed for the course.

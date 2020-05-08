@@ -1,6 +1,6 @@
 ---
 title: "LinkedIn Learning: Learn the Linux Command Line"
-tags: [video notes]
+tags: [assignments, linux, resources]
 sidebar: home_sidebar
 permalink: LinkedInLearningLinux.html
 toc: false

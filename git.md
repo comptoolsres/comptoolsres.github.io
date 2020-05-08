@@ -1,6 +1,6 @@
 ---
 title: "Git and GitHib.com"
-tags: [resources]
+tags: [resources, linux]
 sidebar: home_sidebar
 permalink: resources.html
 toc: false

@@ -45,4 +45,4 @@ That said, I personally find some of the software noted below more reliable and 
 1. A text editor:
    1. Microsoft [VS Code](https://code.visualstudio.com/): Is what I use. It has many extensions that are quite helpful. It is also free.
    1. BBEdit is a longtime favorite. It is available in the Apple App Store or [here](http://www.barebones.com/products/bbedit/). The free version is fine for what we will do in class, you do not need to purchase the paid version.
-1. You may also want to install `git` on your computer, but it is not required. If you want to install it, download from here:  [https://git-scm.com/](https://git-scm.com/).
+1. You may also want to install `git` on your computer, but it is not required. If you want to install it, download from here:  [https://git-scm.com/](https://git-scm.com/). On a Mac, I suggest using the **Binary Installer** as the easiest method to get started.

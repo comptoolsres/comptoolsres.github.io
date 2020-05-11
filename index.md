@@ -10,7 +10,7 @@ toc: false
 
 ## About this site
 
-This site is the being developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is typically offered every-other-year at the [University of Florida](https://ufl.edu). My hope is that this site can serve both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.
+This site has been developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is typically offered every-other-year at the [University of Florida](https://ufl.edu). This site serves both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.
 
 The course was designed to be a one semester, in-person, 3-credit course for upper-level undergraduate and starting graduate students. During Summer 2020, I am offering it as an online course with some modifications.
 
@@ -140,7 +140,7 @@ Several free/open source software packages will be used throughout the course, a
 Students will be required to apply for a (free) Research Computing account to access HiPerGator for coursework.
 Students will be required to apply for a (free) Github.com account for coursework.
 
-If you have technical difficulties with Cancas, please contact the UF Helpdesk at:
+If you have technical difficulties with Canvas, please contact the UF Helpdesk at:
 
 *	http://helpdesk.ufl.edu
 *	(352) 392-HELP (4357)
@@ -161,7 +161,7 @@ All faculty, staff and student of the University are required and expected to ob
 ### Grade Disputes
 
 Should a student wish to dispute any grade received in this class (other than simple addition errors), the dispute must be in writing and be submitted to the instructor within a week of receiving the grade.  
-The dispute should set out very clearly, the grade that the student believes the assignment should have received as well as why he or she believes that he or she should have received such a grade.
+The dispute should set out very clearly, the grade that the student believes the assignment should have received as well as why they believe that they should have received such a grade.
 
 ### Grading Scale and GPA Equivalent
 
@@ -180,7 +180,7 @@ Requirements for class attendance and makeup assignments, and other work in this
 
 ### Quiz and Assignment Policy
 
-Quiz and assignment dates will be announced at least one week in advance and students will have at least one week to complete the quiz or assignment. Each quiz or assignment will clearly state if it is an individual or group assignment.  Individual assignments must be the student’s own work, completed without the assistance of others.
+Quiz and assignment dates will be announced at least one week in advance and students will have at least three days to complete the quiz or assignment. Each quiz or assignment will clearly state if it is an individual or group assignment.  Individual assignments must be the student’s own work, completed without the assistance of others.
 
 All quizzes and assignments are "open book, open internet", you may use whatever resources you desire to complete the quiz/assignment. Though only assignments specifically noted as group assignments should be worked on with other people.
 
@@ -248,4 +248,3 @@ If you have questions or concerns about your rights and responsibilities for inc
 ## Privacy
 
 There are federal laws protecting your privacy with regards to grades earned in courses and on individual assignments. For more information, please see: [https://registrar.ufl.edu/ferpa.html](https://registrar.ufl.edu/ferpa.html)
-

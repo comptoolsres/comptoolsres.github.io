@@ -82,7 +82,7 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 <br><br>
 
 ```
-[magitz@login2 ~]$ cd /ufrc/bot4452/share
+[magitz@login2 ~]$ cd /ufrc/bsc4452/share
 ```
 
 " %}

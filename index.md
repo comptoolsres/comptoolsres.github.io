@@ -106,10 +106,10 @@ Week | Date | Reading/Assignment |Topic |
 2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_reading_notes_6.md) <br> Problem Set 1 due| Start Problem Set 2 (details in Canvas)
 2 | Wed, May 20 |Work on Problem Set 2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
 2 | Thurs, May 21 | Work on Problem Set 2| Catching up
-2 | Fri, May 22 | Problem Set 2 Due<br> [Read Py4E Ch 1](py4e_reading_notes_1.md) <br> [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb)|Introduction to Python <br>Python data types
+2 | Fri, May 22 | ~~Problem Set 2 Due~~<br> [Read Py4E Ch 1](py4e_reading_notes_1.md) <br> [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_varaibles_and_types.ipynb)|Introduction to Python <br>Python data types
 |||
 3 | Mon, May 25 || *Memorial Day Holiday, No Class*
-3 | Tues, May 26 |[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) & [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
+3 | Tues, May 26 |Problem Set 2 Due<br>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) & [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
 3 | Wed, May 27 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)<BR>Quiz 2: Due Fri, May 29| Python: Iteration
 3 | Thurs, May 28 |[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb)|Python: try/except, Strings, File I/O
 3 | Fri, May 29 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) <BR>Quiz 2 due| Lists, Dictionaries, Tuples

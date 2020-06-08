@@ -120,8 +120,8 @@ Week | Date | Reading/Assignment |Topic |
 4 | Thurs, June 4 || Class project
 4 | Fri, June 5 | Scan Py4E Ch 16 <BR> Quiz 3: Due Wed, June 10--Goes with Ch 14: Object oriented Programming| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb)
 |||
-5 | Mon, June 8 | PS3 due | TBD
-5 | Tues, June 9 || Class project, continue
+5 | Mon, June 8 | ~~PS3 due~~ | TBD
+5 | Tues, June 9 |PS3 due| Class project, continue
 5 | Wed, June 10 |Quiz 3 due| Finishing up
 5 | Thurs, June 11 | [Programming Foundations Databases](LinkedInLearningDatabases.md)| Class project, continue
 5 | Fri, June 12 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design

@@ -126,7 +126,7 @@ Week | Date | Reading/Assignment |Topic |
 5 | Thurs, June 11 | [Programming Foundations Databases](LinkedInLearningDatabases.md)| Class project, continue
 5 | Fri, June 12 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
-6 | Mon, June 15 |Problem Set 4: Due Fri, June 19| [Databases, SQL and sqlite](SQL_Intro.md)
+6 | Mon, June 15 |Problem Set 4: Due Fri, June 19| [Databases, SQL and sqlite](SQL_Introduction.md)
 6 | Tues, June 16| Quiz 4: due Fri, June 19 |[SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb)
 6 | Wed, June 17 | |Graphics
 6 | Thurs, Jun 18 ||Class project, complete

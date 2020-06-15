@@ -2,7 +2,7 @@
 title: "SQL Introduction"
 tags: [sql]
 sidebar: home_sidebar
-permalink: SQL_Intro.html
+permalink: SQL_Introduction.html
 toc: false
 ---
 

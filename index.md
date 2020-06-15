@@ -90,7 +90,7 @@ Each of these is available as a free PDF download or for purchase in print.
 
 ## Course Calendar
 
-This is subject to change, please check back frequently. 
+This is subject to change, please check back frequently.
 
 For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com/book.php).
 

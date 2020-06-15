@@ -41,7 +41,7 @@ That said, I personally find some of the software noted below more reliable and 
 
 ### ![Apple logo](images/apple_logo_75.jpg) If you have an Apple Computer
 
-1. You already have the ssh client: Terminal is installed at /Applications/Utilities/Terminal (The Applications folder, then Utilities, and the applciation called Terminal).
+1. You already have the ssh client: Terminal is installed at /Applications/Utilities/Terminal (The Applications folder, then Utilities, and the application called Terminal).
 1. A text editor:
    1. Microsoft [VS Code](https://code.visualstudio.com/): Is what I use. It has many extensions that are quite helpful. It is also free.
    1. BBEdit is a longtime favorite. It is available in the Apple App Store or [here](http://www.barebones.com/products/bbedit/). The free version is fine for what we will do in class, you do not need to purchase the paid version.

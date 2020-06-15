@@ -278,7 +278,7 @@ COUNT(*)
 sqlite>
 ```
 
-### Summarize data with `MIN()` and `MAX()
+### Summarize data with `MIN()` and `MAX()`
 
 ```sql
 sqlite> SELECT Name, Population FROM city WHERE Population = (SELECT MAX(Population) FROM city);
@@ -328,6 +328,7 @@ sqlite>
 ```
 
 ### `HAVING`
+
 With grouped data, instead of WHERE, we can use HAVING. So to find states with populations over 3 million, we can do:
 
 ```sql
@@ -367,6 +368,7 @@ Cape Verde  Portuguese  0.0
 East Timor  Portuguese  0.0
 sqlite>
 ```
+
 Here's another example from [this page](http://pages.cs.wisc.edu/~paris/cs564-f15/data/queries.sql):
 
 ```sql

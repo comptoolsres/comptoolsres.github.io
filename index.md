@@ -128,7 +128,7 @@ Week | Date | Reading/Assignment |Topic |
 |||
 6 | Mon, June 15 |Problem Set 4: Due Fri, June 19| [Databases, SQL and sqlite](SQL_Introduction.md)
 6 | Tues, June 16| Quiz 4: due Fri, June 19 |[SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb)
-6 | Wed, June 17 | |Graphics
+6 | Wed, June 17 | |Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)
 6 | Thurs, Jun 18 ||Class project, complete
 6 | Friday, June 19 |Project, Quiz 4 and PS 4 due| Last day of class
 

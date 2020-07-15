@@ -12,7 +12,9 @@ toc: false
 
 This site has been developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is typically offered every-other-year at the [University of Florida](https://ufl.edu). This site serves both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.
 
-The course was designed to be a one semester, in-person, 3-credit course for upper-level undergraduate and starting graduate students. During Summer 2020, I am offering it as an online course with some modifications.
+The course was designed to be a one semester, 3-credit course for upper-level undergraduate and starting graduate students.
+
+There are branches for previous instances of the class, including [Summer A 2020](https://github.com/comptoolsres/comptoolsres.github.io/tree/Summer2020). Some links in the branches may no longer work.
 
 Please use the feedback button to send feedback.
 
@@ -58,24 +60,24 @@ The course is divided into three main sections:
 
 ## Meeting Times
 
-Summer A runs May 11, 2020 through June 19, 2020. May 25th is Memorial Day holiday.
+### Synchronous Meetings: Mon, Wed, Fri 8:30am - 9:20am
 
-### Synchronous Meetings: Mon, Wed, Fri 11:00am - 12:15pm
-
-* I will be online and presenting material and/or helping students: **Mon, Wed, Fri during 3rd period (11:00am - 12:15pm)**
-{% include important.html content="You should make every effort to attend these sessions. While there will be note pages and hopefully a video recording of these sessions, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
+* I will be online and presenting material and/or helping students: **Mon, Wed, Fri 8:30am - 9:20am)**
+{% include important.html content="You should make every effort to attend these sessions. While I will post most lectures ahead of time and will record these session, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
-### Asynchronous Work: Tue, Thurs
+### Asynchronous Work
 
-* On Tuesday and Thursday, students will work on projects either independently or in small, virtual groups.
-* These sessions can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
-* There will still be content that needs to be covered, and students should plan on working on Tuesday and Thursday, but can generally do the work whenever is convenient for them.
+* Students will work on projects either independently or in small, virtual groups.
+* This work can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
 
-### Office Hours: Thursday 11:00 to 2:00 and by Appointment
+### Office Hours
 
-* I have scheduled office hours for **Thursday between 11:00am and 2:00pm**. I am also available at other times by appointment.
-{% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. I expect that you will need help. You should expect that you will need help. I want to help you! I cannot always help if you don't ask. Please ask for help." %}
+* Tuesdays from 11:00am to noon
+* Thursdays from 2:00pm to 3:00pm
+* By Appointment--please email me to setup a different time if needed.
+
+{% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. **I expect that you will need help. You should expect that you will need help.** I want to help you! I cannot always help if you do not ask for the help you need. Please ask for help." %}
 
 ## Course Textbooks
 
@@ -96,41 +98,64 @@ For readings, there may be links to pages with my notes and additional explanati
 
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
-1 | Mon, May 11 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)<br>Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br>The Linux command line
-1 | Tues, May 12 | [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
-1 | Wed, May 13 |[Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf)
-1 | Thurs, May 14 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md) <br> [Register for github.com account](github_account.md) (Includes Quiz 1: Due by start of class Friday, May 15) | Keep working on Linux command line skills
-1 | Fri, May 15 |[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)<br> Problem Set 1: Due Tues, May 19 (In Canvas)| Shell Scripts and version control with git and GitHub
+1 | Mon, Aug 31 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)<br>Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br>The Linux command line
+1 | Wed, Sept 2| [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
+1 | Fri, Sept 4 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf)
 |||
-2 | Mon, May 18 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Flow control: `if`, `while`, `until`, `for` etc. 
-2 | Tues, May 19 |[Read TLCL Ch 23](TLCL_reading_notes_6.md) <br> Problem Set 1 due| Start Problem Set 2 (details in Canvas)
-2 | Wed, May 20 |Work on Problem Set 2| Using UF Research Computing resources<br>Running batch jobs, Compiling source code
-2 | Thurs, May 21 | Work on Problem Set 2| Catching up
-2 | Fri, May 22 | ~~Problem Set 2 Due~~<br> [Read Py4E Ch 1](py4e_reading_notes_1.md) <br> [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb)|Introduction to Python <br>Python data types
+2 | Mon, Sept 7 | Labor Day, no class |
+2 | Wed, Sept 9 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md) <br> [Register for github.com account](github_account.md) (Includes Quiz 1: Due by start of class Friday, Sept 18) | Keep working on Linux command line skills
+2 | Fri, Sept 11 |[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)<br> Problem Set 1: Due Mon, Sept 21 (In Canvas)| Shell Scripts and version control with git and GitHub
 |||
-3 | Mon, May 25 || *Memorial Day Holiday, No Class*
-3 | Tues, May 26 |Problem Set 2 Due<br>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) & [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
-3 | Wed, May 27 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)<BR>Quiz 2: Due Fri, May 29| Python: Iteration
-3 | Thurs, May 28 |[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb)|Python: try/except, Strings, File I/O
-3 | Fri, May 29 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) <BR>Quiz 2 due| Lists, Dictionaries, Tuples
+3 | Mon, Sept 14 | | More practice with git and GitHub
+3 | Wed, Sept 16 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Flow control: `if`, `while`, `until`, `for` etc.
+3 | Fri, Sept 18 | Quiz 1 Due| Google and Documentation
 |||
-4 | Mon, June 1 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb) | RegEx in Python
-4 | Tues, June 2 | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb) <BR> Problem Set 3: due Mon June 8th| Scripting data acquisition
-4 | Wed, June 3 || [SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)
-4 | Thurs, June 4 || Class project
-4 | Fri, June 5 | Scan Py4E Ch 16 <BR> Quiz 3: Due Wed, June 10--Goes with Ch 14: Object oriented Programming| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb)
+4 | Mon, Sept 21 | Problem Set 1 due<br>Problem Set 2: Due Wed, Sept 30 | Using UF Research Computing resources<br>Running batch jobs
+4 | Wed, Sept 23 | [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
+4 | Fri, Sept 25 | *Memorial Day Holiday, No Class*|
 |||
-5 | Mon, June 8 | ~~PS3 due~~ | TBD
-5 | Tues, June 9 |PS3 due| Class project, continue
-5 | Wed, June 10 |Quiz 3 due| Finishing up
-5 | Thurs, June 11 | [Programming Foundations Databases](LinkedInLearningDatabases.md)| Class project, continue
-5 | Fri, June 12 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
+5 | Mon, Sept 28 | [Read Py4E Ch 1](py4e_reading_notes_1.md) <br> [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb)|Introduction to Python <br>Python data types
+5 | Wed, Sept 30 |Problem Set 2 Due | More getting started in Python
+5 | Fri, Oct 2 | UF Homecoming, no class |
 |||
-6 | Mon, June 15 |Problem Set 4: Due Fri, June 19| [Databases, SQL and sqlite](SQL_Introduction.md)
-6 | Tues, June 16| Quiz 4: due Fri, June 19 |[SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb)
-6 | Wed, June 17 | |Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)
-6 | Thurs, Jun 18 ||Class project, complete
-6 | Friday, June 19 |Project, Quiz 4 and PS 4 due| Last day of class
+6 | Mon, Oct 5 | [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) <br> [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
+6 | Wed, Oct 7 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)<br>Quiz 2: Due Mon, Oct 13| Python: Iteration
+6 | Fri, Oct 9 | [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb)<BR> Problem Set 3: due Mon June 8th|Python: try/except, Strings, File I/O
+|||
+7 | Mon, Oct 12 | [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) <BR>Quiz 2 due| Lists, Dictionaries, Tuples
+7 | Wed, Oct 14 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb) | RegEx in Python
+7 | Fri, Oct 16 | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb) | Scripting data acquisition
+|||
+8 | Mon, Oct 19 |[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)<br>Quiz 3 due| SciPy, NumPy, Pandas
+8 | Wed, Oct 21 | | Using modules
+8 | Fri, Oct 23 | [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb) | Visualization|||
+|||
+9 | Mon, Oct 26 || More data visualization
+9 | Wed, Oct 28 | Scan Py4E Ch 16 <BR> Quiz 3: Due Fri,Oct 30--Goes with Ch 14: Object oriented Programming <br> Project 1, Due Mon, Nov 9| Work on Project 1
+9 | Fri, Oct 30 | Quiz 3 Due | Work on Project 1
+|||
+10 | Mon, Nov 2 | [Programming Foundations Databases](LinkedInLearningDatabases.md)| Database intro
+10 | Wed, Nov 4 | |Database intro
+10 | Fri, Nov 6 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
+|||
+11 | Mon, Nov 9 | Project 1 Due<br> Problem Set 4: Due Fri, Nov 20 | [Databases, SQL and sqlite](SQL_Introduction.md)
+11 | Wed, Nov 11 | Veteran's Day, no class |
+11 | Fri, Nov 13 | | [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb)|
+|||
+12 | Mon, Nov 16 | | More SQLAlchemy
+12 | Wed, Nov 18 | Project 2, Due Wed, Dec 9| SQLAlchemy and Pandas
+13 | Fri, Nov 20 | Problem Set 4 Due| Argparse
+|||
+14 | Mon, Nov 23 | | Work on project 2
+14 | Wed, Nov 25 | Thanksgiving, no class |
+14 | Fri, Nov 27 | Thanksgiving, no class |
+|||
+15 | Mon, Nov 30 | | More on functions
+15 | Wed, Dec 2 | | TBD
+15 | Fri, Dec 4 | | Project 2
+|||
+16 | Mon, Dec 7 | | Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)
+16 | Wed, Dec 9 | Last day of class | Finish Project 2
 
 ## Software and Hardware
 
@@ -152,10 +177,10 @@ All faculty, staff and student of the University are required and expected to ob
 
 ## Grading
 
-* **Quizzes**: 4 @ 20 points each (36%)
-* **Problem Sets**: 4 @ 20 points each (36%)
-* **Class Project**: 40 points (18%)
-* **Class Participation** 20 points (9%)
+* **Quizzes**: 5 @ 20 points each (33%)
+* **Problem Sets**: 5 @ 20 points each (33%)
+* **Class Projects**: 2 @ 40 points each (27%)
+* **Class Participation** 20 points (7%)
   * 10 points for github commits, 10 points for code peer review
 
 ### Grade Disputes

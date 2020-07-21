@@ -73,7 +73,6 @@ The course is divided into three main sections:
 * Thursdays from 2:00pm to 3:00pm
 * By Appointment--please <a href="mailto:magitz@ufl.edu?subject=Comp%20Tools%20Res%20office%20hours%20request">Email me</a> to setup a different time if needed.
 
-
 {% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. **I expect that you will need help. You should expect that you will need help.** I want to help you! I cannot always help if you do not ask for the help you need. Please ask for help." %}
 
 ## Course Textbooks

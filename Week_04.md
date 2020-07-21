@@ -34,7 +34,7 @@ weight: 0.4
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li>Review <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html"Research Computing Orientation video</a>, focus on job scripts</li>
+          <li>Review <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Research Computing Orientation video</a>, focus on job scripts</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">

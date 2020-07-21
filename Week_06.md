@@ -83,7 +83,7 @@ weight: 0.6
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
           <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb">Read Py4E Ch 6</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb">Read Py4E Ch 7</a><li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb">Read Py4E Ch 7</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

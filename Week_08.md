@@ -39,7 +39,7 @@ weight: 0.8
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>NumPy, SciPy and Pandas
+          <li>NumPy, SciPy and Pandas</li>
         </ol>
     </div>
 </div>

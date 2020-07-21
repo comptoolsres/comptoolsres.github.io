@@ -1,12 +1,12 @@
 ---
-title: "Week 12: Nov 16 - 20"
+title: "Week 13: Nov 23 - 27"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_12.html
+permalink: Week_13.html
 toc: false
-week_num: 12
+week_num: 13
 series: "Week-by-week series"
-weight: 1.2
+weight: 1.3
 ---
 
 {% include custom/series_week_by_week.html %}

@@ -40,7 +40,7 @@ weight: 0.7
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Lists, Dictionaries and Tuples
+          <li>Lists, Dictionaries and Tuples</li>
         </ol>
     </div>
 </div>
@@ -79,13 +79,13 @@ weight: 0.7
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
           <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb">Read Py4E Ch 12</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a><li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Scripting data acquisition from web sites and APIs
+          <li>Scripting data acquisition from web sites and APIs</li>
         </ol>
     </div>
 </div>

@@ -5,7 +5,7 @@ entries:
   product: Course Content
   folders: 
 
-  - title: Linux
+  - title: Linux/Bash/HPC
     output: web
     folderitems:
 
@@ -101,7 +101,7 @@ entries:
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb
         output: web    
 
-  - title: Week-by-Week
+  - title: Week-by-Week Pages
     output: web
     folderitems:
 

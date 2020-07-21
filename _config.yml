@@ -36,7 +36,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Computational Tools for Research
+feedback_subject_line: Computational Tools for Research feedback
 
 feedback_email: magitz@ufl.edu
 # used as a contact email for the Feedback link in the top navigation bar
@@ -118,6 +118,8 @@ description: "Site for Matt Gitzendanner's UF course, Computational Tools for Re
 
 github: [metadata]
 
+######################################################################
+# Matt's additions
 # Due date variables. Can be included in pages using {{site.variable}}
 
 quiz_1_due: "Friday, Sept. 11"

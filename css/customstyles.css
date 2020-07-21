@@ -625,8 +625,8 @@ li.activeSeries {
 
 .seriesContext .dropdown-menu li.active {
     font-weight: bold;
-    margin-left: 43px;
-    font-size:18px;
+    margin-left: 10px; /*MAG changed from 43 to 10px*/
+    /* font-size:18px; MAG Comment out: too large!*/
 }
 
 .alert-warning {

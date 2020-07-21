@@ -62,6 +62,8 @@ The course is divided into three main sections:
 
 ### Synchronous Meetings: Mon, Wed, Fri 8:30am - 9:20am
 
+{% include image.html file='lecture.png' alt="lecture icon" position="right" max-width=75 %}
+
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri 8:30am - 9:20am)**
 {% include important.html content="You should make every effort to attend these sessions. While I will post most lectures ahead of time and will record these session, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
   * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
@@ -73,14 +75,18 @@ The course is divided into three main sections:
 
 ### Office Hours
 
+{% include image.html file='office_hours.png' alt="Office Hours icon" position="right" max-width=75 %}
+
 * Tuesdays from 11:00am to noon
 * Thursdays from 2:00pm to 3:00pm
-* By Appointment--please email me to setup a different time if needed.
+* By Appointment--please <a href="mailto:magitz@ufl.edu?subject=Comp%20Tools%20Res%20office%20hours%20request">Email me</a> to setup a different time if needed.
+
 
 {% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. **I expect that you will need help. You should expect that you will need help.** I want to help you! I cannot always help if you do not ask for the help you need. Please ask for help." %}
 
 ## Course Textbooks
 
+{% include image.html file='textbook.png' alt="textbook icon" position="right" max-width=75 %}
 The main texts for the course are:
 
 * The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org) (my notes and referenced page numbers will be based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019)
@@ -92,23 +98,25 @@ Each of these is available as a free PDF download or for purchase in print.
 
 ## Course Calendar
 
+{% include image.html file='calendar.png' alt="calendar icon" position="right" max-width=75 %}
+
 This is subject to change, please check back frequently.
 
 For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com/book.php).
 
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
-1 | Mon, Aug 31 | [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)<br>Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br>The Linux command line
-1 | Wed, Sept 2| [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) <br> [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | UF Research Computing Intro & getting started
-1 | Fri, Sept 4 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf)
+[1](Week_01.html) | Mon, Aug 31 | [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)
+[1](Week_01.html) | Wed, Sept 2| [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) |Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
+[1](Week_01.html) | Fri, Sept 4 | [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md) | Continue building shell skills
 |||
-2 | Mon, Sept 7 | Labor Day, no class |
-2 | Wed, Sept 9 | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md) <br> [Register for github.com account](github_account.md) (Includes Quiz 1: Due by start of class Friday, Sept 18) | Keep working on Linux command line skills
-2 | Fri, Sept 11 |[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)<br> Problem Set 1: Due Mon, Sept 21 (In Canvas)| Shell Scripts and version control with git and GitHub
+[2](Week_02.html) | Mon, Sept 7 | Labor Day, no class |
+[2](Week_02.html) | Wed, Sept 9 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf) 
+[2](Week_02.html) | Fri, Sept 11 |[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br>Problem Set 1: Due Mon, Sept 21 (In Canvas)<br> [Register for github.com account](github_account.md)| Start looking at git and github
 |||
-3 | Mon, Sept 14 | | More practice with git and GitHub
-3 | Wed, Sept 16 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Flow control: `if`, `while`, `until`, `for` etc.
-3 | Fri, Sept 18 | Quiz 1 Due| Google and Documentation
+[3](Week_03.html) | Mon, Sept 14 |[Read TLCL Ch 24-26](TLCL_reading_notes_4.md) | Shell Scripts and version control with git and GitHub
+[3](Week_03.html) | Wed, Sept 16 | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Flow control: `if`, `while`, `until`, `for` etc.
+[3](Week_03.html) | Fri, Sept 18 | Quiz 1 Due| Google and Documentation
 |||
 4 | Mon, Sept 21 | Problem Set 1 due<br>Problem Set 2: Due Wed, Sept 30 | Using UF Research Computing resources<br>Running batch jobs
 4 | Wed, Sept 23 | [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting

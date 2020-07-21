@@ -29,7 +29,7 @@ Most of this text is written assuming you are running Linux on your computer. Wh
 
 ### Terminal Emulators
 
-We will look at Ch 1 in class and I will demonstrate getting logged into the cluster. In our case, the terminal emulators that we will use depend on the operating system of your computer. On MacOS, you will use Terminal. On Windows, you will use MobaXterm. Or, with any OS, you can use Open on Demand in your web browser.  
+We will look at Ch 1 in class and I will demonstrate getting logged into the cluster. In our case, the terminal emulators that we will use depend on the operating system of your computer. On MacOS, you will use Terminal. On Windows, you will use MobaXterm, Git Bash or similar applications. Or, with any OS, you can use Open on Demand in your web browser.  
 These videos also demonstrate the process on:
 * [MacOS with the Terminal](https://mediasite.video.ufl.edu/Mediasite/Play/0b238bfffb684fd6b7306129af63a6711d)
 * [Windows with MobaXterm](https://mediasite.video.ufl.edu/Mediasite/Play/2bf4c860f19b48a593fb581018b813a11d)
@@ -37,7 +37,7 @@ These videos also demonstrate the process on:
 
 When using an ssh client, like the Terminal or MobaXterm, the hostname is `hpg.rc.ufl.edu`. Your username is your GatorLink and the password is your GatorLink password.
 
-{% include note.html content="When you type your password, it will seem like the computer is not taking it. Nothing shows up, no *, nothing...This is a security feature common in Linux, and you should just keep typing carefully and hit Enter" %}
+{% include note.html content="When you type your password, it will seem like the computer is not taking it. Nothing shows up, no *'s, no •'s, nothing...This is a security feature common in Linux, and you should just keep typing carefully and hit Enter" %}
 
 ### Making Your first Keystrokes
 
@@ -47,7 +47,7 @@ Our shell prompt looks very similar to the one shown here on p. 2:
 ```
 In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol followed by the hostname, `login3`, and the current working directory, `~`.
 
-* Why `login3`? When you connect to `hpg.rc.ufl.edu`, we run what is called a load balancer that places users on one of several login nodes to balance the load of all the users--one server would not be enough for all of our users. It doesn't matter which you get put on, they are all the same.
+* Why `login3`? When you connect to `hpg.rc.ufl.edu`, we run what is called a **load balancer** that places users on one of several login nodes to balance the load of all the users--one server would not be enough for all of our users. It doesn't matter which you get put on, they are all the same.
 * What is the current working directory? When you first log in, you are put in your home directory. Kind of like your Home on MacOS or Windows. On most Linux systems, including HiPerGator, this directory has the path of `/home/<gatorlink>`. Because you frequently want to reference your home directory, there is a shorthand way of doing that with the tilde character: `~`. So, `~` is Linux shorthand for your home directory.
 
 ### Mice and Focus
@@ -71,18 +71,18 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
    This is expected.
 
-* p. 12: **Important Facts About Filenames**: 
+* p. 12: **Important Facts About Filenames**
   * point 3 is worth emphasizing: File extensions generally do not matter in Linux. You don't need to end a file with .txt, .jpg, .pdf, etc. But, these endings can be helpful for *you*. Using extensions consistently can make it easier to remember the contents of a file--is this file an image or text?
-  * point 4 is also critical. Do not use spaces in naming files or folders on Linux. In fact, it is a good habit to avoid using spaces on your Windows or MacOS computer if you think the files will end up transferred to Linux or analyzed with a command line tool on your computer.
+  * point 4 is also critical: Do not use spaces in naming files or folders on Linux. In fact, it is a good habit to avoid using spaces on your Windows or MacOS computer if you think the files will end up transferred to Linux or analyzed with a command line tool on your computer.
     * Common conventions are to use underscores (`this_is_a_text_file.txt`) or camel case (`ThisIsATextFile.txt`). It doesn't really matter which you chose, though does help to be consistent.
 
 ## Ch. 3: Exploring the System
 
-{% include tip.html content="Since we still don't have any data in our home directory, this section may be easier to follow along with if you change directories to the class share folder. Type the command below:
+{% include tip.html content="Since we still do not have any data in our home directory, this section may be easier to follow along with if you change directories to the class share folder. Type the command below:
 <br><br>
 
 ```
-[magitz@login2 ~]$ cd /ufrc/bsc4452/share
+[magitz@login2 ~]$ cd /blue/bsc4452/share
 ```
 
 " %}
@@ -97,8 +97,9 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
 * p. 27: **Wildcards Work in the GUI Too**: You can ignore this box.
 
-{% include warning.html content="p. 33: Be Careful with rm! As noted, there is no undelete command, trash can or recycle bin on Linux. So be careful!  
-Also, nothing is backed up on HiPerGator. We will cover this in class, but keep that in mind.  
+{% include warning.html content="p. 33: Be Careful with `rm`! As noted, there is no undelete command, trash can, or recycle bin on Linux. So be careful!  
+Also, nothing is backed up on HiPerGator. We will cover this in class, but keep that in mind.
+
 In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. We may cover this, but here is more information on [snapshots on HiPerGator](https://help.rc.ufl.edu/doc/Snapshots)." %}
 
 * p. 33-34: **ln – Create Links**: Don't worry too much about the symbolic and hard link section. We won't be using them a lot.
@@ -107,13 +108,16 @@ In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. W
 
 ## Ch 5: Working with Commands
 
-* p. 44: **which – Display an Executable's Location**: `which cd`: On Red Hat Linux, the distribution of Linux that HiPerGator uses, `which cd` does return the path:  
+* p. 44: **which – Display an Executable's Location**: `which cd`: On Red Hat Linux, the distribution of Linux that HiPerGator uses, `which cd` does return the path:
+
   ```bash
   [magitz@login2 ~]$ which cd
   /usr/bin/cd
   [magitz@login2 ~]$
   ```
+
   To see an error similar to the one displayed here, try `which` with some random text:
+
   ```bash
   [magitz@login2 ~]$ which foo
   /usr/bin/which: no foo in (/opt/slurm/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/bin:/opt/dell/srvadmin/bin:/home/magitz/bin)
@@ -151,8 +155,10 @@ In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. W
 
   In reading this section, it may be hard to see where you would use aliases. The example that I like to give is that I frequently like to view my file listing with the long listing, sorted reverse-chronologically with human readable file sizes (MB, GB vs all in bytes).
 
-  I could type `ls -lrth` every time I want to see that, but that's a lot of typing. So in my .bashrc file, I added the line:  
+  I could type `ls -lrth` every time I want to see that, but that is a lot of typing. So in my `.bashrc` file, I added the line:  
+
   `alias ll='ls -lrth'`  
+  
   So now, if I type `ll`, bash looks at my aliases, and knows that I want it to do `ls -lrth` and gives me that output.
 
 ## Ch 6. Redirection

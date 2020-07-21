@@ -117,3 +117,23 @@ description: "Site for Matt Gitzendanner's UF course, Computational Tools for Re
 
 
 github: [metadata]
+
+# Due date variables. Can be included in pages using {{site.variable}}
+
+quiz_1_due: "Friday, Sept. 18"
+quiz_2_due: ""
+quiz_3_due: ""
+quiz_4_due: ""
+
+ps_1_due: "Monday, Sept. 21"
+ps_2_due: ""
+ps_3_due: ""
+ps_4_due: ""
+
+project_1_due: ""
+project_2_due: ""
+
+# Zoom links
+
+class_zoom_link: "<a href='https://ufl.edu'>Zoom link coming soon</a>"
+office_hours_zoom_link: "<a href='https://ufl.edu'>Zoom link coming soon</a>"

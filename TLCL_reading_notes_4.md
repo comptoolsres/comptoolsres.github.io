@@ -1,5 +1,5 @@
 ---
-title: "Notes on TLCL Ch 24 & 25"
+title: "Notes on TLCL Ch 24 - 26"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_4.html

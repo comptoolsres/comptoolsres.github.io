@@ -1,0 +1,106 @@
+---
+title: "Week 1: Aug. 31 - Sept. 4"
+tags: [week-by-week]
+sidebar: home_sidebar
+permalink: Week_01.html
+toc: false
+week_num: 1
+series: "Week-by-week series"
+weight: 0.1
+---
+
+{% include custom/series_week_by_week.html %}
+
+## Overview for Week {{page.week_num}}
+
+* Introduction to the class
+* Getting setup with [software](software.html)
+* Overview of UF Research Computing and HiPerGator
+* Getting started on the Linux command line
+
+## What's due by the end of the week?
+
+* Nothing to turn in this week.
+
+## For Monday
+
+{% include image.html file='monday.png' alt="Calendar icon with Monday" position="right" max-width=75 %}
+
+<ul id="MondayTabs" class="nav nav-tabs">
+    <li class="active"><a href="#MonBefore" data-toggle="tab">Before Class</a></li>
+    <li><a href="#MonDuring" data-toggle="tab">During Class</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="MonBefore">
+        <ol>
+          <li>You've got this! Relax, there is nothing to do before class today</li>
+        </ol>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="MonDuring">
+        <ol>
+          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          <li>This will be one of the few classes that is mostly lecture. <a href="https://comptoolsres.github.io/slides/Lect_01_Intro.html">Here are the slides</a> for today's introduction to the class.</li>
+        </ol>
+    </div>
+</div>
+
+## For Wednesday
+
+{% include image.html file='wednesday.png' alt="Calendar icon with Wednesday" position="right" max-width=75 %}
+
+<ul id="WednesdayTabs" class="nav nav-tabs">
+    <li class="active"><a href="#WedBefore" data-toggle="tab">Before Class</a></li>
+    <li><a href="#WedDuring" data-toggle="tab">During Class</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="WedBefore">
+        <ol>
+          <li><a href="TLCL_reading_notes_1.md">Read TLCL Introduction & Ch 1-6</a></li>
+          <li>Watch the <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Orientation Materials for Courses Using HiPerGator</a> video</li>
+        </ol>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="WedDuring">
+        <ol>
+          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          <li>Getting started: <a href="https://comptoolsres.github.io/slides/Lect_02_Computers.html">Computers</a></li>
+          <li>UF Research Computing Intro & getting started</li>
+        </ol>
+    </div>
+</div>
+
+## For Friday
+
+{% include image.html file='friday.png' alt="Calendar icon with Friday" position="right" max-width=75 %}
+
+<ul id="FridayTabs" class="nav nav-tabs">
+    <li class="active"><a href="#FriBefore" data-toggle="tab">Before Class</a></li>
+    <li><a href="#FriDuring" data-toggle="tab">During Class</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="FriBefore">
+        <ol>
+          <li><a href="TLCL_reading_notes_2.md">Read TLCL Ch 7 & 8</a></li>
+        </ol>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="FriDuring">
+        <ol>
+          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          <li>Building Command Line skills</li>
+        </ol>
+    </div>
+</div>
+
+## By the end of this week you should
+
+{% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
+
+1. Be confident logging into HiPerGator via ssh.
+1. Understand the basics of Linux filesystems and where to store your data on HiPerGator.
+1. Be able to use the following Linux commands: `pwd, cd, ls, less, cp, mv, mkdir, rm, which, man, cat, sort, uniq, wc, head, tail, echo, history`.
+1. Understand command arguments to modify how commands function.
+1. Be able to use redirect output to a file (`>, >>`).
+1. Be able to link commands with pipes (`|`).
+
+{% include custom/office_hours.html %}
+
+{% include custom/series_week_by_week_next.html %}

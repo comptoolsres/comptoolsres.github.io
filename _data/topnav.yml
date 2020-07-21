@@ -5,6 +5,8 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/comptoolsres
+    - title: About
+      url: /about.html
     - title: Announcements
       url: /news
 

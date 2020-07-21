@@ -4,19 +4,9 @@ keywords: syllabus
 tags: 
 sidebar: home_sidebar
 permalink: index.html
-summary: An introduction to computational tools for research
+summary: An introduction to computational tools for research-- Linux command line, HPC, Bash scripting, Python and SQL
 toc: false
 ---
-
-## About this site
-
-This site has been developed as the main repository for Matt Gitzendanner's Computational Tools for Research in Biology. This course is typically offered every-other-year at the [University of Florida](https://ufl.edu). This site serves both as the primary resource when teaching the course, and as a resource for others teaching similar courses or learning on their own.
-
-The course was designed to be a one semester, 3-credit course for upper-level undergraduate and starting graduate students.
-
-There are branches for previous instances of the class, including [Summer A 2020](https://github.com/comptoolsres/comptoolsres.github.io/tree/Summer2020). Some links in the branches may no longer work.
-
-Please use the feedback button to send feedback.
 
 ## Course Description
 
@@ -24,7 +14,9 @@ Please use the feedback button to send feedback.
 
 Information technology has dramatically transformed how research across many disciplines is conducted. This is particularly true in the biological sciences where researchers frequently find themselves faced with massive amounts of diverse data to analyze. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills are critical for researchers.
 
-Topics covered in the course will address a gap in how research has advanced—*and become increasingly computational*— while student training in the use of computational tools has lagged. The course assumes no prior coding or command line skills, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained scientists and allows them to work in multidisciplinary research.
+Topics covered in the course will address a gap in how research has advanced—*and become increasingly computational*— while student training in the use of computational tools has lagged.
+
+**The course assumes no prior coding or command line skills**, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained scientists and allows them to work in multidisciplinary research.
 
 This course will survey areas where high performance computing, large-scale data access and integration, informatics tools and software, and multi-disciplinary collaboration have had high impact on research as a foundation for computationally-enabled research.
 

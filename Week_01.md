@@ -21,6 +21,8 @@ weight: 0.1
 ## What's due by the end of the week?
 
 * Nothing to turn in this week.
+* Quiz 1 will be available on Friday. It is due {{site.quiz_1_due}}.
+  * It covers basic Linux commands like: `pwd, cd, ls, less, cp, mv, mkdir, rm, which, man, cat, sort, uniq, wc, head, tail, echo, history, grep, cut, paste, join, diff, tr, sed`
 
 ## For Monday
 

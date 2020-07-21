@@ -18,10 +18,10 @@ weight: 0.2
 
 ## What's due by the end of the week?
 
-* Nothing to turn in this week.
+* **Quiz 1 is due {{site.quiz_1_due}}**
 * [Register for github.com account](github_account.md)
-* Start working on Problem set 1 on regular expressions (Due {{site.ps_1_due}})
-* Start working on Quiz 1 on Linux commands (Due {{site.quiz_1_due}})
+* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due}}.
+  * It is on regular expressions.
 
 ## For Monday
 
@@ -77,7 +77,7 @@ weight: 0.2
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="LinkedInLearningLinux.md">Watch Learn the Linux Command Line</a>, the linked page also includes Quiz 1: Due by start of class Friday, Sept 18, turn in in Canvas.</li>
+          <li><a href="LinkedInLearningLinux.md">Watch Learn the Linux Command Line</a></li>
           <li><a href="github_account.html">Register for github.com account</a></li>.
         </ol>
     </div>

@@ -1,28 +1,26 @@
 ---
-title: "Week 3: Sept 14 - 18"
+title: "Week 7: Oct 12 - 16"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_03.html
+permalink: Week_07.html
 toc: false
-week_num: 3
+week_num: 7
 series: "Week-by-week series"
-weight: 0.3
+weight: 0.7
 ---
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Writing shell scripts
-* Using git and github.com for version control and collaboration
-* Flow control: conditionals and loops
-* Learning to use Google for coding help
-* Learning to read code and application documentation
+* Lists, Dictionaries and Tuples
+* Regular Expressions in Python
+* Scripting data acquisition from websites and APIs
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due}}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}})
+* **Problem Set 3 due {{site.ps_3_due}}**
+* Quiz 4 will be available on Monday. It is due {{site.quiz_4_due}}
 
 ## For Monday
 
@@ -35,13 +33,14 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_4.md">Read TLCL Ch 24 - 26</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb">Read Py4E Ch 8</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb">Read Py4E Chs 9-10</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Hands-on with github use in writing scripts</li>
+          <li>Lists, Dictionaries and Tuples
         </ol>
     </div>
 </div>
@@ -57,13 +56,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb">Read Py4E Ch 11</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          <li>RegEx in Python</li>
         </ol>
     </div>
 </div>
@@ -79,14 +78,14 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything</li>.
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb">Read Py4E Ch 12</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a><li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
+          <li>Scripting data acquisition from web sites and APIs
         </ol>
     </div>
 </div>
@@ -95,17 +94,10 @@ weight: 0.3
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Be comfortable writing bash scripts to accomplish more complex tasks
-1. Understand how to use git and github to:
-   * Create a branch
-   * Modify code
-   * Add modified code to stage the changes
-   * Commit the modified code
-   * Push the modified code to github remote repository
-   * Merge the branch into the main branch
-1. Be comfortable with loops loops and conditionals.
-1. Have a better understanding of searching for coding help on Google.
-1. Have a better understanding of reading code and application documentation.
+1. Understand the Python data types list, dictionary and tuple
+1. Know how to use regular expresions in python
+1. Be able to scrape data from websites with BeautifulSoup
+1. Be able to get data from web services using their APIs
 
 {% include custom/office_hours.html %}
 

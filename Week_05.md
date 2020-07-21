@@ -1,28 +1,26 @@
 ---
-title: "Week 3: Sept 14 - 18"
+title: "Week 5: Sept 28 - Oct 2"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_03.html
+permalink: Week_05.html
 toc: false
-week_num: 3
+week_num: 5
 series: "Week-by-week series"
-weight: 0.3
+weight: 0.5
 ---
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Writing shell scripts
-* Using git and github.com for version control and collaboration
-* Flow control: conditionals and loops
-* Learning to use Google for coding help
-* Learning to read code and application documentation
+* Getting started in Python
+* Using Python on the command line
+* Using Python in Jupyter notebooks
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due}}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}})
+* **Problem Set 2 due {{site.ps_2_due}}**
+* Quiz 3 will be available on Monday. It is due {{site.quiz_3_due}}
 
 ## For Monday
 
@@ -35,13 +33,15 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_4.md">Read TLCL Ch 24 - 26</a></li>
+          <li><a href="py4e_reading_notes_1.html">Read Py4E Ch 1</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Hands-on with github use in writing scripts</li>
+          <li>Getting started in Python</li>
+          <li>Using Python on the command line</li>
+          <li>Using Python in <a href="https://jhub.rc.ufl.edu/">Jupyter Notebooks</a> (Link requires VPN connection to UF network)</li>
         </ol>
     </div>
 </div>
@@ -57,13 +57,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb">Read Py4E Ch 2</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          <li>Python data types</li>
         </ol>
     </div>
 </div>
@@ -79,14 +79,12 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything</li>.
+          <li>UF Homecoming, no class</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
+          <li>UF Homecoming, no class</li>
         </ol>
     </div>
 </div>
@@ -95,17 +93,9 @@ weight: 0.3
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Be comfortable writing bash scripts to accomplish more complex tasks
-1. Understand how to use git and github to:
-   * Create a branch
-   * Modify code
-   * Add modified code to stage the changes
-   * Commit the modified code
-   * Push the modified code to github remote repository
-   * Merge the branch into the main branch
-1. Be comfortable with loops loops and conditionals.
-1. Have a better understanding of searching for coding help on Google.
-1. Have a better understanding of reading code and application documentation.
+1. Be starting to learn Python
+1. Be comfortable opening Jupyter Notebooks and adding and running code cells
+1. Understand the variable types `int, float, str` and how they are used.
 
 {% include custom/office_hours.html %}
 

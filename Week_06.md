@@ -1,28 +1,29 @@
 ---
-title: "Week 3: Sept 14 - 18"
+title: "Week 6: Oct 5 - 9"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_03.html
+permalink: Week_06.html
 toc: false
-week_num: 3
+week_num: 6
 series: "Week-by-week series"
-weight: 0.3
+weight: 0.6
 ---
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Writing shell scripts
-* Using git and github.com for version control and collaboration
-* Flow control: conditionals and loops
-* Learning to use Google for coding help
-* Learning to read code and application documentation
+* Python flow control (contitionals and loops)
+* Functions
+* Iteration
+* `try/except`
+* Strings and string manipulation
+* File I/O
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due}}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}})
+* **Quiz 3 due {{site.quiz_3_due}}**
+* Problem Set 3 will be available on Monday. It is due {{site.ps_3_due}}
 
 ## For Monday
 
@@ -35,13 +36,15 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_4.md">Read TLCL Ch 24 - 26</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb">Read Py4E Ch 4</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Hands-on with github use in writing scripts</li>
+          <li>Python flow control</li>
+          <li>Python functions</li>
         </ol>
     </div>
 </div>
@@ -57,13 +60,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb">Read Py4E Ch 5</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          <li>Iteration</li>
         </ol>
     </div>
 </div>
@@ -79,14 +82,16 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything</li>.
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb">Read Py4E Ch 6</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb">Read Py4E Ch 7</a><li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
+          <li>Strings</li>
+          <li>`try/except`</li>
+          <li>File I/O</li>
         </ol>
     </div>
 </div>
@@ -95,17 +100,11 @@ weight: 0.3
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Be comfortable writing bash scripts to accomplish more complex tasks
-1. Understand how to use git and github to:
-   * Create a branch
-   * Modify code
-   * Add modified code to stage the changes
-   * Commit the modified code
-   * Push the modified code to github remote repository
-   * Merge the branch into the main branch
-1. Be comfortable with loops loops and conditionals.
-1. Have a better understanding of searching for coding help on Google.
-1. Have a better understanding of reading code and application documentation.
+1. Be starting to feel comfortable in Python
+1. Understand loops and contitionals in Python and how they are similar to the same ideas in Bash
+1. Understand the importance of handling errors and how to use the `try/except` functions
+1. Be able to work with strings, manipulating them, printing them, etc.
+1. Be able to open a file for reading or writing
 
 {% include custom/office_hours.html %}
 

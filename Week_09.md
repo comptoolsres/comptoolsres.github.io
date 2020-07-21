@@ -1,28 +1,26 @@
 ---
-title: "Week 3: Sept 14 - 18"
+title: "Week 9: Oct 26 - 30"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_03.html
+permalink: Week_09.html
 toc: false
-week_num: 3
+week_num: 9
 series: "Week-by-week series"
-weight: 0.3
+weight: 0.9
 ---
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Writing shell scripts
-* Using git and github.com for version control and collaboration
-* Flow control: conditionals and loops
-* Learning to use Google for coding help
-* Learning to read code and application documentation
+* Additional data visualization with Matplotlib
+* Start working on Project 1
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due}}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}})
+* **Problem Set 4 due {{site.ps_4_due}}**
+* Quiz 5 will be available on Monday. It is due {{site.quiz_5_due}}
+* Project 1 will be available on Monday. It is due {{site.project_1_due}}
 
 ## For Monday
 
@@ -35,13 +33,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_4.md">Read TLCL Ch 24 - 26</a></li>
+          <li>Getting caught up</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Hands-on with github use in writing scripts</li>
+          <li>More data visualization with matplotlib</li>
         </ol>
     </div>
 </div>
@@ -57,13 +55,14 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li>Scan Py4E Ch 16</li>
+          <li>Reach Ch 14 on Object oriented programming.</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          <li>Work on Project 1 in your groups</li>
         </ol>
     </div>
 </div>
@@ -79,14 +78,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything</li>.
+          <li>Work on Project 1</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
+          <li>Work on Project 1</li>
         </ol>
     </div>
 </div>
@@ -95,17 +93,8 @@ weight: 0.3
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Be comfortable writing bash scripts to accomplish more complex tasks
-1. Understand how to use git and github to:
-   * Create a branch
-   * Modify code
-   * Add modified code to stage the changes
-   * Commit the modified code
-   * Push the modified code to github remote repository
-   * Merge the branch into the main branch
-1. Be comfortable with loops loops and conditionals.
-1. Have a better understanding of searching for coding help on Google.
-1. Have a better understanding of reading code and application documentation.
+1. Be getting more comfortable with producing graphs in matplotlib
+1. Have started working on Project 1
 
 {% include custom/office_hours.html %}
 

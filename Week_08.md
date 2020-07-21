@@ -1,28 +1,26 @@
 ---
-title: "Week 3: Sept 14 - 18"
+title: "Week 8: Oct 19 - 23"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_03.html
+permalink: Week_08.html
 toc: false
-week_num: 3
+week_num: 8
 series: "Week-by-week series"
-weight: 0.3
+weight: 0.8
 ---
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Writing shell scripts
-* Using git and github.com for version control and collaboration
-* Flow control: conditionals and loops
-* Learning to use Google for coding help
-* Learning to read code and application documentation
+* SciPy, NumPy and Pandas introduction
+* Using Python modules
+* Data visualization with Matplotlib
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due}}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}})
+* **Quiz 4 due {{site.quiz_4_due}}**
+* Problem Set 4 will be available on Monday. It is due {{site.ps_4_due}}
 
 ## For Monday
 
@@ -35,13 +33,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_4.md">Read TLCL Ch 24 - 26</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb">Review the information on NumPy, SciPy and Pandas</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Hands-on with github use in writing scripts</li>
+          <li>NumPy, SciPy and Pandas
         </ol>
     </div>
 </div>
@@ -57,13 +55,14 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li>Catching up</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          <li>More on Pandas</li>
+          <li>More on using Python Modules</li>
         </ol>
     </div>
 </div>
@@ -79,14 +78,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything</li>.
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb">Review the information on data visualization with Matplotlib</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
+          <li>Data visualization with Matplotlib</li>
         </ol>
     </div>
 </div>
@@ -95,17 +93,11 @@ weight: 0.3
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Be comfortable writing bash scripts to accomplish more complex tasks
-1. Understand how to use git and github to:
-   * Create a branch
-   * Modify code
-   * Add modified code to stage the changes
-   * Commit the modified code
-   * Push the modified code to github remote repository
-   * Merge the branch into the main branch
-1. Be comfortable with loops loops and conditionals.
-1. Have a better understanding of searching for coding help on Google.
-1. Have a better understanding of reading code and application documentation.
+1. Be generally aware of SciPy and Numpy
+1. Understand how to use Numpy arrays and access elements of arrays
+1. Become familiar with Pandas
+1. Know how to open csv files to create Pandas data frames
+1. Know the basics of producing graphs in matplotlib
 
 {% include custom/office_hours.html %}
 

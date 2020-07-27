@@ -33,10 +33,25 @@ weight: 0.1
     <li><a href="#MonDuring" data-toggle="tab">During Class</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>You've got this! Relax, there is nothing to do before class today</li>
-        </ol>
+  <div role="tabpanel" class="tab-pane active" id="MonBefore">
+    <ul>
+      <li><b>Watch the intro video</b></li>
+        <ul id="VideoTabs" class="nav nav-tabs">
+          <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
+          <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account needed, but no captions or search)</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="Stream">
+                <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/cc9f32f0-e439-4e7b-a7ae-f403d126a12d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="Dropbox">
+                <video width="800"  controls>
+                  <source src="https://www.dropbox.com/s/6mhxt13ig7sn9ih/Intro_to_class.mp4?dl=1" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+        <li><b>Follow the directions on the <a href="software.html">software download page</a></b></li>
+      </ul>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>

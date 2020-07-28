@@ -13,14 +13,14 @@ When you do the reading for this class, **don't just read!** **Do the commands d
 ## Introduction
 
 <ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/64d853e5-b1ee-48ff-96c4-4e2d95e0d43e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
         <video width="800"  controls>
           <source src="https://www.dropbox.com/s/0x8z6xwh9uus24n/TLCL_00_Intro.mp4?dl=1" type="video/mp4" />
         </video>
@@ -36,14 +36,14 @@ When you do the reading for this class, **don't just read!** **Do the commands d
 ## Ch. 1: What is the Shell?
 
 <ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+    <li class="active"><a href="#Stream_2" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_2" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream">
+    <div role="tabpanel" class="tab-pane active" id="Stream_2">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/e5b7fd9b-1afe-4d35-a8fa-488e1c77d6f8?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_2">
         <video width="800"  controls>
           <source src="https://www.dropbox.com/s/brrez9qppgmnqu1/TLCL_CH_01_The_Shell.mp4?dl=1" type="video/mp4" />
         </video> 
@@ -92,14 +92,14 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 ## Ch 2. Navigation
 
 <ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+    <li class="active"><a href="#Stream_3" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_3" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream">
+    <div role="tabpanel" class="tab-pane active" id="Stream_3">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/bace5b5b-913b-4cb6-8e41-d03c408bdb0d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_3">
         <video width="800"  controls>
           <source src="https://www.dropbox.com/s/dl131nhmqibzol5/TLCL_Ch_02.mp4?dl=1" type="video/mp4" />
         </video>
@@ -123,14 +123,14 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 ## Ch. 3: Exploring the System
 
 <ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+    <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream">
+    <div role="tabpanel" class="tab-pane active" id="Stream_4">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/c1db7440-42cf-4571-83f8-4bcb66baf386?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_4">
         <video width="800"  controls>
           <source src="https://www.dropbox.com/s/txy4eumg6bo23nm/TLCL_Ch_03.mp4?dl=1" type="video/mp4" />
         </video>
@@ -155,16 +155,16 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 ## Ch 4: Manipulating Files and Directories
 
 <ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+    <li class="active"><a href="#Stream_5" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_5" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream">
+    <div role="tabpanel" class="tab-pane active" id="Stream_5">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/48bd13e4-920c-45ca-9aeb-d9fbf9372eae?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_5">
         <video width="800"  controls>
-          <source src="https://www.dropbox.com/s/dl131nhmqibzol5/TLCL_Ch_02.mp4?dl=1" type="video/mp4" />
+          <source src="https://www.dropbox.com/s/nhhmaamvoi7gek1/TLCL_Ch_04.mp4?dl=1" type="video/mp4" />
         </video>
     </div>
 </div>

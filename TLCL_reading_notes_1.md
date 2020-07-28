@@ -3,15 +3,29 @@ title: "Notes on TLCL Introduction and Ch 1-6"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_1.html
-toc: false
 ---
 
-{% include note.html content="Page numbers and headings referenced in the The Linux Command Line reading notes are based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019. This is the latest available the time the course was taught in Summer A 2020. Page numbers may differ from print or other versions." %}
+{% include note.html content="Page numbers and headings referenced in the The Linux Command Line reading notes are based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019. This is the latest available the time the course was taught in Fall 2020. Page numbers may differ from print or other versions." %}
 
 {% include tip.html content=" **Reading vs. Doing**  
 When you do the reading for this class, **don't just read!** **Do the commands discussed.** Play with them, break them, try different options, explore, etc. Reading about using the command line or programming without practicing it will not teach you much!" %}
 
 ## Introduction
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/64d853e5-b1ee-48ff-96c4-4e2d95e0d43e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/0x8z6xwh9uus24n/TLCL_00_Intro.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 * p. xvii: This is one of my favorite quotes:
   > It's been said that “graphical user interfaces make easy tasks easy, while command line interfaces make difficult tasks possible” and this is still very true today.
@@ -20,6 +34,21 @@ When you do the reading for this class, **don't just read!** **Do the commands d
 * p. xix: **Prerequisites** Don't worry about this section, we will be using HiPerGator in this course. You do not need to install Linux on your own computer.
 
 ## Ch. 1: What is the Shell?
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/e5b7fd9b-1afe-4d35-a8fa-488e1c77d6f8?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/brrez9qppgmnqu1/TLCL_CH_01_The_Shell.mp4?dl=1" type="video/mp4" />
+        </video> 
+    </div>
+</div>
 
 Most of this text is written assuming you are running Linux on your computer. While that is certainly possible, for the most part, we will be connecting to a Linux server rather than using your own computer. I do this for a number of reasons:
 
@@ -62,6 +91,21 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
 ## Ch 2. Navigation
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/bace5b5b-913b-4cb6-8e41-d03c408bdb0d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/dl131nhmqibzol5/TLCL_Ch_02.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 * p. 8: **Listing the contents of a Directory**: On HiPerGator, your account starts with no files or directories. When you type the `ls` command at the bottom of p. 8, it will not show any files:
 
    ```bash
@@ -77,6 +121,21 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
     * Common conventions are to use underscores (`this_is_a_text_file.txt`) or camel case (`ThisIsATextFile.txt`). It doesn't really matter which you chose, though does help to be consistent.
 
 ## Ch. 3: Exploring the System
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/c1db7440-42cf-4571-83f8-4bcb66baf386?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/txy4eumg6bo23nm/TLCL_Ch_03.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 {% include tip.html content="Since we still do not have any data in our home directory, this section may be easier to follow along with if you change directories to the class share folder. Type the command below:
 <br><br>
@@ -95,6 +154,21 @@ In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol
 
 ## Ch 4: Manipulating Files and Directories
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/48bd13e4-920c-45ca-9aeb-d9fbf9372eae?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/dl131nhmqibzol5/TLCL_Ch_02.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 * p. 27: **Wildcards Work in the GUI Too**: You can ignore this box.
 
 {% include warning.html content="p. 33: Be Careful with `rm`! As noted, there is no undelete command, trash can, or recycle bin on Linux. So be careful!  
@@ -105,67 +179,3 @@ In your home directory (`/home/<gatorlink>`) we do have one week of snapshots. W
 * p. 33-34: **ln – Create Links**: Don't worry too much about the symbolic and hard link section. We won't be using them a lot.
 * p. 37-39: **Creating Hard Links**: Again, you can skip the sections on hard and symbolic links.
 * p. 39: **Removing Files and Directories**: Do try removing some of your playground files and directories, but again, don't worry about the link stuff.
-
-## Ch 5: Working with Commands
-
-* p. 44: **which – Display an Executable's Location**: `which cd`: On Red Hat Linux, the distribution of Linux that HiPerGator uses, `which cd` does return the path:
-
-  ```bash
-  [magitz@login2 ~]$ which cd
-  /usr/bin/cd
-  [magitz@login2 ~]$
-  ```
-
-  To see an error similar to the one displayed here, try `which` with some random text:
-
-  ```bash
-  [magitz@login2 ~]$ which foo
-  /usr/bin/which: no foo in (/opt/slurm/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/bin:/opt/dell/srvadmin/bin:/home/magitz/bin)
-  [magitz@login2 ~]$
-  ```
-
-* p. 44: **Getting a Command's Documentation**: This section presents a number of methods to get help, which in itself can be overwhelming! How I use these generally boils down to two or three methods:
-
-  `man` command: e.g. `man ls` will usually work for system programs--programs that are part of the OS, not applications you would install. So try that first. Sometimes it's easier to read a man page online, so Google [man ls](http://man7.org/linux/man-pages/man1/ls.1.html).
-
-  `command -h`: this frequently works, and if not may provide some hints anyway. e.g.:
-
-  ```bash  
-  $ python -h
-  usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
-  Options and arguments (and corresponding environment variables):
-  -b     : issue warnings about str(bytes_instance), str(bytearray_instance)
-          and comparing bytes/bytearray with str. (-bb: issue errors)
-  -B     : dont write .pyc files on import; also PYTHONDONTWRITEBYTECODE=x
-  -c cmd : program passed in as string (terminates option list)
-  -d     : debug output from parser; also PYTHONDEBUG=x
-  -E     : ignore PYTHON* environment variables (such as PYTHONPATH)
-  -h     : print this help message and exit (also --help)
-  [...more options...]
-
-  ```
-
-  For for system commands, I start with `man` and then go to Google.
-
-  For applications, I start with `-h`, if that doesn't work, I try `--help` and then I go to Google...
-
-  {% include tip.html content="p. 46: `man ls`: man pages can often be quite long, you can page through them with the space bar, but to quit out of the view, just type `q`." %}
-
-* p. 50: **Creating Our Own Commands with `alias`**: The vocabulary can get a little confusing here. I noted above that the symbolic and hard links created with the `ln` command are similar to aliases in MacOS. Aliases used here are very different--in Linux an alias is a way to create your own custom command, or modifications of a command.
-
-  In reading this section, it may be hard to see where you would use aliases. The example that I like to give is that I frequently like to view my file listing with the long listing, sorted reverse-chronologically with human readable file sizes (MB, GB vs all in bytes).
-
-  I could type `ls -lrth` every time I want to see that, but that is a lot of typing. So in my `.bashrc` file, I added the line:  
-
-  `alias ll='ls -lrth'`  
-  
-  So now, if I type `ll`, bash looks at my aliases, and knows that I want it to do `ls -lrth` and gives me that output.
-
-## Ch 6. Redirection
-
-{% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, overwrites the file you are redirecting to. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
-
-* p. 61: **The Difference Between `>` and `|`**: Pay particular attention to this box as people are often unclear on the difference between these commands.
-
-* p. 65: **head / tail – Print First / Last Part of Files**: `tail -f /var/log/messages`: You will not be able to run this command since you do not have permission to view the file /var/log/messages. We will see if we can find a use for the `tail -f` command, in general it is used for watching the contents of an output file while a program is running.
-* p. 66: **Linux Is About Imagination**: Another great analogy! I hope this course sparks your imagination about what you can do with the giant erector set of tools you will learn about!

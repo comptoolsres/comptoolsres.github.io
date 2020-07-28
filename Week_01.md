@@ -38,7 +38,7 @@ weight: 0.1
       <li><b>Watch the intro video</b></li>
         <ul id="VideoTabs" class="nav nav-tabs">
           <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-          <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account needed, but no captions or search)</a></li>
+          <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
         </ul>
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="Stream">
@@ -72,7 +72,7 @@ weight: 0.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_1.md">Read TLCL Introduction & Ch 1-6</a></li>
+          <li><a href="TLCL_reading_notes_1.md">Read TLCL Introduction & Ch 1-4</a></li>
           <li>Watch the <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Orientation Materials for Courses Using HiPerGator</a> video</li>
         </ol>
     </div>
@@ -96,7 +96,7 @@ weight: 0.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_2.md">Read TLCL Ch 7 & 8</a></li>
+          <li><a href="TLCL_reading_notes_2.md">Read TLCL Ch 5-8</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

@@ -98,8 +98,8 @@ For readings, there may be links to pages with my notes and additional explanati
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
 [1](Week_01.html) | Mon, Aug 31 | [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)
-[1](Week_01.html) | Wed, Sept 2| [Read TLCL Introduction & Ch 1-6](TLCL_reading_notes_1.md) <br> [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) |Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
-[1](Week_01.html) | Fri, Sept 4 | [Read TLCL Ch 7 & 8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due}}| Continue building shell skills
+[1](Week_01.html) | Wed, Sept 2| [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) |Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
+[1](Week_01.html) | Fri, Sept 4 | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due}}| Continue building shell skills
 |||
 [2](Week_02.html) | Mon, Sept 7 | Labor Day, no class |
 [2](Week_02.html) | Wed, Sept 9 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf)

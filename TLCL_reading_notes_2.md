@@ -3,10 +3,24 @@ title: "Notes on TLCL Ch 5-8"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_2.html
-toc: false
 ---
 
 ## Ch 5: Working with Commands
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/09d8a3fa-5225-4039-89ab-571f0d30a963?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/zhibhu5tzg130bv/TLCL_Ch_05_Commands.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 * p. 44: **which – Display an Executable's Location**: `which cd`: On Red Hat Linux, the distribution of Linux that HiPerGator uses, `which cd` does return the path:
 
@@ -63,6 +77,21 @@ toc: false
 
 ## Ch 6. Redirection
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_2" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_2" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_2">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/22d17ad9-9d32-453b-b64a-10bf20cb077f?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_2">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/sh/u4rf89wfjh7clb3/AAA4F8i_bUvbxpU0VVTMbIWLa?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 {% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, overwrites the file you are redirecting to. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
 
 * p. 61: **The Difference Between `>` and `|`**: Pay particular attention to this box as people are often unclear on the difference between these commands.
@@ -70,6 +99,7 @@ toc: false
 * p. 65: **head / tail – Print First / Last Part of Files**: `tail -f /var/log/messages`: You will not be able to run this command since you do not have permission to view the file /var/log/messages. We will see if we can find a use for the `tail -f` command, in general it is used for watching the contents of an output file while a program is running.
 * p. 66: **Linux Is About Imagination**: Another great analogy! I hope this course sparks your imagination about what you can do with the giant erector set of tools you will learn about!
 
+## A note on Chapters 7 and 8
 
 {% include note.html content="The next two chapters cover a fair bit. **Do not** attempt to memorize everything. There is a lot of great information here, hopefully you will remember some of it.
 <br><br>

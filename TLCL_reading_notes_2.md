@@ -109,11 +109,41 @@ Think of it as a tour of the toolbox: you don't need to know how to use every to
 
 ## Ch 7: Seeing the World as the Shell Sees It
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_3" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_3" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_3">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/3bfaee92-a997-4357-9082-597dcd8ff9cd?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_3">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/z9dvqxkfxlerrqd/TLCL_Ch_07_shell.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 * This chapter covers a lot. It is definitely worth reading and doing your best to understand, but can get a little on the overly detailed side.
 * p. 71: **Arithmetic Expansion**: One thing that this section should point out to you is that, while you *can* do math with bash, it is not the easiest thing! Especially with more complex calculations, bash quickly becomes more trouble than it is worth and it is far easier to switch to Python or other language with better math functionality.
 * p. 75: **Backquotes**: The text uses the term "backquote" for the '`' character (usually the key to the left of the 1 on your keyboard), this character is also referred to as the "backtick".
 
 ## Ch 8: Advanced Keyboard Tricks
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_4">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/e57a75dd-0352-41f6-bdc7-4b81c6cedac0?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_4">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/jxakqmwo9io0prn/TLCL_Ch_08_keyboard_tricks.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 * This chapter can certainly improve your skills and make it easier to do things, but I would not spend time worrying trying to memorize these. It is helpful to know that the options exist, and find and remember the ones you find helpful, but memorizing these is not the goal.
 * p. 83: **Completion**: Tab completion is definitely worth learning, you will use it all the time!

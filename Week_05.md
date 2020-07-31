@@ -33,7 +33,7 @@ weight: 0.5
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="py4e_reading_notes_1.html">Read Py4E Ch 1</a></li>
+          <li><a href="py4e_1.html">Read Py4E Ch 1</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">

@@ -21,8 +21,7 @@ weight: 0.2
 * **Quiz 1 is due {{site.quiz_1_due}}**
 * [Register for github.com account](github_account.md)
 * Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due}}.
-  * It is on regular expressions.
-
+  * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
 ## For Monday
 
 {% include image.html file='monday.png' alt="Calendar icon with Monday" position="right" max-width=75 %}
@@ -55,7 +54,7 @@ weight: 0.2
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_3.md">Read TLCL Ch 19 & 20 through p.293</a></li>
+          <li><a href="TLCL_3.md">Read TLCL Ch 19 & 20 through p.293</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
@@ -77,7 +76,7 @@ weight: 0.2
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="LinkedInLearningLinux.md">Watch Learn the Linux Command Line</a></li>
+          <li><a href="LinkedInLearningLinux.html">Watch Learn the Linux Command Line</a></li>
           <li><a href="github_account.html">Register for github.com account</a></li>.
         </ol>
     </div>

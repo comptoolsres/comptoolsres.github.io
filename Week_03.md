@@ -22,7 +22,8 @@ weight: 0.3
 ## What's due by the end of the week?
 
 * **Problem Set 1 is due {{site.ps_1_due}}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}})
+* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}}
+  * Quiz 2 covers 
 
 ## For Monday
 
@@ -35,7 +36,7 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_4.md">Read TLCL Ch 24 - 26</a></li>
+          <li><a href="TLCL_4.md">Read TLCL Ch 24 - 26</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
@@ -57,7 +58,7 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li><a href="TLCL_5.md">Read TLCL Ch 27, 29 & 33</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">

@@ -60,7 +60,7 @@ weight: 0.2
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}} </li>
-          <li>Regular Expressions: <a href="images/RegEx_CheetSheet.pdf">Download the handout</a></li>
+          <li>Regular Expressions: <a href="images/Regular_Expressions_Cheat_Sheet.pdf.pdf">Download the handout</a></li>
         </ol>
     </div>
 </div>

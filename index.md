@@ -102,7 +102,7 @@ Week | Date | Reading/Assignment |Topic |
 [1](Week_01.html) | Fri, Sept 4 | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due}}| Continue building shell skills
 |||
 [2](Week_02.html) | Mon, Sept 7 | Labor Day, no class |
-[2](Week_02.html) | Wed, Sept 9 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| Regular Expressions [Handout](images/RegEx_CheetSheet.pdf)
+[2](Week_02.html) | Wed, Sept 9 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| Regular Expressions [Handout](images/Regular_Expressions_Cheat_Sheet.pdf.pdf)
 [2](Week_02.html) | Fri, Sept 11 |**Quiz 1 due**<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md)| Start looking at git and github
 |||
 [3](Week_03.html) | Mon, Sept 14 | Quiz 2, due {{site.quiz_2_due}}<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md) | Shell Scripts and version control with git and GitHub

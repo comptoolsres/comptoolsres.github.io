@@ -12,8 +12,6 @@ Part 2 and the first chapters of Part 3 get more into system configuration and m
 
 ## Regular Expressions
 
-{% include note.html content="Feel free to read through this on your own, but we will work on this together in class." %}
-
 Start by reading p. 251 as an introduction. But before continuing, I have some additional exercises that I hope make it easier to learn about regular expressions.
 
 At the start of Ch 19, William Shotts says (p. 251):
@@ -50,7 +48,7 @@ Change the "`Go`" in the Find box to "`G.`" (G-period). Again, look at the resul
 
 {% include tip.html content="VSCode, and other editors, also have a case sensitive option. I suggest leaving it on, so that searches are case sensitive unless you specifically do not want them to be. That way, the search is more similar to standard regex and you are less likely to be surprised." %}
 
-I've put together a [Regular_Expressions_Cheat_Sheet.pdf](images/RegEx_CheetSheet.pdf), print this out and keep it handy for this section.
+I've put together a [Regular_Expressions_Cheat_Sheet.pdf](images/Regular_Expressions_Cheat_Sheet.pdf.pdf), print this out and keep it handy for this section.
 
 ## Ch. 19: Regular Expressions
 

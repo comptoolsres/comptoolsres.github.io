@@ -72,7 +72,7 @@ weight: 0.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_1.md">Read TLCL Introduction & Ch 1-4</a></li>
+          <li><a href="TLCL_1.html">Read TLCL Introduction & Ch 1-4</a></li>
           <li>Watch the <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Orientation Materials for Courses Using HiPerGator</a> video</li>
         </ol>
     </div>
@@ -96,7 +96,7 @@ weight: 0.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="TLCL_reading_notes_2.md">Read TLCL Ch 5-8</a></li>
+          <li><a href="TLCL_2.html">Read TLCL Ch 5-8</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

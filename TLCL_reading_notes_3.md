@@ -1,5 +1,5 @@
 ---
-title: "Notes on Regular Expressions & TLCL Ch 19 & 20"
+title: "Notes on Regular Expressions & TLCL Ch 19"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_3.html
@@ -213,7 +213,7 @@ Replace: `$2, $1`
 
 The text matched with the first set of parentheses is put into a variable called `$1` and the text matched in the second set is put into a variable called `$2`. We can then use these variables in the replace to reverse their order.
 
-### Exercise
+### Exercise 1
 
 Below is a data table for some plants. We really don't need to worry about what the data are right now, as our goal is to practice with regex. This table is typical of much of the data we encounter in Biology and many fields. It has a header row followed by rows of data and columns are separated with tab characters.
 
@@ -272,16 +272,7 @@ Copy and paste this dataset into a new VSCode document. Write a regular expressi
 
 You may be thinking "I can do this in Excel more easily". But what if I gave you a thousand or a million of these files to process? It is trivial--even in VSCode (Replace in Files)--to do this, and as we will see, this can also be done on the command line! Remember, command line interfaces make difficult tasks possible!
 
-## Ch. 19: Regular Expressions
-
-As useful as it is to use regular expression in your text editor, there are lots of cool things you can do with them on the command line. Chapter 19 of TLCL is a good walk through of the "`grep`" tool, so back to that...
-
-* p. 253: **`grep bzip dirlist*.txt` output**: Note that `bzip` is found in both /bin and /usr/bin on HiPerGator, so you will get four lines that match rather then the two shown in this box. The same applies to the other similar searches.
-* p. 254: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
-* p. 256: **A Crossword Puzzle Helper**: Our word dictionary (see grey box) has 479,828 words! So results are a bit different.
-* p. 258-263: **POSIX Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
-
-### Some additional practice
+### Exercise 2
 
 Since I think RegEx are so important, here are some additional searches to try to make. In each case, the goal is to create one search string that finds the indicated text. Check your results by seeing what is found with your string and play until it gets the correct text.
 
@@ -334,7 +325,7 @@ Now that you've practiced finding text, you can also replace it, either with ent
 
 For example, "`(Go) Gators`" will find the text "Go Gators" and put the "Go" into a variable called `$1`. In the replace string, we could keep that and write the replace to be "`$1 Seminoles`" and the result would be "Go Seminoles".
 
-### Practice with replace using ReGex
+### Exercise 3
 
 Here is a list of names. Copy and paste into your text editor.
 
@@ -378,8 +369,18 @@ Write a regular expression to:
 
 Amazing stuff right??  ![Amazing gif](images/amazing.gif)
 
-## Ch. 20: Text Processing
+## Ch. 19: Regular Expressions
 
-The next set of tools are another great resource.
+As useful as it is to use regular expression in your text editor, there are lots of cool things you can do with them on the command line. Chapter 19 of TLCL is a good walk through of the "`grep`" tool, so back to that...
 
-Don't forget you can use the PDF to copy/paste larger chunks of data...In this case, it takes some regex playing to make it work, so I have put a copy of the distros.txt file in `/ufrc/bsc4452/share/Class_Files/TLCL_files/`.
+* p. 253: **`grep bzip dirlist*.txt` output**: Note that `bzip` is found in both /bin and /usr/bin on HiPerGator, so you will get four lines that match rather then the two shown in this box. The same applies to the other similar searches.
+* p. 254: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
+* p. 256: **A Crossword Puzzle Helper**: Our word dictionary (see grey box) has 479,828 words! So results are a bit different.
+* p. 258-263: **POSIX Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
+* p. 263: **Alternation**: This is another useful command and also another meaning of the "`|`" character. 
+* p. 264" **Quantifiers** : This is another case of differences in implementation...grep uses the "`?`" for matching 0 or 1 times, while other implementations use it to control greediness. Here is a [StackOverflow](https://stackoverflow.com/questions/3027518/how-to-do-a-non-greedy-match-in-grep) page that talks about using the -P flag in grep to get the non-greedy behavior--don't worry about this unless you are curious or find yourself needing it...
+
+{% include tip.html content="We will talk about using Google and reading documentation later, but one thing you should find is that [StackOverflow](https://stackoverflow.com/) is an incredible resource. I rarely start at the homepage, but 9/10 Google searches about code lead to a StackOverflow answer! These can be variably helpful...if the first one doesn't seem to be what you want, look at the next one or refine your search terms to refocus your question." %}
+
+* p. 267: **Putting Regular Expressions to work**: These are some good examples of possible uses of regex.
+* p. 270: **Searching for Text with less and vim**: You can use `less`, but I would skip using `vim`--We skipped chapter 12 which covers `vi`/`vim`.

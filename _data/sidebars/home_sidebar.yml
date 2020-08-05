@@ -15,8 +15,11 @@ entries:
       - title: TLCL Notes Ch 5-8
         url: /TLCL_2.html
         output: web
-      - title: Notes on Regular Expressions & TLCL Ch 19 & 20
+      - title: Notes on Regular Expressions & TLCL Ch 19
         url: /TLCL_3.html
+        output: web
+      - title: TLCL Notes Ch 20
+        url: /TLCL_3.5.html
         output: web
       - title: TLCL Notes Ch 23
         url: /TLCL_6.html

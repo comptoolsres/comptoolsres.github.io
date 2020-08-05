@@ -176,31 +176,98 @@ All faculty, staff and student of the University are required and expected to ob
 
 ## Grading
 
+See also the [List of Graded Work page](Grading.html).
+
+### Assignment Values
+
 * **Quizzes**: 6 @ 20 points each: 120 points (37%)
 * **Problem Sets**: 5 @ 20 points each: 100 points (30%)
 * **Class Projects**: 2 @ 40 points each: 80 points (24%)
 * **Class Participation** 30 points: 30 points (9%)
   * 10 points for github commits, 20 points for code peer review
 
-### Grade Disputes
+Grading in this class is consistent with UF policies available at: [https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/]( https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/)
 
-Should a student wish to dispute any grade received in this class (other than simple addition errors), the dispute must be in writing and be submitted to the instructor within a week of receiving the grade.  
-The dispute should set out very clearly, the grade that the student believes the assignment should have received as well as why they believe that they should have received such a grade.
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseA"> <H3>Grade Disputes</H3></a>
+        </div>
+        <!-- /.panel-heading--> 
+        <div id="collapseA" class="panel-collapse collapse noCrossRef">
+            <div class="panel-body">
+                Should a student wish to dispute any grade received in this class (other than simple addition errors), the dispute must be in writing (via email) and be submitted to the instructor within a week of receiving the grade.
+                <BR><BR>
+                The dispute should clearly set out the grade that the student believes the assignment should have received as well as why they believe that they should have received such a grade.
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel-collapse -->
+    </div>
+    <!-- /.panel-default -->
+</div>
+<!-- /.panel-group -->
 
-### Grading Scale and GPA Equivalent
-
-A  | A-  | B+  | B  | B-  | C+  | C  | C-  | D+  | D  | D-  | E  |
----|-----|-----|----|-----|-----|----|-----|-----|----|-----|----|
-100-93<br>(4.0)|92-90<br>(3.67)|89-87<br>(3.33)|86-83<br>(3.0)|82-80<br>(2.67)|79-77<br>(2.33)|76-73<br>(2.0)|72-70<br>(1.67)|69-67<br>(1.33)|66-63<br>(1.0)|62-60<br>(0.67)|59-<br>(0)|
-
-**Note:** A grade of C- is not a qualifying grade for major, minor, Gen Ed, or College Basic distribution credit. For further information on UF's Grading Policy, see:
-[https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/)
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseB"> <H3>Grading Scale and GPA Equivalent</H3></a>
+        </div>
+        <!-- /.panel-heading--> 
+        <div id="collapseB" class="panel-collapse collapse noCrossRef">
+            <div class="panel-body">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>A</th>
+                      <th>A-</th>
+                      <th>B+</th>
+                      <th>B</th>
+                      <th>B-</th>
+                      <th>C+</th>
+                      <th>C</th>
+                      <th>C-</th>
+                      <th>D+</th>
+                      <th>D</th>
+                      <th>D-</th>
+                      <th>F</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>100-93<br />(4.0)</td>
+                      <td>&lt;93-90<br />(3.67)</td>
+                      <td>&lt;90-87<br />(3.33)</td>
+                      <td>&lt;87-83<br />(3.0)</td>
+                      <td>&lt;83-80<br />(2.67)</td>
+                      <td>&lt;80-77<br />(2.33)</td>
+                      <td>&lt;77-73<br />(2.0)</td>
+                      <td>&lt;73-70<br />(1.67)</td>
+                      <td>&lt;70-67<br />(1.33)</td>
+                      <td>&lt;67-63<br />(1.0)</td>
+                      <td>&lt;63-60<br />(0.67)</td>
+                      <td>&lt;60<br />(0)</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <B>Note:</B> A grade of C- is not a qualifying grade for major, minor, Gen Ed, or College Basic distribution credit. For further information on UF's Grading Policy, see:
+                <a href="https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/">https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/</a>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel-collapse -->
+    </div>
+    <!-- /.panel-default -->
+</div>
+<!-- /.panel-group -->
 
 ## Course Policies
 
 ### Class Attendance and Makeup Policy
 
 Requirements for class attendance and makeup assignments, and other work in this course are consistent with university policies that can be found in the online catalog at: [https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/)
+
+In general, I do not take attendance. You are all adults and I assume you are taking the class the learn. The best way to learn is to regularly attend class. I am sure students will miss class for various reasons. I am happy to help you catch up. If you regularly miss class and fall behind, I may ask that you hold questions on content you have missed until after class, ask that you coordinate a time to go over the content. I will make every effort to record and post all classes to help those that miss classes.
 
 ### Quiz and Assignment Policy
 
@@ -210,7 +277,7 @@ All quizzes and assignments are "open book, open internet", you may use whatever
 
 ### Makeup and Late policy
 
-Please notify the instructor of circumstances that lead to late work or missed classes. I will generally work with you and accept late work. Without prior notification, late work will be penalized 5% per day after the due date.
+Please notify the instructor of circumstances that lead to late work or missed classes. I will generally work with you and accept late work. Without prior notification, late work will be penalized one point per day after the due date.
 
 ## Students Requiring Accommodations
 
@@ -222,19 +289,17 @@ Students are expected to provide professional and respectful feedback on the qua
 
 ## Class Demeanor and Netiquette
 
-Students are expected to arrive to class on time and behave in a manner that is respectful to the instructor and to fellow students. Please avoid the use of cell phones and restrict eating to outside of the classroom. Opinions held by other students should be respected in discussion, and conversations that do not contribute to the discussion should be held at minimum, if at all.
+Students are expected to join class Zoom meeting on time and behave in a manner that is respectful to the instructor and to fellow students. If at all possible, please have your video on during class--it is easier for me to teach and for discussion if we can see you! Please do be aware of your surroundings and ensure that content visible on your video, or shared via screen sharing, is appropriate for class.
 
-### Cell Phone and Texting Policy
+Opinions held by other students should be respected in discussion, and conversations that do not contribute to the discussion should be held at minimum, if at all.
 
-Students should turn cell phones to vibrate before coming to class. Cell phone rings and notifications disrupt fellow students and the instructor. Please be courteous to all and silence your phone.
+Please use the "Raise Hand" feature of Zoom to ask a question.
 
-### Computer Use
+Students should be working on course content during class.
 
-This is a hands-on computational class and students are expected to have their computer at every class. Students should be working on course content while in class. Students are expected to be respectful of others with the content visible on their computers. Sometimes videos are a helpful way to learn new content. If that is the case, please use headphones so that the audio is not audible to others in class.
+### Discussion Boards and Slack Channel
 
-### Discussion Boards
-
-The Canvas discussion boards can be used to ask for and provide help by all. Students should be supportive and considerate of others at all times. Rude or inappropriate comments will be removed and the poster will be warned.
+The Canvas discussion boards and Slack can be used to ask for and provide help by all. Students should be supportive and considerate of others at all times. Rude or inappropriate comments will be removed and the poster will be warned.
 
 ## University Honesty Policy
 
@@ -243,24 +308,36 @@ UF students are bound by The Honor Pledge which states:
 
 [The Honor Code](https://sccr.dso.ufl.edu/policies/student-honor-code-student-conduct-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have any questions or concerns, please consult with the instructor or TAs in this class
 
-## Health and Wellness
-
-Resources are available on-campus for students having personal problems or lacking clear career and academic goals. The resources include:
-
-* UF Counseling & Wellness Center, 3190 Radio Rd, 392-1575, psychological and psychiatric services.
-* Career Resource Center, Reitz Union, 392-1601, career and job search services.
-* Many students experience test anxiety and other stress related problems. “A Self Help Guide for Students” is available through the Counseling Center (301 Peabody Hall, 392-1575) and at their web site: [https://counseling.ufl.edu/](https://counseling.ufl.edu/).
-* **U Matter, We Care**: If you or a friend is in distress, please contact umatter@ufl.edu or 352 392-1575 so that a team member can reach out to the student.
-
-* **Counseling and Wellness Center**: [https://counseling.ufl.edu/](https://counseling.ufl.edu/), 392-1575; and the 
-
-* **University Police Department**: 392-1111 or 9-1-1 for emergencies. [http://www.police.ufl.edu/](https://www.police.ufl.edu/)
-
-* **Sexual Assault Recovery Services (SARS)**: Student Health Care Center, 392-1161.
-
-* **Student Health Care Center**: Call 352-392-1161 for 24/7 information to help you find the care you need, or visit [shcc.ufl.edu](https://shcc.ufl.edu/)
-
-* **Food insecurity**: The Pantry is a resource on the University of Florida campus committed to supporting students, staff, and faculty who are experiencing food insecurity. These individuals do not have reliable access to nutritious foods for themselves and their families. If you, or anyone you know, is experiencing food insecurity, the Pantry is a resource to visit. We offer non-perishable food, toiletries and fresh produce grown at the Field and Fork Gardens during certain times of the year. There is no proof of need required in order to shop at the Pantry; you must only bring in your valid UFID card. At the Pantry, we know that a good meal makes for a good student, and we work to support all Gators who are experiencing food insecurity. [Field & Fork Food Pantry](https://pantry.fieldandfork.ufl.edu/)
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseC"> <H2> Health and Wellness</H2></a>
+        </div>
+        <!-- /.panel-heading--> 
+        <div id="collapseC" class="panel-collapse collapse noCrossRef">
+            <div class="panel-body">
+              Resources are available on-campus for students having personal problems or lacking clear career and academic goals. The resources include:
+              <ul>
+                <li><b>UF Counseling & Wellness Center</b>, 3190 Radio Rd, 392-1575, psychological and psychiatric services.</li>
+                <ul>
+                  <li>Provides counseling and support as well as crisis and wellness services including a variety of workshops throughout the semester (e.g., Yappy Hour, Relaxation and Resilience).</li>
+                  <li>Many students experience test anxiety and other stress related problems. “A Self Help Guide for Students” is available through the Counseling Center (301 Peabody Hall, 392-1575) and at their web site: <a href="https://counseling.ufl.edu/">https://counseling.ufl.edu/</a>.</li>
+                  <li>U Matter, We Care: If you or a friend is in distress, please contact umatter@ufl.edu or 352 392-1575 so that a team member can reach out to the student.</li>
+                </ul>
+                <li><b>Career Connections Center</b>, Reitz Union, 392-1601, CareerCenterMarketing@ufsa.ufl.edu, connects job seekers with employers and offers guidance to enrich your collegiate experience and prepare you for life after graduation.</li>
+                <li><b>University Police Department</b>: 392-1111 or 9-1-1 for emergencies. <a href="http://www.police.ufl.edu/">https://www.police.ufl.edu/</a></li>
+                <li><b>Sexual Assault Recovery Services (SARS)</b>: Student Health Care Center, 392-1161.</li>
+                <li><b>Student Health Care Center</b>: Call 352-392-1161 for 24/7 information to help you find the care you need, or visit <a href="shcc.ufl.edu">https://shcc.ufl.edu/</a></li>
+                <li><b>Food insecurity</b>: The Pantry is a resource on the University of Florida campus committed to supporting students, staff, and faculty who are experiencing food insecurity. These individuals do not have reliable access to nutritious foods for themselves and their families. If you, or anyone you know, is experiencing food insecurity, the Pantry is a resource to visit. We offer non-perishable food, toiletries and fresh produce grown at the Field and Fork Gardens during certain times of the year. There is no proof of need required in order to shop at the Pantry; you must only bring in your valid UFID card. At the Pantry, we know that a good meal makes for a good student, and we work to support all Gators who are experiencing food insecurity. <a href="https://pantry.fieldandfork.ufl.edu/">Field & Fork Food Pantry</a>.</li>
+              </ul>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel-collapse -->
+    </div>
+    <!-- /.panel-default -->
+</div>
+<!-- /.panel-group -->
 
 ## Inclusive Learning Environment
 
@@ -272,3 +349,51 @@ If you have questions or concerns about your rights and responsibilities for inc
 ## Privacy
 
 There are federal laws protecting your privacy with regards to grades earned in courses and on individual assignments. For more information, please see: [https://registrar.ufl.edu/ferpa.html](https://registrar.ufl.edu/ferpa.html)
+
+## Statement Regarding Course Recording
+
+Our class sessions may be audio visually recorded for students in the class to refer back to and for use of enrolled students who are unable to attend live. Students who participate with their camera engaged or utilize a profile image are agreeing to have their video or image recorded. If you are unwilling to consent to have your profile or video image recorded, keep your camera off and do not use a profile image. Likewise, students who un-mute during class and participate verbally are agreeing to have their voices recorded.  If you are unwilling to consent to have your voice recorded during class, you will need to keep your mute button activated and communicate exclusively using the "chat" feature, which allows students to type questions and comments live. The chat will not be recorded or shared. As in all courses, unauthorized recording and unauthorized sharing of recorded materials is prohibited.
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseD"> <H2> Additional UF Policies and Resources</H2></a>
+        </div>
+        <!-- /.panel-heading--> 
+        <div id="collapseD" class="panel-collapse collapse noCrossRef">
+            <div class="panel-body">
+                <h3>Dean of Students Office</h3>
+                <a href="https://dso.ufl.edu/">Dean of Students Office</a> (352-392-1261) provides a variety of services to students and families, including <a href="https://dso.ufl.edu/areas_services/hitchcock-field-fork-pantry/">Field and Fork</a> (UF&rsquo;s food pantry) and <a href="https://dso.ufl.edu/areas_services/new-student-family-programs/">New Student and Family programs</a></p>
+                <h3>Disability Resource Center</h3>
+                <ul>
+                  <li><a href="https://disability.ufl.edu/students/get-started/">Disability Resource Center</a> (<a href="mailto:DRCaccessUF@ufsa.ufl.edu">DRCaccessUF@ufsa.ufl.edu</a> | 352-392-8565) helps to provide an accessible learning environment for all by providing support services and facilitating accommodations, which may vary from course to course. Once registered with DRC, students will receive an accommodation letter that must be presented to the instructor when requesting accommodations. Students should follow this procedure as early as possible in the semester.</li>
+                </ul>
+                <h3>Multicultural and Diversity Affairs</h3>
+                <p><a href="https://multicultural.ufl.edu/">Multicultural and Diversity Affairs</a> (352-294-7850) celebrates and empowers diverse communities and advocates for an inclusive campus.</p>
+                <h3>Office of Student Veteran Services</h3>
+                <p><a href="http://veterans.ufl.edu/">Office of Student Veteran Services</a> (352-294-2948 | <a href="mailto:vacounselor@ufl.edu">vacounselor@ufl.edu</a>) assists student military veterans with access to benefits.</p>
+                <h3>ONE.UF</h3>
+                <p><a href="https://one.uf.edu/">ONE.UF</a> is the home of all the student self-service applications, including access to:</p>
+                <ul>
+                  <li><a href="http://www.ufadvising.ufl.edu/">Advising</a></li>
+                  <li><a href="http://www.fa.ufl.edu/bursar/">Bursar</a> (352-392-0181)</li>
+                  <li><a href="https://www.sfa.ufl.edu/">Financial Aid</a> (352-392-1275)</li>
+                  <li><a href="https://registrar.ufl.edu/">Registrar</a> (352-392-1374)</li>
+                </ul>
+                <h3>Official Sources of Rules and Regulations</h3>
+                <p>The official source of rules and regulations for UF students is the <a href="https://catalog.ufl.edu/UGRD/">Undergraduate Catalog</a> and <a href="http://gradcatalog.ufl.edu/">Graduate Catalog</a>. Quick links to other information have also been provided below.</p>
+                <ul>
+                  <li><a href="https://dso.ufl.edu/resources/student-handbook/">Student Handbook</a></li>
+                  <li><a href="https://catalog.ufl.edu/UGRD/student-responsibilities/">Student Responsibilities</a>, including academic honesty and student conduct code</li>
+                  <li><a href="https://elearning.ufl.edu/supported-services/">e-Learning Supported Services Policies</a> includes links to relevant policies including Acceptable Use, Privacy, and many more</li>
+                  <li><a href="https://accessibility.ufl.edu/">Accessibility</a>, including the Electronic Information Technology Accessibility Policy and ADA Compliance</li>
+                  <li><a href="https://it.ufl.edu/policies/student-computing-requirements/">Student Computing Requirements</a>, including minimum and recommended technology requirements and competencies</li>
+                </ul>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel-collapse -->
+    </div>
+    <!-- /.panel-default -->
+</div>
+<!-- /.panel-group -->

@@ -5,8 +5,8 @@
       noBackToTopLinks: false,
       title: '',
       minimumHeaders: 3,
-      headers: 'h1, h2',
-      listType: 'ol', // values: [ol|ul]
+      headers: 'h1, h2, h3',
+      listType: 'ul', // values: [ol|ul]
       showEffect: 'slideDown', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow' // set to 0 to deactivate effect
     },

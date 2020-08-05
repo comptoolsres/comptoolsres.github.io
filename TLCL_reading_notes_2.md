@@ -148,3 +148,8 @@ Think of it as a tour of the toolbox: you don't need to know how to use every to
 * This chapter can certainly improve your skills and make it easier to do things, but I would not spend time worrying trying to memorize these. It is helpful to know that the options exist, and find and remember the ones you find helpful, but memorizing these is not the goal.
 * p. 83: **Completion**: Tab completion is definitely worth learning, you will use it all the time!
 * p. 85: **Using History**: While history is maintained on HiPerGator and is very useful, please be aware that because you can be logged in on multiple servers, sometimes things get lost in the history. It will generally be there and can be used, but don't rely on exclusively. Keep notes of useful commands, etc.
+
+
+{% include note.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
+
+Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things." %}

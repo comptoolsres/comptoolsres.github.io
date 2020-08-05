@@ -28,7 +28,7 @@ When you do the reading for this class, **don't just read!** **Do the commands d
 </div>
 
 * p. xvii: This is one of my favorite quotes:
-  > It's been said that “graphical user interfaces make easy tasks easy, while command line interfaces make difficult tasks possible” and this is still very true today.
+  > <i class="fa fa-quote-left"></i> It's been said that “graphical user interfaces make easy tasks easy, while command line interfaces make difficult tasks possible” and this is still very true today.
 
   * I hope you will feel the same by the end of this course!
 * p. xix: **Prerequisites** Don't worry about this section, we will be using HiPerGator in this course. You do not need to install Linux on your own computer.

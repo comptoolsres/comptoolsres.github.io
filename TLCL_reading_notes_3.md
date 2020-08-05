@@ -19,7 +19,7 @@ William Shotts, goes on to say (p. 251):
 
 I am not sure I can agree regular expressions are arcane, to me they are magic! If the only thing you take away from this course is how to use regular expressions (RegEx or regex), and only use them with find and replace text in a text editor, you will have gotten a valuable skill from this course. I use regex all the time! People ask for seemingly complex transformations and a few minutes with regex, provides a solution.
 
-Regex will transform your life! Or at least change how you transform data for the rest of your life...
+Regular expressions are a symbolic notation that allow you to find and replace with superpowers! Regex will transform your life! Or at least change how you transform data for the rest of your life...
 
 The last important quote from TLCL touches on an unfortunate truth (p. 251):
 > <i class="fa fa-quote-left"></i> However, to further confuse things, not all regular expressions are the same; they vary slightly from tool to tool and from programming language to language.
@@ -42,8 +42,6 @@ Open the Find dialog box and turn on regular expression searches. In VSCode, tha
 
 In the Find box enter the text "`Go`" and either look through the found text (highlighted in the document) or click Find All.
 
-Regular expressions are a symbolic notation that allow you to find and replace with superpowers!
-
 {% include tip.html content="VSCode, and other editors, also have a case sensitive option. I suggest leaving it on, so that searches are case sensitive unless you specifically do not want them to be. That way, the search is more similar to standard regex and you are less likely to be surprised." %}
 
 {% include tip.html content="I highly encourage you to play with these regular expressions either in VSCode or one of the online resources. It would probably be best to paste in or make up some other text to experiment with." %}
@@ -58,7 +56,7 @@ Regular expressions are a symbolic notation that allow you to find and replace w
 
 Change the "`Go`" in the Find box to "`G.`" (G-period). Again, look at the results.
 
-**What just happened?** Since you have Regular Expression search turned on, the "`.`" is being interpreted not as a period, but as a regular expression, or **regex**. And in the regex syntax, a "`.`" means "any character". So, "`G.`" matches "`Go`", "`Ga`", and "`Ge`" in our string. In fact it would match "`G`" followed by any character.
+**What just happened?** Since you have Regular Expression search turned on, the "`.`" is being interpreted not as a period, but as a regular expression, or regex. And in the regex syntax, a "`.`" means "any character". So, "`G.`" matches "`Go`", "`Ga`", and "`Ge`" in our string. In fact it would match "`G`" followed by any character.
 
 #### <i class="fa fa-search-plus"></i> The `\w` wildcard--Any word character (Letters, numbers, and the underscore "_")
 
@@ -117,7 +115,7 @@ As with the "`\W`", the "`\S`" is the *inverse* of the lowercase version and "`\
 
 #### <i class="fa fa-search-plus"></i> The `\d` wildcard-- Digit character
 
-There are not any digits (numbers) in the text that we are playing with. Either add some or trust me that "`\d`" will find digits. As noted in the handout, the "`\d`" does not match the decimal in numbers.
+There are not any digits (numbers) in the text that we are playing with. Add some numbers to the text and the "`\d`" will find digits. As noted in the handout, the "`\d`" does not match the decimal in numbers.
 
 #### <i class="fa fa-search-plus"></i> The `\D` wildcard-- Non-digit character
 
@@ -125,7 +123,7 @@ As you may have guessed by now, the "`\D`" matches non-digits.
 
 #### <i class="fa fa-search-plus"></i> The `\t` wildcard-- Tab character
 
-Again, we do not have any tabs in this string, but if we did "`\t" would match them. There is a difference between tab and space and this can be used to find tabs, but not spaces.
+Again, we do not have any tabs in this string, but if we did "`\t`" would match them. There is a difference between tab and space and this can be used to find tabs, but not spaces. Note that VSCode usually automatically converts the tab key to multiple spaces, so you may not be able to add tabs to our document. We will use tabs in the exercise below.
 
 #### <i class="fa fa-search-plus"></i> The `\n` wildcard-- Newline character
 
@@ -133,7 +131,7 @@ One thing that we may not realize is that at the end of a line of text, there is
 
 #### <i class="fa fa-search-plus"></i> Escaping characters with the `\`
 
-The last character is not really a wildcard, but is used to escape certain characters in order to match those characters. For example if you wanted to find all of the periods in a document, you couldn't just use "`.`" because that would be interpreted at the "any character" wildcard. To get around this, you escape the period, by adding a backslash in front of it to find a literal period: "`\.`" matches periods (or decimals).
+The last character is not really a wildcard, but is used to escape certain characters in order to match those characters. For example if you wanted to find all of the periods in a document, you couldn't just use "`.`" because that would be interpreted at the "any character" wildcard. To get around this, you escape the period by adding a backslash in front of it to find a literal period: "`\.`" matches periods (or decimals).
 
 ### <i class="fa fa-search"></i> Repetition patterns
 
@@ -141,7 +139,7 @@ Above, we looked at many of the wildcard patterns. Each of these will match a si
 
 #### <i class="fa fa-search-plus"></i> `*` -- Match 0 or more times
 
-You can find multiple occurrences of a pattern with the "`*`". **NOTE: As noted above, this is very different than the wildcard as used on the command line** For example in our string, "`Ga*`" would match a G followed by zero or more a's--so "G", "Ga", "Ga", "G" and "G". The "`*`" can be used to match things that may or may not be present.
+You can find multiple occurrences of a pattern with the "`*`". **NOTE: As noted above, this is very different than the wildcard as used on the command line** For example in our string, "`Ga*`" would match a G followed by zero or more a's--so "G", "Ga", "Ga", "G" and "G" for our test string. The "`*`" can be used to match things that may or may not be present.
 
 #### <i class="fa fa-search-plus"></i> `+` -- Match 1 or more times
 
@@ -149,7 +147,7 @@ If we want to ensure that the pattern is found at least once, we can use the "`+
 
 #### <i class="fa fa-search-plus"></i> `{n}`, `{n,}` and `{n,m}`
 
-The patterns can be used to match:
+These patterns can be used to match a pattern:
 * `{n}` exactly *n* times
 * `{n,}` at least *n* times
 * `{n,m}` at least *n* times, but not more than *m* times
@@ -160,23 +158,41 @@ The last repetition regular expression is the "`?`" which controls what is refer
 
 "`G\w*\S`" matches a "G", followed by zero or more word characters, followed by a non-white space character; or "Go", "Gators,", "Gators,", "Get", "Go!". Why does "Go" match?
 
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseC"> <i class="fa fa-check-circle fa-2x"></i> Click for solution</a>
+        </div>
+        <!-- /.panel-heading--> 
+        <div id="collapseC" class="panel-collapse collapse noCrossRef">
+            <div class="panel-body">
+                In the case of Go, we are matching zero "`\w`" characters. The "G" matches the "G", then 0 word characters, then the "o" is matched with the non-space character.
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel-collapse -->
+    </div>
+    <!-- /.panel-default -->
+</div>
+<!-- /.panel-group -->
+
 If we change this by adding the non-greedy operator to the "`\w*`"-- "`G\w*?\S`"--we get: "Go", "Ga", "Ga", "Ge", "Go"--all cases where we match zero characters with the "`\w*`".
 
 ### <i class="fa fa-search"></i> Character classes with `[]`
 
 We can create our own custom wildcards by creating character classes with the square brackets. For example, we can match capital vowels with the expression "`[AEIOU]`". Note that order does not matter in this, and that each letter is independent.
 
-Ranges of letters and numbers can be defined with "`[A-Z]`" or "`[1-5]`". 
+Ranges of letters and numbers can be defined with "`[A-Z]`" or "`[1-5]`".
 
 #### <i class="fa fa-search-plus"></i> Negative character classes with `[^]`
 
-Kind of like the `\W`, `\S` and `\D`, we can create negative classes by putting a "`^`" inside the square brackets. For example, "`[^AEIOUaeiou]`" would find anything that is not a vowel (capital or lower case).
+Kind of like the `\W`, `\S` and `\D`, we can create negative classes by putting a caret, "`^`", inside the square brackets. For example, "`[^AEIOUaeiou]`" would find anything that is not a vowel (capital or lower case).
 
 {% include note.html content="The caret ('`^`') has two very different meanings in regular expressions. Within square brackets, it negates the set of characters, creating the negative character class. Outside of square brackets it is a boundary qualifier covered in the next section." %}
 
 ### <i class="fa fa-search"></i> Boundary qualifiers
 
-It is often useful to anchor matches to one end of the string (or line of text) or the other. The boundary qualifiers can be used to do this. 
+It is often useful to anchor matches to one end of the string (or line of text) or the other. The boundary qualifiers can be used to do this.
 
 #### <i class="fa fa-search-plus"></i> `^` Anchor the match to the *start* of a string (or line)
 
@@ -186,7 +202,7 @@ If we search for "`^Go.`", we will only find the starting "Go " not the ending "
 
 Similarly, if we change the search to "`Go.$`", we will match the "Go!" at the end of the line.
 
-These can also be combined, to require that the regular expression match the entire line--from start to end.
+These can also be combined, to require that the regular expression match the entire line, from start to end.
 
 ### <i class="fa fa-search"></i> Capturing and replacing
 
@@ -195,7 +211,66 @@ Now is where regular expressions get even more powerful! Let's imagine we decide
 Find: `(Go Gators), (Come on Gators)`
 Replace: `$2, $1`
 
-The text matched with the first set of parentheses if put into a variable called `$1` and the text matched in the second set is put into a variable called `$2`. We can then use these variables in the replace to reverse their order.
+The text matched with the first set of parentheses is put into a variable called `$1` and the text matched in the second set is put into a variable called `$2`. We can then use these variables in the replace to reverse their order.
+
+### Exercise
+
+Below is a data table for some plants. We really don't need to worry about what the data are right now, as our goal is to practice with regex. This table is typical of much of the data we encounter in Biology and many fields. It has a header row followed by rows of data and columns are separated with tab characters.
+
+    Faml	C1	Cotyl	Blt	Ht	fruitset
+    AG01	3	5.78	11	4.1	low
+    AG09	13	6.10	6	4.5	low
+    AG09	2	5.12	5	8.4	high
+    AG11	10	4.60	6	4.1	low
+    AG13	4	5.61	6	5.3	low
+    AG13	17	4.28	9	9.7	high
+    AG14	2	3.15	6	7.5	high
+    AG17	13	3.21	6	1.2	low
+    AG17	11	4.64	11	5.2	low
+    AG17	14	3.90	13	5.3	low
+
+Copy and paste this dataset into a new VSCode document. Write a regular expression to change the table to have just the "Faml" and "fruitset" columns. If you wish, you can remove (or ignore) the header row.
+
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseD"> <i class="fa fa-check-circle fa-2x"></i> Click for solution</a>
+        </div>
+        <!-- /.panel-heading--> 
+        <div id="collapseD" class="panel-collapse collapse noCrossRef">
+            <div class="panel-body">
+                Note that, as with most things in this class, there are <i>many</i> possible answers. These are possible solutions. If you have another answer that works, it is no less correct than these!
+                <br><br>
+                Start by writing regular expressions to match the columns. If we want to remove the header row, we could do this walking across the data table column by column like this:
+                <br><br>
+                <code>\w\w\d\d\t\d+\t\d\.\d\d\t\d+\t\d\.\d\t\w+</code>
+                <br><br>
+                This should match the columns with data (not the header).
+                Then we could put parentheses around the parts we want to capture:
+                <br><br>
+                <code>(\w\w\d\d)\t\d+\t\d\.\d\d\t\d+\t\d\.\d\t(\w+)</code>
+                <br><br>
+                And write the replace string:
+                <br><br>
+                <code>$1\t$2</code>
+                <br><br>
+                This would generally work. But if there were a new measurement that had, for example Ht of 10.5, this would break since we are only searching for 1 digit then the decimal. We could modify the search to be more robust to things like that. Or we could make a much more general match for each column with something like:
+                <br><br>
+                <code>(.*)\t.*\t.*\t.*\t.*\t(.*)</code>
+                <br><br>
+                This pattern would also work on the header row. The same replace pattern would work here.
+                <br><br>
+                <em>Note:</em> As you work through this, you will likely want to undo changes...You need to be a bit careful about whether the find box is selected or the document is selected for what is undone.
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel-collapse -->
+    </div>
+    <!-- /.panel-default -->
+</div>
+<!-- /.panel-group -->
+
+You may be thinking "I can do this in Excel more easily". But what if I gave you a thousand or a million of these files to process? It is trivial--even in VSCode (Replace in Files)--to do this, and as we will see, this can also be done on the command line! Remember, command line interfaces make difficult tasks possible!
 
 ## Ch. 19: Regular Expressions
 

@@ -23,7 +23,7 @@ weight: 0.3
 
 * **Problem Set 1 is due {{site.ps_1_due}}.**
 * Quiz 2 will be available Monday. It is due {{site.quiz_2_due}}
-  * Quiz 2 covers 
+  * Quiz 2 covers
 
 ## For Monday
 
@@ -35,9 +35,11 @@ weight: 0.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="TLCL_4.md">Read TLCL Ch 24 - 26</a></li>
-        </ol>
+      <ol>
+        <li><a href="LinkedInLearningLinux.html">Watch Learn the Linux Command Line</a></li>
+        <li><a href="github_account.html">Register for github.com account</a></li>
+        <li><a href="TLCL_4.md">Read TLCL Ch 24 - 26</a></li>
+      </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
@@ -57,14 +59,12 @@ weight: 0.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li><a href="TLCL_5.md">Read TLCL Ch 27, 29 & 33</a></li>
-        </ol>
+      Get caught up on anything.
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          <li></li>
         </ol>
     </div>
 </div>
@@ -80,14 +80,13 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything</li>.
+          <li><a href="TLCL_5.md">Read TLCL Ch 27, 29 & 33</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
+          </li>Practice with flow control: `if`, `while`, `until`, `for`</li>
         </ol>
     </div>
 </div>
@@ -105,8 +104,7 @@ weight: 0.3
    * Push the modified code to github remote repository
    * Merge the branch into the main branch
 1. Be comfortable with loops loops and conditionals.
-1. Have a better understanding of searching for coding help on Google.
-1. Have a better understanding of reading code and application documentation.
+
 
 {% include custom/office_hours.html %}
 

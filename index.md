@@ -102,16 +102,16 @@ Week | Date | Reading/Assignment |Topic |
 [1](Week_01.html) | Fri, Sept 4 | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due}}| Continue building shell skills
 |||
 [2](Week_02.html) | Mon, Sept 7 | Labor Day, no class |
-[2](Week_02.html) | Wed, Sept 9 | [Read TLCL Ch 19 & 20 through p.293](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| Regular Expressions [Handout](images/Regular_Expressions_Cheat_Sheet.pdf.pdf)
-[2](Week_02.html) | Fri, Sept 11 |**Quiz 1 due**<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md)| Start looking at git and github
+[2](Week_02.html) | Wed, Sept 9 | [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| [<i class="fa fa-file"></i> Regular Expressions Handout](images/Regular_Expressions_Cheat_Sheet.pdf.pdf)
+[2](Week_02.html) | Fri, Sept 11 |**Quiz 1 due**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)| Text manipulation
 |||
-[3](Week_03.html) | Mon, Sept 14 | Quiz 2, due {{site.quiz_2_due}}<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md) | Shell Scripts and version control with git and GitHub
-[3](Week_03.html) | Wed, Sept 16 |[Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Flow control: `if`, `while`, `until`, `for` etc.
-[3](Week_03.html) | Fri, Sept 18 | **Problem Set 1 due** | Google and Documentation
+[3](Week_03.html) | Mon, Sept 14 | Quiz 2, due {{site.quiz_2_due}}<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md) <br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
+[3](Week_03.html) | Wed, Sept 16 || Continue working on shell scripts and git/github
+[3](Week_03.html) | Fri, Sept 18 |**Problem Set 1 due** <br> [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
 |||
-[4](Week_04.html) | Mon, Sept 21 | Problem Set 2, due {{site.ps_2_due}} | Using UF Research Computing resources<br>Running batch jobs
-[4](Week_04.html) | Wed, Sept 23 | | Compiling source code<br>More bash scripting
-[4](Week_04.html) | Fri, Sept 25 | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Catching up
+[4](Week_04.html) | Mon, Sept 21 | Problem Set 2, due {{site.ps_2_due}} |Google and Documentation 
+[4](Week_04.html) | Wed, Sept 23 | | Using UF Research Computing resources<br>Running batch jobs
+[4](Week_04.html) | Fri, Sept 25 | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
 |||
 [5](Week_05.html) | Mon, Sept 28 | Quiz 3, due {{site.quiz_3_due}}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
 [5](Week_05.html)  | Wed, Sept 30 | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb)| Python data types

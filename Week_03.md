@@ -94,7 +94,8 @@ weight: 0.3
 ## By the end of this week you should
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
-
+1. Have a github.com account
+1. Have watched the LinkedIn Learning Linux Command Line class
 1. Be comfortable writing bash scripts to accomplish more complex tasks
 1. Understand how to use git and github to:
    * Create a branch

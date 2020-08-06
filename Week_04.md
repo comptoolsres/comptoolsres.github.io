@@ -41,7 +41,8 @@ weight: 0.4
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
           <li>Submitting batch jobs</li>
-          <li>More bash scripts</li>
+          <li>Using Google to find coding help</li>
+          <li>Reading documentation for applications and code</li>
         </ol>
     </div>
 </div>
@@ -95,6 +96,8 @@ weight: 0.4
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
+1. Have a better understanding of searching for coding help on Google.
+1. Have a better understanding of reading code and application documentation.
 1. Be comfortable submitting jobs to the SLURM scheduler on HiPerGator
 1. Understand resource requests for jobs: CPUs, RAM and time.
 1. Have a basic idea of how to compile applications from source code

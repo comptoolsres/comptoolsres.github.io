@@ -22,6 +22,9 @@ weight: 0.2
 * [Register for github.com account](github_account.md)
 * Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due}}.
   * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
+
+---
+
 ## For Monday
 
 {% include image.html file='monday.png' alt="Calendar icon with Monday" position="right" max-width=75 %}
@@ -43,6 +46,8 @@ weight: 0.2
     </div>
 </div>
 
+---
+
 ## For Wednesday
 
 {% include image.html file='wednesday.png' alt="Calendar icon with Wednesday" position="right" max-width=75 %}
@@ -54,7 +59,7 @@ weight: 0.2
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_3.md">Read TLCL Ch 19 & 20 through p.293</a></li>
+          <li><a href="TLCL_3.html">Go over the Regular Expressions and Read TLCL Ch 19</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
@@ -64,6 +69,8 @@ weight: 0.2
         </ol>
     </div>
 </div>
+
+---
 
 ## For Friday
 
@@ -75,29 +82,28 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="LinkedInLearningLinux.html">Watch Learn the Linux Command Line</a></li>
-          <li><a href="github_account.html">Register for github.com account</a></li>.
-        </ol>
+      <ol>
+        <li><a href="TLCL_3.5.html">Read TLCL Ch 20</a></li>
+       </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Questions about content so far</li>
-          <li>Introduction to git and github.com</li>
+          <li>Text Processing</li>
         </ol>
     </div>
 </div>
+
+---
 
 ## By the end of this week you should
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Have a github.com account
-1. Have watched the LinkedIn Learning Linux Command Line class
+1. Be able to use regular expressions for finding and replacing text in a text editor such as VSCode.
 1. Be able to use the following Linux commands: `grep, cut, paste, join, diff, tr, sed`.
-1. Be able to use regular expressions for finding and replacing text
-1. Understand the basics of git for version control and using github.com for code sharing (we will keep using this all semester, so just getting started now)
+
+<hr>
 
 {% include custom/office_hours.html %}
 

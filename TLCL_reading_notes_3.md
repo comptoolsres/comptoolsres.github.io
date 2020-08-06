@@ -3,6 +3,8 @@ title: "Notes on Regular Expressions & TLCL Ch 19"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_3.html
+summary: Regular Expressions are and incredibly powerful tool that can be used not only on the command line, but also in your text editor.
+keywords: regex, wildcard, repetition, character classes, boundary, replace, find, grep, posix
 ---
 
 ## Regular Expressions
@@ -376,7 +378,7 @@ As useful as it is to use regular expression in your text editor, there are lots
 * p. 253: **`grep bzip dirlist*.txt` output**: Note that `bzip` is found in both /bin and /usr/bin on HiPerGator, so you will get four lines that match rather then the two shown in this box. The same applies to the other similar searches.
 * p. 254: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
 * p. 256: **A Crossword Puzzle Helper**: Our word dictionary (see grey box) has 479,828 words! So results are a bit different.
-* p. 258-263: **POSIX Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
+* p. 258-263: **<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.posix}}">POSIX</a> Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
 * p. 263: **Alternation**: This is another useful command and also another meaning of the "`|`" character. 
 * p. 264" **Quantifiers** : This is another case of differences in implementation...grep uses the "`?`" for matching 0 or 1 times, while other implementations use it to control greediness. Here is a [StackOverflow](https://stackoverflow.com/questions/3027518/how-to-do-a-non-greedy-match-in-grep) page that talks about using the -P flag in grep to get the non-greedy behavior--don't worry about this unless you are curious or find yourself needing it...
 

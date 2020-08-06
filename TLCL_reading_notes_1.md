@@ -1,8 +1,10 @@
 ---
-title: "Notes on TLCL Introduction and Ch 1-6"
+title: "Notes on TLCL Introduction and Ch 1-4"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_1.html
+summary: The Linux command line is our gateway to immense computational power. These chapters introduce the shell, navigate the filesystem and mange files.
+keywords: shell, ssh, emulator, cd, wildcard, ls, ln, bash
 ---
 
 {% include note.html content="Page numbers and headings referenced in the The Linux Command Line reading notes are based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019. This is the latest available the time the course was taught in Fall 2020. Page numbers may differ from print or other versions." %}
@@ -76,7 +78,7 @@ Our shell prompt looks very similar to the one shown here on p. 2:
 ```
 In this case, the shell prompt has my GatorLink username, `magitz`, the @ symbol followed by the hostname, `login3`, and the current working directory, `~`.
 
-* Why `login3`? When you connect to `hpg.rc.ufl.edu`, we run what is called a **load balancer** that places users on one of several login nodes to balance the load of all the users--one server would not be enough for all of our users. It doesn't matter which you get put on, they are all the same.
+* Why `login3`? When you connect to `hpg.rc.ufl.edu`, we run what is called a <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.load_balancer}}">load balancer</a> that places users on one of several login nodes to balance the load of all the users--one server would not be enough for all of our users. It doesn't matter which you get put on, they are all the same.
 * What is the current working directory? When you first log in, you are put in your home directory. Kind of like your Home on MacOS or Windows. On most Linux systems, including HiPerGator, this directory has the path of `/home/<gatorlink>`. Because you frequently want to reference your home directory, there is a shorthand way of doing that with the tilde character: `~`. So, `~` is Linux shorthand for your home directory.
 
 ### Mice and Focus

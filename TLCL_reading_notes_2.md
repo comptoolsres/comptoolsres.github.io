@@ -3,6 +3,8 @@ title: "Notes on TLCL Ch 5-8"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_2.html
+summary: These chapters will further build command line skills and confidence using the shell.
+keywords: which, man, help, documentation, alias, redirection, double redirect, backtick, math, head, tail, bash
 ---
 
 ## Ch 5: Working with Commands
@@ -101,11 +103,11 @@ permalink: TLCL_2.html
 
 ## A note on Chapters 7 and 8
 
-{% include note.html content="The next two chapters cover a fair bit. **Do not** attempt to memorize everything. There is a lot of great information here, hopefully you will remember some of it.
+{% include callout.html content="The next two chapters cover a fair bit. **Do not** attempt to memorize everything. There is a lot of great information here, hopefully you will remember some of it.
 <br><br>
 My goal in having you read these chapters is for you to get a deeper understanding of Linux and see some of the amazing tools at your disposal. I use the command line daily, and don't have most of this memorized...
 <br><br>
-Think of it as a tour of the toolbox: you don't need to know how to use every tool, and probably don't have a good idea what you would ever do with many of the tools, but someday down the road, you will either remember that there is a tool to do what you need, or say to yourself, the way I am doing this is a pain, let me go back to the toolbox and see if there is a better way." %}
+Think of it as a tour of the toolbox: you don't need to know how to use every tool, and probably don't have a good idea what you would ever do with many of the tools, but someday down the road, you will either remember that there is a tool to do what you need, or say to yourself, the way I am doing this is a pain, let me go back to the toolbox and see if there is a better way." type="primary" %}
 
 ## Ch 7: Seeing the World as the Shell Sees It
 
@@ -149,7 +151,8 @@ Think of it as a tour of the toolbox: you don't need to know how to use every to
 * p. 83: **Completion**: Tab completion is definitely worth learning, you will use it all the time!
 * p. 85: **Using History**: While history is maintained on HiPerGator and is very useful, please be aware that because you can be logged in on multiple servers, sometimes things get lost in the history. It will generally be there and can be used, but don't rely on exclusively. Keep notes of useful commands, etc.
 
+## Skipping a bunch of chapters
 
-{% include note.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
+{% include callout.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
 
-Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things." %}
+Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things." type="primary" %}

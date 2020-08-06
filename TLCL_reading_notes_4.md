@@ -10,7 +10,7 @@ toc: false
 
 ## Getting setup in github.com
 
-One thing that TLCL doesn't include that I think is critical for good coding is the use of version control, like git. We [already created a github.com account](github_account.md) and created a repository through the github classroom. 
+One thing that TLCL doesn't include that I think is critical for good coding is the use of version control, like git. We [already created a github.com account](github_account.md) and created a repository through the github classroom.
 
 As we embark on writing shell scripts, we will continue to use git and github. To get things setup, let's create your first repository from scratch.
 
@@ -24,14 +24,18 @@ As we embark on writing shell scripts, we will continue to use git and github. T
 
 1. Log into your account on HiPerGator.
 1. In your home directory, create a folder called "hello_world" (or whatever you called your repository in step 3). And change into that directory.
+
   ```bash
   [magitz@login4 ~]$ mkdir hello_world
   [magitz@login4 ~]$ cd hello_world/
   [magitz@login4 hello_world]$
   ```
+
 1. Return to your browser and the information for setting up your new repository. The easiest way to do this is to click the copy button on the "...or create a new repository on the command line":
   ![Screenshot of creating a new repository on the command line](images/git_init.png)
+
 1. Paste those commands on the command line. Several of the commands will execute on their own, and you will need to hit Enter to make the last one run. Here's the commands, output and my notes as comments (anything after the # is a comment)
+
 ```bash
 [magitz@login4 hello_world]$ echo "# hello_world" >> README.md # Creates a file called README.md with the text "# hello_world
 [magitz@login4 hello_world]$ git init # Tells git that the current directory should be treated as a git repository
@@ -46,6 +50,7 @@ As we embark on writing shell scripts, we will continue to use git and github. T
 Username for 'https://github.com': magitz
 Password for 'https://magitz@github.com':
 ```
+
 1. Return to your repo in github.com and refresh the page. It should look something like:
   ![Screenshot of repo after first commit](images/git_first_commit.png)
    * What happened here?
@@ -54,19 +59,20 @@ Password for 'https://magitz@github.com':
    * After creating the markdown file, adding it to the staging area, and committing the change, we linked our repo on HiPerGator to github.com and pushed the contents there.
    * Now we are ready to proceed with the exercise in Ch 24.
 
+{% include note.html content="This entire website is made with markdown files in repositories hosted on github.com and served, for free, through github.io. Any repository can have a website!" %}
+
 ## Setup nano to show syntax highlighting
 
 * p. 364: **How to Write a Shell Script**: point one talks about different text editors. There are many options, the easiest for now will be the `nano` text editor. Before we use that, let's turn on syntax highlighting. This makes it easier to read scripts by adding color to different kinds of things. Nano uses a file called .nanorc (a hidden file) stored in your home directory to control this. I have a template you can copy to your home directory:
   ```bash
-  cp /ufrc/bsc4452/share/Class_Files/TLCL_files/.nanorc ~/
+  cp /blue/bsc4452/share/Class_Files/TLCL_files/.nanorc ~/
   ```
-
 
 ## Ch 24: Writing Your First Script
 
 * p. 365: **Script File Format**: As noted, we will use the nano text editor. To create the hello_world script, type: `nano hello_world.sh`. The `.sh` ending is not needed, but again, I think it helps you know that the file is a shell script.
 
-{% include note.html content="Remember that we called the script hello_world.sh, so be sure to add the .sh when following along in TLCL." %}
+{% include important.html content="Remember that we called the script `hello_world.sh`, so be sure to add the `.sh` when following along in TLCL." %}
 
 * p. 366: **Executable Permissions**: Before you change the execution permissions, try running your script:
   ```bash

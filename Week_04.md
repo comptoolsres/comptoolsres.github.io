@@ -58,7 +58,7 @@ weight: 0.4
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_6.md">Read TLCL Ch 23</a></li>
+          <li><a href="TLCL_6.html">Read TLCL Ch 23</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">

@@ -22,7 +22,7 @@ Science and technology fields have, in many cases, actively excluded BIPOC and w
 
 It should probably have been there from the first day of class. It is my hope that all have felt included and supported so far. We have immersed ourselves in the tools of Linux and the command line: tools that have been developed by and for a largely white, male community. A community that has a long history of sexist, racist actions.
 
-Progress is slow, but I am encouraged by groups such as [Women who code](https://www.womenwhocode.com/_), [BlacksInTech](https://www.blacksintechnology.net/), and [/dev/Color](https://www.devcolor.org/). We must do better.
+Progress is slow, but I am encouraged by groups such as [Women who code](https://www.womenwhocode.com/), [BlacksInTech](https://www.blacksintechnology.net/), and [/dev/Color](https://www.devcolor.org/). We must do better.
 
 One action, small as it is, that we *can* take is to change the terms we use when they do harm to others.
 
@@ -62,7 +62,7 @@ As we embark on writing shell scripts, we will continue to use git and github. T
 1. **Check the "Initialize this repository with a README" checkbox** and click the green "Create repository" button.
 1. That will create your repository and setup a template markdown file for the README.md--every repository should have a README.md file that describes the contents of the repository.
   ![Screenshot of a newly created repository in github.com](images/git_fresh_repo_master.png)
-1. Let's change the name of the main branch to `main`. Click the branch button that currently says master, type "main" in the box and hit Enter or click "Create branch main from master".
+1. Let's change the name of the main branch to `main`. Click the Branch button <i class="fa fa-code-branch"></i> that currently says master, type "main" in the box and hit Enter or click "Create branch main from master".
  ![Screenshot of creating the new main branch](images/git_new_branch.png)
 1. Now we have two branches, main and master, but master is still the default. Click on the Branches button again and click on the the "View all branches" link at the bottom of the dropdown.
 1. Click the "Change default branch" button.
@@ -104,7 +104,7 @@ Now we are ready to write our scripts...
 * Before you start writing the hello_world script, change directories into the repository directory.
 * p. 365: **Script File Format**: As noted, we will use the nano text editor. To create the hello_world script, type: `nano hello_world.sh`. The `.sh` ending is not needed, but again, I think it helps you know that the file is a shell script.
 
-{% include important.html content="Remember that we called the script `hello_world.sh`, so be sure to add the `.sh` when following along in TLCL." %}
+  {% include important.html content="Remember that we called the script `hello_world.sh`, so be sure to add the `.sh` when following along in TLCL." %}
 
 * p. 366: **Executable Permissions**: Before you change the execution permissions, try running your script:
   ```bash

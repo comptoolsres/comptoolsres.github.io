@@ -94,7 +94,7 @@ weight: 1.0
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Have completed the <a href="http://127.0.0.1:4000/LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
+1. Have completed the <a href="LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
 1. Understand how to open a database in sqlite
 1. Have a general understanding of SQL commands to query databases
 1. Begin to understand how to interact with a database from Python

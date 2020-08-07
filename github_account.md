@@ -14,7 +14,7 @@ You do not need to have git installed on your own computer, but you may want to.
 
 ## What is github.com
 
-[github.com](github.com) is a service that allows you to host git repositories (sets of files being tracked by git) on a publicly accessible website, further promoting collaboration, sharing, and code distribution. Many applications, data, and more are distributed via github.com and we will use github.com to explore using git for version control and collaboration. Indeed, the page you are reading now is part of a git repository hosted at github.com!
+[github.com](https://github.com) is a service that allows you to host git repositories (sets of files being tracked by git) on a publicly accessible website, further promoting collaboration, sharing, and code distribution. Many applications, data, and more are distributed via github.com and we will use github.com to explore using git for version control and collaboration. Indeed, the page you are reading now is part of a git repository hosted at github.com!
 
 ![github.com social coding logo](images/github_logo.jpg)  
 

@@ -8,7 +8,7 @@ toc: false
 
 ## Version Control and git
 
-* [![github logo](images/github_logo.jpg)](git.md) This page lists more information on git and version control and git-specific resources.
+* [![github logo](images/github_logo.jpg)](git.html) This page lists more information on git and version control and git-specific resources.
 
 ## General tutorials
 

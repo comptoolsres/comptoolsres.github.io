@@ -38,7 +38,7 @@ weight: 0.3
       <ol>
         <li><a href="LinkedInLearningLinux.html">Watch Learn the Linux Command Line</a></li>
         <li><a href="github_account.html">Register for github.com account</a></li>
-        <li><a href="TLCL_4.md">Read TLCL Ch 24 - 26</a></li>
+        <li><a href="TLCL_4.html">Read TLCL Ch 24 - 26</a></li>
       </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
@@ -80,7 +80,7 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="TLCL_5.md">Read TLCL Ch 27, 29 & 33</a></li>
+          <li><a href="TLCL_5.html">Read TLCL Ch 27, 29 & 33</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

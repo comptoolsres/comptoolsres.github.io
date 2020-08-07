@@ -80,6 +80,7 @@ Now we want to make a copy of the repository on HiPerGator.
  ![Screenshot of copying git clone url](images/git_clone.png)
 1. Log into HiPerGator and `cd` to where ever you want to put this--your home directory is fine, so you can stay there if you want.
 1. Type `git clone ` (with a space at the end) and paste the copied URL. Hit enter. The command and output should look like this:
+
   ```bash
   [magitz@login3 ~]$ git clone https://github.com/magitz/hello_world.git
   Cloning into 'hello_world'...
@@ -95,6 +96,7 @@ Now we are ready to write our scripts...
 ## Setup nano to show syntax highlighting
 
 * p. 364: **How to Write a Shell Script**: point one talks about different text editors. There are many options, the easiest for now will be the `nano` text editor. Before we use that, let's turn on syntax highlighting. This makes it easier to read scripts by adding color to different kinds of things. Nano uses a file called .nanorc (a hidden file) stored in your home directory to control this. I have a template you can copy to your home directory:
+
   ```bash
   cp /blue/bsc4452/share/Class_Files/TLCL_files/.nanorc ~/
   ```
@@ -107,11 +109,13 @@ Now we are ready to write our scripts...
   {% include important.html content="Remember that we called the script `hello_world.sh`, so be sure to add the `.sh` when following along in TLCL." %}
 
 * p. 366: **Executable Permissions**: Before you change the execution permissions, try running your script:
+
   ```bash
   [magitz@login3 hello_world]$ ./hello_world.sh
   -bash: ./hello_world.sh: Permission denied
   [magitz@login3 hello_world]$
   ```
+
   The `./` says to look in the current directory. As TLCL mentions in this section, we can't run the script like this because it doesn't have execute permissions set. There are actually a couple of ways around this. One way, as the text does, add execute permission, the other is to call it slightly differently:
   ```bash
   [magitz@login3 hello_world]$ bash hello_world.sh
@@ -128,6 +132,7 @@ Now we are ready to write our scripts...
 ### The git workflow
 
 * Before we move on, we have a functional copy of a new script. Now is the time to tell git, we want to track the `hello_world.sh` file, commit the changes we've made and push them to the remote repo.
+
   ```bash
   [magitz@login3 hello_world]$ git add hello_world.sh
   [magitz@login3 hello_world]$ git commit -m "First version of saying hello"
@@ -277,15 +282,23 @@ Deleted branch function (was 2627d71).
 
 ## Ch 26: Top-Down Design
 
- {% include tip.html content="This chapter is really important in starting to help you think about how to break down a task into small steps. Taking a complex task and breaking it down into pieces is a lot of what programmers do. Often the stumbling block isn't necessarily the coding, but figuring out how to break the task down into pieces to start the coding. <BR>
+ {% include callout.html content="This chapter is really important in starting to help you think about how to break down a task into small steps. Taking a complex task and breaking it down into pieces is a lot of what programmers do. Often the stumbling block isn't necessarily the coding, but figuring out how to break the task down into pieces to start the coding. <BR>
  <BR>
- When you are working through this process, you may get stuck. Take a break. Work on something else. Maybe make a sketch of what you want to do. Ask for help!" %}
+ When you are working through this process, you may get stuck. Take a break. Work on something else. Maybe make a sketch of what you want to do. Ask for help!" type="primary" %}
 
  {% include note.html content="Remember to keep practicing with git, using branches as you implement changes, pushing to github.com, merging branches back into main when you are done with a section, etc." %}
 
- There is a ton of great stuff in this chapter and you can work through most of it. But...
+ There is a ton of great stuff in this chapter and you can work through most of it. Sometimes we talk about writing <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.pseudocode}}">pseudocode</a>. Writing down the steps, as the text does for going to the market on p. 383 is a good way to start breaking down what you need your code to do. Lay out, what do I have, where to I need to get? Fill in the steps you would take to get there. Add more details iteratively. As you go, your notes will progressively look more and more like code. You can start translating steps into real code. Again, breaking down the task into pieces is the main challenge in writing a program. People often get scared by focussing on the goal and not being able to see how to get there, but when you break it down into pieces, each step becomes more tractable and the whole program emerges.
 
- {% include warning.html content="<strong>WARNING!!</strong><br>
+Some notes...
+
+* p. 384: **Shell Functions**: <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.function}}">Functions</a> facilitate breaking down code into manageable chunks. Using the text's analogy, we can write a function to park the car. Once we have the park_car function, that part of the go to the market problem is solved. In fact, that part is solved both when we park the car at the market and when we park the car at home when we return! Write once, use many times--this greatly facilitates our coding experience. Additionally, if we realize that we forgot to, for example, add the step to set the parking break, we only need to update the code one place, rather than find everywhere we used the parking code. And lastly, if we move on to writing a program for going to the work, we can re-use the park_car function from this program in the new program!
+
+* p. 387: **Local Variables**: It is good to think about <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.local_variable}}">local</a> vs <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.gloabal_variable}}">global variables</a> and the concept of <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.scope}}">scope</a>. We will encounter this throughout the semester as local and global variables are common to most programming languages. The idea is that most variables defined within a function are local to that function, are only available within the function and are lost when the function ends.
+
+* p. 388-389: **Keep Scripts Running**: The idea of using <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stub}}">stubs</a> is very useful. This is als a good method to share code development. One developer can work on implementing one function, while another developer implements a different function.
+
+  {% include warning.html content="<strong>WARNING!!</strong><br>
 When you get the p. 391, where you implement the `report_home_space()` function, Do Not implement as written! The TLCL version tries to get home directory use for all users. There are several thousand users on HiPerGator! Do not try to run this!" %}
 
 * p. 391: Modification to **`report_home_space()`**: I suggest using the following in place of what is in TLCL. This will check *your* home directory space usage...

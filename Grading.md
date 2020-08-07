@@ -53,9 +53,9 @@ Project 2 | 40   | {{site.project_2_due}}
 
 ## Participation
 
-As part of the assignments using github (most problems sets and the projects) I will look for commits from each member of the group. These will serve as part of the participation grade. (10 points)
+As part of the assignments using github (most problems sets and the projects). One assignment will be creating your GitHub account (5 points) I will look for commits from each member of the group. These will serve as part of the participation grade. (10 points)
 
-As part of two of the problem sets, we will have a code review exercise where you will review and comment on another student's code. Your participation in these will make up the other part of the participation grade. (20 points)
+As part of two of the problem sets, we will have a code review exercise where you will review and comment on another student's code. Your participation in these will make up the other part of the participation grade. (15 points)
 
 ## Course total points
 

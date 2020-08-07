@@ -35,20 +35,39 @@ You do not need to have git installed on your own computer, but you may want to.
 
 ## The assignment
 
-* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/KWG1Fjf1](https://classroom.github.com/a/KWG1Fjf1) (**This link is for the Summer 2020 semester of the course at UF**)
+* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/31cm8-GY](https://classroom.github.com/a/31cm8-GY) (**This link is for the Fall 2020 semester of the course at UF**)
 
+* Authorize GitHub Classroom to access your account.
+ ![Screenshot of authorizing github classroom to access account](images/git_authorize.png)
 * You will be prompted to pair your github account with the classroom roster by selecting your last name from the list. If your name isn't in the list, click the Skip button and we'll sort it out later...
 
-* Click the "Accept this assignment" button.
+* Click the "Accept this assignment" button (note that the assignment is called "GitHub-Account" this year vs the screenshot that says "register" in green).
+ 
+ ![Screenshot of Accept this assignment screen](images/git_accept_assignment.png)
 
 * Github will setup your assignment, which may take a few minutes.
 
 * You should get a screen that says "You are ready to go!"
 
+ ![Screenshot of You're ready to go!](images/git_ready_to_go.png)
+
 * There is a link on that page to your assignment, click that and follow the directions to edit the README.md file and add your name.
+
+* You will click the <i class="fas fa-pencil-alt"></i> icon and find the text that says: 
+
+  ```
+  ## Add your name below:
+  
+  Your name:
+  ```
+ 
+* Add your name and scroll down to click the Commit changes button.
+ ![Screenshot of the Commit changes button](images/git_commit_changes.png) 
+
 
 ### Submitting the assignment
 
-* This assignment will count at **50% of Quiz 1**.
+* This is listed in Canvas at the GitHub Account Assignment.
+* This assignment will count as **5 points of your participation grade**.
 * **Paste the URL of your repository or just type a note that you have done the assignment, adding your github username.**
 * Submit the assignment and I'll grade it.

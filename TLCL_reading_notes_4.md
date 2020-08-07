@@ -8,58 +8,86 @@ toc: false
 
 {% include note.html content="Again, we are going to skip some chapters. As always, there's good content in these, but not enough time to cover everything." %}
 
+## Confronting histories of racism and oppression
+
+In 2020, America once again turned its focus to the long, unbroken history of systemic racism and oppression of Black, Indigenous and People of Color (BIPOC, see <www.thebipocproject.org>). The facts of systemic racism have, unfortunately, changed little in centuries. The situation merely became so bad that more of the country paid attention for some time.
+
+Science and technology fields have, in many cases, actively excluded BIPOC and women. It will remain to be seen if the conversations, commitments, and promises of action turn into true, lasting change to improve inclusion of historically marginalized groups.
+
+{% include image.html file='black-lives-matter-5329164_640.png' alt="Black Lives Matter logo" position="right" max-width=250 %} It is my hope that all feel welcome in this class and that we build up and cherish the strengths of all, regardless of race, ethnicity, gender identity, sexuality, socioeconomic status, religion, nationality, neurodiversity, or physical disability. I stand against violence and in solidarity with the Black Lives Matter movement.
+
+### Why is this in a coding class?
+
+It should probably have been there from the first day of class. It is my hope that all have felt included and supported so far. We have immersed ourselves in the tools of Linux and the command line: tools that have been developed by and for a largely white, male community. A community that has a long history of sexist, racist actions.
+
+Progress is slow, but I am encouraged by groups such as [Women who code](https://www.womenwhocode.com/_), [BlacksInTech](https://www.blacksintechnology.net/), and [/dev/Color](https://www.devcolor.org/). We must do better.
+
+One action, small as it is, that we *can* take is to change the terms we use when they do harm to others.
+
+### Small changes to reduce harm
+
+In this section, we are starting to work with git and [GitHub](https://github.com). The historical, and as of August 6, 2020, default name for the main branch of a git repository is `master`. Similarly, the terms "master" and "slave" are frequently used in computer programming and hardware for controlling and subordinate processes/devices, respectively. **This terminology is offensive and unnecessary**. Importantly, it is easy to make changes in order to create a more inclusive community, and, I believe, we must do so.
+
+There has been much discussion on the topic in the tech community. It is clear that "'master'...brings the idea of human bondage and suffering to mind for a non-trivial number of people" ([Brian Carlson](https://lore.kernel.org/git/20200505231641.GH6530@camp.crustytoothpaste.net/)). As such, many organizations, such as the [Software Freedom Conservancy](https://sfconservancy.org/news/2020/jun/23/gitbranchname/) and [GitHub](https://github.com/github/renaming) have pledge to work to change the convention to instead use the name `main` for the main branch of a repository.
+
+**We are still in the process.** In fact, my first attempts to transition this site failed as GitHub only allowed websites to be based on the master branch. That changed on July 31, 2020 and this site was transitioned to use the main branch on August 6, 2020, when I learned of GitHub's new feature. Incidentally, the transition took about 5-minutes--it is truly a small change that I hope causes a little less harm.
+
+### Configuring the default branch name in git
+
+When creating a repository however, GitHub and git still set the default branch to "master". The July 27, 2020 release of git 2.28 adds a configuration option to change the name of the default branch:
+
+`git config --global init.defaultBranch main`
+
+I suggest you run this on your computer now. Unfortunately, HiPerGator still has older versions, so we cannot change the default there.
+
+### Configure the default branch name in GitHub
+
+[This GitHub page](https://github.com/github/renaming) tracks their plans on renaming the default branch. As of August 6, 2020, GitHub proposes adding a configuration option to allow you to change the name of the default branch "this summer". It is not, however currently available. Will it be available by Sept 14 when you are scheduled to read this page? I don't know...Hopefully!
+
 ## Getting setup in github.com
 
 One thing that TLCL doesn't include that I think is critical for good coding is the use of version control, like git. We [already created a github.com account](github_account.md) and created a repository through the github classroom.
 
 As we embark on writing shell scripts, we will continue to use git and github. To get things setup, let's create your first repository from scratch.
 
+### Create the repository on GitHub
+
 1. Log into your github.com account.
-1. There are two ways to create a new repository. Either click the +-icon on the top right and select "New repository", or the green "New" button on the left.
+1. There are two ways to create a new repository. Either click the +-icon on the top right and select "New repository", or click the green "New" button on the left.
   ![Screenshot of methods of creating a new repository in github.com](images/git_new_repo.png)
 1. For the Repository name, enter "hello_world" (you can use whatever name, but do not use a space!). If you want, you can add a description.
-  ![Screenshot of creating a new repository in github.com](images/hello_world_new_repo.png)
-1. Leave everything else as it is and click the green "Create repository" button.
-{% include note.html content="You can either do the next steps in an ssh shell on your computer or on HiPerGator. I'll assume you are doing this on HiPerGator for these notes." %}
+  ![Screenshot of creating a new repository in github.com](images/git_hello_world_new_repo.png)
+1. **Check the "Initialize this repository with a README" checkbox** and click the green "Create repository" button.
+1. That will create your repository and setup a template markdown file for the README.md--every repository should have a README.md file that describes the contents of the repository.
+  ![Screenshot of a newly created repository in github.com](images/git_fresh_repo_master.png)
+1. Let's change the name of the main branch to `main`. Click the branch button that currently says master, type "main" in the box and hit Enter or click "Create branch main from master".
+ ![Screenshot of creating the new main branch](images/git_new_branch.png)
+1. Now we have two branches, main and master, but master is still the default. Click on the Branches button again and click on the the "View all branches" link at the bottom of the dropdown.
+1. Click the "Change default branch" button.
+ ![Screenshot of the change default branch button](images/git_change_default_branch.png)
+1. This will take you to the Branches portion of the Settings page. Click on the master and select the main branch and click Update. On the window that pops up, click that "I understand, update the default branch."
+1. Click either the "<>Code" tab or "hello_world" link at the top and go back to the main page of the repository.
+1. You now have the `main` branch set as the default. If you want, you can click on the Branches button and View all branches again, then delete the master branch!
 
-1. Log into your account on HiPerGator.
-1. In your home directory, create a folder called "hello_world" (or whatever you called your repository in step 3). And change into that directory.
+### Clone the repository to HiPerGator
 
+Now we want to make a copy of the repository on HiPerGator.
+
+1. Click the green Code download button and click the copy button next to the URL to copy it.
+ ![Screenshot of copying git clone url](images/git_clone.png)
+1. Log into HiPerGator and `cd` to where ever you want to put this--your home directory is fine, so you can stay there if you want.
+1. Type `git clone ` (with a space at the end) and paste the copied URL. Hit enter. The command and output should look like this:
   ```bash
-  [magitz@login4 ~]$ mkdir hello_world
-  [magitz@login4 ~]$ cd hello_world/
-  [magitz@login4 hello_world]$
-  ```
+  [magitz@login3 ~]$ git clone https://github.com/magitz/hello_world.git
+  Cloning into 'hello_world'...
+  remote: Enumerating objects: 3, done.
+  remote: Counting objects: 100% (3/3), done.
+  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  Unpacking objects: 100% (3/3), done.
+  [magitz@login3 ~]$
+  ````
 
-1. Return to your browser and the information for setting up your new repository. The easiest way to do this is to click the copy button on the "...or create a new repository on the command line":
-  ![Screenshot of creating a new repository on the command line](images/git_init.png)
-
-1. Paste those commands on the command line. Several of the commands will execute on their own, and you will need to hit Enter to make the last one run. Here's the commands, output and my notes as comments (anything after the # is a comment)
-
-```bash
-[magitz@login4 hello_world]$ echo "# hello_world" >> README.md # Creates a file called README.md with the text "# hello_world
-[magitz@login4 hello_world]$ git init # Tells git that the current directory should be treated as a git repository
-                Initialized empty Git repository in /home/magitz/hello_world/.git/
-[magitz@login4 hello_world]$ git add README.md # Tells git to track the README.md file
-[magitz@login4 hello_world]$ git commit -m "first commit" # Commits the changes to the README.md file, adding a timestamp that can always be recovered
-[master (root-commit) 4ea4d62] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
-[magitz@login4 hello_world]$ git remote add origin https://github.com/magitz/hello_world.git # Sets up the repo to have a remote copy called "origin" at github.com
-[magitz@login4 hello_world]$ git push -u origin master # Sends the current contents of the repo to the remote, adding it to the "master" branch there.
-Username for 'https://github.com': magitz
-Password for 'https://magitz@github.com':
-```
-
-1. Return to your repo in github.com and refresh the page. It should look something like:
-  ![Screenshot of repo after first commit](images/git_first_commit.png)
-   * What happened here?
-   * Your repository is now setup with two copies, one on HiPerGator and one on github.com. One good thing that version control provides is an instant backup copy. Remember, nothing on HiPerGator is backed up. If something terrible happens to the /home server, all user data would be lost. But now we have a backup at github.com!
-   * The README.md file is a file that every repository should have. It is a [Markdown file](https://en.wikipedia.org/wiki/Markdown) (.md). Essentially a way to format plain text files. The "# hello_world" text that we redirected to README.md, is formatted as a top-level header and shows up here in nice big font. This is the starts a markdown file that should be used for documentation of the repository.
-   * After creating the markdown file, adding it to the staging area, and committing the change, we linked our repo on HiPerGator to github.com and pushed the contents there.
-   * Now we are ready to proceed with the exercise in Ch 24.
-
-{% include note.html content="This entire website is made with markdown files in repositories hosted on github.com and served, for free, through github.io. Any repository can have a website!" %}
+Now we are ready to write our scripts...
 
 ## Setup nano to show syntax highlighting
 
@@ -70,6 +98,7 @@ Password for 'https://magitz@github.com':
 
 ## Ch 24: Writing Your First Script
 
+* Before you start writing the hello_world script, change directories into the repository directory.
 * p. 365: **Script File Format**: As noted, we will use the nano text editor. To create the hello_world script, type: `nano hello_world.sh`. The `.sh` ending is not needed, but again, I think it helps you know that the file is a shell script.
 
 {% include important.html content="Remember that we called the script `hello_world.sh`, so be sure to add the `.sh` when following along in TLCL." %}
@@ -88,7 +117,7 @@ Password for 'https://magitz@github.com':
   ```
   Since `bash` is the program that is running, `hello_world.sh` doesn't need execute permissions. I frequently take this route. Seems easier to me than messing with permissions...but moving on...
 
-* p. 366: **Script File Location**: This section gets into the PATH variable, which is really important to understand and PATHs are critical and the source of many problems. The text discusses a couple of options:
+* p. 366: **Script File Location**: This section gets into the PATH variable, which is really important to understand, and PATHs are critical and the source of many problems. The text discusses a couple of options:
   1. You could move your `hello_world.sh` script to a directory in your PATH. And you will see that `/home/<gatorlink>/bin` is in your PATH by default. But, that would move it out of the git repository and all the goodness that comes with version control.
   1. You could add the current directory to your PATH, but that can lead to a very long list of PATHs and cause other issues.
   1. Personally, I generally suggest that for your own scripts, just use relative or absolute PATHs to call the script. So, either `./hello_world.sh` or `~/hello_world/hello_world.sh`.
@@ -99,7 +128,7 @@ Password for 'https://magitz@github.com':
   ```bash
   [magitz@login3 hello_world]$ git add hello_world.sh
   [magitz@login3 hello_world]$ git commit -m "First version of saying hello"
-  [master 8c29b7f] First version of saying hello
+  [main 8c29b7f] First version of saying hello
   1 file changed, 3 insertions(+)
   create mode 100644 hello_world.sh
   [magitz@login3 hello_world]$ git push
@@ -110,13 +139,13 @@ Password for 'https://magitz@github.com':
   Total 5 (delta 1), reused 0 (delta 0)
   remote: Resolving deltas: 100% (1/1), done.
   To git@github.com:magitz/hello_world.git
-    cf23ef4..8c29b7f  master -> master
+    cf23ef4..8c29b7f  main -> main
   [magitz@login3 hello_world]$
   ```
 
 ## Ch 25: Starting a Project
 
-{% include tip.html content="We are starting a new project, which means, we should, you guessed it, start a new git repository! Follow the steps we used above to make a new repository called `sys_info_page`. Make a folder in your home directory (not in the hello_world directory) for this repo and run the commands from github to get things setup." %}
+{% include tip.html content="We are starting a new project, which means, we should, you guessed it, start a new git repository! Follow the steps we used above to make a new repository called `sys_info_page` and clone that onto HiPerGator." %}
 
 * p. 371: **First Stage: Minimal Document**: To view this page in a browser, you will need to download the file and open it on your computer.
 
@@ -126,17 +155,17 @@ Password for 'https://magitz@github.com':
 
 * p. 373: **Second Stage: Adding a Little Data**: Let's add a little more of the git workflow here. We'll come back to this, but let's take a look at branches in git first.
 
-## An aside on git branches
+## More on git branches
 
-Every repo has one branch, typically called *master*. But you can create branches that essentially give you another copy to work on without messing up that master. When you are satisfied with the changes you've made, they can be merged back into the master branch. Or if you mess things up or realize your idea was not well thought out, you can just delete it and not worry that you've messed up your master branch.
+Every repo has one branch, hopefully called `main`. But you can create branches that essentially give you another copy to work on without messing up that main copy. When you are satisfied with the changes you've made, they can be merged back into the main branch. Or if you mess things up or realize your idea was not well thought out, you can just delete it and not worry that you've messed up your main branch.
 
-Here's an image to illustrate the idea:
+Here is an image to illustrate the idea:
 
 ![Illustration of branching in git](images/branching.png)
 
- We currently have a functional script that we are happy with. We are about to start making some major changes. Rather than making these changes here, it is easier to make a branch of the repository. This allows us to try new things, test features, etc. without messing up the current functional version. If we don't like what we do, it's easy to trash it and be back where we are. If we do like it, we can merge our changes back into the master branch and have the new version become the main version.
+ We currently have a functional script that we are happy with. We are about to start making some major changes. Rather than making these changes here, it is easier to make a branch of the repository. This allows us to try new things, test features, etc. without messing up the current functional version. If we don't like what we do, it's easy to trash it and be back where we are. If we do like it, we can merge our changes back into the main branch and have the new version become the main version.
 
-  Let's create a branch called *variables* (we're going to learn about variables as we do this section)
+  Let's create a branch called `variables` (we're going to learn about variables as we do this section)
 
 ```bash
   [magitz@login3 sys_info_page]$ git branch variables
@@ -183,14 +212,14 @@ Here's an image to illustrate the idea:
 
   Now, lets go look at the repo on github. Click on the `sys_info_page.sh` file to view it in the repo.
 
-  ![Screenshot of status in github](images/git_master_branch.png)
+  ![Screenshot of status in github](images/git_main_branch.png)
 
-  The repo still looks like it did before! That is because, by default, the master branch is always shown. But you can click on the "Branch: master" button and select variables to see that version.
+  The repo still looks like it did before! That is because the main branch is set to be default. But you can click on the "Branch: main" button and select "variables" to see that version.
 
-  In fact the original file is still there in our folder too. Checkout the master branch and look at the file:
+  In fact the original file is still there in our folder too. Checkout the main branch and look at the file:
   ```bash
-  [magitz@login3 sys_info_page]$ git checkout master
-  Switched to branch 'master'
+  [magitz@login3 sys_info_page]$ git checkout main
+  Switched to branch 'main'
   [magitz@login3 sys_info_page]$ cat sys_info_page.sh
   #!/bin/bash
   # Program to output a system information page
@@ -213,17 +242,17 @@ Here's an image to illustrate the idea:
 
 ### Merging git branches
 
-At some point we decide we are ready to merge the branch back into the master. This  updates the master branch with the changes you have made in the development branch.
+At some point we decide we are ready to merge the branch back into the main. This updates the main branch with the changes you have made in the development branch.
 
-If you are the only one working and you are only working on one thing, this may be simple. If other developers have made changes to the master branch, there may be conflicts that your changes create--if you both change the same file, git can't merge on its own and needs your help to resolve the conflicts. We will come back to this later, but since you shouldn't have any conflicts, you are set to merge...
+If you are the only one working and you are only working on one thing, this may be simple. If other developers have made changes to the main branch, there may be conflicts that your changes create--if you both change the same file, git can't merge on its own and needs your help to resolve the conflicts. We will come back to this later, but since you shouldn't have any conflicts, you are set to merge...
 
-Checkout the master branch and then merge:
+Checkout the main branch and then merge:
 
 ```bash
-[magitz@login2 sys_info_page]$ git checkout master
-  Switched to branch 'master'
+[magitz@login2 sys_info_page]$ git checkout main
+  Switched to branch 'main'
 [magitz@login2 sys_info_page]$ git status
-# On branch master
+# On branch main
 nothing to commit, working directory clean
 [magitz@login2 sys_info_page]$ git merge variables
 Updating 8ad541d..2627d71
@@ -233,7 +262,7 @@ Fast-forward
 [magitz@login2 sys_info_page]$ git push
 Total 0 (delta 0), reused 0 (delta 0)
 To https://github.com/magitz/sys_info_page.git
-   8ad541d..2627d71  master -> master
+   8ad541d..2627d71  main -> main
 ```
 
 Since we are done with the function branch we can delete it:
@@ -249,7 +278,7 @@ Deleted branch function (was 2627d71).
  <BR>
  When you are working through this process, you may get stuck. Take a break. Work on something else. Maybe make a sketch of what you want to do. Ask for help!" %}
 
- {% include note.html content="Remember to keep practicing with git, using branches as you implement changes, pushing to github.com, merging branches back into master when you are done with a section, etc." %}
+ {% include note.html content="Remember to keep practicing with git, using branches as you implement changes, pushing to github.com, merging branches back into main when you are done with a section, etc." %}
 
  There is a ton of great stuff in this chapter and you can work through most of it. But...
 

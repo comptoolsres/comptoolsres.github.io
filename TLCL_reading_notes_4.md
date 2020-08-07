@@ -66,6 +66,7 @@ As we embark on writing shell scripts, we will continue to use git and github. T
 1. Click the "Change default branch" button.
  ![Screenshot of the change default branch button](images/git_change_default_branch.png)
 1. This will take you to the Branches portion of the Settings page. Click on the master and select the main branch and click Update. On the window that pops up, click that "I understand, update the default branch."
+ ![Screenshot of the Default branch settings page](images/git_set_default_branch.png)
 1. Click either the "<>Code" tab or "hello_world" link at the top and go back to the main page of the repository.
 1. You now have the `main` branch set as the default. If you want, you can click on the Branches button and View all branches again, then delete the master branch!
 

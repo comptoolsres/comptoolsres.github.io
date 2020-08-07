@@ -10,7 +10,7 @@ toc: false
 
 ## Confronting histories of racism and oppression
 
-In 2020, America once again turned its focus to the long, unbroken history of systemic racism and oppression of Black, Indigenous and People of Color (BIPOC, see <www.thebipocproject.org>). The facts of systemic racism have, unfortunately, changed little in centuries. The situation merely became so bad that more of the country paid attention for some time.
+In 2020, America once again turned its focus to the long, unbroken history of systemic racism and oppression of Black, Indigenous and People of Color (BIPOC, see [www.thebipocproject.org](http://thebipocproject.org)). The facts of systemic racism have, unfortunately, changed little in centuries. The situation merely became so bad that more of the country paid attention for some time.
 
 Science and technology fields have, in many cases, actively excluded BIPOC and women. It will remain to be seen if the conversations, commitments, and promises of action turn into true, lasting change to improve inclusion of historically marginalized groups.
 

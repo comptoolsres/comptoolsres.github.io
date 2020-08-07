@@ -9,25 +9,25 @@ entries:
     output: web
     folderitems:
 
-      - title: TLCL Notes Intro & Ch 1-4
+      - title: TLCL Notes Intro & Ch 1-4--Shell, Navigation, File Management
         url: /TLCL_1.html
         output: web
-      - title: TLCL Notes Ch 5-8
+      - title: TLCL Notes Ch 5-8--Running Commands, Redirection, Keyboard tricks
         url: /TLCL_2.html
         output: web
       - title: Notes on Regular Expressions & TLCL Ch 19
         url: /TLCL_3.html
         output: web
-      - title: TLCL Notes Ch 20
+      - title: TLCL Notes Ch 20--Text Processing
         url: /TLCL_3.5.html
         output: web
-      - title: TLCL Notes Ch 23
+      - title: TLCL Notes Ch 23--Compiling Programs
         url: /TLCL_6.html
         output: web
-      - title: TLCL Notes Ch 24-26
+      - title: TLCL Notes Ch 24-26--Git and Writing Scripts
         url: /TLCL_4.html
         output: web
-      - title: TLCL Notes Ch 27-33
+      - title: TLCL Notes Ch 27-33--Flow Control-if, while, for
         url: /TLCL_5.html
         output: web
       - title: Software Download and Setup

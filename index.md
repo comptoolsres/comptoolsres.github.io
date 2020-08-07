@@ -57,8 +57,8 @@ The course is divided into three main sections:
 {% include image.html file='lecture.png' alt="lecture icon" position="right" max-width=75 %}
 
 * I will be online and presenting material and/or helping students: **Mon, Wed, Fri 8:30am - 9:20am)**
-{% include important.html content="You should make every effort to attend these sessions. While I will post most lectures ahead of time and will record these session, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
-  * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
+  {% include important.html content="You should make every effort to attend these sessions. While I will post most lectures ahead of time and will record these session, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
+* I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
 ### Asynchronous Work
 
@@ -73,7 +73,7 @@ The course is divided into three main sections:
 * Thursdays from 2:00pm to 3:00pm
 * By Appointment--please <a href="mailto:magitz@ufl.edu?subject=Comp%20Tools%20Res%20office%20hours%20request">Email me</a> to setup a different time if needed.
 
-{% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. **I expect that you will need help. You should expect that you will need help.** I want to help you! I cannot always help if you do not ask for the help you need. Please ask for help." %}
+ {% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. **I expect that you will need help. You should expect that you will need help.** I want to help you! I cannot always help if you do not ask for the help you need. Please ask for help." %}
 
 ## Course Textbooks
 
@@ -85,13 +85,13 @@ The main texts for the course are:
 
 Each of these is available as a free PDF download or for purchase in print.
 
-**Also check out the [additional resources page](resources.md).**
+{% include tip.html content="Also check out the [additional resources page](resources.md)." %}
 
 ## Course Calendar
 
 {% include image.html file='calendar.png' alt="calendar icon" position="right" max-width=75 %}
 
-This is subject to change, please check back frequently.
+{% include important.html content="This is subject to change, please check back frequently." %}
 
 For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com/book.php).
 

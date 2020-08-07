@@ -161,3 +161,6 @@ entries:
     - title: Additional Resources
       url: /resources.html
       output: web
+    - title: List of Graded Work
+      url: /Grading.html
+      output: web

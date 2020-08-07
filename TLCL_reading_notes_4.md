@@ -4,6 +4,8 @@ tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_4.html
 toc: false
+summary: "This starts with a quick explanation of some of the issues surrounding ongoing racism in STEM and one small step that can be taken to create a more inclusive community. Then it dives into using git and GitHub--topics not covered in the TLCL textbook. And finally, uses these tools as we develop scripts to move beyond what can be done in a single command line operation."
+keywords: black lives matter, racism, git, github, hello_world, branch, init, commit, add, push, origin, main, master, merge.
 ---
 
 {% include note.html content="Again, we are going to skip some chapters. As always, there's good content in these, but not enough time to cover everything." %}

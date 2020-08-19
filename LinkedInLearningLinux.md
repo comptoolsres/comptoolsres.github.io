@@ -6,6 +6,10 @@ permalink: LinkedInLearningLinux.html
 toc: false
 ---
 
+{% include note.html content="LinkedIn Learning has many great tutorials on a variety of subjects, especially tech related. The *Learn the Linux Command Line* course is a good intro. It covers much of the same content that TLCL text does. But it also provides some different tools, different views and more practice. That said, there is not a grade associated with this assignment." %}
+
+## Accessing LinkedIn Learning
+
 From the [e-learning page](https://elearning.ufl.edu/), click the LinkedIn Learning link and login with your GatorLink.
 
 Then either [click on this link](https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line?u=41282748), or search for the course Learn the Linux Command Line. This LinkedIn Learning tutorial will go over some basic Linux command line usage.
@@ -14,7 +18,7 @@ Then either [click on this link](https://www.linkedin.com/learning/learning-linu
 
 ### Section 1: Setting up your environment
 
-You can skip "Section 1: Setting up your environment", we working on HiPerGator. One thing that this section does cover is downloading the example files from github. We will do this on HiPerGator. Login to HiPerGator, cd to your `/blue/bsc4452/<gatorlink>` directory and clone the github repository:
+You can skip "Section 1: Setting up your environment", we are working on HiPerGator. One thing that this section does cover is downloading the example files from github. You should do this on HiPerGator. Login to HiPerGator, `cd` to your `/blue/bsc4452/<gatorlink>` directory and clone the github repository:
 
 ```bash
 flmnh-C02N85F3G:~ magitz$ ssh magitz@hpg.rc.ufl.edu

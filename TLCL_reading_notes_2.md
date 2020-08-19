@@ -153,6 +153,17 @@ Think of it as a tour of the toolbox: you don't need to know how to use every to
 
 ## Skipping a bunch of chapters
 
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/1a5cacab-1e37-42f2-b79e-715634d38fc9?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/918577gdziwmkjy/TLCL_Ch_09-18_skip.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 {% include callout.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
 
 Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things." type="primary" %}

@@ -59,7 +59,7 @@ weight: 0.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-      Get caught up on anything.
+      Github exercise.
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>

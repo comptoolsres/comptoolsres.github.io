@@ -9,6 +9,21 @@ keywords: regex, wildcard, repetition, character classes, boundary, replace, fin
 
 ## Regular Expressions
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_4">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/9d5d5d1c-1a51-4b9c-94aa-08b34d682c3c?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_4">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/8sdpfxfn62n2roa/TLCL_CH_19_Regular_Expressions.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 Start by reading p. 251 as an introduction. But before continuing, I have some additional exercises that I hope make it easier to learn about regular expressions.
 
 At the start of Ch 19, William Shotts says (p. 251):
@@ -48,7 +63,7 @@ In the Find box enter the text "`Go`" and either look through the found text (hi
 
 {% include tip.html content="I highly encourage you to play with these regular expressions either in VSCode or one of the online resources. It would probably be best to paste in or make up some other text to experiment with." %}
 
- **I have put together a [<i class="fa fa-file fa-2x"></i> Regular_Expressions_Cheat_Sheet.pdf](images/Regular_Expressions_Cheat_Sheet.pdf.pdf), print this out and keep it handy for this section.**
+ **I have put together a [<i class="fa fa-file fa-2x"></i> Regular_Expressions_Cheat_Sheet.pdf](pdf/Regular_Expressions_Cheat_Sheet.pdf), print this out and keep it handy for this section.**
 
 ### <i class="fa fa-search"></i> Wildcard patterns
 

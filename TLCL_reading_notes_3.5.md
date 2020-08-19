@@ -107,6 +107,24 @@ Don't forget you can use the PDF to copy/paste larger chunks of data...In this c
 
 * p. 293 - 298: **Comparing Text**: You can skip the rest of the chapter. The `diff` command can be useful, but there's too much to learn here...
 
-* p. 298: **Editing on the Fly**: `tr` can be useful, so have a quick look at this section. `sed` is super powerful, this is a quick introduction. `sed` allows you to do regular expression find and replace like operations from the command line. I would suggest looking at this section, but focus on the substitution options: e.g. `s/first/second/g`. The text has a ton of great examples, and maybe one of them speaks to you, but I think it may be overwhelming!
+### Editing on the Fly `tr` and `sed`
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_5" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_5" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_5">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/196f2e25-a24d-4e5e-8a31-5c3f0c153694?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_5">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/1qtnyczu8vvsqen/TLCL_Ch_20_Text_Processing_sed.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+* p. 298: **`tr`** can be useful, so have a quick look at this section. 
+
+** p. 301: **`sed`** is super powerful, this is a quick introduction. `sed` allows you to do regular expression find and replace like operations from the command line. I would suggest looking at this section, but focus on the substitution options: e.g. `s/first/second/g`. The text has a ton of great examples, and maybe one of them speaks to you, but I think it may be overwhelming!
 
 * p. 309: **`aspell`**: skip this section.

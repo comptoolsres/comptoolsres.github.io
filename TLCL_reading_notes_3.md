@@ -10,6 +10,10 @@ keywords: regex, wildcard, repetition, character classes, boundary, replace, fin
 ## Regular Expressions
 
 <ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<ul id="VideoTabs" class="nav nav-tabs">
     <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
     <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>

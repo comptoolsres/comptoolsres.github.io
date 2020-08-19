@@ -153,11 +153,15 @@ Think of it as a tour of the toolbox: you don't need to know how to use every to
 
 ## Skipping a bunch of chapters
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_5" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_5" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+    <div role="tabpanel" class="tab-pane active" id="Stream_5">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/1a5cacab-1e37-42f2-b79e-715634d38fc9?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_5">
         <video width="800"  controls>
           <source src="https://www.dropbox.com/s/918577gdziwmkjy/TLCL_Ch_09-18_skip.mp4?dl=1" type="video/mp4" />
         </video>

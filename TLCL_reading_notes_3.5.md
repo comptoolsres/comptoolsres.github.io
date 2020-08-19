@@ -13,6 +13,8 @@ The next set of tools are another great resource.
 
 Don't forget you can use the PDF to copy/paste larger chunks of data...In this case, it takes some regex playing to make it work, so I have put a copy of the distros.txt file in `/ufrc/bsc4452/share/Class_Files/TLCL_files/`.
 
+* p. 273: **Applications of Text**: Mostly this is pointing out the diversity of text data that we may encounter. Again, text processing is pervasive and important to so much of what we do, so these tools are important!
+* p. 274: **`cat`**: The `cat` program is maybe the most used program on the command line...it displays the contents of a text file on the screen. In the [RegEx chapter](TLCL_reading_notes_3.md) we mentioned that there is a character at the end of each line. `cat` can show you this, as well as tab characters, with the `cat -A` option.  
 * p. 276: **MS-DOS Text vs. Unix Text**: Especially for Windows users this is an important box to read. DOS (the underlying OS of Windows) and Linux do not use the same characters to signify the end of a line. Many text editors on Windows default to DOS line breaks. If you then transfer a file with DOS line breaks to Linux, the file is often interpreted as one long line and this usually breaks things! VSCode, always uses Linux line breaks. But the `cat -A` command featured here is handy.
 
 {% include callout.html content="To convert a file with DOS line breaks to Linux, you can use the `dos2unix`: e.g. `dos2unix file.txt`. There is a file in the Class_Files folder with DOS line breaks:

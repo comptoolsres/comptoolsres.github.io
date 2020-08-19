@@ -13,15 +13,11 @@ keywords: regex, wildcard, repetition, character classes, boundary, replace, fin
     <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
     <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
 </ul>
-<ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
-</ul>
 <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream_4">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
         <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/9d5d5d1c-1a51-4b9c-94aa-08b34d682c3c?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
     </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox_4">
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
         <video width="800"  controls>
           <source src="https://www.dropbox.com/s/8sdpfxfn62n2roa/TLCL_CH_19_Regular_Expressions.mp4?dl=1" type="video/mp4" />
         </video>

@@ -64,7 +64,7 @@ weight: 0.3
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li></li>
+          <li><a href="github_branches.html"Github Branching exercise</a></li>
         </ol>
     </div>
 </div>
@@ -105,7 +105,6 @@ weight: 0.3
    * Push the modified code to github remote repository
    * Merge the branch into the main branch
 1. Be comfortable with loops loops and conditionals.
-
 
 {% include custom/office_hours.html %}
 

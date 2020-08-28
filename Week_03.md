@@ -64,7 +64,7 @@ weight: 0.3
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li><a href="github_branches.html"Github Branching exercise</a></li>
+          <li><a href="github_branches.html">Github Branching exercise</a></li>
         </ol>
     </div>
 </div>

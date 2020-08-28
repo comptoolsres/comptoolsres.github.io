@@ -34,7 +34,7 @@ weight: 0.4
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li>Review <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Research Computing Orientation video</a>, focus on job scripts</li>
+          <li>Get caught up.</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
@@ -58,14 +58,14 @@ weight: 0.4
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="TLCL_6.html">Read TLCL Ch 23</a></li>
+          <li>Review <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Research Computing Orientation video</a>, focus on job scripts</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Compiling source code</li>
-          <li>Running applications</li>
+          <li>Using UFRC Resources</li>
+          <li>Running batch jobs</li> 
         </ol>
     </div>
 </div>
@@ -81,13 +81,14 @@ weight: 0.4
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>Get caught up on anything.</li>
+          <li><a href="TLCL_6.html">Read TLCL Ch 23</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Get caught up on anything.</li>
+          <li>Compiling source code</li>
+          <li>Running applications</li>
         </ol>
     </div>
 </div>

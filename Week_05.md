@@ -79,12 +79,13 @@ weight: 0.5
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li>UF Homecoming, no class</li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/p,y4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>UF Homecoming, no class</li>
+          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          <li>Python flow control</li>
         </ol>
     </div>
 </div>

@@ -115,9 +115,9 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [5](Week_05.html) | Mon, Sept 28 | Quiz 3, due {{site.quiz_3_due}}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
 [5](Week_05.html)  | Wed, Sept 30 | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb)| Python data types
-[5](Week_05.html)  | Fri, Oct 2 | **Problem Set 2 due** <BR> UF Homecoming, no class |
+[5](Week_05.html)  | Fri, Oct 2 | **Problem Set 2 due** <BR>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) | Python: Flow Control
 |||
-[6](Week_06.html) | Mon, Oct 5 | Problem Set 3, due {{site.ps_3_due}}<br>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) <br> [Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Flow Control and Functions
+[6](Week_06.html) | Mon, Oct 5 | Problem Set 3, due {{site.ps_3_due}}<br>[Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Functions
 [6](Week_06.html) | Wed, Oct 7 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)<br>Quiz 2: Due Mon, Oct 13| Python: Iteration
 [6](Week_06.html) | Fri, Oct 9 | **Quiz 3 due** <br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
 |||

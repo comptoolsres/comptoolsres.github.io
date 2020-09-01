@@ -1,10 +1,14 @@
 API : "Application Programming Interface: a method to programmatically interact with another program or website."
 
+compiled_language : "A programming language where an entire program is converted into machine code before it can be run. Contrast with interpreted languages."
+
 function : "A block of reusable code that is performs a single task. Functions provide modularity, reuse and maintainability."
 
 global_variable : "A variable that maintains it existence throughout the program."
 
-infinite_loop : "a sequence of instructions that continue endlessly."
+infinite_loop : "A sequence of instructions that continue endlessly."
+
+interpreted_language : "A programming language where each line is compiled into machine code as it is run. Contrast with compiled languages."
 
 load_balancer : "A device that balances the load across multiple servers. This enables higher activity than a single server could support, splitting activity across multiple servers."
 

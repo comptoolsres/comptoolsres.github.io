@@ -103,6 +103,10 @@ weight: 0.1
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
           <li>Building Command Line skills</li>
+          <li><a href="https://forms.gle/fZSskLMgw2exxfq47">This Google form has exercises for you to work on</a></li>
+          <ul>
+            <li>The files used in this exercise are on HiPerGator and the path is in the form. For those not working on HiPerGator, the files are also in the repo at: <a href="https://github.com/comptoolsres/Class_Files">https://github.com/comptoolsres/Class_Files</a></li>
+          </ul>
         </ol>
     </div>
 </div>

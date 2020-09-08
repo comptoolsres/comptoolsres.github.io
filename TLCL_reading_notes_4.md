@@ -4,12 +4,27 @@ tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_4.html
 summary: "This starts with a quick explanation of some of the issues surrounding ongoing racism in STEM and one small step that can be taken to create a more inclusive community. Then it dives into using git and GitHub--topics not covered in the TLCL textbook. And finally, uses these tools as we develop scripts to move beyond what can be done in a single command line operation."
-keywords: black lives matter, blm, racism, git, github, hello_world, branch, init, commit, add, push, origin, main, master, merge, functions, psuedocode, scope, local, global, variable, stub, path, PATH
+keywords: black lives matter, blm, racism, git, github, hello_world, branch, init, commit, add, push, origin, main, master, merge, functions, pseudocode, scope, local, global, variable, stub, path, PATH
 ---
 
 {% include note.html content="Again, we are going to skip some chapters. As always, there's good content in these, but not enough time to cover everything." %}
 
 ## Confronting histories of racism and oppression
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/5efaf501-e1f5-41ed-8940-2034bf1cdb09?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/pqib0ame6ewvzwn/Git_github_and_confronting_systemic_racism_in_small_ways.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 In 2020, America once again turned its focus to the long, unbroken history of systemic racism and oppression of Black, Indigenous and People of Color (BIPOC, see [www.thebipocproject.org](http://thebipocproject.org)). The facts of systemic racism have, unfortunately, changed little in centuries. The situation merely became so bad that more of the country paid attention for some time.
 
@@ -48,6 +63,21 @@ As of [August 26, 2020](https://github.blog/changelog/2020-08-26-set-the-default
 " %}
 
 ## Getting setup in github.com
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_2" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_2" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_2">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/6c5b0e86-d551-408f-86fa-8c7b38b0c135?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_2">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/wuq4govg6n6bvlm/Getting_started_with_github.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 One thing that TLCL doesn't include that I think is critical for good coding is the use of version control, like git. We [already created a github.com account](github_account.md) and created a <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.repository}}">repository</a> through the github classroom.
 
@@ -97,6 +127,38 @@ Now we want to make a copy of the repository on HiPerGator.
 Now we are ready to write our scripts...so back to the text.
 
 ## Ch 24: Writing Your First Script
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_3" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_3" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_3">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/8112db4e-216b-4c9b-ae69-15d8be189ffa?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_3">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/2dnkjtpb2o4xwmh/TLCL_Ch_24_scripts.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
+I had to make a quick cut in this video, here's the second part of this.
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_4">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/71e6953c-c519-4a06-8d56-b7441d999dc7?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_4">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/01aseyyd2ciqrfj/TLCL_Ch_24_part2_scripts.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 ### Setup nano to show syntax highlighting
 
@@ -176,6 +238,21 @@ Now we are ready to write our scripts...so back to the text.
 ## Ch 25: Starting a Project
 
 {% include tip.html content="We are starting a new project, which means, we should, you guessed it, start a new git repository! Follow the steps we used above to make a new repository called `sys_info_page` and clone that onto HiPerGator." %}
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_5" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_5" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_5">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/13bc3317-15ae-4023-826f-9891b6ff821e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_5">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/mp39n7w8e3bl24z/TLCL_Ch_25_Projects.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 * p. 371: **First Stage: Minimal Document**: To view this page in a browser, you will need to download the file and open it on your computer.
 
@@ -310,6 +387,21 @@ Since we are done with the `variables` branch we can delete it:
  {% include callout.html content="This chapter is really important in starting to help you think about how to break down a task into small steps. Taking a complex task and breaking it down into pieces is a lot of what programmers do. Often the stumbling block isn't necessarily the coding, but figuring out how to break the task down into pieces to start the coding. <BR>
  <BR>
  When you are working through this process, you may get stuck. Take a break. Work on something else. Maybe make a sketch of what you want to do. Ask for help!" type="primary" %}
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_6" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_6" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_6">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/99e89a99-4cfd-4378-ab8e-276ea8a9a785?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_6">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/o9oh76ryvv7ar00/TLCL_Ch26_Top_down_design.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
  {% include note.html content="Remember to keep practicing with `git`, using branches as you implement changes, pushing to github.com, merging branches back into main when you are done with a section, etc." %}
 

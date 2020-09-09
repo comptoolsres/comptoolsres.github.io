@@ -320,7 +320,7 @@ Using the "Go Gators, Come on Gators, Get up and Go!" string, write a RegEx to f
                     <li> Two letter words : <code>\W\w\w\W</code>, or <code>\W\w{2}\W</code> </li>
                     <li> The first "Go" : <code>^Go</code></li>
                     <li> The last "Go" : <code>Go!</code>, or <code>Go.$</code></li>
-                    <li> Words that start with "G" : <code>^[Gg]\w*</code></li>
+                    <li> Words that start with "G" : <code>\s[Gg]\w*</code> or <code>\b[Gg]\w*</code>-- the <code>\b</code> boundary qualifier is one we didn't cover, but finds word boundaries.</li>
                     <li> Words that start with a vowel : <code>^[AEIOUaeiou]\w*</code></li>
                     <li> Words that start with an uppercase letter : <code>^[A-Z]\w*</code></li>
                     <li> Commas : <code>,</code> Note in some cases, you can/should escape the comma--<code>\,</code></li>

@@ -22,6 +22,8 @@ local_variable : "A variable that is only accessible within the function in whic
 
 merge : "The process of bringing changes made on a git branch back into the main branch to update the main codebase."
 
+parse : "The process of processing a file or string of text into constituent information"
+
 posix : "Portable Operating System Interface: a set of standards that define how Unix (and Unix-like) systems perform"
 
 prepend : "To add before or at the start of a list"

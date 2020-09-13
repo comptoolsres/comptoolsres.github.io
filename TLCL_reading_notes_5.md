@@ -14,9 +14,9 @@ Below is a graphical representation of the logic behind an `if` statement.
 
 ![Diagram of if and if-else statements](images/if_statements.png)
 
-`if` statements are used throughout programming for flow control--making decisions and controlling how the program runs. If some condition is met, do one thing, otherwise (`else`) do something else. If statements are used to make choices among multiple conditions. Once one condition is met, that portion of the code is executed, so it is important to think about the order of 'else if' statements. In bash and Python, 'else if' is squished together to make the `elif` statement. `else`, if used, is always the last statement because if the program makes it through all the `if` and `elif` statements without any of them being true, `else` is used to handle any other condition--there is no test, it is automatically true.
+`if` statements are used throughout programming for flow control--making decisions and controlling how the program runs. If some condition is met, do one thing, otherwise (`else`) do something else. `if` statements are used to make choices among multiple conditions. Once one condition is met, that portion of the code is executed, so it is important to think about the order of 'else if' statements. In Bash and Python, 'else if' is squished together to make the `elif` statement. `else`, if used, is always the last statement because if the program makes it through all the `if` and `elif` statements without any of them being true, `else` is used to handle any other condition--there is no test, it is automatically true.
 
-* p. 393: **`if`**: Type the code in the box at the bottom of 393 on the command line, hitting enter at the end of the lines:
+* p. 393: **`if`**: Type (not copy/paste) the code in the box at the bottom of 393 on the command line, hitting enter at the end of the lines:
 
   ```bash
   [magitz@login3 ~]$ if [ "$x" -eq 5 ]; then
@@ -27,14 +27,12 @@ Below is a graphical representation of the logic behind an `if` statement.
   x equals 5.
   ```
   
-  Notice that after the first line, the prompt changes to a `>`. This is Bash's way of saying it is expecting more information to complete the command--you haven't given it all the information that it needs yet. In this case, we have said we want to setup a conditional execution. `if` x is equal to 5...but we haven't told it what to do. So Bash gives the `>` prompt to ask for more commands.
+  Notice that after the first line, the prompt changes to a `>`. This is Bash's way of saying it is expecting more information to complete the command--you haven't given it all the information that it needs yet. In this case, we have said we want to setup a conditional execution. `if` x is equal to 5...but we haven't told Bash what to do. So Bash gives the `>` prompt to ask for more commands.
 
-  {% include tip.html content="If you get stuck at the `>` prompt, and can't or don't want to finish the command, the **Control-c** key combination will cancel the command and get you back to the normal prompt." %}
+  {% include tip.html content="If you get stuck at the `>` prompt, and can't or don't want to finish the command, the **Ctrl-c** (control-c) key combination will cancel the command and get you back to the normal prompt." %}
 
   {% include note.html content="The `;` before the `then` is used in Bash to put multiple commands on the same line. You can string multiple commands together, separating each with a `;`. Personally, I prefer to put the `then` on the next line, in which case the semi-colon isn't needed and the `then` visually lines up with the `else` and `fi`" %}
-
-* p. 394: `if`: In the box on the next page, the text shows the same command typed out on one line using the `;` to separate each part of the command instead of new lines. Both work just fine. Also, rather than re-type the command, remember about the <i class="fas fa-arrow-up"></i>-arrow to bring back commands from your history. Also note that even though we typed the command on multiple lines, when we recall it from the history, it is on a single line.
-
+ 
   {% include important.html content="One last important point here...Bash is extremely picky about spaces. We have seen before that something as simple as adding a space in an assignment causes problems: e.g.
   <br>
   <code>
@@ -54,6 +52,8 @@ Below is a graphical representation of the logic behind an `if` statement.
   </code>
   " %}
 
+* p. 394: `if`: In the box on the next page, the text shows the same command typed out on one line using the `;` to separate each part of the command instead of new lines. Both work just fine. Also, rather than re-type the command, remember about the <i class="fas fa-arrow-up"></i>-arrow to bring back commands from your `history`. Also note that even though we typed the command on multiple lines, when we recall it from the `history`, it is on a single line.
+
 * p. 394: **`if` statement syntax**: We discussed the format of documentation before, but here is another good example:
 
   ```bash
@@ -66,9 +66,9 @@ Below is a graphical representation of the logic behind an `if` statement.
   fi
   ```
 
-  An `if` statement must start with `if`, followed by some commands. Those commands have to be followed by either a `;` or a new line and the word `then`. That must be followed by what to do when the commands result in a true statement. Optionally (they are in square brackets, so interpreted as optional), we can add a second set of commands with the `elif`. The `elif` can be repeated ('...'). Optionally, that is followed by the `else` (without commands or `then`). The statement must end in `fi` ("if spelled backword--we will see this is a convention Bash uses.
+  An `if` statement must start with `if`, followed by some commands (a conditional statement). Those commands have to be followed by either a `;` or a new line and the word `then`. That must be followed by what to do when the commands result in a true statement. Optionally (they are in square brackets, so interpreted as optional), we can add a second set of commands with the `elif`. The `elif` can be repeated ('...'). Optionally, that is followed by the `else` (without commands or `then`). The entire `if` statement must end in `fi` ("if spelled backward--we will see this is a convention Bash uses frequently).
 
-  The concept and structure of an `if` statement is common to all programming languages that I know. The <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.syntax}}">syntax</a> changes from language to language, but the concept is the same. How a language bounds the parts of a statement varies. Bash uses `if`, `then`, `fi`; other languages use parentheses, curly-braces, or square-brackets; Python uses indentation. **Regardless of syntax, the concept is the same and important to understand.**
+  The concept and structure of an `if` statement is common to all programming languages that I know. The <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.syntax}}">syntax</a> changes from language to language, but the concept is the same. For example, how a language bounds the parts of a statement varies. Bash uses `if`, `then`, `fi`; other languages use parentheses, curly-braces, or square-brackets; Python uses indentation. **Regardless of syntax, the concept is the same and important to understand.**
 
 * p. 396: **test**: As above, it is important to note that the `[ expression ]` format has a single space on either side of the expression. See what happens if I delete the spaces on this example:
 
@@ -81,7 +81,7 @@ Below is a graphical representation of the logic behind an `if` statement.
     [magitz@login2 magitz]$
     ```
 
-{% include warning.html content="Pay particular attention to the warning box at the top of p. 400!!<br><br>Here is an example, first with the < properly escaped with a \, and second the error when it is not escapes and bash is looking for a file to redirect into string1. Think how much worse this could have been if I used > and there was a file called string2!
+{% include warning.html content="Pay particular attention to the warning box at the top of p. 400!!<br><br>Here is an example, first with the < properly escaped with a \, and second the error when it is not escapes and Bash is looking for a file to redirect into string1. Think how much worse this could have been if I used > and there was a file called string2!
 <br>
 `[magitz@login2 magitz]$ string1='abc'`
 <br>
@@ -129,8 +129,8 @@ The idea here is to do something **while** some condition is true. Once that con
 * p. 424: **`while`**: Play with the `while [[ "$count" -le 5 ]];` script. Read the information about the modification to the `read-menu` program, but I am not sure it is worth actually writing/running this script.
 
 * p. 426: **Breaking Out of a Loop**: the `break` and `continue` commands are used a fair bit and have a very different effect:
-  * **`break`**: Terminates the loop and the program continues with the next command after the loop.
-  * **`continue`**: stops the current iteration of the loop and resumes the loop with the next iteration.
+  * **`break`**: *Terminates* the loop and the program continues with the next command *after* the loop.
+  * **`continue`**: stops the *current iteration* of the loop and resumes the loop with the *next* iteration.
 * p. 426: `while true`: This is a handy way of creating what is referred to as an <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.infinite_loop}}">infinite loop</a>. But, by using the `break` command, you can break out of the loop when some desired condition is met.
 
 * p.428: **`until`**: Here is the diagram for an `until` loop:
@@ -139,7 +139,7 @@ The idea here is to do something **while** some condition is true. Once that con
 
   Notice that, opposite of the `while` loop, in the `until` loop, the loop executes as long as the condition is false--or **until** it is true. Choose the loop that make most sense, or is easiest to code for the conditions you want to enforce.
 
-* p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/ufrc/bsc4452/share/Class_Files/TLCL_files/distros.txt`. This is a great example of processing a file--both in reading a file line by line, but also in getting fields from that file. Notice how each of the three columns of the dataset are automatically assigned to the three variables--`distro`, `version`, `release`. Also note the next box on p. 429 that would allow you to parse files with different field separators.
+* p. 428: **Reading Files with Loops**: Remember that there is a copy of the `distros.txt` file at `/blue/bsc4452/share/Class_Files/TLCL_files/distros.txt`. This is a great example of processing a file--both in reading a file line by line, but also in getting fields from that file. Notice how each of the three columns of the dataset are automatically assigned to the three variables--`distro`, `version`, `release`. Also note the next box on p. 429 that would allow you to <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.parse}}">parse</a> files with different field separators.
 
 ## Ch 30: Troubleshooting
 
@@ -147,7 +147,7 @@ There is certainly a lot of helpful content in this chapter, but again, I don't 
 
 ## Ch 31: Flow Control: Branching with `case`
 
-`case` is another helpful flow control tool, but is not as widely used outside of bash. For this reason, again, have a look, but don't worry about the details. Keep it in mind as an option as you write your scripts, and come back to this chapter if needed.
+`case` is another helpful flow control tool, but is not as widely used outside of Bash. For this reason, again, have a look, but don't worry about the details. Keep it in mind as an option as you write your scripts, and come back to this chapter if needed.
 
 ## Ch 32: Positional Parameters
 
@@ -182,7 +182,7 @@ The idea is to pass a list of items, or a range of numbers, into the loop and ex
 
     The `for` loop is set up with the `for` command, "`i`" is a variable to hold each instance of the items in the list, "`in`" separates the variable and the list of items, and then the items are listed. Within the loop, everything between the "`do`" and "`done`" is executed for each item in the list.
 
-{% include tip.html content="Take the time now to play with and understand `for` loops--this is easily the most common programming tool and something you will use all the time!" %}
+{% include tip.html content="Take the time now to play with and understand `for` loops--this is one of the most common programming tools and something you will use all the time!" %}
 
 * The list passed into the for loop can take many forms, some examples:
 
@@ -192,12 +192,12 @@ The idea is to pass a list of items, or a range of numbers, into the loop and ex
 
 * p. 468: You may have noticed back on p. 466 the `[in words]` part of the `for` loop syntax is in square brackets, meaning it is optional. This section points out that if you omit the list of items, `for` iterates over command line options that are passed in. For the example with the longest-word2.sh script (located at `/blue/bsc4452/share/Class_Files/TLCL_files/longest-word2.sh`), if you run `/blue/bsc4452/share/Class_Files/TLCL_files/longest-word2.sh file1 file2 file3`, you will get the longest word in each file.
 
-* p. 469: **Why `i`?**: This box, should really be called "Why **not** `i`?" As the box describes, `i` is a commonly used variable, but it is a terrible variable! Especially if your nested loops and have `j`, and `k`! **Use meaningful variable names!** `for file in *.txt` is much easier to understand. We will look at this more in the Python section, but the developer of Python, Guido van Rossum, is often quoted as saying:
+* p. 469: **Why `i`?**: This box, should really be called "Why **not** `i`?" As the box describes, `i` is a commonly used variable, but *it is a terrible variable!* Especially if your nested loops and have `j`, and `k`! **Use meaningful variable names!** `for file in *.txt` is much easier to understand. We will look at this more in the Python section, but the developer of Python, Guido van Rossum, is often quoted as saying:
 
-  > ...code is read much more often than it is written.
+  > <i class="fa fa-quote-left"></i> ...code is read much more often than it is written.
 
-  Write your code so that others, and your future self, can read and understand it!
+  Write your code so that others, and your future self, can read and understand it! While variable names like `i` and `x` can be easier to type, the reader will need to pause and figure out what information is `i` or `x` holding.
 
-* p. 468: **for: C Language Form**: Have a look at this as another way to write for loops. I rarely use this form, but you may run into it. As you might suspect, C programmers are the main users of this in bash.
+* p. 468: **for: C Language Form**: Have a look at this as another way to write for loops. I rarely use this form, but you may run into it. As you might suspect, C programmers are the main users of this in Bash.
 
 * p. 471: **Summing Up**: This goes back to looking at each user's home space. Again, something you probably don't want to do on the cluster, so skip this, or have a look and see that you understand what is being attempted.

@@ -13,6 +13,8 @@ weight: 0.4
 
 ## Overview for Week {{page.week_num}}
 
+* Learning to use Google for coding help
+* Learning to read code and application documentation
 * Using UF Research Computing resources
 * Writing job scripts to run batch jobs via SLURM scheduler
 * Compiling applications for source code
@@ -40,7 +42,6 @@ weight: 0.4
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Submitting batch jobs</li>
           <li>Using Google to find coding help</li>
           <li>Reading documentation for applications and code</li>
         </ol>
@@ -65,7 +66,7 @@ weight: 0.4
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
           <li>Using UFRC Resources</li>
-          <li>Running batch jobs</li> 
+          <li>Running batch jobs</li>
         </ol>
     </div>
 </div>

@@ -103,7 +103,7 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [2](Week_02.html) | Mon, Sept 7 | Labor Day, no class |
 [2](Week_02.html) | Wed, Sept 9 | [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
-[2](Week_02.html) | Fri, Sept 11 |**Quiz 1 due**<br>**GitHub Account assignment due**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)| Text manipulation
+[2](Week_02.html) | Fri, Sept 11 |**Quiz 1 due**<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)| Text manipulation
 |||
 [3](Week_03.html) | Mon, Sept 14 | Quiz 2, due {{site.quiz_2_due}}<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md) <br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
 [3](Week_03.html) | Wed, Sept 16 || Continue working on shell scripts and git/github

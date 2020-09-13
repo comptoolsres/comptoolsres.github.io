@@ -16,14 +16,12 @@ weight: 0.3
 * Writing shell scripts
 * Using git and github.com for version control and collaboration
 * Flow control: conditionals and loops
-* Learning to use Google for coding help
-* Learning to read code and application documentation
 
 ## What's due by the end of the week?
 
 * **Problem Set 1 is due {{site.ps_1_due}}.**
 * Quiz 2 will be available Monday. It is due {{site.quiz_2_due}}
-  * Quiz 2 covers
+  * Quiz 2 covers using: `cat`, `cut`, `sort`, `uniq`, and `paste`; as well as recognizing the meaning of the commands `if`, `for`, `while`, `break`, `continue`, `else`, `git add`, `git commit`, `git pull`.
 
 ## For Monday
 
@@ -104,7 +102,7 @@ weight: 0.3
    * Commit the modified code
    * Push the modified code to github remote repository
    * Merge the branch into the main branch
-1. Be comfortable with loops loops and conditionals.
+1. Be comfortable with loops and conditionals.
 
 {% include custom/office_hours.html %}
 

@@ -221,6 +221,10 @@ Similarly, if we change the search to "`Go.$`", we will match the "Go!" at the e
 
 These can also be combined, to require that the regular expression match the entire line, from start to end.
 
+#### <i class="fa fa-search-plus"></i> `\b` Word boundaries
+
+If we search for "`\bG\w*\b`", we find words starting with "G". Word boundary matches can be a handy way of dealing with punctuation and new lines.
+
 ### <i class="fa fa-search"></i> Capturing and replacing
 
 Now is where regular expressions get even more powerful! Let's imagine we decide that the chant would be better written as "Come on Gators, Go Gators, Get up and Go!". There are many ways to make this change, and for this example others may be easier, but with lines and lines of text and more complex patterns, something like this could be easier:
@@ -322,8 +326,8 @@ Several answers below were incorrect and were updated on 9/15/2020.
                     <li> Two letter words : <code>\W\w\w\W</code>, or <code>\W\w{2}\W</code> </li>
                     <li> The first "Go" : <code>^Go</code></li>
                     <li> The last "Go" : <code>Go!</code>, or <code>Go.$</code></li>
-                    <li> Words that start with "G" : <code>\s[Gg]\w*</code> or <code>\b[Gg]\w*</code>-- the <code>\b</code> boundary qualifier is one we didn't cover, but finds word boundaries.</li>
-                    <li> Words that start with a vowel : <code>^[AEIOUaeiou]\w*</code></li>
+                    <li> Words that start with "G" : <code>\s[Gg]\w*</code> or <code>\b[Gg]\w*</code></li>
+                    <li> Words that start with a vowel : <code>\b[AEIOUaeiou]\w*</code></li>
                     <li> Words that start with an uppercase letter : <code>\b[A-Z]\w*</code></li>
                     <li> Commas : <code>,</code> Note in some cases, you can/should escape the comma--<code>\,</code></li>
                     <li> Words that end in "t" : <code>\w+t\W</code></li>

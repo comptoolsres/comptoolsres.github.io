@@ -306,6 +306,8 @@ Using the "Go Gators, Come on Gators, Get up and Go!" string, write a RegEx to f
 1. Words that end in "t"
 1. Words with "t"s, but not ending in "t"
 
+Several answers below were incorrect and were updated on 9/15/2020.
+
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -322,10 +324,10 @@ Using the "Go Gators, Come on Gators, Get up and Go!" string, write a RegEx to f
                     <li> The last "Go" : <code>Go!</code>, or <code>Go.$</code></li>
                     <li> Words that start with "G" : <code>\s[Gg]\w*</code> or <code>\b[Gg]\w*</code>-- the <code>\b</code> boundary qualifier is one we didn't cover, but finds word boundaries.</li>
                     <li> Words that start with a vowel : <code>^[AEIOUaeiou]\w*</code></li>
-                    <li> Words that start with an uppercase letter : <code>^[A-Z]\w*</code></li>
+                    <li> Words that start with an uppercase letter : <code>\b[A-Z]\w*</code></li>
                     <li> Commas : <code>,</code> Note in some cases, you can/should escape the comma--<code>\,</code></li>
-                    <li> Words that end in "t" : <code>w\+t\W</code></li>
-                    <li> Words with "t"s, but not ending in "t" : <code>\w+t\w+</code></li>
+                    <li> Words that end in "t" : <code>\w+t\W</code></li>
+                    <li> Words with "t"s, but not ending in "t" : <code>\w*t[^t\W]+\W</code></li>
                 </ol>
             </div>
             <!-- /.panel-body -->

@@ -39,9 +39,6 @@ entries:
       - title: LinkedIn Learning Linux module
         url: /LinkedInLearningLinux.html
         output: web
-      - title: Problem Set 1
-        url: /ps1.html
-        output: web
 
   - title: Python
     output: web

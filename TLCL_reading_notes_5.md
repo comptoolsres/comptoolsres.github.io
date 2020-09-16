@@ -10,6 +10,21 @@ keywords: if, is-else, elif, for, while, unitl, loop,
 
 ## Flow Control: Branching with `if`
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+      <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/16bdfb20-017a-4b24-be1f-ba5c6dc5416e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/wkl04mgx93yq5h7/TLCL_Ch_27_conditionals_if.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 Below is a graphical representation of the logic behind an `if` statement.
 
 ![Diagram of if and if-else statements](images/if_statements.png)
@@ -114,11 +129,41 @@ Below is a graphical representation of the logic behind an `if` statement.
 
 ## Ch 28: Reading Keyboard Input
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_2" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_2" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_2">
+      <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/f9ed1108-174d-4d14-93d3-593b6985b5a3?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_2">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/dbk3spmj1aonpnr/TLCL_Ch_28_keyboard_input.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 Have a look at this chapter. Taking input from the user while your code is running has many use cases. However, in general, I think most programs should be able to run without interactive input. We want to focus on automation and allowing scripts to run with command line options or configuration files, not on programs that need a user to enter information manually.
 
 It is good to know that these are options, but not something we will spend time on. **Implementing user input will likely be an extra credit opportunity on one of the problem sets.**
 
 ## Ch 29: Flow Control: Looping with `while` / `until`
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_3" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_3" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_3">
+      <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/d074ae71-f1ae-4575-9ca4-0e79a9a092ec?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_3">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/vqsfkscdskg4i4x/TLCL_Ch_29_while_until_loops.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 The next type of flow control is the `while` loop. Here is a graphical representation of a `while` loop:
 
@@ -154,6 +199,21 @@ There is certainly a lot of helpful content in this chapter, but again, I don't 
 This chapter seems a bit out of place and we are going to skip to Ch 33.
 
 ## Ch 33: Flow Control: Looping with `for`
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_4" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_4" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_4">
+      <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/52866b5e-c156-4a93-8db7-29579b868fc5?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_4">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/bfadan01c246akf/TLCL_Ch_33_for_loops.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 Given how much `for` loops are used, I am surprised William Shotts waits until this late to introduce them! But here we are...Here is a diagram of the `for` loop:
 

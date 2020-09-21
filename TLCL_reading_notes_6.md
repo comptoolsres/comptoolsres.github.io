@@ -3,10 +3,26 @@ title: "Notes on TLCL Ch 23"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_6.html
-toc: false
+summary: "Compiling programs is the process of taking the source code and turning it into machine code to be run. Bash and Python are called <i>interpreted</i> languages because the compilation takes place while the program runs, line by line, by the interpreter. C and C++ are common compiled languages and the code needs to be compiled before it can be run. While compiling applications can be difficult, in most cases, it is as simple as downloading the code, and running <code>./configure; make; make install</code>."
+keywords: compile, gcc, binary, configure, make, install
 ---
 
 ## Ch 23: Compiling Programs
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/3141d05f-7fe7-4f1d-a15f-3025c14006b5?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/uka97ynutk9dzn3/TLCL_Ch_23_Compiling.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
 
 This section gets into compiling programs from source code. As the chapter mentions, this is a bit of a lost/dying art, but I think worth some time to learn about.
 
@@ -24,6 +40,7 @@ The most common compiled programming languages are C and C++. One thing we will 
 We'll talk about this in class, but it is best to load a module for compilers and most applications (even Python when we get there).
 
 So while we can do what the text does on p. 352:
+
 ```bash
 [magitz@login4 src]$ which gcc
 /usr/bin/gcc
@@ -50,7 +67,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 [magitz@login2 ~]$
 ```
- 
 
 * p. 352: **Obtaining the Source Code**: We can't use FTP on the cluster (too many security issues) so we'll use wget and a URL to download the source code:
 
@@ -67,15 +83,12 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
     2018-09-06 15:58:33 (832 KB/s) - ‘diction-1.11.tar.gz’ saved [141062/141062]
     ```
- 
 
 Then you can proceed on with extracting the tar file and other steps.
 
 * p. 356: **Examining the Source Tree**: TLCL has you use `less` to look at the `diction.c` file. Go a few pages into the file, you probably won't understand everything, but you should see some familiar things: `if`, `else`, `for`, `while`, etc. These are universal to programming languages! The exact syntax differs, but the concepts are all the same!
 
   Continue with `./configure` and `make`.
-
- 
 
 p. 360: **Installing the Program**: We can't run the `sudo make install` command since we don't have sudo access.
 
@@ -119,5 +132,3 @@ We have two options here.
     ```
 
   Notice that with the `--prefix` option, the `make install` step shows that it is copying stuff to `/home/magitz/bin` and when I type `diction -h`, the shell finds diction in my path and gets the help info.
-
-  

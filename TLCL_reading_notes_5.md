@@ -3,7 +3,7 @@ title: "Notes on TLCL Ch 27-33"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_5.html
-toc: false
+toc: true
 summary: "Flow control is the last foundational tool that we need to cover. Testing for and acting on given conditions and repeating actions are fundamental to programming. These chapters introduce conditional execution with <code>if</code> statements and repetition with <code>while</code> and <code>for</code> loops."
 keywords: if, is-else, elif, for, while, unitl, loop, 
 ---

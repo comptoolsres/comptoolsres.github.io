@@ -3,6 +3,7 @@ title: "Notes on TLCL Ch 23"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_6.html
+toc: true
 summary: "Compiling programs is the process of taking the source code and turning it into machine code to be run. Bash and Python are called <i>interpreted</i> languages because the compilation takes place while the program runs, line by line, by the interpreter. C and C++ are common compiled languages and the code needs to be compiled before it can be run. While compiling applications can be difficult, in most cases, it is as simple as downloading the code, and running <code>./configure; make; make install</code>."
 keywords: compile, gcc, binary, configure, make, install
 ---

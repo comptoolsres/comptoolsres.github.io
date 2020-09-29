@@ -449,6 +449,8 @@ We can use those variables in the function to do our stuff. Then we can return i
 
 Note that Bash does not include the argument names in the function definition line...most languages, including Python, would have something like `add_two (arg1, arg2)` indicating that the function takes two arguments. That's just not how Bash works...
 
+For additional information, I found this page to be helpful: [https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function](https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function).
+
 ### Back to the text...
 
 * p. 387: **Local Variables**: It is good to think about <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.local_variable}}">local</a> vs <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.gloabal_variable}}">global variables</a> and the concept of <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.scope}}">scope</a>. We will encounter this throughout the semester as local and global variables are common to most programming languages. The idea is that most variables defined within a function are local to that function, are only available within the function, and are lost when the function ends.

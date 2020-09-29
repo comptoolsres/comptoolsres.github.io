@@ -88,11 +88,11 @@ Instead, use:
 
 ### Ways to use Python
 
-Maybe even more so than Bash, there are a number of ways to use Python. With Bash, we started with running commands on the command line on HiPerGator and built up to writing scripts. In addition to an interactive python prompt and scripts, Python adds Jupyter notebooks and some really nice features in VSCode and other development environments. Which of these you choose to use is largely up to you, your preferences and the task at hand.
+Maybe even more so than Bash, there are a number of ways to use Python. With Bash, we started with running commands on the command line on HiPerGator and built up to writing scripts. In addition to an interactive python prompt and scripts, Python adds Jupyter notebooks and some really nice features in VSCode and other development environments. Which of these you choose to use is largely up to you, your preferences, and the task at hand.
 
 #### Interactive Python Prompt
 
-Python has an interactive command prompt, like Bash:
+Python has an interactive command prompt, similar to the Bash command prompt:
 
 ```bash
 [magitz@login3 share]$ module load python3
@@ -131,7 +131,7 @@ This is what I do most of the time, but requires going back and forth between ed
 
 Similar to Bash scripts, Python scripts are plain text files. Any text editor can be used to write Python scripts. But VSCode (and others) have a number of added benefits that are worth checking out. We've already looked at contextual coloring, which VSCode does for many languages, including Bash and Python. This is clearly easier to read and catch errors than plain text.
 
-Good text editors also have code suggestions (some based on machine learning algorithms that can often suggest whole blocks of code for you!) and function information popups that help you write your code. They have linters to check your syntax and flag errors. And are configurable for how you want to code.
+Good text editors also have code suggestions (some based on machine learning algorithms that can often suggest whole blocks of code for you!) and function information popups that help you write your code. They have linters to check your syntax and flag errors. And they are configurable for how you want to code.
 
 VSCode can also run your code and help you debug by showing you the values of variables as your code executes step by step. You can see the output in the console.
 

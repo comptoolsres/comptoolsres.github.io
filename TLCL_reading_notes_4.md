@@ -412,6 +412,45 @@ Some notes...
 
 * p. 384: **Shell Functions**: <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.function}}">Functions</a> facilitate breaking down code into manageable chunks. Using the text's analogy, we can write a function to park the car. Once we have the park_car function, that part of the go to the market problem is solved. In fact, that part is solved both when we park the car at the market and when we park the car at home when we return! Write once, use many times--this greatly facilitates our coding experience. Additionally, if we realize that we forgot to, for example, add the step to set the parking break, we only need to update the code one place, rather than find everywhere we used the parking code. And lastly, if we move on to writing a program for going to the work, we can re-use the park_car function from this program in the new program!
 
+### Passing arguments into functions
+
+I did not realize until someone asked, that this was not covered in the text. It seems so fundamental to how functions work that it didn't even occur to me that it wouldn't be covered...Adding this information now.
+
+We've seen how functions can be used to organize code, promote reusability, and help us think about the steps that are needed to accomplish a task. It may not be clear from the text that functions, similar to scripts and programs, can take input arguments and return information. In keeping with the driving to the market analogy, the park_car function might take a parking lot isle number as an argument and return the parking spot number so you know where your car is parked.
+
+Here is an example of a function that takes two numbers, adds them and returns the sum, this script is also located at `/blue/bsc4452/share/Class_Files/Examples/add_two.sh`:
+
+  ```bash
+  #!/usr/bin/bash
+
+  # This script shows how parameters can be passed into a function
+
+  add_two () {
+    # Take 2 numbers and add them, returning the sum
+
+    num1=$1 # The first argument is $1, assign to num1 variable
+    num2=$2 # The second argument is $2, assign to num2 variable
+
+    sum=$((num1 + num2))  # Add the two numbers
+    return $sum  # Return the sum
+  }
+
+  value1=5
+  value2=10
+
+  add_two $value1 $value2  # Call the add_two function with 2 arguments
+
+  echo "$value1 plus $value2 is $?"  # Print the result
+  ```
+
+When we call the function `add_two` we can pass in our two numbers. Those are assigned to the variables $1 and $2. There is also a special variable created that lists all of the arguments passed in, its name is `$@`. **Try modifying the code of the add_two function to print the value of `$@` when it is called.**
+
+We can use those variables in the function to do our stuff. Then we can return information from the function. The main script can use the returned value with the `$?` variable.
+
+Note that Bash does not include the argument names in the function definition line...most languages, including Python, would have something like `add_two (arg1, arg2)` indicating that the function takes two arguments. That's just not how Bash works...
+
+### Back to the text...
+
 * p. 387: **Local Variables**: It is good to think about <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.local_variable}}">local</a> vs <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.gloabal_variable}}">global variables</a> and the concept of <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.scope}}">scope</a>. We will encounter this throughout the semester as local and global variables are common to most programming languages. The idea is that most variables defined within a function are local to that function, are only available within the function, and are lost when the function ends.
 
 * p. 388-389: **Keep Scripts Running**: The idea of using <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stub}}">stubs</a> is very useful. This is also a good method to share code development. One developer can work on implementing one function, while another developer implements a different function.

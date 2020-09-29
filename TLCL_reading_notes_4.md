@@ -414,6 +414,21 @@ Some notes...
 
 ### Passing arguments into functions
 
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_7" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_7" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_7">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/d123cc66-1173-41e9-bc79-f66013488fa3?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_7">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/zcx1q0ua4txbwmh/TLCL_Ch_26_function_arguments.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 I did not realize until someone asked, that this was not covered in the text. It seems so fundamental to how functions work that it didn't even occur to me that it wouldn't be covered...Adding this information now.
 
 We've seen how functions can be used to organize code, promote reusability, and help us think about the steps that are needed to accomplish a task. It may not be clear from the text that functions, similar to scripts and programs, can take input arguments and return information. In keeping with the driving to the market analogy, the park_car function might take a parking lot isle number as an argument and return the parking spot number so you know where your car is parked.

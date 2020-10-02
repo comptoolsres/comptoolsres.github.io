@@ -114,20 +114,20 @@ Week | Date | Reading/Assignment |Topic |
 [4](Week_04.html) | Fri, Sept 25 | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
 |||
 [5](Week_05.html) | Mon, Sept 28 | Quiz 3, due {{site.quiz_3_due}}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
-[5](Week_05.html)  | Wed, Sept 30 | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb)| Python data types
-[5](Week_05.html)  | Fri, Oct 2 | **Problem Set 2 due** <BR>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb) | Python: Flow Control
+[5](Week_05.html)  | Wed, Sept 30 | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
+[5](Week_05.html)  | Fri, Oct 2 | **Problem Set 2 due** <BR>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb) | Python: Flow Control
 |||
-[6](Week_06.html) | Mon, Oct 5 | Problem Set 3, due {{site.ps_3_due}}<br>[Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb)| Python: Functions
-[6](Week_06.html) | Wed, Oct 7 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb)<br>Quiz 2: Due Mon, Oct 13| Python: Iteration
-[6](Week_06.html) | Fri, Oct 9 | **Quiz 3 due** <br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
+[6](Week_06.html) | Mon, Oct 5 | Problem Set 3, due {{site.ps_3_due}}<br>[Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions
+[6](Week_06.html) | Wed, Oct 7 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb) | Python: Iteration
+[6](Week_06.html) | Fri, Oct 9 | **Quiz 3 due** <br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
 |||
-[7](Week_07.html) | Mon, Oct 12 | Quiz 4, due {{site.quiz_4_due}}<br>[Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
-[7](Week_07.html) | Wed, Oct 14 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb) | RegEx in Python
-[7](Week_07.html) | Fri, Oct 16 | **Problem Set 3 due**<br> [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb) | Scripting data acquisition
+[7](Week_07.html) | Mon, Oct 12 | Quiz 4, due {{site.quiz_4_due}}<br>[Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
+[7](Week_07.html) | Wed, Oct 14 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
+[7](Week_07.html) | Fri, Oct 16 | **Problem Set 3 due**<br> [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
 |||
-[8](Week_08.html) | Mon, Oct 19 |Problem Set 4, due {{site.ps_4_due}}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
+[8](Week_08.html) | Mon, Oct 19 |Problem Set 4, due {{site.ps_4_due}}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
 [8](Week_08.html) | Wed, Oct 21 | | Using modules
-[8](Week_08.html) | Fri, Oct 23 | **Quiz 4 due**<br>[Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb) | Visualization|||
+[8](Week_08.html) | Fri, Oct 23 | **Quiz 4 due**<br>[Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
 |||
 [9](Week_09.html) | Mon, Oct 26 |Quiz 5, due {{site.quiz_5_due}}| More data visualization
 [9](Week_09.html)  | Wed, Oct 28 | Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming <br> Project 1, Due {{site.project_1_due}}| Work on Project 1
@@ -135,11 +135,11 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [10](Week_10.html) | Mon, Nov 2 | Problem set 5, due {{site.ps_5_due}}<br>[Programming Foundations Databases](LinkedInLearningDatabases.md)| Database intro
 [10](Week_10.html) | Wed, Nov 4 | |Database intro
-[10](Week_10.html) | Fri, Nov 6 | **Project 1 Due**<br>[Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
+[10](Week_10.html) | Fri, Nov 6 | **Project 1 Due**<br>[Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
 [11](Week_11.html) | Mon, Nov 9 | | [Databases, SQL and sqlite](SQL_Introduction.md)
 [11](Week_11.html) | Wed, Nov 11 | Veteran's Day, no class |
-[11](Week_11.html) | Fri, Nov 13 | **Quiz 5 due**| [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb)|
+[11](Week_11.html) | Fri, Nov 13 | **Quiz 5 due**| [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
 |||
 [12](Week_12.html) | Mon, Nov 16 | Quiz 6, due {{site.quiz_6_due}} | More SQLAlchemy
 [12](Week_12.html) | Wed, Nov 18 | Project 2, Due Wed, Dec 9| SQLAlchemy and Pandas

@@ -27,25 +27,11 @@ This is the github page with the infromation used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="Stream_1">
-        
-<ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream_7" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox_7" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
-</ul>
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream_7">
-        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/d123cc66-1173-41e9-bc79-f66013488fa3?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox_7">
-        <video width="800"  controls>
-          <source src="https://www.dropbox.com/s/zcx1q0ua4txbwmh/TLCL_Ch_26_function_arguments.mp4?dl=1" type="video/mp4" />
-        </video>
-    </div>
-</div>
+        <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/b0e02a2d-f108-44ff-aea2-276d98a8b524?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe></iframe>
     </div>
     <div role="tabpanel" class="tab-pane" id="Dropbox_1">
         <video width="800"  controls>
-          <source src="https://www.dropbox.com/s/dst0ai6pj255bq9/Using%20ssh%20keys%20with%20github.com.mp4?dl=1" type="video/mp4" />
+          <source src="https://www.dropbox.com/s/dst0ai6pj255bq9/Using_ssh_keys_with_github.com.mp4?dl=1" type="video/mp4" />
         </video>
     </div>
 </div>

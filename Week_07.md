@@ -33,8 +33,8 @@ weight: 0.7
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb">Read Py4E Ch 8</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb">Read Py4E Chs 9-10</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb">Read Py4E Ch 8</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb">Read Py4E Chs 9-10</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
@@ -56,7 +56,7 @@ weight: 0.7
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb">Read Py4E Ch 11</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb">Read Py4E Ch 11</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
@@ -78,8 +78,8 @@ weight: 0.7
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb">Read Py4E Ch 12</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb">Read Py4E Ch 12</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

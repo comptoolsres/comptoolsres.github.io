@@ -22,7 +22,9 @@ weight: 0.6
 
 ## What's due by the end of the week?
 
-* **Quiz 3 due {{site.quiz_3_due}}**
+<!--* **Quiz 3 due {{site.quiz_3_due}}**-->
+* Quiz 3: We all need a bit of a break. I think we've covered Bash content in quizzes/problem sets, and we're just starting Python, so this quiz will be a freebee. Everyone will get a 20. No need to turn anything in.
+
 * Problem Set 3 will be available on Monday. It is due {{site.ps_3_due}}
 
 ## For Monday
@@ -36,8 +38,8 @@ weight: 0.6
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb">Read Py4E Ch 4</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb">Read Py4E Ch 4</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
@@ -60,7 +62,7 @@ weight: 0.6
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb">Read Py4E Ch 5</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb">Read Py4E Ch 5</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
@@ -82,8 +84,8 @@ weight: 0.6
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb">Read Py4E Ch 6</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb">Read Py4E Ch 7</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb">Read Py4E Ch 6</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb">Read Py4E Ch 7</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

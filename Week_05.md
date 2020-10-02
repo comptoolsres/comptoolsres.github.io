@@ -20,7 +20,8 @@ weight: 0.5
 ## What's due by the end of the week?
 
 * **Problem Set 2 due {{site.ps_2_due}}**
-* Quiz 3 will be available on Monday. It is due {{site.quiz_3_due}}
+<!-- * Quiz 3 will be available on Monday. It is due {{site.quiz_3_due}}-->
+* Quiz 3: We all need a bit of a break. I think we've covered Bash content in quizzes/problem sets, and we're just starting Python, so this quiz will be a freebee. Everyone will get a 20. No need to turn anything in.
 
 ## For Monday
 
@@ -57,12 +58,13 @@ weight: 0.5
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb">Read Py4E Ch 2</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb">Read Py4E Ch 2</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          <li>Getting started with JHub</li>
           <li>Python data types</li>
         </ol>
     </div>
@@ -79,7 +81,7 @@ weight: 0.5
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/p,y4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/p,y4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

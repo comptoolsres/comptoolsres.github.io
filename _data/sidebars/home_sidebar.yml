@@ -48,43 +48,43 @@ entries:
         url: /py4e_1.html
         output: web
       - title: Py4e Ch 2 Variables & Types
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch2_varaibles_and_types.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb
         output: web
       - title: Py4e Ch 3 Flow control
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch3_flow_control.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb
         output: web
       - title: Py4e Ch 4 Functions
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch4_functions.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb
         output: web
       - title: Py4e Ch 5 Iteration
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch5_iteration.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb
         output: web
       - title: Py4e Ch 6 Strings
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch6_strings.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb
         output: web
       - title: Py4e Ch 7 File IO
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch7_file_io.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb
         output: web
       - title: Py4e Ch 8 Lists
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch8_lists.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb
         output: web
       - title: Py4e Ch 9 & 10 Dictionaries & Tuples
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch9-10_dictionaries_tuples.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb
         output: web
       - title: Py4e Ch 11 Regular Expressions
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch11_regex.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb
         output: web
       - title: Py4e Ch 12 Networked Programs
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch12_networked.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb
         output: web
       - title: Py4e Ch 13 Web Services
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch13_web_services.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb
         output: web
       - title: Data Visualization and Matplotlib
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb
         output: web
       - title: SciPy, NumPy and Pandas
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb
         output: web    
 
   - title: SQL
@@ -92,13 +92,13 @@ entries:
     folderitems:
 
       - title: Py4E Ch 15 Databases
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb
         output: web    
       - title: SQL Introduction
         url: /SQL_Introduction.html
         output: web    
       - title: SQLAlchemy
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/master/SQLAlchemy.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb
         output: web    
 
   - title: Week-by-Week Pages

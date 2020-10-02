@@ -77,7 +77,7 @@ weight: 1.0
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

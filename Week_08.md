@@ -33,7 +33,7 @@ weight: 0.8
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/NumPy_SciPy_Pandas.ipynb">Review the information on NumPy, SciPy and Pandas</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb">Review the information on NumPy, SciPy and Pandas</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
@@ -78,7 +78,7 @@ weight: 0.8
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/master/Data_visualization.ipynb">Review the information on data visualization with Matplotlib</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb">Review the information on data visualization with Matplotlib</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">

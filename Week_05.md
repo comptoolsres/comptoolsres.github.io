@@ -17,6 +17,39 @@ weight: 0.5
 * Using Python on the command line
 * Using Python in Jupyter notebooks
 
+## Information on ssh keys in GitHib.com
+
+This is the github page with the infromation used in the video: [https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to GitHub with SSH)
+
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+        
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_7" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_7" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_7">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/d123cc66-1173-41e9-bc79-f66013488fa3?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_7">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/zcx1q0ua4txbwmh/TLCL_Ch_26_function_arguments.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/dst0ai6pj255bq9/Using%20ssh%20keys%20with%20github.com.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
 ## What's due by the end of the week?
 
 * **Problem Set 2 due {{site.ps_2_due}}**

@@ -126,7 +126,7 @@ Week | Date | Reading/Assignment |Topic |
 [7](Week_07.html) | Fri, Oct 16 | **Problem Set 3 due**<br> [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
 |||
 [8](Week_08.html) | Mon, Oct 19 |Problem Set 4, due {{site.ps_4_due}}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
-[8](Week_08.html) | Wed, Oct 21 | | Using modules
+[8](Week_08.html) | Wed, Oct 21 | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
 [8](Week_08.html) | Fri, Oct 23 | **Quiz 4 due**<br>[Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
 |||
 [9](Week_09.html) | Mon, Oct 26 |Quiz 5, due {{site.quiz_5_due}}| More data visualization

@@ -143,15 +143,15 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [12](Week_12.html) | Mon, Nov 16 | Quiz 6, due {{site.quiz_6_due}} | More SQLAlchemy
 [12](Week_12.html) | Wed, Nov 18 | Project 2, Due Wed, Dec 9| SQLAlchemy and Pandas
-[12](Week_12.html) | Fri, Nov 20 | **Problem Set 5 due** | Argparse
+[12](Week_12.html) | Fri, Nov 20 | | HiPerGator Shutdown, class canceled. I will be on Zoom to answer questions or discuss whatever.
 |||
 [13](Week_13.html) | Mon, Nov 23 | | Work on project 2
 [13](Week_13.html) | Wed, Nov 25 | Thanksgiving, no class |
 [13](Week_13.html) | Fri, Nov 27 | Thanksgiving, no class |
 |||
-[14](Week_14.html) | Mon, Nov 30 | | More on functions
+[14](Week_14.html) | Mon, Nov 30 | | Argparse
 [14](Week_14.html) | Wed, Dec 2 | | TBD
-[14](Week_14.html) | Fri, Dec 4 | **Quiz 6 due** | Project 2
+[14](Week_14.html) | Fri, Dec 4 | **Problem Set 5 due** <br> **Quiz 6 due** | Project 2
 |||
 [15](Week_15.html) | Mon, Dec 7 | | Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)
 [15](Week_15.html) | Wed, Dec 9 | **Project 2 due** <BR> Last day of class | Finish Project 2

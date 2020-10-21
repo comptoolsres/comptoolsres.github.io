@@ -19,7 +19,7 @@ weight: 1.2
 
 ## What's due by the end of the week?
 
-* **Problem Set 5 due {{site.ps_5_due}}**
+* **Problem Set 5 due {{site.ps_5_due}}. Note initial due date was pushed back because of HiPerGator maintenance. You can always turn in early.**
 * Project 2 will be available Monday, due {{site.project_2_due}}
 
 ## For Monday
@@ -83,7 +83,7 @@ weight: 1.2
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Argparse to pass command line arguments to Python scripts</li>
+          <li>HiPerGator down. Class canceled. I'll be on Zoom to answer questions or discuss whatever...</li>
         </ol>
     </div>
 </div>

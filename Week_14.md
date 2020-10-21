@@ -18,6 +18,7 @@ weight: 1.4
 
 ## What's due by the end of the week?
 
+* **Problem set 5 due {{site.ps_5_due}}**
 * **Quiz 6 due {{site.quiz_6_due}}**
 * Continue working on Project 2, due {{site.project_2_due}}
 
@@ -38,7 +39,7 @@ weight: 1.4
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>More on functions</li>
+          <li>Using Argparse to pass command line arguments to Python scripts</li>
         </ol>
     </div>
 </div>

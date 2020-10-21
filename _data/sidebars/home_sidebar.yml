@@ -86,7 +86,12 @@ entries:
       - title: SciPy, NumPy and Pandas
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb
         output: web    
-
+      - title: Pandas with Messy Data
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb
+        output: web       
+      - title: Data Visualization with Pandas
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb
+        output: web 
   - title: SQL
     output: web
     folderitems:

@@ -63,7 +63,7 @@ weight: 0.8
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
           <li>More on Pandas</li>
             <ol>
-              <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb">Pandas with Messy Data</a><li>
+              <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb">Pandas with Messy Data</a></li>
               <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb">Data visualization with Pandas</a></li>
             </ol>
           <li>More on using Python Modules</li>

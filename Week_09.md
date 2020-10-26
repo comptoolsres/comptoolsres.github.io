@@ -56,7 +56,7 @@ weight: 0.9
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
           <li>Scan Py4E Ch 16</li>
-          <li>Reach Ch 14 on Object oriented programming.</li>
+          <li>Read Ch 14 on Object oriented programming.</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">

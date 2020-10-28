@@ -131,9 +131,9 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [9](Week_09.html) | Mon, Oct 26 |Quiz 5, due {{site.quiz_5_due}}| More data visualization
 [9](Week_09.html)  | Wed, Oct 28 | Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming <br> Project 1, Due {{site.project_1_due}}| Work on Project 1
-[9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | Work on Project 1
+[9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | Py4E Ch 14: Object oriented programming
 |||
-[10](Week_10.html) | Mon, Nov 2 | Problem set 5, due {{site.ps_5_due}}<br>[Programming Foundations Databases](LinkedInLearningDatabases.md)| Database intro
+[10](Week_10.html) | Mon, Nov 2 | Problem set 5, due {{site.ps_5_due}}<br>[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
 [10](Week_10.html) | Wed, Nov 4 | |Database intro
 [10](Week_10.html) | Fri, Nov 6 | **Project 1 Due**<br>[Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
@@ -149,8 +149,8 @@ Week | Date | Reading/Assignment |Topic |
 [13](Week_13.html) | Wed, Nov 25 | Thanksgiving, no class |
 [13](Week_13.html) | Fri, Nov 27 | Thanksgiving, no class |
 |||
-[14](Week_14.html) | Mon, Nov 30 | | Argparse
-[14](Week_14.html) | Wed, Dec 2 | | TBD
+[14](Week_14.html) | Mon, Nov 30 | | Work on project 2
+[14](Week_14.html) | Wed, Dec 2 | | Argparse
 [14](Week_14.html) | Fri, Dec 4 | **Problem Set 5 due** <br> **Quiz 6 due** | Project 2
 |||
 [15](Week_15.html) | Mon, Dec 7 | | Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)

@@ -84,7 +84,7 @@ weight: 0.9
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Work on Project 1</li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb">Py4E Ch 14 Object-Oriented Programming</a></li>
         </ol>
     </div>
 </div>

@@ -80,6 +80,9 @@ entries:
       - title: Py4e Ch 13 Web Services
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb
         output: web
+      - title: Py4e Ch 14 Object Oriented Programming
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb
+        output: web
       - title: Data Visualization and Matplotlib
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb
         output: web

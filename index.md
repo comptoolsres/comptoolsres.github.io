@@ -131,7 +131,7 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [9](Week_09.html) | Mon, Oct 26 |Quiz 5, due {{site.quiz_5_due}}| More data visualization
 [9](Week_09.html)  | Wed, Oct 28 | Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming <br> Project 1, Due {{site.project_1_due}}| Work on Project 1
-[9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | Py4E Ch 14: Object oriented programming
+[9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
 |||
 [10](Week_10.html) | Mon, Nov 2 | Problem set 5, due {{site.ps_5_due}}<br>[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
 [10](Week_10.html) | Wed, Nov 4 | |Database intro

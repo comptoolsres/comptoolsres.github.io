@@ -133,11 +133,11 @@ Week | Date | Reading/Assignment |Topic |
 [9](Week_09.html)  | Wed, Oct 28 | Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming <br> Project 1, Due {{site.project_1_due}}| Work on Project 1
 [9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
 |||
-[10](Week_10.html) | Mon, Nov 2 | Problem set 5, due {{site.ps_5_due}}<br>[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
+[10](Week_10.html) | Mon, Nov 2 |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
 [10](Week_10.html) | Wed, Nov 4 | |Database intro
 [10](Week_10.html) | Fri, Nov 6 | **Project 1 Due**<br>[Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
-[11](Week_11.html) | Mon, Nov 9 | | [Databases, SQL and sqlite](SQL_Introduction.md)
+[11](Week_11.html) | Mon, Nov 9 |  Problem set 5, due {{site.ps_5_due}}| [Databases, SQL and sqlite](SQL_Introduction.md)
 [11](Week_11.html) | Wed, Nov 11 | Veteran's Day, no class |
 [11](Week_11.html) | Fri, Nov 13 | **Quiz 5 due**| [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
 |||

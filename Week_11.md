@@ -13,6 +13,7 @@ weight: 1.1
 
 ## Overview for Week {{page.week_num}}
 
+* Problem Set 5 will be available on Monday. It is due {{site.ps_5_due}}
 * More on databases
 * More on SQL
 * Start learning SQLAlchemy to use Python to interact with databases

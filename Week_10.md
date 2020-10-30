@@ -19,7 +19,6 @@ weight: 1.0
 ## What's due by the end of the week?
 
 * **Project 1 due {{site.project_1_due}}**
-* Problem Set 5 will be available on Monday. It is due {{site.ps_5_due}}
 * Continue working on Quiz 5, due {{site.quiz_5_due}}
 
 ## For Monday

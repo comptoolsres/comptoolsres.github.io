@@ -134,7 +134,7 @@ Week | Date | Reading/Assignment |Topic |
 [9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
 |||
 [10](Week_10.html) | Mon, Nov 2 |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
-[10](Week_10.html) | Wed, Nov 4 | |Database intro
+[10](Week_10.html) | Wed, Nov 4 | |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
 [10](Week_10.html) | Fri, Nov 6 | **Project 1 Due**<br>[Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
 [11](Week_11.html) | Mon, Nov 9 |  Problem set 5, due {{site.ps_5_due}}| [Databases, SQL and sqlite](SQL_Introduction.md)

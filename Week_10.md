@@ -38,7 +38,7 @@ weight: 1.0
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Work on </li>
+          <li>Work on Project 1</li>
         </ol>
     </div>
 </div>
@@ -60,7 +60,8 @@ weight: 1.0
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Database introduction</li>
+          <li><a href="https://comptoolsres.github.io/Database_Introduction.html">Database intro</a></li>
+          <li><a href="https://comptoolsres.github.io/Convert_Flights_to_DB.html">Converting the flights table to a DB</a></li>
         </ol>
     </div>
 </div>
@@ -84,7 +85,6 @@ weight: 1.0
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
           <li>Overview of databases</li>
           <li>Working with databases in Python</li>
-          <li>Database design</li>
         </ol>
     </div>
 </div>

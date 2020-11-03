@@ -14,6 +14,7 @@ For first normal form (1NF), we want to ensure that:
 
 * Only one value in a cell--I think we are good here
 * No repeating groups--If we look at the information for the departure and arrival airports, we see that we have 3 columns of data for each:
+
     Column header | Description
     --------------|------------
     ORIGIN | Origin Airport

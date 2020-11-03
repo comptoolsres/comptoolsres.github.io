@@ -95,6 +95,7 @@ entries:
       - title: Data Visualization with Pandas
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb
         output: web 
+
   - title: SQL
     output: web
     folderitems:
@@ -102,7 +103,7 @@ entries:
       - title: Py4E Ch 15 Databases
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb
         output: web    
-      - title: Databases Intro/LinkedIn Learning Notes
+      - title: Databases Intro LinkedIn Learning Notes
         url: /Database_Introduction.html
       - title: Databases: Converting the flights table to DB
         url: /Convert_Flights_to_DB.html

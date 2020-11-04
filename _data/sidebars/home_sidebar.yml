@@ -105,8 +105,10 @@ entries:
         output: web    
       - title: Databases Intro-LinkedIn Learning Notes
         url: /Database_Introduction.html
+        output: web
       - title: Databases-Converting the flights table to DB
         url: /Convert_Flights_to_DB.html
+        output: web
       - title: SQL Introduction
         url: /SQL_Introduction.html
         output: web    

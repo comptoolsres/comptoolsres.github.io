@@ -34,13 +34,14 @@ weight: 1.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="LinkedInLearningDatabases.html">Watch the Programming Foundations Databases course</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Database introduction</li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
+          <li><a href="https://comptoolsres.github.io/SQL_Introduction.html">SQL Introduction</a>
         </ol>
     </div>
 </div>
@@ -56,13 +57,12 @@ weight: 1.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li>Finish the <a href="LinkedInLearningDatabases.html">Programming Foundations Databases course</a></li>
+          <li>Veteran's Day, No class</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Database introduction</li>
+          <li>Veteran's Day, No class</li>
         </ol>
     </div>
 </div>
@@ -78,15 +78,12 @@ weight: 1.1
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Overview of databases</li>
-          <li>Working with databases in Python</li>
-          <li>Database design</li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
         </ol>
     </div>
 </div>
@@ -95,10 +92,8 @@ weight: 1.1
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Have completed the <a href="http://127.0.0.1:4000/LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
-1. Understand how to open a database in sqlite
-1. Have a general understanding of SQL commands to query databases
-1. Begin to understand how to interact with a database from Python
+1. Be comfortable with basic SQL commands in sqlite
+1. Be starting to understand the main methods of interacting with databases using Python.
 
 {% include custom/office_hours.html %}
 

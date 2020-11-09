@@ -14,7 +14,7 @@ For this exercise we will use the world database from MySQL.
 
 For this section, we will work with a "canned" database. This one is [distributed by the developers of MySQL](https://dev.mysql.com/doc/index-other.html) and is called "world".
 
-I have done some converting so that it is ready to work with sqlite. The database is in the [Class_files git repo](https://github.com/comptoolsres/Class_Files) and on the cluster at: `/ufrc/bsc4452/share/Class_Files/data/world.sqlite`.
+I have done some converting so that it is ready to work with sqlite. The database is in the [Class_files git repo](https://github.com/comptoolsres/Class_Files) and on the cluster at: `/blue/bsc4452/share/Class_Files/data/world.sqlite`.
 
 There are three tables:
 
@@ -24,7 +24,7 @@ There are three tables:
 
 ### Copy the database and open sqlite
 
-Make a copy of the database and open it in sqlite. Do not try to use the copy in `/ufrc/bsc4452/share/Class_Files`--you want a copy that you can modify. So, either use your own clone of the repo or make a copy of the file in your own directory on the cluster.
+Make a copy of the database and open it in sqlite. Do not try to use the copy in `/blue/bsc4452/share/Class_Files`--you want a copy that you can modify. So, either use your own clone of the repo or make a copy of the file in your own directory on the cluster.
 
 ```bash
 [magitz@login4 db]$ module load sqlite
@@ -53,7 +53,7 @@ In sqlite the `.database` command shows the current database (MySQL: `SHOW DATAB
 sqlite> .database
 seq  name             file
 ---  ---------------  ----------------------------------------------------------
-0    main             /ufrc/bsc4452/share/magitz/world.sqlite
+0    main             /blue/bsc4452/share/magitz/world.sqlite
 sqlite>
 ```
 

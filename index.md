@@ -139,10 +139,10 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [11](Week_11.html) | Mon, Nov 9 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) Problem set 5, due {{site.ps_5_due}}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
 [11](Week_11.html) | Wed, Nov 11 | Veteran's Day, no class |
-[11](Week_11.html) | Fri, Nov 13 | **Quiz 5 due**| [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
+[11](Week_11.html) | Fri, Nov 13 | **Quiz 5 due**| More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)
 |||
-[12](Week_12.html) | Mon, Nov 16 | Quiz 6, due {{site.quiz_6_due}} | More SQLAlchemy
-[12](Week_12.html) | Wed, Nov 18 | Project 2, Due Wed, Dec 9| SQLAlchemy and Pandas
+[12](Week_12.html) | Mon, Nov 16 | Quiz 6, due {{site.quiz_6_due}} | [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
+[12](Week_12.html) | Wed, Nov 18 | Project 2, Due Wed, Dec 9| [SQLAlchemy and Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb)
 [12](Week_12.html) | Fri, Nov 20 | | HiPerGator Shutdown, class canceled. I will be on Zoom to answer questions or discuss whatever.
 |||
 [13](Week_13.html) | Mon, Nov 23 | | Work on project 2

@@ -112,9 +112,16 @@ entries:
       - title: SQL Introduction
         url: /SQL_Introduction.html
         output: web    
+      - title: Database JOINS
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb
+        output: web    
       - title: SQLAlchemy
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb
         output: web    
+      - title: SQLAlchemy and Pandas
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb
+        output: web    
+
 
   - title: Week-by-Week Pages
     output: web

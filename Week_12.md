@@ -39,7 +39,7 @@ weight: 1.2
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>More on SQLAlchemy</li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
         </ol>
     </div>
 </div>
@@ -61,7 +61,7 @@ weight: 1.2
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Combine SQLAlchemy and Pandas</li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb">Combine SQLAlchemy and Pandas</a></li>
         </ol>
     </div>
 </div>

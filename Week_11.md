@@ -83,7 +83,7 @@ weight: 1.1
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
+          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb">Database Joins</a></li>
         </ol>
     </div>
 </div>

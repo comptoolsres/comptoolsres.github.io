@@ -39,7 +39,7 @@ weight: 1.4
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Argparse to pass command line arguments to Python scripts</li>
+          <li><a href="Argparse.html">Using Argparse to pass command line arguments to Python scripts</a></li>
         </ol>
     </div>
 </div>

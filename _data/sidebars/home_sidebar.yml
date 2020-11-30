@@ -95,6 +95,9 @@ entries:
       - title: Data Visualization with Pandas
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb
         output: web 
+      - title: Argparse for command line arguments
+        url: /Argparse.html
+        output: web
 
   - title: SQL
     output: web

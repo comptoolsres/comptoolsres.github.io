@@ -150,7 +150,7 @@ Week | Date | Reading/Assignment |Topic |
 [13](Week_13.html) | Fri, Nov 27 | Thanksgiving, no class |
 |||
 [14](Week_14.html) | Mon, Nov 30 | | Work on project 2
-[14](Week_14.html) | Wed, Dec 2 | | Argparse
+[14](Week_14.html) | Wed, Dec 2 | | [Argparse](Argparse.md)
 [14](Week_14.html) | Fri, Dec 4 | **Problem Set 5 due** <br> **Quiz 6 due** | Project 2
 |||
 [15](Week_15.html) | Mon, Dec 7 | | Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)

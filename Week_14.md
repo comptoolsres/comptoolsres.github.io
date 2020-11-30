@@ -1,5 +1,5 @@
 ---
-title: "Week 14: Nov 20 - Dec 4"
+title: "Week 14: Nov 30 - Dec 4"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_14.html

@@ -34,6 +34,8 @@ parse : "The process of processing a file or string of text into constituent inf
 
 posix : "Portable Operating System Interface: a set of standards that define how Unix (and Unix-like) systems perform"
 
+positional_arguments : "A set of command line argument where the **order** of the arguments is used to parse values into different options."
+
 prepend : "To add before or at the start of a list"
 
 primary_key : "A column containing unique values to uniquely identify each record in a database table."

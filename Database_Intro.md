@@ -39,6 +39,12 @@ The LinkedIn Learning [Programming Foundations: Databases](https://www.linkedin.
 
 We keep running into data types this semester! So far, none of our programming languages have forced data types to be declared. We've talked about types because you can't add a string and a float. I've also mentioned that an integer can use less memory space than a string, and this is why programmers often care about data types. Databases, in general, are even more focused on types, with many more data types than we have seen so far, differentiating stings of different length, or integers of different values, for example.
 
+This example from YouTube in 2014 is one my favorite examples of why data types matter. The developers of YouTube had opted to store the number of plays that a video had in a `int` type column--that is a 32-bit integer, which has values from -2,147,483,647 to 2,147,483,647. So, in late 2014, PSY broke YouTube when the [Gangnam Style video](https://www.youtube.com/watch?v=9bZkp7q19f0) crossed more than 2,147,483,647 views!
+
+{% include image.html file='PSY_data_types.png' alt="Image of YouTube announcement about PSY video exceeding 2,147,483,647 view" position="center" %}
+
+An unsigned `int` (only positive numbers) would have worked and still been (barely) sufficient for the views in 2020. Or `bigint`, which stores 64-bit integers. Again, the main thing to consider when developing a database is what is the largest value that could possibly be stored, while at the same time, considering where you can save space by using reasonable values.
+
 {% include note.html content="The main thing to note here is that the database we will use, `sqlite`, does not use types. Of the major relational databases I am familiar with, it is the only one to be un-typed. The developers consider this a feature and the insistence on typed data in other databases a bug." %}
 
 ## Keys and unique values

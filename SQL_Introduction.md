@@ -41,7 +41,7 @@ This gets us to the sqlite command prompt--similar in appearance to the Python c
 
 Note that in most DBMS, the command would be `use world;` or whatever the name of the database is--another "uniqueness" with sqlite...
 
-One of the things I don't really like about sqlite is that it uses some non-conventional commands compared to most other relational databases. Many of these are easy to figure out, but still a bit of a pain. This page is a decent review of the commands: https://www.sqlite.org/cli.html
+One of the things I don't really like about sqlite is that it uses some non-conventional commands compared to most other relational databases. Many of these are easy to figure out, but still a bit of a pain. This page is a decent review of the commands: [https://www.sqlite.org/cli.html](https://www.sqlite.org/cli.html)
 
 There are also some other non-standard things, like the type "feature". I'll do my best to find and point those out to you as well as point out standard SQL conventions/commands even if sqlite doesn't use them. Hopefully this will help with Googling answers...
 

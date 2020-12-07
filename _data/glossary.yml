@@ -42,6 +42,8 @@ primary_key : "A column containing unique values to uniquely identify each recor
 
 pseudocode: "Notation resembling a simplified programming language, usually describing the goal in words, used in program design."
 
+raster_image : "Image made up of a grid of pixels, each having a defined value or color."
+
 referential_integrity : "The property that all references are valid. e.g. If a value in one table references a value in another table, that referenced value must exist."
 
 regex : "Regular Expression"
@@ -59,3 +61,5 @@ stub : "An empty function used as a placeholder to be filled in later."
 syntax : "Syntax refers to the spelling and grammar of a programming language. Each language defines its own syntactical rules that control which words the computer understands, which combinations of words are meaningful, and what punctuation is necessary to be a correctly structured document."
 
 variable: "A named reference to a location in memory (RAM) that stores information."
+
+vector_image: "Image composed using mathematical or programmatic commands to define the placement of objects in the image."

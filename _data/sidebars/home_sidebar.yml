@@ -186,3 +186,6 @@ entries:
     - title: List of Graded Work
       url: /Grading.html
       output: web
+    - title: Graphics for researchers
+      url: /Graphics.html
+      output: web

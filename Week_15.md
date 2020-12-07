@@ -36,7 +36,7 @@ weight: 1.5
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Graphics for researchers</li>
+          <li><a href="Graphics.html">Graphics for researchers</a></li>
         </ol>
     </div>
 </div>
@@ -62,7 +62,6 @@ weight: 1.5
         </ol>
     </div>
 </div>
-
 
 ## By the end of this week you should
 

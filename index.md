@@ -153,7 +153,7 @@ Week | Date | Reading/Assignment |Topic |
 [14](Week_14.html) | Wed, Dec 2 | | [Argparse](Argparse.md)
 [14](Week_14.html) | Fri, Dec 4 | **Problem Set 5 due** <br> **Quiz 6 due** | Project 2
 |||
-[15](Week_15.html) | Mon, Dec 7 | | Graphics-[Download PDF of slides](pdf/Graphics_lect.pdf)
+[15](Week_15.html) | Mon, Dec 7 | | [Graphics](Graphics.html)
 [15](Week_15.html) | Wed, Dec 9 | **Project 2 due** <BR> Last day of class | Finish Project 2
 
 ## Software and Hardware

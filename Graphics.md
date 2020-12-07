@@ -154,7 +154,7 @@ Bézier curves are sets of polynomial equations used to model the objects (paths
 There are tools to create and modify both raster and vector graphics. We have already looked a bit at [making plots with matplotlib](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb).
 
 * Many graphical Python applications use [PyQT](https://riverbankcomputing.com/software/pyqt/intro)
-  * There's also [PyQtGraph](http://www.pyqtgraph.org/) module
+  * There's also the [PyQtGraph](http://www.pyqtgraph.org/) module
 * For more ideas, check out this page on [Graphical Representations of Data](https://wiki.python.org/moin/NumericAndScientific/Plotting)
 
 Here's an example of using PIL to identify *C. elegans* (nematodes) in an microscope image.
@@ -183,7 +183,7 @@ The following are images from [Rossner and Yamada (2004)](https://rupress.org/jc
 
 Another great source for this kind of image manipulation is Elisabeth Bik (on Twitter [@MicrobiomDigest](https://twitter.com/MicrobiomDigest), Blog [Science Integrity Digest](https://scienceintegritydigest.com/))
 
-{% include index.html file="elisabeth_bik.png" %}
+{% include image.html file="elisabeth_bik.png" %}
 
 Also see [@RetractionWatch](https://twitter.com/RetractionWatch)
 

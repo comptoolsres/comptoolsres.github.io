@@ -8,6 +8,8 @@ summary: Much research data starts as images and/or is presented in graphical fo
 keywords:
 ---
 
+{% include note.html content="This section was a chapter in the text that started this course: Haddock and Dunn's [Practical Computing for Biologists](https://practicalcomputing.org/). I loved that it was included because I frequently deal will helping people on these issues--often too late. If I had a dollar for every time someone asked for help converting a PowerPoint slide to an image suitable for publication, I'd be rich! <br><br> When I stopped using the Haddock and Dunn text, I decided to keep this topic in the class because it is so important and because I don't see these things covered in other science classes..." %}
+
 ## Two main types of graphics
 
 There are two main types of graphics files: **<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.raster_image}}">raster images</a>** and **<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.vector_image}}">vector art</a>**. Raster images are also called bitmap or pixel images--these tend to be photos, sensor images, scanned files, etc. Vector graphics are illustrations or art made with software that uses mathematical or programmatic instructions to define the objects in the image.
@@ -86,6 +88,8 @@ When selecting colors for figures, keep color spaces in mind along with how the 
 When selecting colors for images, consider your audience and understand issues of color blindness.
 
 {% include image.html file="Eight_Ishihara_charts_for_testing_colour_blindness,_Europe_Wellcome_L0059163.jpg" caption="Colour blindness is tested using these eight placards. They are known as Ishihara charts. They are named after their inventor, Japanese ophthalmologist Shinobu Ishihara (1897&#150;1963). Each image consists of closely packed coloured dots and a number. The patient must identify the number or image he or she can see. The type of colour blindness a patient has is identified using the range of charts. There are several types of colour blindness. These range in severity. In dichromatism, there is difficulty seeing one of the three primary colours: red, blue or green. In anomalous trichomatsis, there is reduced sensitivity to certain colours. In the rarer monochromatism, there is no colour vision and the world is seen in white, black and grey shades. Ishihara devised his test in 1917. It is still used. This file comes from Wellcome Images, a website operated by Wellcome Trust, a global charitable foundation based in the United Kingdom." %}
+
+See also on Twitter [@red_green_plot](https://twitter.com/red_green_plot)
 
 ## Color choices: Aesthetics and visibility
 

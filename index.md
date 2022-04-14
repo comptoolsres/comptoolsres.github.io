@@ -4,9 +4,16 @@ keywords: syllabus
 tags: 
 sidebar: home_sidebar
 permalink: index.html
-summary: An introduction to computational tools for research-- Linux command line, HPC, Bash scripting, Python and SQL
+summary: An introduction to computational tools for research-- Linux command line, HPC, Bash scripting, Python, SQL and Artificial Intelligence
 toc: false
 ---
+
+## BSC4452 and BSC6451
+
+Registration information for Fall 2022:
+
+* **BSC 4452**: Class 20417
+* **BSC 6451**: Class 24822
 
 ## Course Description
 
@@ -24,7 +31,7 @@ This course will survey areas where high performance computing, large-scale data
 
 ## Course Organization
 
-The course is divided into three main sections:
+The course is divided into four main sections:
 
 * Section 1
   * Linux command line
@@ -38,6 +45,9 @@ The course is divided into three main sections:
 * Section 3
   * SQL database introduction and integration with Python
 
+* Section 4
+  * A brief introduction to Artificial Intelligence
+
 ## Course Objectives
 
 * Demonstrate how technology infrastructure can improve research and open new avenues of investigation.
@@ -49,15 +59,19 @@ The course is divided into three main sections:
 * Construct analytical pipelines to accomplish complex tasks.
 * Describe basic database design, creation and manipulation. Perform scripted database operations for information discovery, data exploration and research data curation.
 * Have a basic understanding of research graphics formats, preparation and manipulation
+* Have a basic understanding of artificial intelligence and gain hands-on experience with computer vision.
 
 ## Meeting Times
 
-### Synchronous Meetings: Mon, Wed, Fri 8:30am - 9:20am
+### Synchronous Meetings
+
+* Mon, Wed, Fri 9:35 AM - 10:25 AM (Period 3)
+* Bartram Hall, room 211
 
 {% include image.html file='lecture.png' alt="lecture icon" position="right" max-width=75 %}
 
-* I will be online and presenting material and/or helping students: **Mon, Wed, Fri 8:30am - 9:20am)**
   {% include important.html content="You should make every effort to attend these sessions. While I will post most lectures ahead of time and will record these session, **this is the best opportunity to ask questions and get help from me and others in the class.**" %}
+
 * I understand that with all that is going on, some students will need to miss classes sometimes. That is fine and I will do my best to help you catch up, but regular attendance is the best way to learn.
 
 ### Asynchronous Work
@@ -69,8 +83,8 @@ The course is divided into three main sections:
 
 {% include image.html file='office_hours.png' alt="Office Hours icon" position="right" max-width=75 %}
 
-* Tuesdays from 11:00am to noon
-* Thursdays from 2:00pm to 3:00pm
+* Mondays from 1:00pm to 2:00pm
+* Thursdays from 9:00am to 10:00am
 * By Appointment--please <a href="mailto:magitz@ufl.edu?subject=Comp%20Tools%20Res%20office%20hours%20request">Email me</a> to setup a different time if needed.
 
  {% include tip.html content="Coding is not always easy. Simple solutions are not always obvious. There will be some frustration. **I expect that you will need help. You should expect that you will need help.** I want to help you! I cannot always help if you do not ask for the help you need. Please ask for help." %}
@@ -97,64 +111,67 @@ For readings, there may be links to pages with my notes and additional explanati
 
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
-[1](Week_01.html) | Mon, Aug 31 | [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)
-[1](Week_01.html) | Wed, Sept 2| [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) |Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
-[1](Week_01.html) | Fri, Sept 4 | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due}}| Continue building shell skills<br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47)
+[1](Week_01.html) | Wed, Aug 24 | [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)
+[1](Week_01.html) | Wed, Aug 26| [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Watch UFRC Training Video](https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html) |Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
 |||
-[2](Week_02.html) | Mon, Sept 7 | Labor Day, no class |
-[2](Week_02.html) | Wed, Sept 9 | [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
-[2](Week_02.html) | Fri, Sept 11 |**Quiz 1 due**<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)| Text manipulation
+[2](Week_02.html) | Mon, Aug 29 | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due}}| Continue building shell skills<br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47)
+[2](Week_02.html) | Wed, Aug 31 |  [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{site.ps_1_due}}| [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
+[2](Week_02.html) | Fri, Sept 2 | **Quiz 1 due**<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)| Text manipulation
 |||
-[3](Week_03.html) | Mon, Sept 14 | Quiz 2, due {{site.quiz_2_due}}<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md) <br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
-[3](Week_03.html) | Wed, Sept 16 || Continue working on shell scripts and git/github
-[3](Week_03.html) | Fri, Sept 18 |**Problem Set 1 due** <br> [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
+[3](Week_03.html) | Mon, Sept 5 | | Labor Day, no class
+[3](Week_03.html) | Wed, Sept 7 | Quiz 2, due {{site.quiz_2_due}}<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md) <br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
+[3](Week_03.html) | Fri, Sept 9 || Continue working on shell scripts and git/github
 |||
-[4](Week_04.html) | Mon, Sept 21 | Problem Set 2, due {{site.ps_2_due}} |Google and Documentation 
-[4](Week_04.html) | Wed, Sept 23 | | Using UF Research Computing resources<br>Running batch jobs
-[4](Week_04.html) | Fri, Sept 25 | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
+[4](Week_04.html) | Mon, Sept 12 |**Problem Set 1 due** <br> [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
+[4](Week_04.html) | Wed, Sept 14 | Problem Set 2, due {{site.ps_2_due}} |Google and Documentation 
+[4](Week_04.html) | Fri, Sept 16 | | Using UF Research Computing resources<br>Running batch jobs
 |||
-[5](Week_05.html) | Mon, Sept 28 | Quiz 3, due {{site.quiz_3_due}}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
-[5](Week_05.html)  | Wed, Sept 30 | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
-[5](Week_05.html)  | Fri, Oct 2 | **Problem Set 2 due** <BR>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb) | Python: Flow Control
+[5](Week_05.html) | Mon, Sept 19 | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
+[5](Week_05.html) | Wed, Sept 21 | Quiz 3, due {{site.quiz_3_due}}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
+[5](Week_05.html)  | Fri, Sept 23 | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
 |||
-[6](Week_06.html) | Mon, Oct 5 | Problem Set 3, due {{site.ps_3_due}}<br>[Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions
-[6](Week_06.html) | Wed, Oct 7 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb) | Python: Iteration
-[6](Week_06.html) | Fri, Oct 9 | **Quiz 3 due** <br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
+[6](Week_06.html)  | Mon, Sept 26 | **Problem Set 2 due** <BR>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb) | Python: Flow Control
+[6](Week_06.html) | Wed, Sept 28 | Problem Set 3, due {{site.ps_3_due}}<br>[Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions
+[6](Week_06.html) | Fri, Sept 30 | [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb) | Python: Iteration
 |||
-[7](Week_07.html) | Mon, Oct 12 | Quiz 4, due {{site.quiz_4_due}}<br>[Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
-[7](Week_07.html) | Wed, Oct 14 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
-[7](Week_07.html) | Fri, Oct 16 | **Problem Set 3 due**<br> [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
+[7](Week_07.html) | Mon, Oct 3 | **Quiz 3 due** <br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
+[7](Week_07.html) | Wed, Oct 5 | Quiz 4, due {{site.quiz_4_due}}<br>[Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
+[7](Week_07.html) | Fri, Oct 7 | | Homecoming, no class
 |||
-[8](Week_08.html) | Mon, Oct 19 |Problem Set 4, due {{site.ps_4_due}}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
-[8](Week_08.html) | Wed, Oct 21 | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
-[8](Week_08.html) | Fri, Oct 23 | **Quiz 4 due**<br>[Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
+[8](Week_08.html) | Mon, Oct 10 | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
+[8](Week_08.html) | Wed, Oct 12 | **Problem Set 3 due**<br> [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
+[8](Week_08.html) | Fri, Oct 14 |Problem Set 4, due {{site.ps_4_due}}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
 |||
-[9](Week_09.html) | Mon, Oct 26 |Quiz 5, due {{site.quiz_5_due}}| More data visualization
-[9](Week_09.html)  | Wed, Oct 28 | Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming <br> Project 1, Due {{site.project_1_due}}| Work on Project 1
-[9](Week_09.html)  | Fri, Oct 30 | **Problem Set 4 Due** | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
+[9](Week_09.html) | Mon, Oct 17 | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
+[9](Week_09.html) | Wed, Oct 19 | **Quiz 4 due**<br>[Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
+[9](Week_09.html) | Fri, Oct 21 |Quiz 5, due {{site.quiz_5_due}}| More data visualization
 |||
-[10](Week_10.html) | Mon, Nov 2 |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
-[10](Week_10.html) | Wed, Nov 4 | |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
-[10](Week_10.html) | Fri, Nov 6 | **Project 1 Due**<br> |Overview of databases<br>Database design
+[10](Week_10.html)  | Mon, Oct 24 | Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming <br> Project 1, Due {{site.project_1_due}}| Work on Project 1
+[10](Week_10.html)  | Wed, Oct 26 | **Problem Set 4 Due** | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
+[10](Week_10.html) | Fri, Oct 28 |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
 |||
-[11](Week_11.html) | Mon, Nov 9 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) Problem set 5, due {{site.ps_5_due}}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
-[11](Week_11.html) | Wed, Nov 11 | Veteran's Day, no class |
-[11](Week_11.html) | Fri, Nov 13 | **Quiz 5 due**| More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)
+[11](Week_11.html) | Mon, Oct 31| |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
+[11](Week_11.html) | Wed, Nov 2 | **Project 1 Due**<br> |Overview of databases<br>Database design
+[11](Week_11.html) | Fri, Nov 4 | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) Problem set 5, due {{site.ps_5_due}}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
 |||
-[12](Week_12.html) | Mon, Nov 16 | Quiz 6, due {{site.quiz_6_due}} | [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
-[12](Week_12.html) | Wed, Nov 18 | Project 2, Due Wed, Dec 9| [SQLAlchemy and Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb)
-[12](Week_12.html) | Fri, Nov 20 | | HiPerGator Shutdown, class canceled. I will be on Zoom to answer questions or discuss whatever.
+[12](Week_12.html) | Mon, Nov 7 | **Quiz 5 due**| More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)
+[12](Week_12.html) | Wed, Nov 9 | Quiz 6, due {{site.quiz_6_due}} | [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
+[12](Week_12.html) | Fri, Nov 11 | | Veteran's Day, no class 
 |||
-[13](Week_13.html) | Mon, Nov 23 | | Work on project 2
-[13](Week_13.html) | Wed, Nov 25 | Thanksgiving, no class |
-[13](Week_13.html) | Fri, Nov 27 | Thanksgiving, no class |
+[13](Week_13.html) | Mon, Nov 14 | Project 2, Due Wed, Dec 9| [SQLAlchemy and Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb)
+[13](Week_13.html) | Wed, Nov 16| | [Argparse](Argparse.md)
+[13](Week_13.html) | Fri, Nov 18 | | [Graphics](Graphics.html)
 |||
-[14](Week_14.html) | Mon, Nov 30 | | Work on project 2
-[14](Week_14.html) | Wed, Dec 2 | | [Argparse](Argparse.md)
-[14](Week_14.html) | Fri, Dec 4 | **Problem Set 5 due** <br> **Quiz 6 due** | Project 2
+[14](Week_14.html) | Mon, Nov 21 |  |
+[14](Week_14.html) | Wed, Nov 23 |  | Thanksgiving, no Class
+[14](Week_14.html) | Fri, Nov 25 |  |Thanksgiving, no class
 |||
-[15](Week_15.html) | Mon, Dec 7 | | [Graphics](Graphics.html)
-[15](Week_15.html) | Wed, Dec 9 | **Project 2 due** <BR> Last day of class | Finish Project 2
+[15](Week_15.html) | Mon, Nov 28 | | Intro to AI
+[15](Week_15.html) | Wed, Nov 30 | **Problem Set 5 due** <br> **Quiz 6 due** | Intro to AI
+[15](Week_15.html) | Fri, Dec 2 | | Intro to AI
+|||
+[16](Week_16.html) | Mon, Dec 5 | **Project 2 due** <BR> | Into to AI
+[17](Week_17.html) | Wed, Dec 7 | | Intro to AI
 
 ## Software and Hardware
 

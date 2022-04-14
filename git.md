@@ -2,7 +2,7 @@
 title: "Git and GitHib.com"
 tags: [resources, linux]
 sidebar: home_sidebar
-permalink: resources.html
+permalink: git.html
 toc: false
 ---
 

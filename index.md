@@ -4,28 +4,24 @@ keywords: syllabus
 tags: 
 sidebar: home_sidebar
 permalink: index.html
-summary: An introduction to computational tools for research-- Linux command line, HPC, Bash scripting, Python, SQL and Artificial Intelligence
+summary: An introduction to computational tools for research-- Linux command line, HPC, Bash scripting, Python, SQL, and Artificial Intelligence
 toc: false
 ---
 
-## BSC4452 and BSC6451
+## BSC4452 and BSC6451 Registration information for Fall 2022
 
-Registration information for Fall 2022:
-
-* **BSC 4452**: Class 20417
+* **BSC 4452**: Class 20417 {% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
 * **BSC 6451**: Class 24822
 
 ## Course Description
 
-{% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
 
-Information technology has dramatically transformed how research across many disciplines is conducted. This is particularly true in the biological sciences where researchers frequently find themselves faced with massive amounts of diverse data to analyze. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills are critical for researchers.
 
-Topics covered in the course will address a gap in how research has advanced—*and become increasingly computational*— while student training in the use of computational tools has lagged.
+The early 2000's where characterized as the era of Big Data, with researchers across disciplines finding research transformed by large volumes of diverse data. In the past decade, this has been again transformed by the re-emergence of artificial intelligence and machine learning systems. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills, including AI fundamentals, are critical for researchers.
+
+This course introduces students to the tools needed to be proficient computationally enabled researchers, providing a foundation in Linux and bash scripting for data management, Python coding and basic SQL database fundamentals and an introduction to artificial intelligence methods.
 
 **The course assumes no prior coding or command line skills**, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained scientists and allows them to work in multidisciplinary research.
-
-This course will survey areas where high performance computing, large-scale data access and integration, informatics tools and software, and multi-disciplinary collaboration have had high impact on research as a foundation for computationally-enabled research.
 
 {% include note.html content="While the title of the course includes 'in Biology' there is little that is actually focussed on biology. This course strives to be broadly applicable to many areas of research. Bureaucracies being what they are, the title is what it is..." %}
 
@@ -79,7 +75,7 @@ The course is divided into four main sections:
 * Students will work on projects either independently or in small, virtual groups.
 * This work can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
 
-### Office Hours
+### Student Help Time
 
 {% include image.html file='office_hours.png' alt="Office Hours icon" position="right" max-width=75 %}
 

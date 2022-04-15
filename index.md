@@ -15,13 +15,11 @@ toc: false
 
 ## Course Description
 
+The early 2000's where characterized as the era of *Big Data*, with researchers across disciplines finding research transformed by large volumes of diverse data. In the past decade, this has been again transformed by the re-emergence of artificial intelligence and machine learning systems aiding in interpretation of Big Data. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills, including AI fundamentals, are critical for researchers regardless of discipline.
 
+This course introduces students to the tools needed to be proficient, computationally enabled researchers, providing a foundation in Linux and bash scripting for data management, Python coding and basic SQL database fundamentals, and an introduction to artificial intelligence methods.
 
-The early 2000's where characterized as the era of Big Data, with researchers across disciplines finding research transformed by large volumes of diverse data. In the past decade, this has been again transformed by the re-emergence of artificial intelligence and machine learning systems. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills, including AI fundamentals, are critical for researchers.
-
-This course introduces students to the tools needed to be proficient computationally enabled researchers, providing a foundation in Linux and bash scripting for data management, Python coding and basic SQL database fundamentals and an introduction to artificial intelligence methods.
-
-**The course assumes no prior coding or command line skills**, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained scientists and allows them to work in multidisciplinary research.
+**The course assumes no prior coding or command line skills**, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained researchers and allows them to work in multidisciplinary fields.
 
 {% include note.html content="While the title of the course includes 'in Biology' there is little that is actually focussed on biology. This course strives to be broadly applicable to many areas of research. Bureaucracies being what they are, the title is what it is..." %}
 
@@ -32,7 +30,7 @@ The course is divided into four main sections:
 * Section 1
   * Linux command line
   * Bash scripting
-  * Version control
+  * Version control using Git and GitHub
   * Using high-performance computing resources
 
 * Section 2
@@ -282,7 +280,7 @@ Grading in this class is consistent with UF policies available at: [https://cata
 
 Requirements for class attendance and makeup assignments, and other work in this course are consistent with university policies that can be found in the online catalog at: [https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/](https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/)
 
-In general, I do not take attendance. You are all adults and I assume you are taking the class the learn. The best way to learn is to regularly attend class. I am sure students will miss class for various reasons. I am happy to help you catch up. If you regularly miss class and fall behind, I may ask that you hold questions on content you have missed until after class, ask that you coordinate a time to go over the content. I will make every effort to record and post all classes to help those that miss classes.
+In general, I do not take attendance. You are all adults and I assume you are taking the class the learn. The best way to learn is to regularly attend class. I am sure students will miss class for various reasons. I am happy to help you catch up. If you regularly miss class and fall behind, I may ask that you hold questions on content you have missed until after class, or ask that you coordinate a time to go over the content. I will make every effort to record and post all classes to help those that miss classes.
 
 ### Quiz and Assignment Policy
 
@@ -294,6 +292,13 @@ All quizzes and assignments are "open book, open internet", you may use whatever
 
 Please notify the instructor of circumstances that lead to late work or missed classes. I will generally work with you and accept late work. Without prior notification, late work will be penalized one point per day after the due date.
 
+In response to COVID-19, the following recommendations are in place to maintain your learning environment, to enhance the safety of our in-classroom interactions, and to further the health and safety of ourselves, our neighbors, and our loved ones.
+
+* If you are not vaccinated, get vaccinated. Vaccines are readily available and have been demonstrated to be safe and effective against the COVID-19 virus. Visit one.uf for screening / testing and vaccination opportunities.
+* If you are sick, stay home. Please call your primary care provider if you are ill and need immediate care or the UF Student Health Care Center at 352-392-1161 to be evaluated. 
+* Course materials will be provided to you with an excused absence, and you will be given a reasonable amount of time to make up work.
+
+ 
 ## Students Requiring Accommodations
 
 Students with disabilities requesting accommodations should first register with the Disability Resource Center (352-392-8565, [https://disability.ufl.edu/students/get-started/](https://disability.ufl.edu/students/get-started/)) by providing appropriate documentation. Once registered, students will receive an accommodation letter which must be presented to the instructor when requesting accommodation. Students with disabilities should follow this procedure as early as possible in the semester.
@@ -304,22 +309,18 @@ Students are expected to provide professional and respectful feedback on the qua
 
 ## Class Demeanor and Netiquette
 
-Students are expected to join class Zoom meeting on time and behave in a manner that is respectful to the instructor and to fellow students. If at all possible, please have your video on during class--it is easier for me to teach and for discussion if we can see you! Please do be aware of your surroundings and ensure that content visible on your video, or shared via screen sharing, is appropriate for class.
-
-Opinions held by other students should be respected in discussion, and conversations that do not contribute to the discussion should be held at minimum, if at all.
-
-Please use the "Raise Hand" feature of Zoom to ask a question.
+Students are expected behave in a manner that is respectful to the instructor and to fellow students. Opinions held by other students should be respected in discussion, and conversations that do not contribute to the discussion should be held at minimum, if at all.
 
 Students should be working on course content during class.
 
-### Discussion Boards and Slack Channel
+### GitHub Discussion Board
 
-The Canvas discussion boards and Slack can be used to ask for and provide help by all. Students should be supportive and considerate of others at all times. Rude or inappropriate comments will be removed and the poster will be warned.
+Canvas can be a challenge when working with code. As such we will use the [GitHub discussion board](https://github.com/comptoolsres/comptoolsres.github.io/discussions) to ask for and provide help by all. Students should be supportive and considerate of others at all times. Rude or inappropriate comments will be removed and the poster will be warned.
 
 ## University Honesty Policy
 
 UF students are bound by The Honor Pledge which states:
->We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.”
+> We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.”
 
 [The Honor Code](https://sccr.dso.ufl.edu/policies/student-honor-code-student-conduct-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have any questions or concerns, please consult with the instructor or TAs in this class
 

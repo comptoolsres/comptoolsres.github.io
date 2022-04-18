@@ -13,7 +13,7 @@ toc: false
 * **BSC 4452**: Class 20417 {% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
 * **BSC 6451**: Class 24822
 
-{% include warn.html content="I am currently in the process of updating this site for the Fall 2022 semester, some links may not work and some content will be changing." %}
+{% include warning.html content="I am currently in the process of updating this site for the Fall 2022 semester, some links may not work and some content will be changing." %}
 
 ## Course Description
 

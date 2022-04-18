@@ -120,26 +120,7 @@ github: [metadata]
 
 ######################################################################
 # Matt's additions
-# Due date variables. Can be included in pages using {{site.variable}}
-
-
-
-
-quiz_1_due: ""
-quiz_2_due: "Friday, Sept. 25"
-quiz_3_due: "Friday, Oct. 9"
-quiz_4_due: "Friday, Oct. 23"
-quiz_5_due: "Friday, Nov. 13"
-quiz_6_due: "Friday, Dec. 4"
-
-ps_1_due: "Friday, Sept. 18"
-ps_2_due: "Friday, Oct. 2"
-ps_3_due: "Friday, Oct. 16"
-ps_4_due: "Friday, Oct. 30"
-ps_5_due: "Friday, Dec. 4"
-
-project_1_due: "Friday, Nov. 6"
-project_2_due: "Wednesday, Dec. 9"
+# Can be included in pages using {{site.variable}}
 
 # Zoom links
 
@@ -147,6 +128,7 @@ class_zoom_link: "<a href='https://ufl.instructure.com/courses/405769/external_t
 office_hours_zoom_link: "<a href='https://ufl.instructure.com/courses/405769/external_tools/166364'>Zoom link in Canvas</a>"
 
 # Days of the week
+# Generate in Excel by adding 1st 3 dates then drag down.
 wk01_mon_date: 2022-08-22
 wk01_wed_date: 2022-08-24
 wk01_fri_date: 2022-08-26
@@ -195,3 +177,21 @@ wk15_fri_date: 2022-12-02
 wk16_mon_date: 2022-12-05
 wk16_wed_date: 2022-12-07
 wk16_fri_date: 2202-12-09
+
+# Due date variables. 
+
+quiz_1_due: 2022-09-02
+quiz_2_due: 2022-09-07
+quiz_3_due: 2022-10-03
+quiz_4_due: 2022-10-19
+quiz_5_due: 2022-11-07
+quiz_6_due: 2022-11-30
+
+ps_1_due: 2022-09-12
+ps_2_due: 2022-09-26
+ps_3_due: 2022-10-12
+ps_4_due: 2022-10-26
+ps_5_due: 2022-11-30
+
+project_1_due: 2022-11-02
+project_2_due: 2022-12-05

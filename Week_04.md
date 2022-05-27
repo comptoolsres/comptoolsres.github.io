@@ -37,17 +37,10 @@ weight: 0.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="TLCL_5.html">Read TLCL Ch 27, 29 & 33</a></li>
-        </ol>
+      {% include day/008_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
-        </ol>
+      {% include day/008_during.html %}
     </div>
 </div>
 
@@ -61,16 +54,10 @@ weight: 0.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Review <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Research Computing Orientation video</a>, focus on job scripts</li>
-        </ol>
+     {% include day/009_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li>Using UFRC Resources</li>
-          <li>Running batch jobs</li>
-        </ol>
+     {% include day/009_during.html %}
     </div>
 </div>
 
@@ -84,16 +71,10 @@ weight: 0.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="TLCL_6.html">Read TLCL Ch 23</a></li>
-        </ol>
+      {% include day/010_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li>Compiling source code</li>
-          <li>Running applications</li>
-        </ol>
+      {% include day/010_during.html %}
     </div>
 </div>
 

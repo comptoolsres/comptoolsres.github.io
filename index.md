@@ -120,7 +120,7 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
 [4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} |Google and Documentation 
-[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>| Using UF Research Computing resources<br>Running batch jobs
+[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| Using UF Research Computing resources<br>Running batch jobs
 |||
 [5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
 [5](Week_05.html) | {{ site.wk05_wed_date | date: '%a, %b %d' }} | Quiz 3, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python

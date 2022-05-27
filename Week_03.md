@@ -55,7 +55,7 @@ weight: 0.3
       {% include day/006_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-      {% include day/006_before.html %}
+      {% include day/006_during.html %}
     </div>
 </div>
 

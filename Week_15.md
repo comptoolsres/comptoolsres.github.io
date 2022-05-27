@@ -1,5 +1,5 @@
 ---
-title: "Week 15: Dec 7 - 9"
+title: "Week 15"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_15.html
@@ -8,6 +8,8 @@ week_num: 15
 series: "Week-by-week series"
 weight: 1.5
 ---
+
+# Week 15: {{site.wk15_mon_date | date: '%b %d' }} - {{site.wk15_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 

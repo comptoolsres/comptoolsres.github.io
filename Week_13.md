@@ -1,5 +1,5 @@
 ---
-title: "Week 13: Nov 23 - 27"
+title: "Week 13"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_13.html
@@ -8,6 +8,7 @@ week_num: 13
 series: "Week-by-week series"
 weight: 1.3
 ---
+# Week 13: {{site.wk13_mon_date | date: '%b %d' }} - {{site.wk13_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 

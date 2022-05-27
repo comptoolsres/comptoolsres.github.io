@@ -8,6 +8,7 @@ week_num: 8
 series: "Week-by-week series"
 weight: 0.8
 ---
+# Week 8: {{site.wk08_mon_date | date: '%b %d' }} - {{site.wk08_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 

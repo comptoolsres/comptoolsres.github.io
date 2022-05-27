@@ -1,27 +1,32 @@
 ---
-title: "Week 7: Oct 12 - 16"
+title: "Week 2"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_07.html
+permalink: Week_02.html
 toc: false
-week_num: 7
+week_num: 2
 series: "Week-by-week series"
-weight: 0.7
+weight: 0.2
 ---
-# Week 7: {{site.wk07_mon_date | date: '%b %d' }} - {{site.wk07_fri_date | date: '%b %d' }}
+
+# Week 5: {{site.wk05_mon_date | date: '%b %d' }} - {{site.wk05_fri_date | date: '%b %d' }}
+
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Lists, Dictionaries and Tuples
-* Regular Expressions in Python
-* Scripting data acquisition from websites and APIs
+* Regular Expressions in text editors and with `grep`
+* Text manipulation
 
 ## What's due by the end of the week?
 
-* **Problem Set 3 due {{site.ps_3_due}}**
-* Quiz 4 will be available on Monday. It is due {{site.quiz_4_due}}
+* **Quiz 1 is due {{site.quiz_1_due}}**
+* **[Register for github.com account](github_account.md)**
+* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due}}.
+  * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
+
+---
 
 ## For Monday
 
@@ -34,17 +39,17 @@ weight: 0.7
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb">Read Py4E Ch 8</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb">Read Py4E Chs 9-10</a></li>
+          <li>Labor Day, no class</li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Lists, Dictionaries and Tuples</li>
+          <li>Labor Day, no class</li>
         </ol>
     </div>
 </div>
+
+---
 
 ## For Wednesday
 
@@ -57,16 +62,18 @@ weight: 0.7
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
         <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb">Read Py4E Ch 11</a></li>
+          <li><a href="TLCL_3.html">Go over the Regular Expressions and Read TLCL Ch 19</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>RegEx in Python</li>
+          <li>Zoom meeting for class: {{site.class_zoom_link}} </li>
+          <li>Regular Expressions: <a href="pdf/Regular_Expressions_Cheat_Sheet.pdf">Download the handout</a></li>
         </ol>
     </div>
 </div>
+
+---
 
 ## For Friday
 
@@ -78,27 +85,28 @@ weight: 0.7
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb">Read Py4E Ch 12</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a></li>
-        </ol>
+      <ol>
+        <li><a href="TLCL_3.5.html">Read TLCL Ch 20</a></li>
+       </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
           <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Scripting data acquisition from web sites and APIs</li>
+          <li>Text Processing</li>
         </ol>
     </div>
 </div>
+
+---
 
 ## By the end of this week you should
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Understand the Python data types list, dictionary and tuple
-1. Know how to use regular expresions in python
-1. Be able to scrape data from websites with BeautifulSoup
-1. Be able to get data from web services using their APIs
+1. Be able to use regular expressions for finding and replacing text in a text editor such as VSCode.
+1. Be able to use the following Linux commands: `grep, cut, paste, join, diff, tr, sed`.
+
+<hr>
 
 {% include custom/office_hours.html %}
 

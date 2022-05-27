@@ -1,5 +1,5 @@
 ---
-title: "Week 5: Sept 28 - Oct 2"
+title: "Week 5"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_05.html
@@ -8,6 +8,9 @@ week_num: 5
 series: "Week-by-week series"
 weight: 0.5
 ---
+
+# Week 5: {{site.wk01_wed_date | date: '%b %d' }} - {{site.wk01_fri_date | date: '%b %d' }}
+
 
 {% include custom/series_week_by_week.html %}
 

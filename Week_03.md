@@ -21,7 +21,7 @@ weight: 0.3
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due}}.**
+* **Problem Set 1 is due {{site.ps_1_due | date: '%A, %B %d' }}.**
 * Quiz 2 will be available Monday. It is due {{site.quiz_2_due}}
   * Quiz 2 covers using: `cat`, `cut`, `sort`, `uniq`, and `paste`; as well as recognizing the meaning of the commands `if`, `for`, `while`, `break`, `continue`, `else`, `git add`, `git commit`, `git pull`.
 

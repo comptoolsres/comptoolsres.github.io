@@ -19,9 +19,9 @@ weight: 0.9
 
 ## What's due by the end of the week?
 
-* **Problem Set 4 due {{site.ps_4_due}}**
-* Quiz 5 will be available on Monday. It is due {{site.quiz_5_due}}
-* Project 1 will be available on Monday. It is due {{site.project_1_due}}
+* **Problem Set 4 due {{site.ps_4_due | date: '%A, %B %d' }}**
+* Quiz 5 will be available on Monday. It is due {{site.quiz_5_due | date: '%A, %B %d' }}
+* Project 1 will be available on Monday. It is due {{site.project_1_due | date: '%A, %B %d' }}
 
 ## For Monday
 

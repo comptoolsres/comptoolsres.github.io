@@ -21,9 +21,9 @@ weight: 0.2
 
 ## What's due by the end of the week?
 
-* **Quiz 1 is due {{site.quiz_1_due}}**
+* **Quiz 1 is due {{site.quiz_1_due | date: '%A, %B %d' }}**
 * **[Register for github.com account](github_account.md)**
-* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due}}.
+* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.
   * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
 
 ---

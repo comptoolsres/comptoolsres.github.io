@@ -15,7 +15,7 @@ weight: 1.1
 
 ## Overview for Week {{page.week_num}}
 
-* Problem Set 5 will be available on Monday. It is due {{site.ps_5_due}}
+* Problem Set 5 will be available on Monday. It is due {{site.ps_5_due | date: '%A, %B %d' }}
 * More on databases
 * More on SQL
 * Start learning SQLAlchemy to use Python to interact with databases
@@ -23,7 +23,7 @@ weight: 1.1
 ## What's due by the end of the week?
 
 * **Quiz 5 due {{site.quiz_5_due}}**
-* Continue working on Problem Set 5, due {{site.ps_5_due}}
+* Continue working on Problem Set 5, due {{site.ps_5_due | date: '%A, %B %d' }}
 
 ## For Monday
 

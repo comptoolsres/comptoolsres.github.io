@@ -24,7 +24,7 @@ weight: 0.6
 
 ## What's due by the end of the week?
 
-<!--* **Quiz 3 due {{site.quiz_3_due}}**-->
+<!--* **Quiz 3 due {{site.quiz_3_due | date: '%A, %B %d' }}**-->
 * Quiz 3: We all need a bit of a break. I think we've covered Bash content in quizzes/problem sets, and we're just starting Python, so this quiz will be a freebee. Everyone will get a 20. No need to turn anything in.
 
 * Problem Set 3 will be available on Monday. It is due {{site.ps_3_due}}

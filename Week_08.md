@@ -20,8 +20,8 @@ weight: 0.8
 
 ## What's due by the end of the week?
 
-* **Quiz 4 due {{site.quiz_4_due}}**
-* Problem Set 4 will be available on Monday. It is due {{site.ps_4_due}}
+* **Quiz 4 due {{site.quiz_4_due | date: '%A, %B %d' }}**
+* Problem Set 4 will be available on Monday. It is due {{site.ps_4_due | date: '%A, %B %d' }}
 
 ## For Monday
 

@@ -19,7 +19,7 @@ weight: 1.5
 
 ## What's due by the end of the week?
 
-* **Project 2 due {{site.project_2_due}}**
+* **Project 2 due {{site.project_2_due  | date: '%A, %B %d'  }}**
 
 ## For Monday
 

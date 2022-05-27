@@ -14,7 +14,7 @@ weight: 1.3
 
 ## Overview for Week {{page.week_num}}
 
-* Start working on Project 2, due {{site.project_2_due}}
+* Start working on Project 2, due {{site.project_2_due | date: '%A, %B %d' }}
 
 ## What's due by the end of the week?
 

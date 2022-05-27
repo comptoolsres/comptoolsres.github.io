@@ -22,7 +22,7 @@ weight: 0.5
 
 ## Information on ssh keys in GitHib.com
 
-This is the github page with the infromation used in the video: [https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to GitHub with SSH)
+This is the github page with the information used in the video: [https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to GitHub with SSH)
 
 <ul id="VideoTabs" class="nav nav-tabs">
     <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>

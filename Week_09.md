@@ -39,7 +39,7 @@ weight: 0.9
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>More data visualization with matplotlib</li>
         </ol>
     </div>
@@ -62,7 +62,7 @@ weight: 0.9
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Work on Project 1 in your groups</li>
         </ol>
     </div>
@@ -84,7 +84,7 @@ weight: 0.9
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb">Py4E Ch 14 Object-Oriented Programming</a></li>
         </ol>
     </div>

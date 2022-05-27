@@ -46,7 +46,7 @@ weight: 0.6
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Python flow control</li>
           <li>Python functions</li>
         </ol>
@@ -69,7 +69,7 @@ weight: 0.6
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Iteration</li>
         </ol>
     </div>
@@ -92,7 +92,7 @@ weight: 0.6
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Strings</li>
           <li>`try/except`</li>
           <li>File I/O</li>

@@ -39,12 +39,12 @@ weight: 0.2
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li>Labor Day, no class</li>
+          <li><a href="TLCL_2.html">Read TLCL Ch 5-8</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Labor Day, no class</li>
+          <li>Work on the <a href="https://forms.gle/hkXVXJFw5Nrwjk6g6">exercises here</a>. This is not graded, but should help you practice. </li>
         </ol>
     </div>
 </div>
@@ -91,8 +91,8 @@ weight: 0.2
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Text Processing</li>
+          
+          <li>Text Processing, keep working though content, <b>ask questions</b>.</li>
         </ol>
     </div>
 </div>

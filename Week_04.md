@@ -38,12 +38,13 @@ weight: 0.4
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
         <ol>
-          <li>Get caught up.</li>
+          <li><a href="TLCL_5.html">Read TLCL Ch 27, 29 & 33</a></li>
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
+          <li>Practice with flow control: `if`, `while`, `until`, `for`</li>
           <li>Using Google to find coding help</li>
           <li>Reading documentation for applications and code</li>
         </ol>
@@ -66,7 +67,7 @@ weight: 0.4
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Using UFRC Resources</li>
           <li>Running batch jobs</li>
         </ol>
@@ -89,7 +90,7 @@ weight: 0.4
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Compiling source code</li>
           <li>Running applications</li>
         </ol>

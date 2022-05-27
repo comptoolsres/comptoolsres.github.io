@@ -37,7 +37,7 @@ weight: 1.3
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Work on Project 2</li>
         </ol>
     </div>

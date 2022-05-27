@@ -40,7 +40,7 @@ weight: 0.7
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Lists, Dictionaries and Tuples</li>
         </ol>
     </div>
@@ -62,7 +62,7 @@ weight: 0.7
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>RegEx in Python</li>
         </ol>
     </div>
@@ -85,7 +85,7 @@ weight: 0.7
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Scripting data acquisition from web sites and APIs</li>
         </ol>
     </div>

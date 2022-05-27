@@ -41,7 +41,7 @@ weight: 1.1
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
           <li><a href="https://comptoolsres.github.io/SQL_Introduction.html">SQL Introduction</a></li>
         </ol>

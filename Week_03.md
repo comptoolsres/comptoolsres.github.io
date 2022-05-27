@@ -43,7 +43,7 @@ weight: 0.3
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Hands-on with github use in writing scripts</li>
         </ol>
     </div>
@@ -63,8 +63,7 @@ weight: 0.3
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li><a href="github_branches.html">Github Branching exercise</a></li>
+          
         </ol>
     </div>
 </div>
@@ -80,13 +79,14 @@ weight: 0.3
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
         <ol>
-          <li><a href="TLCL_5.html">Read TLCL Ch 27, 29 & 33</a></li>
+          
         </ol>
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          </li>Practice with flow control: `if`, `while`, `until`, `for`</li>
+          
+          <li><a href="github_branches.html">Github Branching exercise</a></li>
+          
         </ol>
     </div>
 </div>

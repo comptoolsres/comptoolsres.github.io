@@ -125,6 +125,6 @@ Don't forget you can use the PDF to copy/paste larger chunks of data...In this c
 </div>
 * p. 298: **`tr`** can be useful, so have a quick look at this section. 
 
-** p. 301: **`sed`** is super powerful, this is a quick introduction. `sed` allows you to do regular expression find and replace like operations from the command line. I would suggest looking at this section, but focus on the substitution options: e.g. `s/first/second/g`. The text has a ton of great examples, and maybe one of them speaks to you, but I think it may be overwhelming!
+* p. 301: **`sed`** is super powerful, this is a quick introduction. `sed` allows you to do regular expression find and replace like operations from the command line. I would suggest looking at this section, but focus on the substitution options: e.g. `s/first/second/g`. The text has a ton of great examples, and maybe one of them speaks to you, but I think it may be overwhelming!
 
 * p. 309: **`aspell`**: skip this section.

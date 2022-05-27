@@ -39,7 +39,7 @@ weight: 0.8
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>NumPy, SciPy and Pandas</li>
         </ol>
     </div>
@@ -61,7 +61,7 @@ weight: 0.8
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>More on Pandas</li>
             <ol>
               <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb">Pandas with Messy Data</a></li>
@@ -88,7 +88,7 @@ weight: 0.8
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Data visualization with Matplotlib</li>
         </ol>
     </div>

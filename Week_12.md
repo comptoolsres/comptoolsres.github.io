@@ -40,7 +40,7 @@ weight: 1.2
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
         </ol>
     </div>
@@ -62,7 +62,7 @@ weight: 1.2
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb">Combine SQLAlchemy and Pandas</a></li>
         </ol>
     </div>
@@ -84,7 +84,7 @@ weight: 1.2
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>HiPerGator down. Class canceled. I'll be on Zoom to answer questions or discuss whatever...</li>
         </ol>
     </div>

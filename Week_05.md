@@ -61,7 +61,7 @@ This is the github page with the information used in the video: [https://docs.gi
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Getting started in Python</li>
           <li>Using Python on the command line</li>
           <li>Using Python in <a href="https://jhub.rc.ufl.edu/">Jupyter Notebooks</a> (Link requires VPN connection to UF network)</li>
@@ -85,7 +85,7 @@ This is the github page with the information used in the video: [https://docs.gi
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Getting started with JHub</li>
           <li>Python data types</li>
         </ol>
@@ -108,7 +108,7 @@ This is the github page with the information used in the video: [https://docs.gi
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
         <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
+          
           <li>Python flow control</li>
         </ol>
     </div>

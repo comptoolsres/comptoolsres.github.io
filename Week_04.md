@@ -19,13 +19,12 @@ weight: 0.4
 * Learning to read code and application documentation
 * Using UF Research Computing resources
 * Writing job scripts to run batch jobs via SLURM scheduler
-* Compiling applications for source code
 * Build confidence on the command line and bash scripting.
 
 ## What's due by the end of the week?
 
-* **Quiz 2 due {{site.quiz_1_due | date: '%A, %B %d' }}**
-* Problem Set 2 will be available on Monday. It is due {{site.ps_2_due | date: '%A, %B %d' }}
+* **Problem Set 1 due {{site.ps_1_due | date: '%A, %B %d' }}.**
+* Problem Set 2 will be available on Wednesday. It is due {{site.ps_2_due | date: '%A, %B %d' }}.
 
 ## For Monday
 
@@ -86,7 +85,6 @@ weight: 0.4
 1. Have a better understanding of reading code and application documentation.
 1. Be comfortable submitting jobs to the SLURM scheduler on HiPerGator
 1. Understand resource requests for jobs: CPUs, RAM and time.
-1. Have a basic idea of how to compile applications from source code
 1. Be more familiar with the process of writing a batch script to run an application on HiPerGator.
 
 {% include custom/office_hours.html %}

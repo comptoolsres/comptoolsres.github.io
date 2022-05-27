@@ -7,3 +7,5 @@ _pdf
 vendor/
 .bundle/
 .jekyll-cache
+.vscode
+Gemfile.lock

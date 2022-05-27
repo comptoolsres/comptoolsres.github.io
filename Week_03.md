@@ -21,9 +21,9 @@ weight: 0.3
 
 ## What's due by the end of the week?
 
-* **Problem Set 1 is due {{site.ps_1_due | date: '%A, %B %d' }}.**
-* Quiz 2 will be available Monday. It is due {{site.quiz_2_due}}
+* **Quiz 2 is due {{site.quiz_2_due | date: '%A, %B %d'}}**
   * Quiz 2 covers using: `cat`, `cut`, `sort`, `uniq`, and `paste`; as well as recognizing the meaning of the commands `if`, `for`, `while`, `break`, `continue`, `else`, `git add`, `git commit`, `git pull`.
+* **[Register for github.com account](github_account.md)**
 
 ## For Monday
 
@@ -35,17 +35,10 @@ weight: 0.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-      <ol>
-        <li><a href="LinkedInLearningLinux.html">Watch Learn the Linux Command Line</a></li>
-        <li><a href="github_account.html">Register for github.com account</a></li>
-        <li><a href="TLCL_4.html">Read TLCL Ch 24 - 26</a></li>
-      </ol>
+      Labor Day, no class
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>Hands-on with github use in writing scripts</li>
-        </ol>
+      Labor Day, no class
     </div>
 </div>
 
@@ -59,12 +52,10 @@ weight: 0.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-      Get caught up.
+      {% include day/006_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-        </ol>
+      {% include day/006_before.html %}
     </div>
 </div>
 
@@ -78,16 +69,10 @@ weight: 0.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          
-        </ol>
+      {% include day/007_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li><a href="github_branches.html">Github Branching exercise</a></li>
-          
-        </ol>
+      {% include day/007_during.html %}
     </div>
 </div>
 

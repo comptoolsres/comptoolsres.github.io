@@ -22,7 +22,6 @@ weight: 0.2
 ## What's due by the end of the week?
 
 * **Quiz 1 is due {{site.quiz_1_due | date: '%A, %B %d' }}**
-* **[Register for github.com account](github_account.md)**
 * Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.
   * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
 
@@ -38,14 +37,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="TLCL_2.html">Read TLCL Ch 5-8</a></li>
-        </ol>
+      {% include day/003_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Work on the <a href="https://forms.gle/hkXVXJFw5Nrwjk6g6">exercises here</a>. This is not graded, but should help you practice. </li>
-        </ol>
+      {% include day/003_during.html %}
     </div>
 </div>
 
@@ -61,15 +56,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li><a href="TLCL_3.html">Go over the Regular Expressions and Read TLCL Ch 19</a></li>
-        </ol>
+      {% include day/004_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}} </li>
-          <li>Regular Expressions: <a href="pdf/Regular_Expressions_Cheat_Sheet.pdf">Download the handout</a></li>
-        </ol>
+      {% include day/004_during.html %}
     </div>
 </div>
 
@@ -85,15 +75,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-      <ol>
-        <li><a href="TLCL_3.5.html">Read TLCL Ch 20</a></li>
-       </ol>
+      {% include day/005_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li>Text Processing, keep working though content, <b>ask questions</b>.</li>
-        </ol>
+      {% include day/005_during.html %}
     </div>
 </div>
 

@@ -108,19 +108,19 @@ For readings, there may be links to pages with my notes and additional explanati
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
 [1](Week_01.html) | {{ site.wk01_wed_date | date: '%a, %b %d' }} | [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)
-[1](Week_01.html) | {{ site.wk01_fri_date | date: '%a, %b %d' }} | [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Take UFRC New User Training](https://help.rc.ufl.edu/doc/New_user_training) |Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
+[1](Week_01.html) | {{ site.wk01_fri_date | date: '%a, %b %d' }} | [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Take UFRC New User Training](https://help.rc.ufl.edu/doc/New_user_training) <br>Quiz 1 available, due {{site.quiz_1_due | date: '%A, %B %d' }}|Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
 |||
-[2](Week_02.html) | {{ site.wk02_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Quiz 1, due {{site.quiz_1_due | date: '%A, %B %d' }}| Continue building shell skills<br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47)
+[2](Week_02.html) | {{ site.wk02_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)| Continue building shell skills<br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47)
 [2](Week_02.html) | {{ site.wk02_wed_date | date: '%a, %b %d' }} |  [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br>Problem Set 1, due {{ site.ps_1_due | date: '%A, %B %d' }}| [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
-[2](Week_02.html) | {{ site.wk02_fri_date | date: '%a, %b %d' }} | **Quiz 1 due**<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)| Text manipulation
+[2](Week_02.html) | {{ site.wk02_fri_date | date: '%a, %b %d' }} | **Quiz 1 due**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)<br>Quiz 2 available, due {{site.quiz_2_due | date: '%A, %B %d'}}| Text manipulation
 |||
 [3](Week_03.html) | {{ site.wk03_mon_date | date: '%a, %b %d' }} | | Labor Day, no class
-[3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} | Quiz 2, due {{site.quiz_2_due | date: '%A, %B %d'}}<br>[Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br> [Register for github.com account](github_account.md) <br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
-[3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} || Continue working on shell scripts and git/github
+[3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} | [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
+[3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} |**Quiz 2 due**| Continue working on shell scripts and git/github, [Github Branching exercise](github_branches.md)
 |||
-[4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} |**Problem Set 1 due** <br> [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
-[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2, due {{site.ps_2_due | date: '%A, %B %d'}} |Google and Documentation 
-[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | | Using UF Research Computing resources<br>Running batch jobs
+[4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
+[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} |Google and Documentation 
+[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>| Using UF Research Computing resources<br>Running batch jobs
 |||
 [5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} | **Quiz 2 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
 [5](Week_05.html) | {{ site.wk05_wed_date | date: '%a, %b %d' }} | Quiz 3, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python

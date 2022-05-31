@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Oct 12 - 16"
+title: "Week 7"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_07.html
@@ -20,8 +20,8 @@ weight: 0.7
 
 ## What's due by the end of the week?
 
-* **Problem Set 3 due {{site.ps_3_due | date: '%A, %B %d' }}**
-* Quiz 4 will be available on Monday. It is due {{site.quiz_4_due | date: '%A, %B %d' }}
+* Problem Set 3 is due {{site.ps_3_due | date: '%A, %B %d' }}
+* Quiz 3 is due {{site.quiz_3_due | date: '%A, %B %d' }}
 
 ## For Monday
 
@@ -33,16 +33,10 @@ weight: 0.7
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb">Read Py4E Ch 8</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb">Read Py4E Chs 9-10</a></li>
-        </ol>
+        {% include day/017_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>Lists, Dictionaries and Tuples</li>
-        </ol>
+        {% include day/017_during.html %}
     </div>
 </div>
 
@@ -56,15 +50,10 @@ weight: 0.7
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb">Read Py4E Ch 11</a></li>
-        </ol>
+        {% include day/018_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li>RegEx in Python</li>
-        </ol>
+        {% include day/018_during.html %}
     </div>
 </div>
 
@@ -78,16 +67,10 @@ weight: 0.7
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb">Read Py4E Ch 12</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb">Read Py4E Ch 13</a></li>
-        </ol>
+      Homecoming, No class
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li>Scripting data acquisition from web sites and APIs</li>
-        </ol>
+      Homecoming, No class
     </div>
 </div>
 
@@ -95,10 +78,8 @@ weight: 0.7
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
+1. Understand the importance of handling errors and how to use the `try/except` functions
 1. Understand the Python data types list, dictionary and tuple
-1. Know how to use regular expresions in python
-1. Be able to scrape data from websites with BeautifulSoup
-1. Be able to get data from web services using their APIs
 
 {% include custom/office_hours.html %}
 

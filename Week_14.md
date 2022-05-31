@@ -34,15 +34,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/036_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>Work on Project 2</li>
-        </ol>
+        {% include day/036_during.html %}
     </div>
 </div>
 
@@ -56,15 +51,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        Thanksgiving, No class
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li><a href="Argparse.html">Using Argparse to pass command line arguments to Python scripts</a></li>
-        </ol>
+        Thanksgiving, No class
     </div>
 </div>
 
@@ -78,15 +68,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        Thanksgiving, No class
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li>Work on Project 2, due {{project_w_due}}</li>
-        </ol>
+        Thanksgiving, No class
     </div>
 </div>
 

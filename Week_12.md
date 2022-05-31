@@ -34,15 +34,10 @@ weight: 1.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/031_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
-        </ol>
+        {% include day/031_during.html %}
     </div>
 </div>
 
@@ -56,15 +51,10 @@ weight: 1.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/032_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb">Combine SQLAlchemy and Pandas</a></li>
-        </ol>
+        {% include day/032_during.html %}
     </div>
 </div>
 
@@ -78,15 +68,10 @@ weight: 1.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        Veteran's Day, No class.
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li>HiPerGator down. Class canceled. I'll be on Zoom to answer questions or discuss whatever...</li>
-        </ol>
+        Veteran's Day, No class.
     </div>
 </div>
 

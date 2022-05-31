@@ -1,27 +1,25 @@
 ---
-title: "Week 10"
+title: "Week 16"
 tags: [week-by-week]
 sidebar: home_sidebar
-permalink: Week_10.html
+permalink: Week_16.html
 toc: false
-week_num: 10
+week_num: 16
 series: "Week-by-week series"
-weight: 1.0
+weight: 1.6
 ---
 
-# Week 10: {{site.wk10_mon_date | date: '%b %d' }} - {{site.wk10_fri_date | date: '%b %d' }}
+# Week 16: {{site.wk16_mon_date | date: '%b %d' }} - {{site.wk16_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Additional data visualization with Matplotlib
-* Start working on Project 1
+* Graphics
 
 ## What's due by the end of the week?
 
-* Quiz 4 will be available on Monday. It is due {{site.quiz_4_due | date: '%A, %B %d' }}
-* **Problem Set 4 due, {{site.ps_4_due | date: '%A, %B %d' }}**
+* **Project 2 due {{site.project_2_due  | date: '%A, %B %d'  }}**
 
 ## For Monday
 
@@ -33,10 +31,10 @@ weight: 1.0
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        {% include day/025_before.html %}
+        {% include day/040_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        {% include day/025_during.html %}
+        {% include day/040_during.html %}
     </div>
 </div>
 
@@ -50,27 +48,10 @@ weight: 1.0
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        {% include day/026_before.html %}
+        {% include day/041_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        {% include day/026_during.html %}
-    </div>
-</div>
-
-## For Friday
-
-{% include image.html file='friday.png' alt="Calendar icon with Friday" position="right" max-width=75 %}
-
-<ul id="FridayTabs" class="nav nav-tabs">
-    <li class="active"><a href="#FriBefore" data-toggle="tab">Before Class</a></li>
-    <li><a href="#FriDuring" data-toggle="tab">During Class</a></li>
-</ul>
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        {% include day/027_before.html %}
-    </div>
-    <div role="tabpanel" class="tab-pane" id="FriDuring">
-        {% include day/027_during.html %}
+        {% include day/041_during.html %}
     </div>
 </div>
 
@@ -78,8 +59,7 @@ weight: 1.0
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Have started the <a href="LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
-1. Have started working on Project 1
+1. Complete the course evaluation!
 
 {% include custom/office_hours.html %}
 

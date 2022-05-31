@@ -19,9 +19,9 @@ weight: 0.9
 
 ## What's due by the end of the week?
 
-* **Problem Set 4 due {{site.ps_4_due | date: '%A, %B %d' }}**
-* Quiz 5 will be available on Monday. It is due {{site.quiz_5_due | date: '%A, %B %d' }}
-* Project 1 will be available on Monday. It is due {{site.project_1_due | date: '%A, %B %d' }}
+* Nothing is due this week
+* Problem Set 4 due {{site.ps_4_due | date: '%A, %B %d' }}
+* Project 1 will be available on Friday. It is due {{site.project_1_due | date: '%A, %B %d' }}
 
 ## For Monday
 
@@ -33,15 +33,10 @@ weight: 0.9
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Getting caught up</li>
-        </ol>
+        {% include day/022_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>More data visualization with matplotlib</li>
-        </ol>
+        {% include day/022_during.html %}
     </div>
 </div>
 
@@ -55,16 +50,10 @@ weight: 0.9
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Scan Py4E Ch 16</li>
-          <li>Read Ch 14 on Object oriented programming.</li>
-        </ol>
+        {% include day/023_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li>Work on Project 1 in your groups</li>
-        </ol>
+        {% include day/023_during.html %}
     </div>
 </div>
 
@@ -78,15 +67,10 @@ weight: 0.9
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Work on Project 1</li>
-        </ol>
+        {% include day/024_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb">Py4E Ch 14 Object-Oriented Programming</a></li>
-        </ol>
+        {% include day/024_during.html %}
     </div>
 </div>
 
@@ -94,8 +78,11 @@ weight: 0.9
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
+1. Understand how to use Numpy arrays and access elements of arrays
+1. Become familiar with Pandas
+1. Know how to open csv files to create Pandas data frames
+1. Know the basics of producing graphs in matplotlib
 1. Be getting more comfortable with producing graphs in matplotlib
-1. Have started working on Project 1
 
 {% include custom/office_hours.html %}
 

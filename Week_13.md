@@ -31,15 +31,10 @@ weight: 1.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/033_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>Work on Project 2</li>
-        </ol>
+        {% include day/033_during.html %}
     </div>
 </div>
 
@@ -53,14 +48,10 @@ weight: 1.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/034_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/034_during.html %}
     </div>
 </div>
 
@@ -74,14 +65,10 @@ weight: 1.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/035_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/035_during.html %}
     </div>
 </div>
 

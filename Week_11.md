@@ -22,8 +22,9 @@ weight: 1.1
 
 ## What's due by the end of the week?
 
-* **Quiz 5 due {{site.quiz_5_due}}**
-* Continue working on Problem Set 5, due {{site.ps_5_due | date: '%A, %B %d' }}
+* **Quiz 4 due {{site.quiz_4_due}}**
+* **Project 1 due {{site.project_1_due | date: '%A, %B %d' }}**
+* Problem Set 5 available Friday, due {{site.ps_5_due | date: '%A, %B %d' }}
 
 ## For Monday
 
@@ -35,16 +36,10 @@ weight: 1.1
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
-        </ol>
+        {% include day/028_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb">Read Py4E Ch 15, though section 15.5 and my notes</a></li>
-          <li><a href="https://comptoolsres.github.io/SQL_Introduction.html">SQL Introduction</a></li>
-        </ol>
+        {% include day/028_during.html %}
     </div>
 </div>
 
@@ -58,14 +53,10 @@ weight: 1.1
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Veteran's Day, No class</li>
-        </ol>
+        {% include day/029_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Veteran's Day, No class</li>
-        </ol>
+        {% include day/029_during.html %}
     </div>
 </div>
 
@@ -79,14 +70,10 @@ weight: 1.1
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
-        </ol>
+        {% include day/030_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb">Database Joins</a></li>
-        </ol>
+        {% include day/030_during.html %}
     </div>
 </div>
 
@@ -94,6 +81,9 @@ weight: 1.1
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
+1. Understand how to open a database in sqlite
+1. Have a general understanding of SQL commands to query databases
+1. Begin to understand how to interact with a database from Python
 1. Be comfortable with basic SQL commands in sqlite
 1. Be starting to understand the main methods of interacting with databases using Python.
 

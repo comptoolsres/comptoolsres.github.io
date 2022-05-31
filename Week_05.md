@@ -44,7 +44,6 @@ This is the github page with the information used in the video: [https://docs.gi
 
 * **Problem Set 2 due {{site.ps_2_due | date: '%A, %B %d' }}**
 
-
 ## For Monday
 
 {% include image.html file='monday.png' alt="Calendar icon with Monday" position="right" max-width=75 %}

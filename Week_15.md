@@ -31,15 +31,10 @@ weight: 1.5
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/037_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li><a href="Graphics.html">Graphics for researchers</a></li>
-        </ol>
+        {% include day/037_during.html %}
     </div>
 </div>
 
@@ -53,18 +48,29 @@ weight: 1.5
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Last day of class</li>
-        </ol>
+        {% include day/038_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li>Finish Project 2</li>
-        </ol>
+        {% include day/038_during.html %}
     </div>
 </div>
 
+## For Friday
+
+{% include image.html file='friday.png' alt="Calendar icon with Friday" position="right" max-width=75 %}
+
+<ul id="FridayTabs" class="nav nav-tabs">
+    <li class="active"><a href="#FriBefore" data-toggle="tab">Before Class</a></li>
+    <li><a href="#FriDuring" data-toggle="tab">During Class</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="FriBefore">
+        {% include day/039_before.html %}
+    </div>
+    <div role="tabpanel" class="tab-pane" id="FriDuring">
+        {% include day/039_during.html %}
+    </div>
+</div>
 ## By the end of this week you should
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}

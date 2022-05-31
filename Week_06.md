@@ -24,10 +24,9 @@ weight: 0.6
 
 ## What's due by the end of the week?
 
-<!--* **Quiz 3 due {{site.quiz_3_due | date: '%A, %B %d' }}**-->
-* Quiz 3: We all need a bit of a break. I think we've covered Bash content in quizzes/problem sets, and we're just starting Python, so this quiz will be a freebee. Everyone will get a 20. No need to turn anything in.
-
-* Problem Set 3 will be available on Monday. It is due {{site.ps_3_due}}
+* Nothing is due this week
+* Problem Set 3 will be available Monday. It is due {{site.ps_3_due | date: '%A, %B %d' }}
+* Quiz 3 will be available on Monday. It is due {{site.quiz_3_due | date: '%A, %B %d' }}
 
 ## For Monday
 
@@ -39,17 +38,10 @@ weight: 0.6
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb">Read Py4E Ch 4</a></li>
-        </ol>
+        {% include day/014_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          
-          <li>Python flow control</li>
-          <li>Python functions</li>
-        </ol>
+        {% include day/014_during.html %}
     </div>
 </div>
 
@@ -63,15 +55,10 @@ weight: 0.6
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb">Read Py4E Ch 5</a></li>
-        </ol>
+        {% include day/015_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          
-          <li>Iteration</li>
-        </ol>
+        {% include day/015_during.html %}
     </div>
 </div>
 
@@ -85,18 +72,10 @@ weight: 0.6
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb">Read Py4E Ch 6</a></li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb">Read Py4E Ch 7</a></li>
-        </ol>
+        {% include day/016_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          
-          <li>Strings</li>
-          <li>`try/except`</li>
-          <li>File I/O</li>
-        </ol>
+        {% include day/016_during.html %}
     </div>
 </div>
 
@@ -105,8 +84,7 @@ weight: 0.6
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
 1. Be starting to feel comfortable in Python
-1. Understand loops and contitionals in Python and how they are similar to the same ideas in Bash
-1. Understand the importance of handling errors and how to use the `try/except` functions
+1. Understand loops and conditionals in Python and how they are similar to the same ideas in Bash
 1. Be able to work with strings, manipulating them, printing them, etc.
 1. Be able to open a file for reading or writing
 

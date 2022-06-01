@@ -1,5 +1,5 @@
 ---
-title: "Week 13: Nov 23 - 27"
+title: "Week 13"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_13.html
@@ -8,16 +8,18 @@ week_num: 13
 series: "Week-by-week series"
 weight: 1.3
 ---
+# Week 13: {{site.wk13_mon_date | date: '%b %d' }} - {{site.wk13_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
-* Start working on Project 2, due {{site.project_2_due}}
+* Start working on Project 2, due {{site.project_2_due | date: '%A, %B %d' }}
 
 ## What's due by the end of the week?
 
-* Nothing is due this week
+* **Problem set 5 due {{site.ps_5_due | date: '%A, %B %d' }}**
+* Project 2 will be available Monday, due {{site.project_2_due | date: '%A, %B %d' }}
 
 
 ## For Monday
@@ -30,15 +32,10 @@ weight: 1.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/033_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Work on Project 2</li>
-        </ol>
+        {% include day/033_during.html %}
     </div>
 </div>
 
@@ -52,14 +49,10 @@ weight: 1.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/034_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/034_during.html %}
     </div>
 </div>
 
@@ -73,14 +66,10 @@ weight: 1.3
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/035_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Thanksgiving break, no class</li>
-        </ol>
+        {% include day/035_during.html %}
     </div>
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: "Week 12: Nov 16 - 20"
+title: "Week 12"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_12.html
@@ -8,6 +8,8 @@ week_num: 12
 series: "Week-by-week series"
 weight: 1.2
 ---
+
+# Week 12: {{site.wk12_mon_date | date: '%b %d' }} - {{site.wk12_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 
@@ -19,8 +21,7 @@ weight: 1.2
 
 ## What's due by the end of the week?
 
-* **Problem Set 5 due {{site.ps_5_due}}. Note initial due date was pushed back because of HiPerGator maintenance. You can always turn in early.**
-* Project 2 will be available Monday, due {{site.project_2_due}}
+* **Problem Set 5 due {{site.ps_5_due | date: '%A, %B %d' }}.**
 
 ## For Monday
 
@@ -32,15 +33,10 @@ weight: 1.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/031_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb">SQLAlchemy Intro</a></li>
-        </ol>
+        {% include day/031_during.html %}
     </div>
 </div>
 
@@ -54,15 +50,10 @@ weight: 1.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/032_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb">Combine SQLAlchemy and Pandas</a></li>
-        </ol>
+        {% include day/032_during.html %}
     </div>
 </div>
 
@@ -76,15 +67,10 @@ weight: 1.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        Veteran's Day, No class.
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>HiPerGator down. Class canceled. I'll be on Zoom to answer questions or discuss whatever...</li>
-        </ol>
+        Veteran's Day, No class.
     </div>
 </div>
 
@@ -92,7 +78,10 @@ weight: 1.2
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Have started on Project 2
+1. Have completed the <a href="LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
+1. Understand how to interact with a database from Python
+1. Be comfortable with basic SQL commands in sqlite
+1. Be understand the main methods of interacting with databases using Python.
 
 {% include custom/office_hours.html %}
 

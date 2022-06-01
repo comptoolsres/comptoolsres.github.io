@@ -1,5 +1,5 @@
 ---
-title: "Week 8: Oct 19 - 23"
+title: "Week 8"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_08.html
@@ -8,6 +8,7 @@ week_num: 8
 series: "Week-by-week series"
 weight: 0.8
 ---
+# Week 8: {{site.wk08_mon_date | date: '%b %d' }} - {{site.wk08_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 
@@ -19,8 +20,9 @@ weight: 0.8
 
 ## What's due by the end of the week?
 
-* **Quiz 4 due {{site.quiz_4_due}}**
-* Problem Set 4 will be available on Monday. It is due {{site.ps_4_due}}
+* **Quiz 3 due {{site.quiz_3_due | date: '%A, %B %d' }}**
+* **Problem Set 3 due {{site.ps_3_due | date: '%A, %B %d' }}**
+* Problem Set 4 will be available on Friday. It is due {{site.ps_4_due | date: '%A, %B %d' }}
 
 ## For Monday
 
@@ -32,15 +34,10 @@ weight: 0.8
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb">Review the information on NumPy, SciPy and Pandas</a></li>
-        </ol>
+        {% include day/019_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>NumPy, SciPy and Pandas</li>
-        </ol>
+        {% include day/019_during.html %}
     </div>
 </div>
 
@@ -54,20 +51,10 @@ weight: 0.8
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/020_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>More on Pandas</li>
-            <ol>
-              <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb">Pandas with Messy Data</a></li>
-              <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb">Data visualization with Pandas</a></li>
-            </ol>
-          <li>More on using Python Modules</li>
-        </ol>
+        {% include day/020_during.html %}
     </div>
 </div>
 
@@ -81,15 +68,10 @@ weight: 0.8
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb">Review the information on data visualization with Matplotlib</a></li>
-        </ol>
+        {% include day/021_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Data visualization with Matplotlib</li>
-        </ol>
+        {% include day/021_during.html %}
     </div>
 </div>
 
@@ -97,11 +79,11 @@ weight: 0.8
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
+1. Know how to use regular expressions in python
+1. Be able to scrape data from websites with BeautifulSoup
+1. Be able to get data from web services using their APIs
 1. Be generally aware of SciPy and Numpy
-1. Understand how to use Numpy arrays and access elements of arrays
-1. Become familiar with Pandas
-1. Know how to open csv files to create Pandas data frames
-1. Know the basics of producing graphs in matplotlib
+
 
 {% include custom/office_hours.html %}
 

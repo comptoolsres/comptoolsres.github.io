@@ -32,7 +32,7 @@ keywords: which, man, help, documentation, alias, redirection, double redirect, 
   [magitz@login2 ~]$
   ```
 
-  To see an error similar to the one displayed here, try `which` with some random text:
+  To see an error similar to the one displayed in the text, try `which` with some random text:
 
   ```bash
   [magitz@login2 ~]$ which foo
@@ -107,7 +107,7 @@ keywords: which, man, help, documentation, alias, redirection, double redirect, 
 <br><br>
 My goal in having you read these chapters is for you to get a deeper understanding of Linux and see some of the amazing tools at your disposal. I use the command line daily, and don't have most of this memorized...
 <br><br>
-Think of it as a tour of the toolbox: you don't need to know how to use every tool, and probably don't have a good idea what you would ever do with many of the tools, but someday down the road, you will either remember that there is a tool to do what you need, or say to yourself, the way I am doing this is a pain, let me go back to the toolbox and see if there is a better way." type="primary" %}
+**Think of it as a tour of the toolbox:** you don't need to know how to use every tool, and probably don't have a good idea what you would ever do with many of the tools, but someday down the road, you will either remember that there is a tool to do what you need, or say to yourself, the way I am doing this is a pain, let me go back to the toolbox and see if there is a better way." type="primary" %}
 
 ## Ch 7: Seeing the World as the Shell Sees It
 

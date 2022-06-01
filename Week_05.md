@@ -1,5 +1,5 @@
 ---
-title: "Week 5: Sept 28 - Oct 2"
+title: "Week 5"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_05.html
@@ -9,17 +9,21 @@ series: "Week-by-week series"
 weight: 0.5
 ---
 
+# Week 5: {{site.wk01_wed_date | date: '%b %d' }} - {{site.wk01_fri_date | date: '%b %d' }}
+
+
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
 
+* Compiling applications for source code
 * Getting started in Python
 * Using Python on the command line
 * Using Python in Jupyter notebooks
 
 ## Information on ssh keys in GitHib.com
 
-This is the github page with the infromation used in the video: [https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to GitHub with SSH)
+This is the github page with the information used in the video: [https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to GitHub with SSH)
 
 <ul id="VideoTabs" class="nav nav-tabs">
     <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
@@ -38,9 +42,7 @@ This is the github page with the infromation used in the video: [https://docs.gi
 
 ## What's due by the end of the week?
 
-* **Problem Set 2 due {{site.ps_2_due}}**
-<!-- * Quiz 3 will be available on Monday. It is due {{site.quiz_3_due}}-->
-* Quiz 3: We all need a bit of a break. I think we've covered Bash content in quizzes/problem sets, and we're just starting Python, so this quiz will be a freebee. Everyone will get a 20. No need to turn anything in.
+* **Problem Set 2 due {{site.ps_2_due | date: '%A, %B %d' }}**
 
 ## For Monday
 
@@ -52,17 +54,10 @@ This is the github page with the infromation used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li><a href="py4e_1.html">Read Py4E Ch 1</a></li>
-        </ol>
+        {% include day/011_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Getting started in Python</li>
-          <li>Using Python on the command line</li>
-          <li>Using Python in <a href="https://jhub.rc.ufl.edu/">Jupyter Notebooks</a> (Link requires VPN connection to UF network)</li>
-        </ol>
+        {% include day/011_during.html %}
     </div>
 </div>
 
@@ -76,16 +71,10 @@ This is the github page with the infromation used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb">Read Py4E Ch 2</a></li>
-        </ol>
+        {% include day/012_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Getting started with JHub</li>
-          <li>Python data types</li>
-        </ol>
+        {% include day/012_during.html %}
     </div>
 </div>
 
@@ -99,15 +88,10 @@ This is the github page with the infromation used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="https://github.com/comptoolsres/Jupyter_content/blob/main/p,y4e_ch3_flow_control.ipynb">Read Py4E Ch 3</a></li>
-        </ol>
+        {% include day/013_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Python flow control</li>
-        </ol>
+        {% include day/013_during.html %}
     </div>
 </div>
 
@@ -115,6 +99,7 @@ This is the github page with the infromation used in the video: [https://docs.gi
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
+1. Have a basic idea of how to compile applications from source code
 1. Be starting to learn Python
 1. Be comfortable opening Jupyter Notebooks and adding and running code cells
 1. Understand the variable types `int, float, str` and how they are used.

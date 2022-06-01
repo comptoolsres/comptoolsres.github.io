@@ -31,11 +31,11 @@ You do not need to have git installed on your own computer, but you may want to.
 
 * An email should now have been sent to you. Verify your email address by clicking the link in the email.
 
-* **This is optional**: To add the educational upgrade to a pro account, you can go to https://education.github.com and follow the steps to request an educational discount.
+* **This is optional**: To add the educational upgrade to a pro account, you can go to [https://education.github.com](https://education.github.com) and follow the steps to request an educational discount.
 
 ## The assignment
 
-* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/31cm8-GY](https://classroom.github.com/a/31cm8-GY) (**This link is for the Fall 2020 semester of the course at UF**)
+* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/rUK_eJ67](https://classroom.github.com/a/31cm8-GY) (**This link is for the Fall 2022 semester of the course at UF**)
 
 * Authorize GitHub Classroom to access your account.
  ![Screenshot of authorizing github classroom to access account](images/git_authorize.png)

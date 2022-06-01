@@ -1,5 +1,5 @@
 ---
-title: "Week 14: Nov 30 - Dec 4"
+title: "Week 14"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_14.html
@@ -8,6 +8,8 @@ week_num: 14
 series: "Week-by-week series"
 weight: 1.4
 ---
+
+# Week 14: {{site.wk14_mon_date | date: '%b %d' }} - {{site.wk14_fri_date | date: '%b %d' }}
 
 {% include custom/series_week_by_week.html %}
 
@@ -18,9 +20,8 @@ weight: 1.4
 
 ## What's due by the end of the week?
 
-* **Problem set 5 due {{site.ps_5_due}}**
-* **Quiz 6 due {{site.quiz_6_due}}**
-* Continue working on Project 2, due {{site.project_2_due}}
+* Nothing is due this week.
+* Continue working on Project 2, due {{site.project_2_due | date: '%A, %B %d' }}
 
 ## For Monday
 
@@ -32,15 +33,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        {% include day/036_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Work on Project 2</li>
-        </ol>
+        {% include day/036_during.html %}
     </div>
 </div>
 
@@ -54,15 +50,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        Thanksgiving, No class
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li><a href="Argparse.html">Using Argparse to pass command line arguments to Python scripts</a></li>
-        </ol>
+        Thanksgiving, No class
     </div>
 </div>
 
@@ -76,15 +67,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li>Catching up</li>
-        </ol>
+        Thanksgiving, No class
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Work on Project 2, due {{project_w_due}}</li>
-        </ol>
+        Thanksgiving, No class
     </div>
 </div>
 

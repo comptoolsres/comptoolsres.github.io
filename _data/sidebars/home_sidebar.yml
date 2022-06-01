@@ -130,49 +130,49 @@ entries:
     output: web
     folderitems:
 
-    - title: Week 1 - Aug. 31 - Sept. 4
+    - title: Week 1
       url: /Week_01.html
       output: web
-    - title: Week 2 - Sept 7 - 11
+    - title: Week 2
       url: /Week_02.html
       output: web
-    - title: Week 3 - Sept 14 - 18
+    - title: Week 3 
       url: /Week_03.html
       output: web
-    - title: Week 4 - Sept 21 - 25
+    - title: Week 4 
       url: /Week_04.html
       output: web
-    - title: Week 5 - Sept 28 - Oct 2
+    - title: Week 5 
       url: /Week_05.html
       output: web
-    - title: Week 6 - Oct 5 - Oct 9
+    - title: Week 6 
       url: /Week_06.html
       output: web
-    - title: Week 7 - Oct 12 - 16
+    - title: Week 7
       url: /Week_07.html
       output: web
-    - title: Week 8 - Oct 19 - 23
+    - title: Week 8 
       url: /Week_08.html
       output: web
-    - title: Week 9 - Oct 26 - 30
+    - title: Week 9 
       url: /Week_09.html
       output: web
-    - title: Week 10 - Nov 2 - 6
+    - title: Week 10 
       url: /Week_10.html
       output: web
-    - title: Week 11 - Nov 9 - 13
+    - title: Week 11 
       url: /Week_11.html
       output: web
-    - title: Week 12 - Nov 16 - 20
+    - title: Week 12 
       url: /Week_12.html
       output: web
-    - title: Week 13 - Nov 23 - 27
+    - title: Week 13 
       url: /Week_13.html
       output: web
-    - title: Week 14 - Nov 30 - Dec 4
+    - title: Week 14 
       url: /Week_14.html
       output: web    
-    - title: Week 15 - Dec 7 - 9
+    - title: Week 15 
       url: /Week_15.html
       output: web
 

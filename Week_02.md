@@ -1,5 +1,5 @@
 ---
-title: "Week 2: Sept 7 - 11"
+title: "Week 2"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_02.html
@@ -8,6 +8,9 @@ week_num: 2
 series: "Week-by-week series"
 weight: 0.2
 ---
+
+# Week 2: {{site.wk02_mon_date | date: '%b %d' }} - {{site.wk02_fri_date | date: '%b %d' }}
+
 
 {% include custom/series_week_by_week.html %}
 
@@ -18,9 +21,8 @@ weight: 0.2
 
 ## What's due by the end of the week?
 
-* **Quiz 1 is due {{site.quiz_1_due}}**
-* **[Register for github.com account](github_account.md)**
-* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due}}.
+* **Quiz 1 is due {{site.quiz_1_due | date: '%A, %B %d' }}**
+* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.
   * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
 
 ---
@@ -35,14 +37,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Labor Day, no class</li>
-        </ol>
+      {% include day/003_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Labor Day, no class</li>
-        </ol>
+      {% include day/003_during.html %}
     </div>
 </div>
 
@@ -58,15 +56,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li><a href="TLCL_3.html">Go over the Regular Expressions and Read TLCL Ch 19</a></li>
-        </ol>
+      {% include day/004_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}} </li>
-          <li>Regular Expressions: <a href="pdf/Regular_Expressions_Cheat_Sheet.pdf">Download the handout</a></li>
-        </ol>
+      {% include day/004_during.html %}
     </div>
 </div>
 
@@ -82,15 +75,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-      <ol>
-        <li><a href="TLCL_3.5.html">Read TLCL Ch 20</a></li>
-       </ol>
+      {% include day/005_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Text Processing</li>
-        </ol>
+      {% include day/005_during.html %}
     </div>
 </div>
 

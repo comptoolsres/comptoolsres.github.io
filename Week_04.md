@@ -1,5 +1,5 @@
 ---
-title: "Week 4: Sept 21 - 25"
+title: "Week 4"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_04.html
@@ -9,6 +9,8 @@ series: "Week-by-week series"
 weight: 0.4
 ---
 
+# Week 4: {{site.wk04_mon_date | date: '%b %d' }} - {{site.wk04_fri_date | date: '%b %d' }}
+
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
@@ -17,13 +19,12 @@ weight: 0.4
 * Learning to read code and application documentation
 * Using UF Research Computing resources
 * Writing job scripts to run batch jobs via SLURM scheduler
-* Compiling applications for source code
 * Build confidence on the command line and bash scripting.
 
 ## What's due by the end of the week?
 
-* **Quiz 2 due {{site.quiz_1_due}}**
-* Problem Set 2 will be available on Monday. It is due {{site.ps_2_due}}
+* **Problem Set 1 due {{site.ps_1_due | date: '%A, %B %d' }}.**
+* Problem Set 2 will be available on Wednesday. It is due {{site.ps_2_due | date: '%A, %B %d' }}.
 
 ## For Monday
 
@@ -35,16 +36,10 @@ weight: 0.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        <ol>
-          <li>Get caught up.</li>
-        </ol>
+      {% include day/008_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using Google to find coding help</li>
-          <li>Reading documentation for applications and code</li>
-        </ol>
+      {% include day/008_during.html %}
     </div>
 </div>
 
@@ -58,16 +53,10 @@ weight: 0.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        <ol>
-          <li>Review <a href="https://training.it.ufl.edu/training/items/orientation-materials-for-courses-using-rc.html">Research Computing Orientation video</a>, focus on job scripts</li>
-        </ol>
+     {% include day/009_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Using UFRC Resources</li>
-          <li>Running batch jobs</li>
-        </ol>
+     {% include day/009_during.html %}
     </div>
 </div>
 
@@ -81,16 +70,10 @@ weight: 0.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        <ol>
-          <li><a href="TLCL_6.html">Read TLCL Ch 23</a></li>
-        </ol>
+      {% include day/010_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        <ol>
-          <li>Zoom meeting for class: {{site.class_zoom_link}}</li>
-          <li>Compiling source code</li>
-          <li>Running applications</li>
-        </ol>
+      {% include day/010_during.html %}
     </div>
 </div>
 
@@ -102,7 +85,6 @@ weight: 0.4
 1. Have a better understanding of reading code and application documentation.
 1. Be comfortable submitting jobs to the SLURM scheduler on HiPerGator
 1. Understand resource requests for jobs: CPUs, RAM and time.
-1. Have a basic idea of how to compile applications from source code
 1. Be more familiar with the process of writing a batch script to run an application on HiPerGator.
 
 {% include custom/office_hours.html %}

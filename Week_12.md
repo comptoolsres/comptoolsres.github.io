@@ -21,8 +21,7 @@ weight: 1.2
 
 ## What's due by the end of the week?
 
-* **Problem Set 5 due {{site.ps_5_due | date: '%A, %B %d' }}. Note initial due date was pushed back because of HiPerGator maintenance. You can always turn in early.**
-* Project 2 will be available Monday, due {{site.project_2_due | date: '%A, %B %d' }}
+* **Problem Set 5 due {{site.ps_5_due | date: '%A, %B %d' }}.**
 
 ## For Monday
 
@@ -79,7 +78,10 @@ weight: 1.2
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
 
-1. Have started on Project 2
+1. Have completed the <a href="LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
+1. Understand how to interact with a database from Python
+1. Be comfortable with basic SQL commands in sqlite
+1. Be understand the main methods of interacting with databases using Python.
 
 {% include custom/office_hours.html %}
 

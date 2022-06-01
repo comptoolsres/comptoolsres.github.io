@@ -20,8 +20,7 @@ weight: 1.4
 
 ## What's due by the end of the week?
 
-* **Problem set 5 due {{site.ps_5_due | date: '%A, %B %d' }}**
-* **Quiz 6 due {{site.quiz_6_due | date: '%A, %B %d' }}**
+* Nothing is due this week.
 * Continue working on Project 2, due {{site.project_2_due | date: '%A, %B %d' }}
 
 ## For Monday

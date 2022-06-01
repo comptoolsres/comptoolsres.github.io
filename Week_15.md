@@ -19,7 +19,8 @@ weight: 1.5
 
 ## What's due by the end of the week?
 
-* **Project 2 due {{site.project_2_due  | date: '%A, %B %d'  }}**
+* **Quiz 5 due {{site.quiz_5_due | date: '%A, %B %d' }}.**
+* Quiz 6 available,  due {{site.quiz_6_due | date: '%A, %B %d' }}.
 
 ## For Monday
 

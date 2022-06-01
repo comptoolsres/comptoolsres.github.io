@@ -83,6 +83,7 @@ weight: 1.1
 
 1. Understand how to open a database in sqlite
 1. Have a general understanding of SQL commands to query databases
+1. Have mostly completed the <a href="LinkedInLearningDatabases.md">LinkedIn Learning Programming Foundations Databases course.</a>
 1. Begin to understand how to interact with a database from Python
 1. Be comfortable with basic SQL commands in sqlite
 1. Be starting to understand the main methods of interacting with databases using Python.

@@ -14,6 +14,8 @@ toc: false
 * **BSC 6451**: Class 24822
 
 
+{% include warning.html content="I am currently in the process of updating this site for the Fall 2022 semester, some links may not work and some content will be changing." %}
+
 
 ## Course Description
 

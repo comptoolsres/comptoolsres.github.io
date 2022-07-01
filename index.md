@@ -95,7 +95,7 @@ The main texts for the course are:
 * The Linux Command Line: [http://linuxcommand.org]http://linuxcommand.org/tlcl.php) (my notes and referenced page numbers will be based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019)
 * Python For Everyone: [https://www.py4e.com/book.php](https://www.py4e.com/book.php)
 
-Each of these is available as a free PDF download or for purchase in print. Because there are no textbook costs for this course, it has been recognized by Affordable UF as an affordable course. <img alt='Affordable UF badge' src='images/UfAffordableBadge_2022Fall.png' width='200'>
+Each of these is available as a free PDF download or for purchase in print. Because there are no textbook costs for this course, it has been recognized by Affordable UF as an affordable course. <img alt='Affordable UF badge' src='images/UfAffordableBadge_2022Fall.png' width=100 align='right'>
 
 {% include tip.html content="Also check out the [additional resources page](resources.md)." %}
 

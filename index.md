@@ -13,9 +13,7 @@ toc: false
 * **BSC 4452**: Class 20417 {% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
 * **BSC 6451**: Class 24822
 
-
 {% include warning.html content="I am currently in the process of updating this site for the Fall 2022 semester, some links may not work and some content will be changing." %}
-
 
 ## Course Description
 
@@ -25,7 +23,7 @@ This course introduces students to the tools needed to be proficient, computatio
 
 **The course assumes no prior coding or command line skills**, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained researchers and allows them to work in multidisciplinary fields.
 
-{% include note.html content="While the title of the course includes 'in Biology' there is little that is actually focussed on biology. This course strives to be broadly applicable to many areas of research. Bureaucracies being what they are, the title is what it is..." %}
+{% include note.html content="While the title of the course includes '*in Biology*' there is little that is actually focussed on biology. This course strives to be broadly applicable to many areas of research. Bureaucracies being what they are, the title is what it is..." %}
 
 ## Course Organization
 
@@ -43,7 +41,7 @@ The course is divided into four main sections:
 * Section 3
   * SQL database introduction and integration with Python
 
-* Section 4
+* Section 4 - **New for Fall 2022!**
   * A brief introduction to Artificial Intelligence
 
 ## Course Objectives
@@ -74,7 +72,7 @@ The course is divided into four main sections:
 
 ### Asynchronous Work
 
-* Students will work on projects either independently or in small, virtual groups.
+* Students will work on projects either independently or in small, groups.
 * This work can be more flexible in timing and will give you and your classmates times to get more hands-on experience and challenge yourselves to learn on your own.
 
 ### Student Help Time
@@ -173,10 +171,12 @@ Week | Date | Reading/Assignment |Topic |
 
 ## Software and Hardware
 
-Participants will need a computer with internet connection, webcam and microphone for all classes.
+Participants will need a computer with internet connection for all classes.
 
 Several free/open source software packages will be used throughout the course, and students will be required to install some of these.
-Students will be required to apply for a (free) Research Computing account to access HiPerGator for coursework.
+
+A (free) Research Computing account will be cxreated for students to access HiPerGator for coursework.
+
 Students will be required to apply for a (free) Github.com account for coursework.
 
 If you have technical difficulties with Canvas, please contact the UF Helpdesk at:
@@ -302,7 +302,6 @@ In response to COVID-19, the following recommendations are in place to maintain 
 * If you are sick, stay home. Please call your primary care provider if you are ill and need immediate care or the UF Student Health Care Center at 352-392-1161 to be evaluated. 
 * Course materials will be provided to you with an excused absence, and you will be given a reasonable amount of time to make up work.
 
- 
 ## Students Requiring Accommodations
 
 Students with disabilities requesting accommodations should first register with the Disability Resource Center (352-392-8565, [https://disability.ufl.edu/students/get-started/](https://disability.ufl.edu/students/get-started/)) by providing appropriate documentation. Once registered, students will receive an accommodation letter which must be presented to the instructor when requesting accommodation. Students with disabilities should follow this procedure as early as possible in the semester.
@@ -373,6 +372,10 @@ There are federal laws protecting your privacy with regards to grades earned in 
 ## Statement Regarding Course Recording
 
 Our class sessions may be audio visually recorded for students in the class to refer back to and for use of enrolled students who are unable to attend live. Students who participate with their camera engaged or utilize a profile image are agreeing to have their video or image recorded. If you are unwilling to consent to have your profile or video image recorded, keep your camera off and do not use a profile image. Likewise, students who un-mute during class and participate verbally are agreeing to have their voices recorded.  If you are unwilling to consent to have your voice recorded during class, you will need to keep your mute button activated and communicate exclusively using the "chat" feature, which allows students to type questions and comments live. The chat will not be recorded or shared. As in all courses, unauthorized recording and unauthorized sharing of recorded materials is prohibited.
+
+## Disclaimer on Free and Open Discussion
+
+Students are encouraged to employ critical thinking and to rely on data and verifiable sources to interrogate all assigned readings and subject matter in this course as a way of determining whether they agree with their classmates and/or their instructor. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
 
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">

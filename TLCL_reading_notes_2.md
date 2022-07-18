@@ -172,4 +172,4 @@ My goal in having you read these chapters is for you to get a deeper understandi
 
 {% include callout.html content="We are going to skip a bunch of chapters in TLCL. Chapters 9 and 10 can be helpful, we may come back to them if questions arise, and certainly look at them if you want more of an understanding of permissions and processes.
 
-Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and for the most part, on HiPerGator, you don't need to (or can't) manage these things." type="primary" %}
+Part 2 and the first chapters of Part 3 get more into system configuration and management. Again, the content is good and could be useful for you, but we don't have the time to get into these and, for the most part, on HiPerGator, you don't need to (or can't) manage these things." type="primary" %}

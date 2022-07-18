@@ -11,7 +11,6 @@ weight: 0.2
 
 # Week 2: {{site.wk02_mon_date | date: '%b %d' }} - {{site.wk02_fri_date | date: '%b %d' }}
 
-
 {% include custom/series_week_by_week.html %}
 
 ## Overview for Week {{page.week_num}}
@@ -21,7 +20,7 @@ weight: 0.2
 
 ## What's due by the end of the week?
 
-* **Quiz 1 is due {{site.quiz_1_due | date: '%A, %B %d' }}**
+* **Quiz 1 is due {{site.quiz_1_due | date: '%A, %B %d' }}**.
 * Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.
   * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
 

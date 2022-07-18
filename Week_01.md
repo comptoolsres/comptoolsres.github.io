@@ -1,4 +1,5 @@
 ---
+title: "Week 1"
 tags: [week-by-week]
 sidebar: home_sidebar
 permalink: Week_01.html
@@ -54,7 +55,7 @@ weight: 0.1
 </ul>
 
 <div class="tab-content">
-  <div role="tabpanel" class="tab-pane" id="FriBefore">
+  <div role="tabpanel" class="tab-pane active" id="FriBefore">
     {% include day/002_before.html %}
   </div>
   <div role="tabpanel" class="tab-pane" id="FriDuring">

@@ -42,9 +42,9 @@ keywords: which, man, help, documentation, alias, redirection, double redirect, 
 
 * p. 44: **Getting a Command's Documentation**: This section presents a number of methods to get help, which in itself can be overwhelming! How I use these generally boils down to two or three methods:
 
-  `man` command: e.g. `man ls` will usually work for system programs--programs that are part of the OS, not applications you would install. So try that first. Sometimes it's easier to read a man page online, so Google [man ls](http://man7.org/linux/man-pages/man1/ls.1.html).
+  `man _command_`: e.g. `man ls` will usually work for system programs--programs that are part of the OS, not applications you would install. So try that first. Sometimes it's easier to read a man page online: e.g.: Google [man ls](http://man7.org/linux/man-pages/man1/ls.1.html).
 
-  `command -h`: this frequently works, and if not may provide some hints anyway. e.g.:
+  `_command_ -h`: this frequently works, and if not, may provide some hints anyway. e.g.:
 
   ```bash  
   $ python -h
@@ -67,15 +67,15 @@ keywords: which, man, help, documentation, alias, redirection, double redirect, 
 
   {% include tip.html content="p. 46: `man ls`: man pages can often be quite long, you can page through them with the space bar, but to quit out of the view, just type `q`." %}
 
-* p. 50: **Creating Our Own Commands with `alias`**: The vocabulary can get a little confusing here. I noted above that the symbolic and hard links created with the `ln` command are similar to aliases in MacOS. Aliases used here are very different--in Linux an alias is a way to create your own custom command, or modifications of a command.
+* p. 50: **Creating Our Own Commands with `alias`**: The vocabulary can get a little confusing here. I noted above that the symbolic and hard links created with the `ln` command are similar to aliases in MacOS or shortcuts in Windows. Aliases used here are very different--in Linux an alias is a way to create your own custom command, or modifications of a command.
 
-  In reading this section, it may be hard to see where you would use aliases. The example that I like to give is that I frequently like to view my file listing with the long listing, sorted reverse-chronologically with human readable file sizes (MB, GB vs all in bytes).
+In reading this section, it may be hard to see where you would use aliases. The example that I like to give is that I frequently like to view my file listing with the long listing, sorted reverse-chronologically with human readable file sizes (MB, GB vs all in bytes).
 
-  I could type `ls -lrth` every time I want to see that, but that is a lot of typing. So in my `.bashrc` file, I added the line:  
+I could type `ls -lrth` every time I want to see that, but that is a lot of typing. So in my `.bashrc` file, I added the line:  
 
-  `alias ll='ls -lrth'`  
-  
-  So now, if I type `ll`, bash looks at my aliases, and knows that I want it to do `ls -lrth` and gives me that output.
+`alias ll='ls -lrth'`  
+
+So now, if I type `ll`, bash looks at my aliases, and knows that I want it to do `ls -lrth` and gives me that output.
 
 ## Ch 6. Redirection
 
@@ -94,7 +94,7 @@ keywords: which, man, help, documentation, alias, redirection, double redirect, 
     </div>
 </div>
 
-{% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, overwrites the file you are redirecting to. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
+{% include tip.html content="p. 56: `>` and `>>`: I think it is worth emphasizing that the single redirect, `>`, <b>overwrites the file you are redirecting to</b>. If the file existed, it will be replaced with the new output. There is no recovering the previous information. So, be careful with `>`. And possibly favor the double redirect, `>>`, which appends to the existing file, placing new content at the end of the file." %}
 
 * p. 61: **The Difference Between `>` and `|`**: Pay particular attention to this box as people are often unclear on the difference between these commands.
 

@@ -8,24 +8,9 @@ summary: Computer and software needed for the course.
 toc: false
 ---
 
-<ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
-</ul>
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream">
-        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/62e0ddf6-6c46-46db-a480-1183d5d35e81?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox">
-        <video width="800"  controls>
-          <source src="https://www.dropbox.com/s/zb8h5tu67way9fa/Software_Setup.mp4?dl=1" type="video/mp4" />
-        </video> 
-    </div>
-</div>
-
 ## Computer requirements
 
-To complete this course, you will need a computer. It does not have to be anything fancy or have any particular operating system.
+To complete this course, you will need a portable computer. It does not have to be anything fancy or have any particular operating system. Bring it to class every day. There are lots of power outlets in the classroom, so charging shouldn't be an issue.
 
 For students enrolled in the course at UF, you will do most of your work on the universities computer cluster, HiPerGator. An account will be created for you and we will walk through everything in class, so don't worry. There are still some applications that will make it easier to work as noted below.
 

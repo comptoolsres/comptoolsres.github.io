@@ -13,8 +13,6 @@ toc: false
 * **BSC 4452**: Class 20417 {% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
 * **BSC 6451**: Class 24822
 
-{% include warning.html content="I am currently in the process of updating this site for the Fall 2022 semester, some links may not work and some content will be changing." %}
-
 ## Course Description
 
 The early 2000's where characterized as the era of *Big Data*, with researchers across disciplines finding research transformed by large volumes of diverse data. In the past decade, this has been again transformed by the re-emergence of artificial intelligence and machine learning systems aiding in interpretation of Big Data. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills, including AI fundamentals, are critical for researchers regardless of discipline.
@@ -90,7 +88,7 @@ The course is divided into four main sections:
 {% include image.html file='textbook.png' alt="textbook icon" position="right" max-width=75 %}
 The main texts for the course are:
 
-* The Linux Command Line: [http://linuxcommand.org]http://linuxcommand.org/tlcl.php) (my notes and referenced page numbers will be based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019)
+* The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org/tlcl.php) (my notes and referenced page numbers will be based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019)
 * Python For Everyone: [https://www.py4e.com/book.php](https://www.py4e.com/book.php)
 
 {% include image.html file='UfAffordableBadge_2022Fall.png' alt='Affordable UF badge' position='right' max-width=100 %} Each of these is available as a free PDF download or for purchase in print. Because there are no textbook costs for this course, it has been recognized by Affordable UF as an affordable course. 

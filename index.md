@@ -128,13 +128,13 @@ Week | Date | Reading/Assignment |Topic |
 [6](Week_06.html) | {{ site.wk06_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions
 [6](Week_06.html) | {{ site.wk06_fri_date | date: '%a, %b %d' }}| [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb) | Python: Iteration
 |||
-[7](Week_07.html) | {{ site.wk07_mon_date | date: '%a, %b %d' }} | [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
+[7](Week_07.html) | {{ site.wk07_mon_date | date: '%a, %b %d' }} | **Quiz 3 due**<br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
 [7](Week_07.html) | {{ site.wk07_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
 [7](Week_07.html) | {{ site.wk07_fri_date | date: '%a, %b %d' }}| | Homecoming, no class
 |||
 [8](Week_08.html) | {{ site.wk08_mon_date | date: '%a, %b %d' }} | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
 [8](Week_08.html) | {{ site.wk08_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
-[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br> **Quiz 3 due**<br>Problem Set 4, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
+[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br> Problem Set 4, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
 |||
 [9](Week_09.html) |{{ site.wk09_mon_date | date: '%a, %b %d' }} | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
 [9](Week_09.html) | {{ site.wk09_wed_date | date: '%a, %b %d' }}| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||

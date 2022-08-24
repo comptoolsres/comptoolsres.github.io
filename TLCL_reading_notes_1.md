@@ -61,7 +61,10 @@ Most of this text is written assuming you are running Linux on your computer. Wh
 ### Terminal Emulators
 
 We will look at Ch 1 in class and I will demonstrate getting logged into the cluster. In our case, the terminal emulators that we will use depend on the operating system of your computer. On MacOS, you will use Terminal. On Windows, you will use Bitvise, Git Bash or similar applications. Or, with any OS, you can use Open on Demand in your web browser.  
-These videos also demonstrate the process on:
+These videos also demonstrate the process:
+
+{% include warning.html content="Sorry, these videos are a bit out of date. There is now a Duo two-factor push that is needed and the main filesystem is /blue. I'll show this in class." %}
+
 * [MacOS with the Terminal](https://mediasite.video.ufl.edu/Mediasite/Play/f35ab059b77544499a0ca08ace6bcb931d)
 * [Windows with Terminus](https://mediasite.video.ufl.edu/Mediasite/Play/613bb96b08874182b3c56518b42bcffd1d)
 * [Using Open On Demand](https://mediasite.video.ufl.edu/Mediasite/Play/8efcf534ef3c408e9238d8deeeda083a1d)

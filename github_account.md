@@ -20,7 +20,7 @@ You do not need to have git installed on your own computer, but you may want to.
 
 ## Register for your github.com account
 
-* Go to [github.com](github.com) and sign-up for an account--please use your @ufl.edu email address when signing up. This will allow you to get an academic account.
+* Go to [github.com](https://github.com) and sign-up for an account--please use your @ufl.edu email address when signing up. This will allow you to get an academic account.
 
   {% include note.html content="github.com frequently updates their pricing model. The free account currently has all the features you will need, so it is not as important as it used to be to register with a @ufl.edu email.<br>
   Non-UF students can use whatever email is best for them" %} 
@@ -35,7 +35,7 @@ You do not need to have git installed on your own computer, but you may want to.
 
 ## The assignment
 
-* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/rUK_eJ67](https://classroom.github.com/a/31cm8-GY) (**This link is for the Fall 2022 semester of the course at UF**)
+* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/rUK_eJ67](https://classroom.github.com/a/rUK_eJ67) (**This link is for the Fall 2022 semester of the course at UF**)
 
 * Authorize GitHub Classroom to access your account.
  ![Screenshot of authorizing github classroom to access account](images/git_authorize.png)

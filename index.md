@@ -116,9 +116,9 @@ Week | Date | Reading/Assignment |Topic |
 [3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} |[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)<br>Optional: [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
 [3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} |**Quiz 1 due**<br>**Quiz 2 due**| Continue working on shell scripts and git/github, [Github Branching exercise](github_branches.md)
 |||
-[4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) |Flow control: `if`, `while`, `until`, `for` etc. 
-[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} |Google and Documentation 
-[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| Using UF Research Computing resources<br>Running batch jobs
+[4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Shell Scripts and version control with git and GitHub
+[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} |Flow control: `if`, `while`, `until`, `for` etc. 
+[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| Google and Documentation <br> Using UF Research Computing resources<br>Running batch jobs
 |||
 [5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} |  [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
 [5](Week_05.html) | {{ site.wk05_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python

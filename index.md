@@ -140,10 +140,10 @@ Week | Date | Reading/Assignment |Topic |
 [9](Week_09.html) | {{ site.wk09_wed_date | date: '%a, %b %d' }}|  | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
 [9](Week_09.html) |{{ site.wk09_fri_date | date: '%a, %b %d' }} |Project 1, due {{site.project_1_due | date: '%A, %B %d' }}| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb)| Visualization
 |||
-[10](Week_10.html)  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}|More data visualization
+[10](Week_10.html)  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}| More data visualization
 [10](Week_10.html)  | {{ site.wk10_wed_date | date: '%a, %b %d' }} | <br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
-[10](Week_10.html) | {{ site.wk10_fri_date | date: '%a, %b %d' }} |**Problem Set 4 Due**|  
-|||Work on Project 1
+[10](Week_10.html) | {{ site.wk10_fri_date | date: '%a, %b %d' }} |**Problem Set 4 Due**|  Work on Project 1
+|||
 [11](Week_11.html) | {{ site.wk11_mon_date | date: '%a, %b %d' }}| [Programming Foundations Databases](LinkedInLearningDatabases.md) |Work on Project 1
 [11](Week_11.html) | {{ site.wk11_wed_date | date: '%a, %b %d' }} | **Quiz 4 due**  |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
 [11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | **Project 1 Due**<br> [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design

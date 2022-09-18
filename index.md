@@ -117,55 +117,55 @@ Week | Date | Reading/Assignment |Topic |
 [3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} |**Quiz 1 due**<br>**Quiz 2 due**| Continue working on shell scripts and git/github, [Github Branching exercise](github_branches.md)
 |||
 [4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 27, 29 & 33](TLCL_reading_notes_5.md) | Shell Scripts and version control with git and GitHub
-[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} |Flow control: `if`, `while`, `until`, `for` etc. 
-[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| Google and Documentation <br> Using UF Research Computing resources<br>Running batch jobs
+[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} | Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} | Git and GitHub.com
+[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br>Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| 
 |||
-[5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} |  [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>More bash scripting
-[5](Week_05.html) | {{ site.wk05_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
-[5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} | [Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
+[5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} |  | Flow control: `if`, `while`, `until`, `for` etc.
+[5](Week_05.html) | {{ site.wk05_wed_date | date: '%a, %b %d' }} | [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>Google and Documentation <br> Using UF Research Computing resources<br>Running batch jobs
+[5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
 |||
-[6](Week_06.html)  | {{ site.wk06_mon_date | date: '%a, %b %d' }} |Problem Set 3 available, due {{site.ps_3_due | date: '%A, %B %d' }}<br>Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb) | Python: Flow Control
-[6](Week_06.html) | {{ site.wk06_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions
-[6](Week_06.html) | {{ site.wk06_fri_date | date: '%a, %b %d' }}| **Problem Set 2 due** <BR>[Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb) | Python: Iteration
+[6](Week_06.html)  | {{ site.wk06_mon_date | date: '%a, %b %d' }} |Problem Set 3 available, due {{site.ps_3_due | date: '%A, %B %d' }}<br>Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
+[6](Week_06.html) | {{ site.wk06_wed_date | date: '%a, %b %d' }} |[Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
+[6](Week_06.html) | {{ site.wk06_fri_date | date: '%a, %b %d' }}| [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions 
 |||
-[7](Week_07.html) | {{ site.wk07_mon_date | date: '%a, %b %d' }} | **Quiz 3 due**<br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
-[7](Week_07.html) | {{ site.wk07_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb) | Lists, Dictionaries, Tuples
+[7](Week_07.html) | {{ site.wk07_mon_date | date: '%a, %b %d' }} | **Problem Set 2 due** <BR>[Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb)  |Python: Iteration
+[7](Week_07.html) | {{ site.wk07_wed_date | date: '%a, %b %d' }}|**Quiz 3 due**<br> [Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
 [7](Week_07.html) | {{ site.wk07_fri_date | date: '%a, %b %d' }}| | Homecoming, no class
 |||
-[8](Week_08.html) | {{ site.wk08_mon_date | date: '%a, %b %d' }} | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
-[8](Week_08.html) | {{ site.wk08_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
-[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br> Problem Set 4, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
+[8](Week_08.html) | {{ site.wk08_mon_date | date: '%a, %b %d' }} |[Read Py4E Ch 8](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb), and [Chs 9-10](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb) |  Lists, Dictionaries, Tuples
+[8](Week_08.html) | {{ site.wk08_wed_date | date: '%a, %b %d' }} |  [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) |RegEx in Python
+[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }} | Problem Set 4, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb)| Scripting data acquisition
 |||
-[9](Week_09.html) |{{ site.wk09_mon_date | date: '%a, %b %d' }} | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
-[9](Week_09.html) | {{ site.wk09_wed_date | date: '%a, %b %d' }}| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
-[9](Week_09.html) |{{ site.wk09_fri_date | date: '%a, %b %d' }} |Project 1, due {{site.project_1_due | date: '%A, %B %d' }}| More data visualization
+[9](Week_09.html) |{{ site.wk09_mon_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb) |SciPy, NumPy, Pandas
+[9](Week_09.html) | {{ site.wk09_wed_date | date: '%a, %b %d' }}|  | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
+[9](Week_09.html) |{{ site.wk09_fri_date | date: '%a, %b %d' }} |Project 1, due {{site.project_1_due | date: '%A, %B %d' }}| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb)| Visualization
 |||
-[10](Week_10.html)  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}<br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming| [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
-[10](Week_10.html)  | {{ site.wk10_wed_date | date: '%a, %b %d' }} | **Problem Set 4 Due** | Work on Project 1
-[10](Week_10.html) | {{ site.wk10_fri_date | date: '%a, %b %d' }} |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
+[10](Week_10.html)  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}|More data visualization
+[10](Week_10.html)  | {{ site.wk10_wed_date | date: '%a, %b %d' }} | <br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming | [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
+[10](Week_10.html) | {{ site.wk10_fri_date | date: '%a, %b %d' }} |**Problem Set 4 Due**|  
+|||Work on Project 1
+[11](Week_11.html) | {{ site.wk11_mon_date | date: '%a, %b %d' }}| [Programming Foundations Databases](LinkedInLearningDatabases.md) |Work on Project 1
+[11](Week_11.html) | {{ site.wk11_wed_date | date: '%a, %b %d' }} | **Quiz 4 due**  |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
+[11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | **Project 1 Due**<br> [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) |Overview of databases<br>Database design
 |||
-[11](Week_11.html) | {{ site.wk11_mon_date | date: '%a, %b %d' }}| **Quiz 4 due** |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
-[11](Week_11.html) | {{ site.wk11_wed_date | date: '%a, %b %d' }} | **Project 1 Due**<br> |Overview of databases<br>Database design
-[11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) <br>Problem set 5, due {{site.ps_5_due | date: '%A, %B %d' }}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
-|||
-[12](Week_12.html) | {{ site.wk12_mon_date | date: '%a, %b %d' }} | | More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)
-[12](Week_12.html) | {{ site.wk12_wed_date | date: '%a, %b %d' }} | Quiz 5 available, due {{site.quiz_5_due | date: '%A, %B %d' }} | [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
+[12](Week_12.html) | {{ site.wk12_mon_date | date: '%a, %b %d' }} |Problem set 5, due {{site.ps_5_due | date: '%A, %B %d' }} |  [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
+[12](Week_12.html) | {{ site.wk12_wed_date | date: '%a, %b %d' }} | Quiz 5 available, due {{site.quiz_5_due | date: '%A, %B %d' }} | More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)
 [12](Week_12.html) | {{ site.wk12_fri_date | date: '%a, %b %d' }} | | Veteran's Day, no class 
 |||
-[13](Week_13.html) | {{ site.wk13_mon_date | date: '%a, %b %d' }} | Project 2 available, due {{ site.project_2_due | date: '%A, %B %d' }}| [SQLAlchemy and Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb)
-[13](Week_13.html) | {{ site.wk13_wed_date | date: '%a, %b %d' }}| | [Argparse](Argparse.md)
-[13](Week_13.html) | {{ site.wk13_fri_date | date: '%a, %b %d' }}| **Problem Set 5 due** | [Graphics](Graphics.html)
+[13](Week_13.html) | {{ site.wk13_mon_date | date: '%a, %b %d' }} | Project 2 available, due {{ site.project_2_due | date: '%A, %B %d' }}| [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|
+[13](Week_13.html) | {{ site.wk13_wed_date | date: '%a, %b %d' }}| | [SQLAlchemy and Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy_and_Pandas.ipynb)
+[13](Week_13.html) | {{ site.wk13_fri_date | date: '%a, %b %d' }}|  | [Argparse](Argparse.md)
 |||
-[14](Week_14.html) | {{ site.wk14_mon_date | date: '%a, %b %d' }} |  |  Work on Project 2
+[14](Week_14.html) | {{ site.wk14_mon_date | date: '%a, %b %d' }} | **Problem Set 5 due** | [Graphics](Graphics.html)
 [14](Week_14.html) | {{ site.wk14_wed_date | date: '%a, %b %d' }} |  | Thanksgiving, no Class
 [14](Week_14.html) | {{ site.wk14_fri_date | date: '%a, %b %d' }} |  |Thanksgiving, no class
 |||
 [15](Week_15.html) | {{ site.wk15_mon_date | date: '%a, %b %d' }}| | Work on Project 2
-[15](Week_15.html) | {{ site.wk15_wed_date | date: '%a, %b %d' }} |  **Quiz 5 due** <br> Quiz 6 available, due {{site.quiz_6_due | date: '%A, %B %d' }} | Intro to AI
+[15](Week_15.html) | {{ site.wk15_wed_date | date: '%a, %b %d' }} |  **Quiz 5 due** <br> Quiz 6 available, due {{site.quiz_6_due | date: '%A, %B %d' }} | Work on Project 2
 [15](Week_15.html) | {{ site.wk15_fri_date | date: '%a, %b %d' }} | | Intro to AI
 |||
-[16](Week_16.html) | {{ site.wk16_mon_date | date: '%a, %b %d' }} | **Project 2 due** <BR> | Into to AI
-[16](Week_16.html) | {{ site.wk16_wed_date | date: '%a, %b %d' }} | **Quiz 6 due** | Intro to AI
+[16](Week_16.html) | {{ site.wk16_mon_date | date: '%a, %b %d' }} |  | Into to AI
+[16](Week_16.html) | {{ site.wk16_wed_date | date: '%a, %b %d' }} |**Project 2 due** <BR> **Quiz 6 due** | Intro to AI
 
 ## Software and Hardware
 

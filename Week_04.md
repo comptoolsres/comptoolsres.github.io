@@ -15,11 +15,7 @@ weight: 0.4
 
 ## Overview for Week {{page.week_num}}
 
-* Learning to use Google for coding help
-* Learning to read code and application documentation
-* Using UF Research Computing resources
-* Writing job scripts to run batch jobs via SLURM scheduler
-* Build confidence on the command line and bash scripting.
+
 
 ## What's due by the end of the week?
 

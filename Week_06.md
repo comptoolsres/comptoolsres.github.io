@@ -15,6 +15,9 @@ weight: 0.6
 
 ## Overview for Week {{page.week_num}}
 
+* Getting started in Python
+* Using Python on the command line
+* Using Python in Jupyter notebooks
 * Python flow control (contitionals and loops)
 * Functions
 * Iteration
@@ -38,10 +41,10 @@ weight: 0.6
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        {% include day/014_before.html %}
+        {% include day/013_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        {% include day/014_during.html %}
+        {% include day/013_during.html %}
     </div>
 </div>
 
@@ -55,10 +58,10 @@ weight: 0.6
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        {% include day/015_before.html %}
+        {% include day/014_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        {% include day/015_during.html %}
+        {% include day/014_during.html %}
     </div>
 </div>
 
@@ -72,10 +75,10 @@ weight: 0.6
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        {% include day/016_before.html %}
+        {% include day/015_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        {% include day/016_during.html %}
+        {% include day/015_during.html %}
     </div>
 </div>
 

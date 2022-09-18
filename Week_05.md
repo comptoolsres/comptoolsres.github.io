@@ -17,28 +17,12 @@ weight: 0.5
 ## Overview for Week {{page.week_num}}
 
 * Compiling applications for source code
-* Getting started in Python
-* Using Python on the command line
-* Using Python in Jupyter notebooks
-
-## Information on ssh keys in GitHib.com
-
-This is the github page with the information used in the video: [https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh](Connecting to GitHub with SSH)
-
-<ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
-</ul>
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream_1">
-        <iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/b0e02a2d-f108-44ff-aea2-276d98a8b524?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe></iframe>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
-        <video width="800"  controls>
-          <source src="https://www.dropbox.com/s/dst0ai6pj255bq9/Using_ssh_keys_with_github.com.mp4?dl=1" type="video/mp4" />
-        </video>
-    </div>
-</div>
+* Learning to use Google for coding help
+* Learning to read code and application documentation
+* Using UF Research Computing resources
+* Writing job scripts to run batch jobs via SLURM scheduler
+* Build confidence on the command line and bash scripting.
+* Flow control: conditionals and loops
 
 ## What's due by the end of the week?
 
@@ -54,10 +38,10 @@ This is the github page with the information used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        {% include day/011_before.html %}
+        {% include day/08_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        {% include day/011_during.html %}
+        {% include day/08_during.html %}
     </div>
 </div>
 
@@ -71,10 +55,10 @@ This is the github page with the information used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        {% include day/012_before.html %}
+        {% include day/011_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        {% include day/012_during.html %}
+        {% include day/011_during.html %}
     </div>
 </div>
 
@@ -88,10 +72,10 @@ This is the github page with the information used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        {% include day/013_before.html %}
+        {% include day/012_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        {% include day/013_during.html %}
+        {% include day/012_during.html %}
     </div>
 </div>
 

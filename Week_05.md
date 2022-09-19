@@ -9,7 +9,7 @@ series: "Week-by-week series"
 weight: 0.5
 ---
 
-# Week 5: {{site.wk01_wed_date | date: '%b %d' }} - {{site.wk01_fri_date | date: '%b %d' }}
+# Week 5: {{site.wk05_mon_date | date: '%b %d' }} - {{site.wk05_fri_date | date: '%b %d' }}
 
 
 {% include custom/series_week_by_week.html %}

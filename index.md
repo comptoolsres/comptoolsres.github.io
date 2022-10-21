@@ -134,19 +134,19 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [8](Week_08.html) | {{ site.wk08_mon_date | date: '%a, %b %d' }} | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
 [8](Week_08.html) | {{ site.wk08_wed_date | date: '%a, %b %d' }} | [Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
-[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br> Problem Set 4, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
+[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }} | <br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
 |||
 [9](Week_09.html) |{{ site.wk09_mon_date | date: '%a, %b %d' }} | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
 [9](Week_09.html) | {{ site.wk09_wed_date | date: '%a, %b %d' }}| [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
-[9](Week_09.html) |{{ site.wk09_fri_date | date: '%a, %b %d' }} |Project 1, due {{site.project_1_due | date: '%A, %B %d' }}| More data visualization
+[9](Week_09.html) |{{ site.wk09_fri_date | date: '%a, %b %d' }} |**Problem Set 3 due**<br> Problem Set 4, due {{site.ps_4_due | date: '%A, %B %d' }}|Project 1, due {{site.project_1_due | date: '%A, %B %d' }}| More data visualization
 |||
 [10](Week_10.html)  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}<br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming| [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
-[10](Week_10.html)  | {{ site.wk10_wed_date | date: '%a, %b %d' }} | **Problem Set 4 Due** | Work on Project 1
+[10](Week_10.html)  | {{ site.wk10_wed_date | date: '%a, %b %d' }} |  | Work on Project 1
 [10](Week_10.html) | {{ site.wk10_fri_date | date: '%a, %b %d' }} |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
 |||
 [11](Week_11.html) | {{ site.wk11_mon_date | date: '%a, %b %d' }}| **Quiz 4 due** |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
 [11](Week_11.html) | {{ site.wk11_wed_date | date: '%a, %b %d' }} | **Project 1 Due**<br> |Overview of databases<br>Database design
-[11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) <br>Problem set 5, due {{site.ps_5_due | date: '%A, %B %d' }}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
+[11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br> **Problem Set 4 Due** <br>Problem set 5, due {{site.ps_5_due | date: '%A, %B %d' }}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
 |||
 [12](Week_12.html) | {{ site.wk12_mon_date | date: '%a, %b %d' }} | | More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)
 [12](Week_12.html) | {{ site.wk12_wed_date | date: '%a, %b %d' }} | Quiz 5 available, due {{site.quiz_5_due | date: '%A, %B %d' }} | [SQLAlchemy](https://github.com/comptoolsres/Jupyter_content/blob/main/SQLAlchemy.ipynb)|

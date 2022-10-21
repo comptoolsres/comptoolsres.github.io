@@ -33,10 +33,10 @@ weight: 1.4
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        {% include day/036_before.html %}
+        {% include day/035_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        {% include day/036_during.html %}
+        {% include day/035_during.html %}
     </div>
 </div>
 

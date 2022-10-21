@@ -32,10 +32,10 @@ weight: 1.5
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-        {% include day/037_before.html %}
+        {% include day/036_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-        {% include day/037_during.html %}
+        {% include day/036_during.html %}
     </div>
 </div>
 
@@ -49,10 +49,10 @@ weight: 1.5
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-        {% include day/038_before.html %}
+        {% include day/037_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-        {% include day/038_during.html %}
+        {% include day/037_during.html %}
     </div>
 </div>
 
@@ -66,10 +66,10 @@ weight: 1.5
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-        {% include day/039_before.html %}
+        {% include day/038_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-        {% include day/039_during.html %}
+        {% include day/038_during.html %}
     </div>
 </div>
 ## By the end of this week you should

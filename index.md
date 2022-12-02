@@ -161,7 +161,7 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [15](Week_15.html) | {{ site.wk15_mon_date | date: '%a, %b %d' }}| | Work on Project 2
 [15](Week_15.html) | {{ site.wk15_wed_date | date: '%a, %b %d' }} |  **Quiz 5 due** <br> Quiz 6 available, due {{site.quiz_6_due | date: '%A, %B %d' }} | Work on Project 2
-[15](Week_15.html) | {{ site.wk15_fri_date | date: '%a, %b %d' }} | | Intro to AI
+[15](Week_15.html) | {{ site.wk15_fri_date | date: '%a, %b %d' }} | | Intro to AI: ML: Decision trees and XGBoost exercise. [Work through this post on Kaggle](https://www.kaggle.com/code/princeashburton/abalone-analysis-supervised-learning/notebook).
 |||
 [16](Week_16.html) | {{ site.wk16_mon_date | date: '%a, %b %d' }} |  | Into to AI
 [16](Week_16.html) | {{ site.wk16_wed_date | date: '%a, %b %d' }} |**Project 2 due** <BR> **Quiz 6 due** | Intro to AI

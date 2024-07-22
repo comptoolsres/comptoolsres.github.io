@@ -180,18 +180,18 @@ wk16_fri_date: 2202-12-06
 
 # Due date variables. 
 
-quiz_1_due: 2024-09-02
-quiz_2_due: 2024-09-09
-quiz_3_due: 2024-10-05
-quiz_4_due: 2024-11-02
-quiz_5_due: 2024-11-30
-quiz_6_due: 2024-12-07
+quiz_1_due: 2024-09-06
+quiz_2_due: 2024-09-13
+quiz_3_due: 2024-09-27
+quiz_4_due: 2024-10-28
+quiz_5_due: 2024-11-13
+quiz_6_due: 2024-12-04
 
-ps_1_due: 2024-09-16
-ps_2_due: 2024-10-03
-ps_3_due: 2024-10-17
-ps_4_due: 2024-11-04
-ps_5_due: 2024-11-21
+ps_1_due: 2024-09-13
+ps_2_due: 2024-09-20
+ps_3_due: 2024-10-04
+ps_4_due: 2024-11-01
+ps_5_due: 2024-11-15
 
-project_1_due: 2024-11-04
-project_2_due: 2024-12-07
+project_1_due: 2024-10-30
+project_2_due: 2024-12-04

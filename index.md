@@ -99,7 +99,7 @@ For readings, there may be links to pages with my notes and additional explanati
 
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
-[1](Week_01.html) | {{ site.wk01_fri_date | date: '%a, %b %d' }} | [Download Software](software.md)|[Introduction and course objectives](https://comptoolsres.github.io/slides/Lect_01_Intro.html)
+[1](Week_01.html) | {{ site.wk01_fri_date | date: '%a, %b %d' }} | [Download Software](software.md)|[Introduction and course objectives](https://docs.google.com/presentation/d/1lwaPgzs71TuDtuz084PWYocnETpXfMhhJLL-r5UuhSs/edit?usp=sharing)
 |||
 [2](Week_02.html) | {{ site.wk02_mon_date | date: '%a, %b %d' }} | [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Take UFRC New User Training](https://help.rc.ufl.edu/doc/New_user_training) <br>Quiz 1 available, due {{site.quiz_1_due | date: '%A, %B %d' }}|Getting started: [Computers](https://comptoolsres.github.io/slides/Lect_02_Computers.html)<br> UF Research Computing Intro & getting started
 [2](Week_02.html) | {{ site.wk02_wed_date | date: '%a, %b %d' }} | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)| Continue building shell skills<br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47)

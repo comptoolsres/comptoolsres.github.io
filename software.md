@@ -22,17 +22,19 @@ If you are working through this course outside of a formal class, the content is
 
 Everything we do in class, *could* be done with UF Research Computing's Open on Demand environment, which is accessible from your web browser at: [https://ood.rc.ufl.edu/](https://ood.rc.ufl.edu/)
 
-{% include note.html content="Open on Demand is only accessible while on the UF network. Please see this page for details and additional Open on Demand help: [https://help.rc.ufl.edu/doc/Open_OnDemand](https://help.rc.ufl.edu/doc/Open_OnDemand)" %}
+{% include note.html content="Please see this page for details and additional Open on Demand help: [https://help.rc.ufl.edu/doc/Open_OnDemand](https://help.rc.ufl.edu/doc/Open_OnDemand)" %}
 
 That said, I personally find some of the software noted below more reliable and feature rich.
 
 ### <i class="fa fa-windows fa-3x"></i> If you have a Windows Computer
 
+1. A text editor:
+   1. **Microsoft [VS Code](https://code.visualstudio.com/)**: This is what I use. It has many extensions that are quite helpful. It is also free.
+     * One of the nice features of VSCode that we will make heavy use of is the integrated GitHub Copilot AI coding assistant.
 1. An ssh client to connect to remote servers, like HiPerGator
    1. As part of the course, you will learn to use `git`. While you do not need to install `git` on your computer, it may be helpful. If you do install `git`, there is a program called `Git Bash` that can serve as your ssh client. **You can download and install `git` from here: [https://git-scm.com/ <i class="fa fa-git-square fa-2x"></i>](https://git-scm.com/)**
    1. [BitVise](https://www.bitvise.com/) is another ssh client that works well. It also has an SFTP client and one nice feature is that once you authenticate, you can login multiple times without having to re-authenticate.
-1. A text editor:
-   1. **Microsoft [VS Code](https://code.visualstudio.com/)**: This is what I use. It has many extensions that are quite helpful. It is also free.
+
 
 ### <i class="fa fa-apple fa-3x"></i> If you have an Apple Computer
 

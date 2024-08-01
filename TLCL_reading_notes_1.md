@@ -37,6 +37,8 @@ When you do the reading for this class, **don't just read!** **Do the commands d
 
 ## Ch. 1: What is the Shell?
 
+{% include warning.html content="These videos walk through getting logged into HiPerGator. We likely don't have HiPerGator accounts yet, so we will come back to this later. After about minute 2:00, these should be more relevant." %}
+
 <ul id="VideoTabs" class="nav nav-tabs">
     <li class="active"><a href="#Stream_2" data-toggle="tab">MS Stream (UF account needed)</a></li>
     <li><a href="#Dropbox_2" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
@@ -60,6 +62,19 @@ Most of this text is written assuming you are running Linux on your computer. Wh
 
 
 {% include note.html content="Since it takes a bit of time for accounts to be ceated on HiPerGator, we will start the course using GitHub Codespaces, which provides an online envirnment where you can work through the exercises. " %}
+
+### GitHub Classroom
+
+This will be our first "assignment" you accept via GitHub Classroom. We'll use this a lot through the semester, so this will start getting you familiar with how GitHub works and how GitHub Classroom assignments work. We will walk through this in class, but here are the instructions we will use.
+
+#### Log into GitHub and Accept the Assignment
+
+* Make sure you are logged into your GitHub account.
+* [Click this link to accept the GitHub Codespaces assignment](https://classroom.github.com/a/rtqxenTm).
+
+#### 
+
+
 
 ### Terminal Emulators
 

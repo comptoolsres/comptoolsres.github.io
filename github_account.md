@@ -6,11 +6,11 @@ permalink: github_account.html
 toc: false
 ---
 
-## What is git
+## What is Git
 
 Git is a tool for version tracking that has become increasingly popular among coders for facilitating not only version tracking, but also collaboration and code distribution.
 
-You do not need to have git installed on your own computer, but you may want to. It is freely available from: [https://git-scm.com/](https://git-scm.com/).
+You do not need to have Git installed on your own computer, but you may want to. It is freely available from: [https://git-scm.com/](https://git-scm.com/).
 
 ## What is github.com
 
@@ -22,26 +22,27 @@ You do not need to have git installed on your own computer, but you may want to.
 
 * Go to [github.com](https://github.com) and sign-up for an account--please use your @ufl.edu email address when signing up. This will allow you to get an academic account.
 
-  {% include note.html content="github.com frequently updates their pricing model. The free account currently has all the features you will need, so it is not as important as it used to be to register with a @ufl.edu email.<br>
+  {% include note.html content="github.com frequently updates their pricing model. **By using your UF email and registering for GitHub Education (see below) you will gain free access to GitHub Copilot**, an AI pair programmer. We will use this a fair bit in the couse, so I encourage you to do this.<br><br>If you already have an account, but used a non-UF email, you can update your email [here](https://github.com/settings/emails)<br><br>
   Non-UF students can use whatever email is best for them" %} 
 
-* On the second page, select a free account.
 
-  {% include note.html content="You should never need to pay anything or enter any credit card information!" %}
+  {% include tip.html content="You should never need to pay anything or enter any credit card information for anything in this course!" %}
 
 * An email should now have been sent to you. Verify your email address by clicking the link in the email.
 
-* **This is optional**: To add the educational upgrade to a pro account, you can go to [https://education.github.com](https://education.github.com) and follow the steps to request an educational discount.
+## Register for GitHub Education
+
+* **This is optional, but give you free access to the GitHub Copilot among other things**: To add the educational upgrade to a pro account, you can go to [https://education.github.com](https://education.github.com) and follow the steps to request an educational discount.
 
 ## The assignment
 
-* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/rUK_eJ67](https://classroom.github.com/a/rUK_eJ67) (**This link is for the Fall 2022 semester of the course at UF**)
+* For this assignment, we will use github classroom. Click on this link to access the assignment: [https://classroom.github.com/a/oiWbMVZq](https://classroom.github.com/a/oiWbMVZq) (**This link is for the Fall 2024 semester of the course at UF**)
 
-* Authorize GitHub Classroom to access your account.
+* **Authorize GitHub Classroom to access your account.**
  ![Screenshot of authorizing github classroom to access account](images/git_authorize.png)
 * You will be prompted to pair your github account with the classroom roster by selecting your last name from the list. If your name isn't in the list, click the Skip button and we'll sort it out later...
 
-* Click the "Accept this assignment" button (note that the assignment is called "GitHub-Account" this year vs the screenshot that says "register" in green).
+* **Click the "Accept this assignment" button** (note that the assignment is called "GitHub Registration" this year vs the screenshot that says "register" in green).
  
  ![Screenshot of Accept this assignment screen](images/git_accept_assignment.png)
 
@@ -61,7 +62,8 @@ You do not need to have git installed on your own computer, but you may want to.
   Your name:
   ```
  
-* Add your name and scroll down to click the Commit changes button.
+* Add your name and click the green **Commit changes...*** button.
+* In the pop-up, you can leave the default message and the "Commit directly to the main branch." option selected.
  ![Screenshot of the Commit changes button](images/git_commit_changes.png) 
 
 

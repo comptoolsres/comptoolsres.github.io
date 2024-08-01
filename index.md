@@ -103,12 +103,12 @@ Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|
 [1](Week_01.html) | {{ site.wk01_fri_date | date: '%a, %b %d' }} | [Download Software](software.md)|[Introduction and course objectives](https://docs.google.com/presentation/d/1yed5Jdg_uE96qZzpAwp0agv3js3kxH8rWJxXsDgSpbA/edit?usp=sharing)
 |||
-[2](Week_02.html) | {{ site.wk02_mon_date | date: '%a, %b %d' }} | [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) <br> [Take UFRC New User Training](https://help.rc.ufl.edu/doc/New_user_training) <br>Quiz 1 available, due {{site.quiz_1_due | date: '%A, %B %d' }}|Getting started: [Computers](https://docs.google.com/presentation/d/1lwaPgzs71TuDtuz084PWYocnETpXfMhhJLL-r5UuhSs/edit?usp=sharing)<br> UF Research Computing Intro & getting started
-[2](Week_02.html) | {{ site.wk02_wed_date | date: '%a, %b %d' }} | [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)| Continue building shell skills<br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47)
-[2](Week_02.html) | {{ site.wk02_fri_date | date: '%a, %b %d' }} |  [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br>Problem Set 1 available, due {{ site.ps_1_due | date: '%A, %B %d' }}| [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
+[2](Week_02.html) | {{ site.wk02_mon_date | date: '%a, %b %d' }} |  [Take UFRC New User Training](https://help.rc.ufl.edu/doc/New_user_training)<br>Quiz 1 available, due {{site.quiz_1_due | date: '%A, %B %d' }}|Getting started: [Computers](https://docs.google.com/presentation/d/1lwaPgzs71TuDtuz084PWYocnETpXfMhhJLL-r5UuhSs/edit?usp=sharing)<br> Getting a [GitHub.com](https://github.com) account
+[2](Week_02.html) | {{ site.wk02_wed_date | date: '%a, %b %d' }} | [Read TLCL Introduction & Ch 1-4](TLCL_reading_notes_1.md) | Building shell skills
+[2](Week_02.html) | {{ site.wk02_fri_date | date: '%a, %b %d' }} | <br> [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Problem Set 1 available, due {{ site.ps_1_due | date: '%A, %B %d' }}| <br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47) 
 |||
 [3](Week_03.html) | {{ site.wk03_mon_date | date: '%a, %b %d' }} | | Labor Day, no class
-[3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} | Quiz 2 available, due {{site.quiz_2_due | date: '%A, %B %d'}}| Text manipulation
+[3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} | [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br> Quiz 2 available, due {{site.quiz_2_due | date: '%A, %B %d'}}| Text manipulation <br> [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
 [3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} |**Quiz 1 due**<br>[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)<br>Optional: [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br>**[GitHub Account assignment due](github_account.md)**<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
 |||
 [4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} |  | Continue working on shell scripts and git/github, [Github Branching exercise](github_branches.md)

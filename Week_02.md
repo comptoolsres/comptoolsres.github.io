@@ -15,14 +15,19 @@ weight: 0.2
 
 ## Overview for Week {{page.week_num}}
 
+
+* Overview of UF Research Computing and HiPerGator
+* Getting started on the Linux command line
 * Regular Expressions in text editors and with `grep`
 * Text manipulation
 
 ## What's due by the end of the week?
 
-* **Quiz 1 is due {{site.quiz_1_due | date: '%A, %B %d' }}**.
-* Problem Set 1 will be available on Wednesday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.
-  * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from week 1.
+* * Quiz 1 will be available on Friday. It is due {{site.quiz_1_due | date: '%A, %B %d' }}.
+  * It covers basic Linux commands like: `pwd, cd, ls, less, cp, mv, mkdir, rm, which, man, cat, sort, uniq, wc, head, tail, echo, history, grep, cut, paste, join, diff, tr, sed`
+
+* Problem Set 1 will be available on Friday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.
+  * Covers regular expressions in text editors and with `grep` as well as some of the Linux commands from weeks 1 & 2.
 
 ---
 
@@ -36,10 +41,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="MonBefore">
-      {% include day/003_before.html %}
+      {% include day/002_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="MonDuring">
-      {% include day/003_during.html %}
+      {% include day/002_during.html %}
     </div>
 </div>
 
@@ -55,10 +60,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-      {% include day/004_before.html %}
+      {% include day/003_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-      {% include day/004_during.html %}
+      {% include day/003_during.html %}
     </div>
 </div>
 
@@ -74,10 +79,10 @@ weight: 0.2
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-      {% include day/005_before.html %}
+      {% include day/004_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-      {% include day/005_during.html %}
+      {% include day/004_during.html %}
     </div>
 </div>
 
@@ -86,6 +91,13 @@ weight: 0.2
 ## By the end of this week you should
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
+
+1. Be confident logging into HiPerGator via ssh.
+1. Understand the basics of Linux filesystems and where to store your data on HiPerGator.
+1. Be able to use the following Linux commands: `pwd, cd, ls, less, cp, mv, mkdir, rm, which, man, cat, sort, uniq, wc, head, tail, echo, history`.
+1. Understand command arguments to modify how commands function.
+1. Be able to use redirect output to a file (`>, >>`).
+1. Be able to link commands with pipes (`|`).
 
 1. Be able to use regular expressions for finding and replacing text in a text editor such as VSCode.
 1. Be able to use the following Linux commands: `grep, cut, paste, join, diff, tr, sed`.

@@ -7,7 +7,7 @@ summary: The Linux command line is our gateway to immense computational power. T
 keywords: shell, ssh, emulator, cd, wildcard, ls, ln, bash
 ---
 
-{% include note.html content="Page numbers and headings referenced in the The Linux Command Line reading notes are based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019. This is the latest available the time the course was taught in Fall 2020. Page numbers may differ from print or other versions." %}
+{% include note.html content="Page numbers and headings referenced in the The Linux Command Line reading notes are based on the 19.01A PDF, Fifth internet edition from Jan 28, 2019. This is the latest available the time the course was taught in Fall 2024 Page numbers may differ from print or other versions." %}
 
 {% include tip.html content=" **Reading vs. Doing**  
 When you do the reading for this class, **don't just read!** **Do the commands discussed.** Play with them, break them, try different options, explore, etc. Reading about using the command line or programming without practicing it will not teach you much!" %}
@@ -58,16 +58,18 @@ Most of this text is written assuming you are running Linux on your computer. Wh
 * You don't need to install much on your computer. Sometimes, getting software setup is the hardest part of an introductory course and presents such a high barrier to entry that people give up before they start.
 * I find that new users are often afraid that they will type something wrong and break their computer. While there are some things covered in the text that you cannot do on the cluster, you also can't really break the cluster.
 
+
+{% include note.html content="Since it takes a bit of time for accounts to be ceated on HiPerGator, we will start the course using GitHub Codespaces, which provides an online envirnment where you can work through the exercises. " %}
+
 ### Terminal Emulators
 
 We will look at Ch 1 in class and I will demonstrate getting logged into the cluster. In our case, the terminal emulators that we will use depend on the operating system of your computer. On MacOS, you will use Terminal. On Windows, you will use Bitvise, Git Bash or similar applications. Or, with any OS, you can use Open on Demand in your web browser.  
 These videos also demonstrate the process:
 
-{% include warning.html content="Sorry, these videos are a bit out of date. There is now a Duo two-factor push that is needed and the main filesystem is /blue. I'll show this in class." %}
 
-* [MacOS with the Terminal](https://mediasite.video.ufl.edu/Mediasite/Play/f35ab059b77544499a0ca08ace6bcb931d)
-* [Windows with Terminus](https://mediasite.video.ufl.edu/Mediasite/Play/613bb96b08874182b3c56518b42bcffd1d)
-* [Using Open On Demand](https://mediasite.video.ufl.edu/Mediasite/Play/8efcf534ef3c408e9238d8deeeda083a1d)
+* [MacOS with the Terminal](https://mediasite.video.ufl.edu/Mediasite/Play/89b780ef71094f568a6c091953445ff31d)
+* [Windows with Terminus](https://mediasite.video.ufl.edu/Mediasite/Play/227c2cae1147422c91afff28435a51ac1d)
+* [Using Open On Demand](https://mediasite.video.ufl.edu/Mediasite/Play/4654bfa838624de894085bf54678848f1d)
 
 When using an ssh client, like the Terminal or Bitvise, the hostname is `hpg.rc.ufl.edu`. Your username is your GatorLink and the password is your GatorLink password.
 

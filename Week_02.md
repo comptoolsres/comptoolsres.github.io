@@ -23,7 +23,8 @@ weight: 0.2
 
 ## What's due by the end of the week?
 
-* * Quiz 1 will be available on Friday. It is due {{site.quiz_1_due | date: '%A, %B %d' }}.
+* The GitHub Account assignment is due **{{site.github_account_assignment_due | date: '%A, %B %d' }}**.
+* Quiz 1 will be available on Friday. It is due {{site.quiz_1_due | date: '%A, %B %d' }}.
   * It covers basic Linux commands like: `pwd, cd, ls, less, cp, mv, mkdir, rm, which, man, cat, sort, uniq, wc, head, tail, echo, history, grep, cut, paste, join, diff, tr, sed`
 
 * Problem Set 1 will be available on Friday. It is due {{site.ps_1_due | date: '%A, %B %d' }}.

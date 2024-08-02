@@ -22,7 +22,7 @@ You do not need to have Git installed on your own computer, but you may want to.
 
 * Go to [github.com](https://github.com) and sign-up for an account--please use your @ufl.edu email address when signing up. This will allow you to get an academic account.
 
-  {% include note.html content="github.com frequently updates their pricing model. **By using your UF email and registering for GitHub Education (see below) you will gain free access to GitHub Copilot**, an AI pair programmer. We will use this a fair bit in the couse, so I encourage you to do this.<br><br>If you already have an account, but used a non-UF email, you can update your email [here](https://github.com/settings/emails)<br><br>
+  {% include note.html content="github.com frequently updates their pricing model. **By using your UF email and registering for GitHub Education (see below) you will gain free access to GitHub Copilot**, an AI pair programmer. We will use this a fair bit in the course, so I encourage you to do this.<br><br>If you already have an account, but used a non-UF email, you can update your email [here](https://github.com/settings/emails)<br><br>
   Non-UF students can use whatever email is best for them" %} 
 
 

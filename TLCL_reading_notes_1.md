@@ -61,7 +61,7 @@ Most of this text is written assuming you are running Linux on your computer. Wh
 * I find that new users are often afraid that they will type something wrong and break their computer. While there are some things covered in the text that you cannot do on the cluster, you also can't really break the cluster.
 
 
-{% include note.html content="Since it takes a bit of time for accounts to be ceated on HiPerGator, we will start the course using GitHub Codespaces, which provides an online envirnment where you can work through the exercises. " %}
+{% include note.html content="Since it takes a bit of time for accounts to be created on HiPerGator, we will start the course using GitHub Codespaces, which provides an online environment where you can work through the exercises. " %}
 
 ### GitHub Classroom
 

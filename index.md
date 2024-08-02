@@ -86,6 +86,10 @@ The main texts for the course are:
 
 {% include tip.html content="Also check out the [additional resources page](resources.md)." %}
 
+## Course videos
+
+{% include note.html content="Most of the video content for this course was made in the Summer and Fall of 2020. The course was fully remote during the pandemic and these were mostly recorded in my living room. The quality is decent, but they are older and definately home made...That said, I think they may be useful to some, so I have opted to keep them as part of this site. Students should not feel that they need to watch all the videos, but may want to check them out for sections they miss or find more challenging." %}
+
 ## Course Calendar
 
 {% include image.html file='calendar.png' alt="calendar icon" position="right" max-width=75 %}
@@ -96,8 +100,6 @@ The main texts for the course are:
 {% include important.html content="This is subject to change, please check back frequently." %}
 
 For readings, there may be links to pages with my notes and additional explanations on the content from the texts. The texts are abbreviated as TLCL = [The Linux Command Line](http://linuxcommand.org); Py4E = [Python for Everyone](https://www.py4e.com/book.php).
-
-{% include note.html content="Most of the video content for this course was made in the Summer and Fall of 2020. The course was fully remote during the pandemic and these were mostly recorded in my living room. The quality is decent, but they are older and definately home made...That said, I think they may be useful to some, so I have opted to keep them as part of this site. Students should not feel that they need to watch all the videos, but may want to check them out for sections they miss or find more challenging." %}
 
 Week | Date | Reading/Assignment |Topic |
 -----|------|--------------------|------|

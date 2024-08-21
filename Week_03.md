@@ -15,6 +15,8 @@ weight: 0.3
 
 ## Overview for Week {{page.week_num}}
 
+* Regular Expressions in text editors and with `grep`
+* Text manipulation
 * Writing shell scripts
 * Using git and github.com for version control and collaboration
 
@@ -72,10 +74,10 @@ This is the github page with the information used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="WedBefore">
-      {% include day/006_before.html %}
+      {% include day/005_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="WedDuring">
-      {% include day/006_during.html %}
+      {% include day/005_during.html %}
     </div>
 </div>
 
@@ -89,17 +91,20 @@ This is the github page with the information used in the video: [https://docs.gi
 </ul>
 <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="FriBefore">
-      {% include day/007_before.html %}
+      {% include day/006_before.html %}
     </div>
     <div role="tabpanel" class="tab-pane" id="FriDuring">
-      {% include day/007_during.html %}
+      {% include day/006_during.html %}
     </div>
 </div>
 
 ## By the end of this week you should
 
 {% include image.html file='checkmark.png' alt="Check mark icon" position="right" max-width=75 %}
-1. Have a github.com account
+
+1. Be confident logging into HiPerGator via ssh.
+1. Be able to use regular expressions for finding and replacing text in a text editor such as VSCode.
+1. Be able to use the following Linux commands: `grep, cut, paste, join, diff, tr, sed`.
 1. Have watched the LinkedIn Learning Linux Command Line class
 1. Be comfortable writing bash scripts to accomplish more complex tasks
 1. Understand how to use git and github to:

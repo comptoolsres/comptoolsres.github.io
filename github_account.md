@@ -85,14 +85,14 @@ You do not need to have Git installed on your own computer, but you may want to.
 
 * After you submit the assignment, I will invite you to join the @comptoolsres organization. You will get an email from GitHub.com that looks something like this:
 
-   {% include image.html file='Github_invite_email.png' alt="Screenshot of the email invitation to join the GitHub organization @comptoolsres" position="center" max-width=300 %}
+   {% include image.html file='github_invite_email.png' alt="Screenshot of the email invitation to join the GitHub organization @comptoolsres" position="center" max-width=300 %}
 
 * The link in the email will take you to a page to accept the invitation.
 * Please **do not** check the "Ask for a GitHub Copilot seat (optional)" checkbox. There are no seats to provide. You need to get access to GitHub Copilot via the educational discount noted above.
 * **Click the "Join Computational Tools for Research" button.**
 
 
-   {% include image.html file='Github_invite.png' alt="Screenshot of the page to join the GitHub organization @comptoolsres" position="center" max-width=400 %}
+   {% include image.html file='github_invite.png' alt="Screenshot of the page to join the GitHub organization @comptoolsres" position="center" max-width=400 %}
 
 
 **Now you should be ready for the next class! 🎉**

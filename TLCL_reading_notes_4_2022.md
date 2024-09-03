@@ -8,6 +8,8 @@ summary: "This starts with a quick explanation of some of the issues surrounding
 keywords: black lives matter, blm, racism, git, github, hello_world, branch, init, commit, add, push, origin, main, master, merge, functions, pseudocode, scope, local, global, variable, stub, path, PATH
 ---
 
+{% include important.html content="This page was last updated for the 2022 version of this course. It is being retained for historical reference." %}
+
 {% include note.html content="Again, we are going to skip some chapters. As always, there's good content in these, but not enough time to cover everything." %}
 
 ## Confronting histories of racism and oppression

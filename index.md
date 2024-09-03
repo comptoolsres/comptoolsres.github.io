@@ -110,14 +110,14 @@ Week | Date | Reading/Assignment |Topic |
 [2](Week_02.html) | {{ site.wk02_fri_date | date: '%a, %b %d' }} | <br> [Read TLCL Ch 5-8](TLCL_reading_notes_2.md)<br>Problem Set 1 available, due {{ site.ps_1_due | date: '%A, %B %d' }}| <br>[Here are some exercises to work on](https://forms.gle/fZSskLMgw2exxfq47) 
 |||
 [3](Week_03.html) | {{ site.wk03_mon_date | date: '%a, %b %d' }} | | Labor Day, no class
-[3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} | [Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br> Quiz 2 available, due {{site.quiz_2_due | date: '%A, %B %d'}}| Text manipulation <br> [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
-[3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} |[Read TLCL Ch 20](TLCL_reading_notes_3.5.md)<br>Optional: [Watch Learn the Linux Command Line](LinkedInLearningLinux.md)<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)| Shell Scripts and version control with git and GitHub
+[3](Week_03.html) | {{ site.wk03_wed_date | date: '%a, %b %d' }} | | [Continue working on the exercises](https://forms.gle/fZSskLMgw2exxfq47) 
+[3](Week_03.html) | {{ site.wk03_fri_date | date: '%a, %b %d' }} |[Read Notes on Regular Expressions and TLCL Ch 19](TLCL_reading_notes_3.md)<br> Quiz 2 available, due {{site.quiz_2_due | date: '%A, %B %d'}} | Text manipulation <br> [<i class="fa fa-file"></i> Regular Expressions Handout](pdf/Regular_Expressions_Cheat_Sheet.pdf)
 |||
-[4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} |  | Continue working on shell scripts and git/github, [Github Branching exercise](github_branches.md)
-[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} |**Quiz 1 due**<br> Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} | Git and GitHub.com
-[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | **Quiz 2 due** <br> **Problem Set 1 due** <br>Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| 
+[4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 20](TLCL_reading_notes_3.5.md)<br>Optional: [Watch Learn the Linux Command Line](LinkedInLearningLinux.md) | Shell Scripts and version control with git and GitHub and git/github, [Github Branching exercise](github_branches.md)
+[4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} |<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)<br>**Quiz 1 due**<br> Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} | Git and GitHub.com
+[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| 
 |||
-[5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} | **Problem Set 1 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>Google and Documentation <br> Using UFIT Research Computing resources<br>Running batch jobs
+[5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} |**Quiz 2 due** <br>  **Problem Set 1 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>Google and Documentation <br> Using UFIT Research Computing resources<br>Running batch jobs
 [5](Week_05.html)  | {{ site.wk05_wed_date | date: '%a, %b %d' }} |[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
 [5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
 |||

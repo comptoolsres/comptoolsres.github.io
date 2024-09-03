@@ -4,15 +4,64 @@ tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_4.html
 toc: true
-summary: "This starts with using git and GitHub--topics not covered in the TLCL textbook. And finally, uses these tools as we develop scripts to move beyond what can be done in a single command line operation."
+summary: "This starts with a quick explanation of some of the issues surrounding ongoing racism in STEM and one small step that can be taken to create a more inclusive community. Then it dives into using git and GitHub--topics not covered in the TLCL textbook. And finally, uses these tools as we develop scripts to move beyond what can be done in a single command line operation."
 keywords: black lives matter, blm, racism, git, github, hello_world, branch, init, commit, add, push, origin, main, master, merge, functions, pseudocode, scope, local, global, variable, stub, path, PATH
 ---
 
 {% include note.html content="Again, we are going to skip some chapters. As always, there's good content in these, but not enough time to cover everything." %}
 
-## A quick note on histories of racism and oppression
+## Confronting histories of racism and oppression
 
-From 2020-2022, this course page had a larger section discussing this topic (see [this page for the 2022 version of this page](TLCL_reading_notes_4_2022.md)). In 2024, I have opted to abbreviate it, not because I feel less strongly that a culture of inclusion matters (this is still true and important), or because I feel the historic issues of racism and oppression in science are behind us (unfortunately this is not the case, and racism, sexism, and other forms of discrimination are still prevalent), but because the main reason for discussing this in this section of the course, the name for the "main" branch of a git repository has been largely solved. Despite some arguments that it might cause issues, the transition to using the name "main" is largely complete and was simple.
+<ul id="VideoTabs" class="nav nav-tabs">
+    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
+    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="Stream_1">
+        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/5efaf501-e1f5-41ed-8940-2034bf1cdb09?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
+        <video width="800"  controls>
+          <source src="https://www.dropbox.com/s/pqib0ame6ewvzwn/Git_github_and_confronting_systemic_racism_in_small_ways.mp4?dl=1" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
+In 2020, America once again turned its focus to the long, unbroken history of systemic racism and oppression of Black, Indigenous and People of Color (BIPOC, see [www.thebipocproject.org](http://thebipocproject.org)). The facts of systemic racism have, unfortunately, changed little in centuries. The situation merely became so bad that more of the country paid attention for some time.
+
+Science and technology fields have, in many cases, actively excluded BIPOC and women. It will remain to be seen if the conversations, commitments, and promises of action turn into true, lasting change to improve inclusion of historically marginalized groups.
+
+{% include image.html file='black-lives-matter-5329164_640.png' alt="Black Lives Matter logo" position="right" max-width=250 %} It is my hope that all feel welcome in this class and that we build up and cherish the strengths of all, regardless of race, ethnicity, gender identity, sexuality, socioeconomic status, religion, nationality, neurodiversity, or physical disability. I stand against violence and in solidarity with the Black Lives Matter movement.
+
+### Why is this in a coding class?
+
+It should probably have been there from the first day of class. It is my hope that all have felt included and supported so far. We have immersed ourselves in the tools of Linux and the command line: tools that have been developed by and for a largely white, male, cisgendered community. A community that has a long history of sexist, racist actions.
+
+Progress is slow, but I am encouraged by groups such as [Women who code](https://www.womenwhocode.com/), [BlacksInTech](https://www.blacksintechnology.net/), and [/dev/Color](https://www.devcolor.org/). We must do better.
+
+One action, small as it is, that we *can* take is to change the terms we use when they do harm to others.
+
+### Small changes to reduce harm
+
+In this section, we are starting to work with `git` and [GitHub](https://github.com). The historical, and until October 1, 2020, default name for the main branch of a git <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.repository}}">repository</a> is `master`. Similarly, the terms "master" and "slave" are frequently used in computer programming and hardware for controlling and subordinate processes/devices, respectively. **This terminology is offensive and unnecessary**. Importantly, it is easy to make changes in order to create a more inclusive community, and, I believe, we must do so.
+
+There has been much discussion on the topic in the tech community. It is clear that
+> <i class="fa fa-quote-left"></i> 'master'...brings the idea of human bondage and suffering to mind for a non-trivial number of people" ([Brian Carlson](https://lore.kernel.org/git/20200505231641.GH6530@camp.crustytoothpaste.net/)).
+
+As such, many organizations, such as the [Software Freedom Conservancy](https://sfconservancy.org/news/2020/jun/23/gitbranchname/) and [GitHub](https://github.com/github/renaming) have pledge to work to change the convention to instead use the name `main` for the main branch of a <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.repository}}">repository</a>.
+
+**We are still in the process.** In fact, my first attempts to transition this site failed as GitHub only allowed websites to be based on the master branch. That changed on July 31, 2020 and this site was transitioned to use the main branch on August 6, 2020, when I learned of GitHub's new feature. Incidentally, the transition took about 5-minutes--it is truly a small change that I hope causes a little less harm.
+
+### Configure the default branch name in GitHub
+
+As of [August 26, 2020](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/), you can now [change the default name for your repositories](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/), and on October 1, 2020, that default will become `main` unless you opt out.
+
+{% include note.html content="I recommend that you take a minute now and change the default branch name for new repositories in your account to `main`.<br>
+  • <a href='https://github.com/settings/repositories'>Follow this link to change settings for your personal account.</a><br>
+  • Click the 'Update default branch name now' button to update your default.
+  <img src='images/git_update_default_branch_now.png'><br>
+  • The new name filed will be pre-populated with the suggested `main` name and you can just click the Update button.
+" %}
 
 ## Getting setup in github.com
 

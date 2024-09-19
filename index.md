@@ -119,11 +119,11 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} |**Quiz 2 due** <br>  **Problem Set 1 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>Google and Documentation <br> Using UFIT Research Computing resources<br>Running batch jobs
 [5](Week_05.html)  | {{ site.wk05_wed_date | date: '%a, %b %d' }} |[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
-[5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
+[5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d' }} <br> Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
 |||
-[6](Week_06.html) | {{ site.wk06_mon_date | date: '%a, %b %d' }} |Problem Set 3 available, due {{site.ps_3_due | date: '%A, %B %d' }} <br> [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
+[6](Week_06.html) | {{ site.wk06_mon_date | date: '%a, %b %d' }} |<br> [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
 [6](Week_06.html) | {{ site.wk06_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions 
-[6](Week_06.html) | {{ site.wk06_fri_date | date: '%a, %b %d' }} |**Quiz 3 due**<br> [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb)  |Python: Iteration
+[6](Week_06.html) | {{ site.wk06_fri_date | date: '%a, %b %d' }} |**Problem Set 2 due**<br>**Quiz 3 due**<br> [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb)  |Python: Iteration
 |||
 [7](Week_07.html) | {{ site.wk07_mon_date | date: '%a, %b %d' }}|[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
 [7](Week_07.html) | {{ site.wk07_wed_date | date: '%a, %b %d' }} | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python

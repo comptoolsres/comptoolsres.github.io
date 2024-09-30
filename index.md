@@ -115,11 +115,13 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [4](Week_04.html) | {{ site.wk04_mon_date | date: '%a, %b %d' }} | [Read TLCL Ch 20](TLCL_reading_notes_3.5.md)<br>Optional: [Watch Learn the Linux Command Line](LinkedInLearningLinux.md) | Shell Scripts and version control with git and GitHub and git/github, [Github Branching exercise](github_branches.md)
 [4](Week_04.html) | {{ site.wk04_wed_date | date: '%a, %b %d' }} |<br>[Read TLCL Ch 24-26](TLCL_reading_notes_4.md)<br>**Quiz 1 due**<br> Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d'}} | Git and GitHub.com
-[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| 
+[4](Week_04.html) | {{ site.wk04_fri_date | date: '%a, %b %d' }} | Watch the [HiPerGator: SLURM Submission Scripts](https://help.rc.ufl.edu/doc/Prerecorded_Training#HiPerGator:_SLURM_Submission_Scripts) training| [Slides on git and GitHub.com](https://docs.google.com/presentation/d/19Rq6hg8eHcVb1VXFNlZEY_ykNc2kchGzvVMw9tvv2yE/edit?usp=sharing) and Shell Scripts and version control with git and GitHub and git/github, [Github Branching exercise](github_branches.md)
 |||
 [5](Week_05.html) | {{ site.wk05_mon_date | date: '%a, %b %d' }} |**Quiz 2 due** <br>  **Problem Set 1 due** <br> [Read TLCL Ch 23](TLCL_reading_notes_6.md) | Compiling source code<br>Google and Documentation <br> Using UFIT Research Computing resources<br>Running batch jobs
 [5](Week_05.html)  | {{ site.wk05_wed_date | date: '%a, %b %d' }} |[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
-[5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
+[5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d' }} <br> Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
+|||
+6 | Skipping week 6 :cold_sweat: |
 |||
 7| {{ site.wk07_mon_date | date: '%a, %b %d' }} | [Finish up Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb) <br> [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
 7 | {{ site.wk07_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions 

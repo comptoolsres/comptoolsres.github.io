@@ -121,7 +121,7 @@ Week | Date | Reading/Assignment |Topic |
 [5](Week_05.html)  | {{ site.wk05_wed_date | date: '%a, %b %d' }} |[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
 [5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Problem Set 2 available, due {{site.ps_2_due | date: '%A, %B %d' }} <br> Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
 |||
-6 | Skipping week 6 :cold_sweat: |
+6 | Skipping week 6 😰 |
 |||
 7| {{ site.wk07_mon_date | date: '%a, %b %d' }} | [Finish up Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb) <br> [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
 7 | {{ site.wk07_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions 

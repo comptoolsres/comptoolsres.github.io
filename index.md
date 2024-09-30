@@ -121,29 +121,25 @@ Week | Date | Reading/Assignment |Topic |
 [5](Week_05.html)  | {{ site.wk05_wed_date | date: '%a, %b %d' }} |[Read Py4E Ch 1](py4e_reading_notes_1.md) |Introduction to Python
 [5](Week_05.html)  | {{ site.wk05_fri_date | date: '%a, %b %d' }} |Quiz 3 available, due {{site.quiz_3_due | date: '%A, %B %d' }}<br>[Read Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb)| Python data types
 |||
-[6](Week_06.html) | {{ site.wk06_mon_date | date: '%a, %b %d' }} |Problem Set 3 available, due {{site.ps_3_due | date: '%A, %B %d' }} <br> [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
-[6](Week_06.html) | {{ site.wk06_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions 
-[6](Week_06.html) | {{ site.wk06_fri_date | date: '%a, %b %d' }} |**Quiz 3 due**<br> [Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb)  |Python: Iteration
+7| {{ site.wk07_mon_date | date: '%a, %b %d' }} | [Finish up Py4E Ch 2](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb) <br> [Read Py4E Ch 3](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb)|Python: Flow Control
+7 | {{ site.wk07_wed_date | date: '%a, %b %d' }}| [Read Py4E Ch 4](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb)| Python: Functions 
+7 | {{ site.wk07_fri_date | date: '%a, %b %d' }} | Problem Set 3 available, due {{site.ps_3_due | date: '%A, %B %d' }}<BR>[Read Py4E Ch 5](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb)  |Python: Iteration
 |||
-[7](Week_07.html) | {{ site.wk07_mon_date | date: '%a, %b %d' }}|[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
-[7](Week_07.html) | {{ site.wk07_wed_date | date: '%a, %b %d' }} | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
-[7](Week_07.html) | {{ site.wk07_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br>[[Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
+8 | {{ site.wk08_mon_date | date: '%a, %b %d' }}| Python data types[Read Py4E Ch 6](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb) & [Ch 7](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb) | Python: try/except, Strings, File I/O
+8 | {{ site.wk08_wed_date | date: '%a, %b %d' }} | [Read Ch 11](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb) | RegEx in Python
+8 | {{ site.wk08_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br>[[Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
 |||
-[8](Week_08.html) | {{ site.wk08_mon_date | date: '%a, %b %d' }} | <br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
-[8](Week_08.html) |{{ site.wk08_wed_date | date: '%a, %b %d' }} | | [Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
-[8](Week_08.html) | {{ site.wk08_fri_date | date: '%a, %b %d' }}| Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb) | Visualization|||
+9 | {{ site.wk09_mon_date | date: '%a, %b %d' }} | Problem Set 4 available, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
+9 |{{ site.wk09_wed_date | date: '%a, %b %d' }} | |  **Matt at Conference, no class**: Work on Problem set 4
+9 | {{ site.wk09_fri_date | date: '%a, %b %d' }}| | **Homecoming, no class** 
 |||
-[9](Week_09.html) |{{ site.wk09_mon_date | date: '%a, %b %d' }} | Problem Set 4 available, due {{site.ps_4_due | date: '%A, %B %d' }}<br>Project 1, due {{site.project_1_due | date: '%A, %B %d' }}| More data visualization
-[9](Week_09.html) |{{ site.wk09_wed_date | date: '%a, %b %d' }} | | Matt at Conference, no class work on: TBD
-[9](Week_09.html) |{{ site.wk09_fri_date | date: '%a, %b %d' }} | | **Homecoming, no class**
-|||
-[10](Week_10.html)  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}<br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming| [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
-[10](Week_10.html)  | {{ site.wk10_wed_date | date: '%a, %b %d' }} |  | Work on Project 1
-[10](Week_10.html) | {{ site.wk10_fri_date | date: '%a, %b %d' }} |[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
+10  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}<br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming| [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)
+10  | {{ site.wk10_wed_date | date: '%a, %b %d' }} |  | [Matplotlib and data visualization](https://github.com/comptoolsres/Jupyter_content/blob/main/Data_visualization.ipynb)<br>[Pandas with Messy Data](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_messy_data.ipynb)<br>[Data visualization with Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/Pandas_data_vis.ipynb)
+10 | {{ site.wk10_fri_date | date: '%a, %b %d' }} |**Problem Set 4 due**<br>[Programming Foundations Databases](LinkedInLearningDatabases.md)|  Work on Project 1
 |||
 [11](Week_11.html) | {{ site.wk11_mon_date | date: '%a, %b %d' }}| **Quiz 4 due** |[Database intro](Database_Intro.md)<br>[Flight DB Example](Databases_flights_DB_example.md)
 [11](Week_11.html) | {{ site.wk11_wed_date | date: '%a, %b %d' }} | **Project 1 Due**<br> |Overview of databases<br>Database design
-[11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br> **Problem Set 4 Due** <br>Problem set 5 available, due {{site.ps_5_due | date: '%A, %B %d' }}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
+[11](Week_11.html) | {{ site.wk11_fri_date | date: '%a, %b %d' }} | [Read Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb) <br>Problem set 5 available, due {{site.ps_5_due | date: '%A, %B %d' }}| [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
 |||
 [12](Week_12.html) | {{ site.wk12_mon_date | date: '%a, %b %d' }} | |  [Py4E Ch. 15, through 15.5 and my notes](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch15_databases.ipynb)<br>[Databases, SQL and sqlite](SQL_Introduction.md)
 [12](Week_12.html) | {{ site.wk12_wed_date | date: '%a, %b %d' }} | Quiz 5 available, due {{site.quiz_5_due | date: '%A, %B %d' }} | More on databases and [Joins](https://github.com/comptoolsres/Jupyter_content/blob/main/JOINs.ipynb)

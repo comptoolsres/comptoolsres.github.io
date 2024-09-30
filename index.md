@@ -132,7 +132,7 @@ Week | Date | Reading/Assignment |Topic |
 8 | {{ site.wk08_fri_date | date: '%a, %b %d' }} | **Problem Set 3 due**<br>[[Read Py4E Ch 12](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch12_networked.ipynb) & [Ch 13](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch13_web_services.ipynb) | Scripting data acquisition
 |||
 9 | {{ site.wk09_mon_date | date: '%a, %b %d' }} | Problem Set 4 available, due {{site.ps_4_due | date: '%A, %B %d' }}<br>[SciPy, NumPy, Pandas](https://github.com/comptoolsres/Jupyter_content/blob/main/NumPy_SciPy_Pandas.ipynb)| SciPy, NumPy, Pandas
-9 |{{ site.wk09_wed_date | date: '%a, %b %d' }} | |  **Matt at Conference, no class**: Work on Problem set 4
+9 |{{ site.wk09_wed_date | date: '%a, %b %d' }} | Project 1 available, due {{site.project_1_due | date: '%A, %B %d' }} |  **Matt at Conference, no class**: Work on Problem set 4
 9 | {{ site.wk09_fri_date | date: '%a, %b %d' }}| | **Homecoming, no class** 
 |||
 10  | {{ site.wk10_mon_date | date: '%a, %b %d' }} | Quiz 4 available, due {{site.quiz_4_due | date: '%A, %B %d' }}<br>Scan Py4E Ch 16 <BR> Py4E Ch 14: Object oriented Programming| [Py4E Ch 14: Object oriented programming](https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch14_ObjectOrientedProgramming.ipynb)

@@ -153,7 +153,7 @@ Week | Date | Reading/Assignment |Topic |
 |||
 [14](Week_14.html) | {{ site.wk14_mon_date | date: '%a, %b %d' }} |  | [Graphics](Graphics.html)
 [14](Week_14.html) | {{ site.wk14_wed_date | date: '%a, %b %d' }} | | Work on Project 2
-[14](Week_14.html) | {{ site.wk14_fri_date | date: '%a, %b %d' }} | **Quiz 5 due** <br> Quiz 6 available, due {{site.quiz_6_due}}| Intro to AI
+[14](Week_14.html) | {{ site.wk14_fri_date | date: '%a, %b %d' }} | **Quiz 5 due** <br> Quiz 6 available, due {{site.quiz_6_due}}| [Intro to AI](https://github.com/comptoolsres/brief_AI_intro)
 |||
 [15](Week_15.html) | {{ site.wk15_mon_date | date: '%a, %b %d' }} |  | Thanksgiving, no class
 [15](Week_15.html) | {{ site.wk15_wed_date | date: '%a, %b %d' }} |  | Thanksgiving, no class

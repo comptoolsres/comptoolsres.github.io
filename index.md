@@ -15,9 +15,11 @@ toc: false
 
 ## Course Description
 
-The early 2000's where characterized as the era of *Big Data*, with researchers across disciplines finding research transformed by large volumes of diverse data. In the past decade, this has been again transformed by the re-emergence of artificial intelligence and machine learning systems aiding in interpretation of Big Data. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing skills, including AI fundamentals, are critical for researchers regardless of discipline.
+The early 2000’s were characterized as the era of *Big Data*, with researchers across disciplines finding that large volumes of diverse data transformed research. In the past decade, this has again been transformed by the re-emergence of artificial intelligence and machine learning systems aiding in the interpretation of Big Data. As data types and volumes continue to grow, knowledge of scripting, database management, and advanced computing, including AI fundamentals, is critical for researchers across disciplines.
 
-This course introduces students to the tools needed to be proficient, computationally-enabled researchers, providing a foundation in Linux and Bash scripting for data management, Python coding, basic SQL database fundamentals, and an introduction to artificial intelligence methods.
+This course introduces students to the tools needed to be proficient, computationally enabled researchers, providing a foundation in Linux and Bash scripting for data management, Python programming, basic SQL database fundamentals, and an introduction to artificial intelligence methods.
+
+The course assumes no prior coding or command-line skills and covers concepts that enable students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained researchers and allows them to work in multidisciplinary fields.
 
 **The course assumes no prior coding or command line skills**, and covers concepts that will provide the ability for students to apply new technologies to a wide array of research questions. A foundation in data management and analysis concepts opens doors for well-trained researchers and allows them to work in multidisciplinary fields.
 

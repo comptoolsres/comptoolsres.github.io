@@ -3,42 +3,30 @@ title: "Notes on Regular Expressions & TLCL Ch 19"
 tags: [linux]
 sidebar: home_sidebar
 permalink: TLCL_3.html
-summary: Regular Expressions are and incredibly powerful tool that can be used not only on the command line, but also in your text editor.
+summary: Regular Expressions are an incredibly powerful tool that can be used not only on the command line, but also in your text editor.
 keywords: regex, wildcard, repetition, character classes, boundary, replace, find, grep, posix
 ---
 
 ## Regular Expressions
 
-<ul id="VideoTabs" class="nav nav-tabs">
-    <li class="active"><a href="#Stream_1" data-toggle="tab">MS Stream (UF account needed)</a></li>
-    <li><a href="#Dropbox_1" data-toggle="tab">Dropbox (No account, offers picture-in-picture, but no captions or search)</a></li>
-</ul>
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="Stream_1">
-        <iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/9d5d5d1c-1a51-4b9c-94aa-08b34d682c3c?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-    </div>
-    <div role="tabpanel" class="tab-pane" id="Dropbox_1">
-        <video width="800"  controls>
-          <source src="https://www.dropbox.com/s/8sdpfxfn62n2roa/TLCL_CH_19_Regular_Expressions.mp4?dl=1" type="video/mp4" />
-        </video>
-    </div>
-</div>
+Start by reading p. 267 as an introduction. But before continuing, I have some additional exercises that I hope make it easier to learn about regular expressions.
 
-Start by reading p. 251 as an introduction. But before continuing, I have some additional exercises that I hope make it easier to learn about regular expressions.
+At the start of Ch 19, William Shotts says (p. 267):
 
-At the start of Ch 19, William Shotts says (p. 251):
 > <i class="fa fa-quote-left"></i> As we have seen, text data plays an important role on all Unix-like systems, such as Linux.
 
 While this is true, text data plays an important roll everywhere! Much of our data is textual, whether it is numerical data or words, much data is textual. Even images can be processed as matrices of numeric values representing pixel intensities. Fundamentally, all computer data is stored as 1s and 0s--text! Manipulating, summarizing, searching, processing text makes up a large part of data processing.
 
-William Shotts, goes on to say (p. 251):
+William Shotts, goes on to say (p. 267):
+
 > <i class="fa fa-quote-left"></i> Regular expressions ... may be (arguably) the most arcane feature of them all. This is not to suggest that the time it takes to learn about them is not worth the effort. Quite the contrary. A good understanding will enable us to perform amazing feats, though their full value may not be immediately apparent.
 
-I am not sure I can agree regular expressions are arcane, to me they are magic! If the only thing you take away from this course is how to use regular expressions (RegEx or regex), and only use them with find and replace text in a text editor, you will have gotten a valuable skill from this course. I use regex all the time! People ask for seemingly complex transformations and a few minutes with regex, provides a solution.
+I am not sure I can agree regular expressions are arcane, to me they are magic! If the only thing you take away from this course is how to use regular expressions (RegEx or regex), and only use them with find and replace text in a text editor, you will have gotten a valuable skill from this course. I use regex all the time!
 
 Regular expressions are a symbolic notation that allow you to find and replace with superpowers! Regex will transform your life! Or at least change how you transform data for the rest of your life...
 
-The last important quote from TLCL touches on an unfortunate truth (p. 251):
+The last important quote from TLCL touches on an unfortunate truth (p. 267):
+
 > <i class="fa fa-quote-left"></i> However, to further confuse things, not all regular expressions are the same; they vary slightly from tool to tool and from programming language to language.
 
 We will quickly find "non-standard" implementations in VSCode, MobaXterm, the [RegExONE](https://regexone.com/) and [RegExr](https://regexr.com/) sites recommended on the [resources page](resources.md), and elsewhere. While most implement basic features in similar manners, for various reasons, many regular expressions work *slightly* differently from tool to tool. While this can be frustrating, with an understanding of the fundamentals, you can work around these differences and, in some cases, exploit them to your favor.
@@ -47,9 +35,9 @@ We will quickly find "non-standard" implementations in VSCode, MobaXterm, the [R
 
 Chapter 19 of TLCL focuses on the `grep` utility, which is a great utility, but let's take a step back for a second and use your text editor. This will be easier to get started with.
 
-{% include warning.html content="As noted, different tools implement regular expressions slightly differently. For these notes, I will use VSCode. I will point out some non-standard implementations within VSCode. If you use a different text editor, there may be some differences." %}
+{% include warning.html content="As noted, different tools implement regular expressions slightly differently. For these notes, I will use the text editor in the GitHub Codespace, which is basically VS Code. I will point out some non-standard implementations within VS Code. If you use a different text editor, there may be some differences." %}
 
-Using VSCode, make a new document and paste the following line into the new file:
+Using the editor in your Codespace, make a new document and paste the following line into the new file:
 
 `Go Gators, Come on Gators, Get up and Go!`
 
@@ -57,13 +45,13 @@ Using VSCode, make a new document and paste the following line into the new file
 
 Open the Find dialog box and turn on regular expression searches. In VSCode, that is the "`.*`" button, in MobaXterm, there is a "Regular expressions" checkbox in the 'Find...' modal.
 
-In the Find box enter the text "`Go`" and either look through the found text (highlighted in the document) or click Find All.
+In the Find box enter the text "`Go`" and either look through the found text (highlighted in the document) or click through the found instances.
 
-{% include tip.html content="VSCode, and other editors, also have a case sensitive option. I suggest leaving it on, so that searches are case sensitive unless you specifically do not want them to be. That way, the search is more similar to standard regex and you are less likely to be surprised." %}
+{% include tip.html content="VSCode, and other editors, also have a case sensitive option (the 'Aa' button). I suggest leaving it on, so that searches are case sensitive unless you specifically do not want them to be. That way, the search is more similar to standard regex and you are less likely to be surprised." %}
 
 {% include tip.html content="I highly encourage you to play with these regular expressions either in VSCode or one of the online resources. It would probably be best to paste in or make up some other text to experiment with." %}
 
- **I have put together a [<i class="fa fa-file fa-2x"></i> Regular_Expressions_Cheat_Sheet.pdf](pdf/Regular_Expressions_Cheat_Sheet.pdf), print this out and keep it handy for this section.**
+ **I have put together a [Regular Expression Cheat Sheet](Regular_Expressions_Cheat_Sheet.md)**.
 
 ### <i class="fa fa-search"></i> Wildcard patterns
 
@@ -396,14 +384,11 @@ Amazing stuff right??  ![Amazing gif](images/amazing.gif)
 
 As useful as it is to use regular expression in your text editor, there are lots of cool things you can do with them on the command line. Chapter 19 of TLCL is a good walk through of the "`grep`" tool, so back to that...
 
-* p. 253: **`grep bzip dirlist*.txt` output**: Note that `bzip` is found in both /bin and /usr/bin on HiPerGator, so you will get four lines that match rather then the two shown in this box. The same applies to the other similar searches.
-* p. 254: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
-* p. 256: **A Crossword Puzzle Helper**: Our word dictionary (see grey box) has 479,828 words! So results are a bit different.
-* p. 258-263: **<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.posix}}">POSIX</a> Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
-* p. 263: **Alternation**: This is another useful command and also another meaning of the "`|`" character. 
-* p. 264" **Quantifiers** : This is another case of differences in implementation...grep uses the "`?`" for matching 0 or 1 times, while other implementations use it to control greediness. Here is a [StackOverflow](https://stackoverflow.com/questions/3027518/how-to-do-a-non-greedy-match-in-grep) page that talks about using the -P flag in grep to get the non-greedy behavior--don't worry about this unless you are curious or find yourself needing it...
-
-{% include tip.html content="We will talk about using Google and reading documentation later, but one thing you should find is that [StackOverflow](https://stackoverflow.com/) is an incredible resource. I rarely start at the homepage, but 9/10 Google searches about code lead to a StackOverflow answer! These can be variably helpful...if the first one doesn't seem to be what you want, look at the next one or refine your search terms to refocus your question." %}
-
-* p. 267: **Putting Regular Expressions to work**: These are some good examples of possible uses of regex.
-* p. 270: **Searching for Text with less and vim**: You can use `less`, but I would skip using `vim`--We skipped chapter 12 which covers `vi`/`vim`.
+* p. 269: **`grep bzip dirlist*.txt` output**: Note that `bzip` is found in both /bin and /usr/bin on Codespaces and HiPerGator, so you will get four lines that match rather then the two shown in this box. The same applies to the other similar searches.
+* p. 270: **The Any Character**: Look in the man page to see what the `-h` option does for `grep`.
+* p. 272: **A Crossword Puzzle Helper**: In Codespaces, there is no dictionary, so this won't work. On HiPerGator, the word dictionary has 479,828 words! So results are a bit different.
+* p. 274-279: **<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.posix}}">POSIX</a> Character Classes** through **POSIX Basic vs Extended Regular Expressions**: Have a look a this, but I wouldn't worry too much about the details.
+* p. 279: **Alternation**: This is another useful command and also another meaning of the "`|`" character. 
+* p. 280" **Quantifiers** : This is another case of differences in implementation...grep uses the "`?`" for matching 0 or 1 times, while other implementations use it to control greediness. Here is a [StackOverflow](https://stackoverflow.com/questions/3027518/how-to-do-a-non-greedy-match-in-grep) page that talks about using the -P flag in grep to get the non-greedy behavior--don't worry about this unless you are curious or find yourself needing it...
+* p. 283: **Putting Regular Expressions to work**: These are some good examples of possible uses of regex.
+* p. 286: **Searching for Text with less and vim**: You can use `less`, but I would skip using `vim`--We skipped chapter 12 which covers `vi`/`vim`.

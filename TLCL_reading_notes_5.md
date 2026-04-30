@@ -2,7 +2,7 @@
 title: "Notes on TLCL Ch 24 - 26"
 tags: [linux]
 sidebar: home_sidebar
-permalink: TLCL_4.html
+permalink: TLCL_5.html
 toc: true
 summary: "This starts with using git and GitHub--topics not covered in the TLCL textbook. And finally, uses these tools as we develop scripts to move beyond what can be done in a single command line operation."
 keywords: black lives matter, blm, racism, git, github, hello_world, branch, init, commit, add, push, origin, main, master, merge, functions, pseudocode, scope, local, global, variable, stub, path, PATH

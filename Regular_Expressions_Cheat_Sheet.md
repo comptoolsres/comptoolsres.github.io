@@ -63,7 +63,7 @@ keywords: regex, wildcard, repetition, character classes, boundary, replace, fin
 Sample text: **This is 1.0 (one) line to play with**
 
 | Pattern | Matches | Notes
-| --- | --- |
+| --- | --- | -- |
 | `\w*` | This |
 | `\d+` | 1 |
 | `[0-9\.]+` | 1.0 |

@@ -6,7 +6,7 @@ permalink: LinkedInLearningLinux.html
 toc: false
 ---
 
-{% include note.html content="LinkedIn Learning has many great tutorials on a variety of subjects, especially tech related. The *Learn the Linux Command Line* course is a good intro. It covers much of the same content that TLCL text does. But it also provides some different tools, different views and more practice. That said, there is not a grade associated with this assignment." %}
+{% include note.html content="LinkedIn Learning has many great tutorials on a variety of subjects, especially tech related. The *Learn the Linux Command Line* course is a good intro. It covers much of the same content that TLCL text does. But it also provides some different tools, different views and more practice. That said, this is optional." %}
 
 ## Accessing LinkedIn Learning
 

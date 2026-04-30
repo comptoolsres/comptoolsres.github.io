@@ -22,16 +22,16 @@ entries:
         url: /regex.html
         output: web
       - title: TLCL Notes Ch 20--Text Processing
-        url: /TLCL_3.5.html
-        output: web
-      - title: TLCL Notes Ch 23--Compiling Programs
-        url: /TLCL_6.html
-        output: web
-      - title: TLCL Notes Ch 24-26--Git and Writing Scripts
         url: /TLCL_4.html
         output: web
-      - title: TLCL Notes Ch 27-33--Flow Control-if, while, for
+      - title: TLCL Notes Ch 23--Compiling Programs
+        url: /TLCL_7.html
+        output: web
+      - title: TLCL Notes Ch 24-26--Git and Writing Scripts
         url: /TLCL_5.html
+        output: web
+      - title: TLCL Notes Ch 27-33--Flow Control-if, while, for
+        url: /TLCL_6.html
         output: web
       - title: Software Download and Setup
         url: /software.html

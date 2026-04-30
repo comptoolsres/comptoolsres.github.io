@@ -17,9 +17,9 @@ Don't forget you can use the PDF to copy/paste larger chunks of data...In this c
 * p. 291: **`cat`**: The `cat` program is maybe the most used program on the command line...it displays the contents of a text file on the screen. In the [RegEx chapter](TLCL_reading_notes_3.md) we mentioned that there is a character at the end of each line. `cat` can show you this, as well as tab characters, with the `cat -A` option.  
 * p. 292: **MS-DOS Text vs. Unix Text**: Especially for Windows users this is an important box to read. DOS (the underlying OS of Windows) and Linux do not use the same characters to signify the end of a line. Many text editors on Windows default to DOS line breaks. If you then transfer a file with DOS line breaks to Linux, the file is often interpreted as one long line and this usually breaks things! VSCode, always uses Linux line breaks. But the `cat -A` command featured here is handy.
 
-{% include callout.html content="To convert a file with DOS line breaks to Linux, you can use the `dos2unix`: e.g. `dos2unix file.txt`. There is a file in the `data` folder with DOS line breaks:
-  <br>
-  <pre>
+* To convert a file with DOS line breaks to Linux, you can use the `dos2unix`: e.g. `dos2unix file.txt`. There is a file in the `data` folder with DOS line breaks:
+  
+```
     $ cat -A data/DOS_formatted_file.txt
     This is an example DOS text file.^M$
     ^M$
@@ -31,9 +31,8 @@ Don't forget you can use the PDF to copy/paste larger chunks of data...In this c
     This breaks many things and causes trouble...^M$
     ^M$
     To convert a DOS file to Linux, use the dos2unix command:^M$
-    dos2unix file.text^M$
-  </pre>
-" type="warning"%}
+       dos2unix file.text^M$
+```
 
 ### `sort`
 

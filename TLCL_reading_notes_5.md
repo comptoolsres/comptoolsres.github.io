@@ -74,9 +74,13 @@ $ git config --global user.email johndoe@example.com
 
 1. Log into your [github.com](https://github.com) account.
 1. There are two ways to create a new <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.repository}}">repository</a>. Either click the +-icon on the top right and select "New repository", or click the green "New" button on the left.
+
   ![Screenshot of methods of creating a new repository in github.com](images/git_new_repo.png)
+
 1. For the Repository name, enter "hello_world" (you can use whatever name, but do not use a space!). If you want, you can add a description.
+
   ![Screenshot of creating a new repository in github.com](images/git_hello_world_new_repo.png)
+
 1. **Turn on the "Add README" toggle** and click the green "Create repository" button.
 1. That will create your repository and setup a template markdown file for the README.md--every repository should have a README.md file that describes the contents of the repository.
   ![Screenshot of a newly created repository in github.com](images/git_fresh_repo_main.png)
@@ -86,7 +90,9 @@ $ git config --global user.email johndoe@example.com
 Now we want to make a copy of the repository on HiPerGator.
 
 1. Click the green **<>Code** button. Click the **Local** tab. Make sure the **SSH** tab is selected. Click the copy button next to the URL to copy it.
+
  ![Screenshot of copying git clone url](images/git_clone.png)
+
 1. Log into HiPerGator and `cd` to wherever you want to put this--your home directory is fine, so you can stay there if you want.
 1. Type `git clone ` (with a space at the end) and paste the copied URL. Hit enter. The command and output should look like this:
 
@@ -106,7 +112,7 @@ Now we are ready to write our scripts...so back to the text.
 
 ### Setup nano to show syntax highlighting
 
-* p. 382: **How to Write a Shell Script**: point one talks about different text editors. There are many options, the easiest for now will be the `nano` text editor. Before we use that, let's turn on syntax highlighting. This makes it easier to read scripts by adding color to different kinds of things. Nano uses a file called .nanorc (a hidden file) stored in your home directory to control this. I have a template you can copy to your home directory. **Copy and paste the following command on the terminal while logged into HiPerGator:**
+* p. 382: **How to Write a Shell Script**: point one talks about different text editors. There are many options, the easiest for now will be the `nano` text editor. Before we use that, let's turn on syntax highlighting. This makes it easier to read scripts by adding color to different kinds of things. Nano uses a file called `.nanorc` (a hidden file) stored in your home directory to control this. I have a template you can copy to your home directory. **Copy and paste the following command on the terminal while logged into HiPerGator:**
 
     ```bash
     cp /blue/bsc4452/share/Class_Files/TLCL_files/.nanorc ~/
@@ -120,17 +126,17 @@ Now we are ready to write our scripts...so back to the text.
 * p. 384: **Executable Permissions**: Before you change the execution permissions, try running your script:
 
     ```bash
-    [magitz@login3 hello_world]$ ./hello_world.sh
+    [magitz@login8 hello_world]$ ./hello_world.sh
     -bash: ./hello_world.sh: Permission denied
-    [magitz@login3 hello_world]$
+    [magitz@login8 hello_world]$
     ```
 
   The `./` says to look in the current directory. As TLCL mentions in this section, we can't run the script like this because it doesn't have execute permissions set. There are actually a couple of ways around this. One way, as the text does, add execute permission, the other is to call it slightly differently:
 
     ```bash
-    [magitz@login3 hello_world]$ bash hello_world.sh
+    [magitz@login8 hello_world]$ bash hello_world.sh
     Hello World!
-    [magitz@login3 hello_world]$
+    [magitz@login8 hello_world]$
     ```
 
   Since `bash` is the program that is running, `hello_world.sh` doesn't need execute permissions. I frequently take this route. Seems easier to me than messing with permissions...do what works best for you...
@@ -140,9 +146,9 @@ Now we are ready to write our scripts...so back to the text.
   The PATH <a href='#' data-toggle='tooltip' data-original-title='{{site.data.glossary.variable}}'>variable</a> is our first example of an <a href='#' data-toggle='tooltip' data-original-title='{{site.data.glossary.environment_variable}}'>environment_variable</a>. To see the value of the PATH variable, use the `echo` command:
 
    ```bash
-   [magitz@login3 ~]$ echo $PATH
+   [magitz@login8 ~]$ echo $PATH
    /apps/ufrc/bin:/opt/slurm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/bin:/home/magitz/bin
-   [magitz@login3 ~]$
+   [magitz@login8 ~]$
    ```
 
    Your PATH is a list of directories, strung together with `:`s where the operating system will look from programs you ask to run. It will start in the first directory in the list and work its way through to the last one. So, **order does matter**--if there are applications with the same name, the first one found will be the one run. We typically speak of <a href='#' data-toggle='tooltip' data-original-title='{{site.data.glossary.prepend}}'>prepending</a> to the PATH vs <a href='#' data-toggle='tooltip' data-original-title='{{site.data.glossary.append}}'>appending</a>.

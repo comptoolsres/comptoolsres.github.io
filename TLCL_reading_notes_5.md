@@ -217,8 +217,8 @@ Let's create a branch called `variables` (we are going to learn about variables 
   ```
 
 These two commands could have also been simplified to the single `git checkout -b variables`, which creates and checks out the branch in one step.
-  
-* p. 391: **Second Stage: Adding a Little Data**: make these changes and then run the `git add`, `git commit`, `git push` commands.
+
+* p. 391: **Second Stage: Adding a Little Data**: make the changes for this section, and then run the `git add`, `git commit`, `git push` commands.
 
   ```bash
   [magitz@login9 sys_info_page]$ git add sys_info_page.sh
@@ -257,7 +257,9 @@ These two commands could have also been simplified to the single `git checkout -
 
   ![Screenshot of status in github](images/git_main_branch.png)
 
-  The repo still looks like it did before! That is because the `main` branch is set to be default. But you can click on the "Branch: main" button and select "`variables`" to see that version.
+  The repo still looks like it did before!
+  
+  That is because the `main` branch is set to be default. But you can click on the "Branch: main" dropdown button and select "`variables`" to see that version.
 
   In fact the original file is still there in our folder too. Checkout the `main` branch and look at the file:
 

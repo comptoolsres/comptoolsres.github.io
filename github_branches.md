@@ -7,13 +7,13 @@ toc: false
 summary: In this exercise, we will simulate two developers working on different functions in a script. The process we will mimic is common, though somewhat simplified, as the conflicts that we will create in merging the changes will be relatively trivial to resolve.
 ---
 
-While this exercise will use github classroom, it will not be a graded assignment.
+While this exercise will use GitHub Classroom, it will not be a graded assignment.
 
 Before starting the assignment, you should decide if you will work alone or with one other student. Either way, select a "team" name--this can be your name or something you make up.
 
 ## Accept the "assignment"
 
-To start this exercise, click on this link: [https://classroom.github.com/a/R9Cc4Qgq](https://classroom.github.com/a/R9Cc4Qgq) (This is the Fall 2024 link for UF students). Follow the directions to accept the assignment and create a team.
+To start this exercise, click on this link: [https://classroom.github.com/a/1QqgAM6Q](https://classroom.github.com/a/1QqgAM6Q) (This is the Fall 2026 link for UF students). Follow the directions to accept the assignment and create a team.
 
 If you are working with another student, have one student setup the team, and when the second student goes to the link, they can join the team.
 

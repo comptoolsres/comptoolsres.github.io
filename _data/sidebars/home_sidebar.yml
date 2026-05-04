@@ -42,6 +42,9 @@ entries:
       - title: LinkedIn Learning Linux module
         url: /LinkedInLearningLinux.html
         output: web
+      - title: GitHub Branching Exercise
+        url: /github_branches.html
+        output: web        
 
   - title: Python
     output: web

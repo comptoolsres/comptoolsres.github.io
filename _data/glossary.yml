@@ -58,6 +58,8 @@ SQL : "Structured Query Language"
 
 stub : "An empty function used as a placeholder to be filled in later."
 
+sudo : "SuperUser DO: a command in Unix that allows a permitted user to execute a command as the superuser or another user, as specified by the security policy."
+
 syntax : "Syntax refers to the spelling and grammar of a programming language. Each language defines its own syntactical rules that control which words the computer understands, which combinations of words are meaningful, and what punctuation is necessary to be a correctly structured document."
 
 variable: "A named reference to a location in memory (RAM) that stores information."

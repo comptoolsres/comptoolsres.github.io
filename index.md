@@ -8,10 +8,10 @@ summary: An introduction to computational tools for research-- Linux command lin
 toc: false
 ---
 
-## BSC4452 and BSC6451 Registration information for Fall 2024
+## BSC4452 and BSC6451 Registration information for Fall 2026
 
-* **BSC 4452**: Class 19032 {% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
-* **BSC 6451**: Class 22340
+* **BSC 4452**: Class 25821 {% include image.html file='comptools.png' alt="Image of servers and tool icons" position="right" %}
+* **BSC 6451**: Class 26002
 
 ## Course Description
 
@@ -33,32 +33,6 @@ The course is divided into four main sections:
 * **Section 2**: Python scripting
 * **Section 3**: SQL database introduction and integration with Python
 * **Section 4**: A brief introduction to Artificial Intelligence
-
-## Course Objectives
-
-* Demonstrate how technology infrastructure can improve research and open new avenues of investigation.
-* Competently navigate the Unix/Linux command line interface.
-* Effectively and efficiently manipulate text files, performing complex regular expression replacements, reformatting and merging files in various ways.
-* Raise and address current issues through class participation and discussion.
-* Use AI-assisted tools to generate and debug code.
-* Use High Performance Computing resources such as the UFIT Research Computing for cluster-based analyses. Including batch scripting and running multi-processor applications (threaded and MPI).
-* Explain the basic anatomy of computer scripts/programs, with particular focus on Python scripting.
-* Construct analytical pipelines to accomplish complex tasks.
-* Describe basic database design, creation and manipulation. Perform scripted database operations for information discovery, data exploration and research data curation.
-* Have a basic understanding of research graphics formats, preparation and manipulation
-* Have a basic understanding of artificial intelligence and gain hands-on experience with computer vision.
-
-## Course Textbooks
-
-{% include image.html file='textbook.png' alt="textbook icon" position="right" max-width=75 %}
-The main texts for the course are:
-
-* The Linux Command Line: [http://linuxcommand.org](http://linuxcommand.org/tlcl.php) (my notes and referenced page numbers will be based on the 25.12 version of the PDF, Seventh Internet Edition, from Jan. 5, 2026.)
-* Python For Everyone: [https://www.py4e.com/book.php](https://www.py4e.com/book.php)
-
-{% include image.html file='UfAffordableBadge_2022Fall.png' alt='Affordable UF badge' position='right' max-width=100 %} Each of these is available as a free PDF download or for purchase in print. Because there are no textbook costs for this course, it has been recognized by Affordable UF as an affordable course.
-
-{% include tip.html content="Also check out the [additional resources page](resources.md)." %}
 
 ## Course Syllabus
 

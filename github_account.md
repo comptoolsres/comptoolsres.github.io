@@ -14,14 +14,14 @@ You do not need to have Git installed on your own computer, but you may want to.
 
 ## What is GitHub.com
 
-{% include image.html file='github_logo.jpg' alt="github.com social coding logo" position="right" max-width=200 %}[GitHub.com](https://github.com) is a service that allows you to host git repositories (sets of files being tracked by git) on a publicly accessible website, further promoting collaboration, sharing, and code distribution. Many applications, data, and more are distributed via GitHub.com, and we will use GitHub.com to explore using git for version control and collaboration. Indeed, the page you are reading now is part of a GitHub repository!   
+{% include image.html file='github_logo.jpg' alt="github.com social coding logo" position="right" max-width=200 %}[GitHub.com](https://github.com) is a commercial service that allows you to host git repositories (sets of files being tracked by git) on a publicly accessible website, further promoting collaboration, sharing, and code distribution. Many applications, data, and more are distributed via GitHub.com, and we will use GitHub.com to explore using git for version control and collaboration. Indeed, the page you are reading now is part of a GitHub repository!
 
 ## Register for your GitHub.com account
 
 * Go to [GitHub.com](https://github.com) and sign up for an account--please use your `@ufl.edu` email address when signing up, which will allow you to get an academic account.
 
      {% include note.html content="GitHub.com frequently updates their pricing model. **By using your UF email and registering for GitHub Education (see below), you will gain free access to GitHub Copilot**, an AI coding assistant. We will use this a fair bit in the course, so I encourage you to do this.<br><br>If you already have an account, but used a non-UF email, you can update your email [here](https://github.com/settings/emails)<br><br>
- Non-UF students can use whatever email is best for them" %}
+     Non-UF students can use whatever email is best for them" %}
 
  {% include tip.html content="You should **never** need to pay anything or enter any credit card information for anything in this course!" %}
 
@@ -29,17 +29,17 @@ You do not need to have Git installed on your own computer, but you may want to.
 
 ## Register for GitHub Education
 
-* **This is optional, but gives you free access to the GitHub Copilot, among other things**: To add the educational upgrade to a pro account, you can go to [https://education.github.com](https://education.github.com) and follow the steps to request an educational discount.
+* **This is optional, but gives you free access to the GitHub Copilot, among other things**: To add the educational upgrade to a pro account, you can go to [https://education.github.com](https://education.github.com) and follow the steps to join GitHub Education and request an educational discount.
 
 ## The assignment
 
 ### Accepting the Assignment
 
- {% include tip.html content="**Why do I need this assignment?** We will use GitHub a lot in this course. I need to know your GitHub username to help with grading." %}
+ {% include tip.html content="**Why do I need this assignment?** We will use GitHub and Classroom 50 throughout the semester. This will introduce you to both." %}
 
-* For this assignment, we will use GitHub Classroom. Click on this link to access the assignment: [https://classroom.github.com/a/tZM5f8lt](https://classroom.github.com/a/tZM5f8lt) (**This link is for the Fall 2026 semester of the course at UF**)
+* Click on this link to access join the Classroom 50 class: [https://classroom50.org/comptoolsres/f2026-comptoolsres/onboard](https://classroom50.org/comptoolsres/f2026-comptoolsres/onboard)  (**This link is for the Fall 2026 semester of the course at UF**)
 
-* **Authorize GitHub Classroom to access your account.**
+* **Authorize Classroom 50 to access your account.**
 
    {% include image.html file='git_authorize.png' alt="Screenshot of authorizing github classroom to access account" position="center" max-width=350 %}
 

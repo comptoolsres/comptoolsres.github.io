@@ -4,7 +4,7 @@ keywords: syllabus
 tags: 
 sidebar: home_sidebar
 permalink: index.html
-summary: An introduction to computational tools for research-- Linux command line, HPC, Bash scripting, Python, SQL, and Artificial Intelligence
+summary: An introduction to computational tools for research--Linux command line, HPC, Bash scripting, Python, SQL, and Artificial Intelligence
 toc: false
 ---
 
@@ -37,4 +37,3 @@ The course is divided into four main sections:
 ## Course Syllabus
 
 The full course syllabus is available on the [UF SimpleSyllabus site](https://ufl.simplesyllabus.com/en-US/doc/rylpj3xig/Fall-2026-BSC-4452-25821-Computational-Tools-for-Research-in-Biology?mode=view).
-

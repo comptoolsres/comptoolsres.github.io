@@ -31,14 +31,19 @@ Most of the textbook is written assuming you are running Linux on your computer.
 
 {% include note.html content="Since it takes a bit of time for accounts to be created on HiPerGator, we will start the course using GitHub Codespaces, which provides an online environment where you can work through the exercises. " %}
 
-### GitHub Classroom
+### GitHub Codespace via Classroom 50 Assignment
 
-As you did with the [GitHub Account exercise](github_account.md), we will use GitHub Classroom for this "assignment. There won't be anything to turn in for this, but the GitHub Classroom assignments make it easy to get everyone a copy of the same repository where they can do their work.
+We will use Classroom 50 for this "assignment". There won't be anything to turn in for this, but the Classroom 50 assignments make it easy to get everyone a copy of the same repository where they can do their work.
 
 #### Log into GitHub and Accept the Assignment
 
 * Make sure you are logged into your GitHub account.
-* [Click this link to accept the GitHub Codespaces assignment](https://classroom.github.com/a/ZSc9WD01) (Fall 2026 link).
+* [Click this link to accept the Codespaces Set up assignment](https://classroom50.org/comptoolsres/computational-tools-for-research-fall-2026/assignments/codespaces-set-up/accept) (Fall 2026 link).
+* The page should look similar to the image below. **Click the "Accept Assignment" button.**
+
+    {% include image.html file='Classroom50_accept_assignment.png' alt="Screenshot of accepting an assignment in Classroom 50" position="center" max-width=300 %}
+* It will take a minute or so to set things up. 
+* **Once Classroom 50 is done, click the "Open repository" button.**
 
 #### Open a Codespace within your repository
 

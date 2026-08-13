@@ -36,9 +36,6 @@ entries:
       - title: Software Download and Setup
         url: /software.html
         output: web
-      - title: Register for github.com account
-        url: /github_account.html
-        output: web
       - title: LinkedIn Learning Linux module
         url: /LinkedInLearningLinux.html
         output: web

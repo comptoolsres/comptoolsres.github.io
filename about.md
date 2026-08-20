@@ -13,13 +13,9 @@ toc: false
 Dr. Matt Gitzendanner<br>
 Scientist<br>
 University of Florida<br>
-Biology & Florida Museum of Natural History<br>
-UF Information Technology -- Training Team Lead<br>
-PO Box 117800<br>
-Gainesville, FL 32611-7800<br>
-Phone: 352-273-1960<br>
+UF Information Technology
+Research Computing<br>
 E-mail: <magitz@ufl.edu><br>
-Twitter: [@m_gitz](https://twitter.com/m_gitz)
 " type="info" %}
 
 ## About the site

@@ -40,4 +40,4 @@ That said, I personally find some of the software noted below more reliable and 
 1. You already have the ssh client: Terminal is installed at `/Applications/Utilities/Terminal` (The Applications folder, then Utilities, and the application called Terminal).
 1. A text editor:
    1. Microsoft [VSCode](https://code.visualstudio.com/): Is what I use. It has many extensions that are quite helpful. It is also free.
-1. You may also want to install `git` on your computer, but it is not required. If you want to install it, download from here: [https://git-scm.com/](https://git-scm.com/) . On a Mac, I suggest using the **Binary Installer** as the easiest method to get started.
+1. You may also want to install `git` on your computer, but it is not required. If you want to install it, unfortunately, there is no longer a binary installer. Check the [Git Mac install page](https://git-scm.com/install/mac) for the latest options. In August of 2026, I would suggest using the Xcode Command Line Tools option, by running `xcode-select --install` in your terminal. Feel free to ask if you have questions.

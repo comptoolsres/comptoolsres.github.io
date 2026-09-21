@@ -51,28 +51,28 @@ entries:
         url: /py4e_1.html
         output: web
       - title: Py4e Ch 2 Variables & Types
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch2_varaibles_and_types.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch02_varaibles_and_types.ipynb
         output: web
       - title: Py4e Ch 3 Flow control
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch3_flow_control.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch03_flow_control.ipynb
         output: web
       - title: Py4e Ch 4 Functions
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch4_functions.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch04_functions.ipynb
         output: web
       - title: Py4e Ch 5 Iteration
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch5_iteration.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch05_iteration.ipynb
         output: web
       - title: Py4e Ch 6 Strings
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch6_strings.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch06_strings.ipynb
         output: web
       - title: Py4e Ch 7 File IO
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch7_file_io.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch07_file_io.ipynb
         output: web
       - title: Py4e Ch 8 Lists
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch8_lists.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch08_lists.ipynb
         output: web
       - title: Py4e Ch 9 & 10 Dictionaries & Tuples
-        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch9-10_dictionaries_tuples.ipynb
+        external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch09-10_dictionaries_tuples.ipynb
         output: web
       - title: Py4e Ch 11 Regular Expressions
         external_url: https://github.com/comptoolsres/Jupyter_content/blob/main/py4e_ch11_regex.ipynb

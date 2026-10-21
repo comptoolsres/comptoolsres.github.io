@@ -34,6 +34,7 @@ The LinkedIn Learning [Programming Foundations: Databases](https://www.linkedin.
   * Graph databases, which focus on relationships connecting data records, or nodes: [Neo4j](https://neo4j.com/)
   * Object databases, which provide persistent storage for your <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.OOP}}">OOP</a> objects: [Realm](https://www.mongodb.com/realm) and [Objectivity/DB](https://www.objectivity.com/products/objectivitydb/)
   * Document databases relax the structure of relational databases, storing and searching data stored as documents. These are ofte referred to a <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.NoSQL}}">NoSQL</a> databases. Examples: [CouchDB](https://docs.couchdb.org/en/stable/) and [MongoDB](https://www.mongodb.com/)
+  * Vector databases are, perhaps, the newest addition to the database arena. These are at the foundation of Retrieval-Augmented Generation (RAG) systems. See figure 2 of this [NVIDIA Blog post](https://developer.nvidia.com/blog/enhancing-rag-pipelines-with-re-ranking/). Leading vector databases are [Milvus](https://milvus.io/) and [pgvector](https://github.com/pgvector/pgvector), a plugin for [PostgreSQL](https://www.postgresql.org/).
 
 ### Column Data Types
 

@@ -408,9 +408,11 @@ So we say, `SELECT C.Name` (oddly before `C` is defined, but such is SQL!) and t
 
 So, returning to the join above...Not only do we alias tables, `country C` and `city T`, we also use the `AS` to rename column headers in the output, so rather than print `Name` as the header, it prints `Country`, since we did `C.Name AS Country` and rather than Population, we get N (from `MAX(T.Population) AS N`).
 
-Now the type of `JOI`N here is a `LEFT JOIN`. There's a good tutorial on `JOIN`s on [this page](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins) but here's the summary picture:
+Now the type of `JOI`N here is a `LEFT JOIN`. There's a good visualization of joins here: [https://joins.spathon.com/](https://joins.spathon.com/)
 
-![Summary of JOINs](https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg)
+And a graphic that makes its way around the internet (last I found it was here):
+
+![Summary of JOINs](https://dk81.github.io/dkmathstats_site/images/sql-joins.jpg)
 
 So, a `LEFT JOIN` on two tables is the top left diagram, where you get all of the rows in `A` and if a corresponding row doesn't exist in `B`, the result is filled with `NULL`s.
 

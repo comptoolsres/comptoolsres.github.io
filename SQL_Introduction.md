@@ -59,7 +59,7 @@ sqlite>
 
 ## Explore the tables
 
-See what tables are in the database: `.tables` (MySQL:``SHOW TABLES;`)
+See what tables are in the database: `.tables` (MySQL:`SHOW TABLES;`)
 
 ```sql
 sqlite> .tables
